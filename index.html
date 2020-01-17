@@ -39,19 +39,20 @@
    <!-- pageheader
     ================================================== -->
     <section class="s-pageheader s-pageheader--home">
-
-        <header class="header d-flex justify-content-between">
+        <header class="header">
             <div class="header__content row">
 
-              
-
-          
-                <nav class="header__nav-wrap">
-
+                <div class="header__logo col-five">
                     <a class=" header__logo logo" href="index.html">
                         <img src="images/logo-blanco.png" alt="Homepage">
                     </a>
-               
+                </div> <!-- end header__logo -->
+
+              
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
                         <li class="current"><a href="index.html" title="">Inicio</a></li>
@@ -73,61 +74,58 @@
 
             </div> <!-- header-content -->
         </header> <!-- header -->
-
-
-        <div class="pageheader-content row">
-            <div class="col-full">
-
-                <div class="featured">
-
-                    <div class="featured__column featured__column--big">
-                        <div class="entry" style="background-image:url('images/home1_sinhover.png');">
-                            
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="#0">Ciencia en el mundo</a></span>
-                                <h1><a href="#0" title="">Las 6 misiones que han pisado la Luna, contadas por la NASA a
-                                        CienciaHoy</a></h1>
-
-                            </div> <!-- end entry__content -->
-                            
-                        </div> <!-- end entry -->
-                    </div> <!-- end featured__big -->
-
-                    <div class="featured__column featured__column--small">
-
-                        <div class="entry" style="background-image:url('images/home2_sinhover.png');">
-                            
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="#0">Ensayos</a></span>
-                                <h1><a href="#0" title="">Brasil y más allá del amazonas</a></h1>
-
-                                <div class="entry__info">
-                                    <a href="#0" class="entry__profile-pic">
-                                        <img class="avatar" src="images/home2_sinhover.png" alt="">
-                                    </a>
-                                </div>
-                            </div> <!-- end entry__content -->
-                          
-                        </div> <!-- end entry -->
-
-                        <div class="entry" style="background-image:url('images/home3_sinhover.png');">
-
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="#0">Memoria de la ciencia</a></span>
-                                <h1><a href="#0" title="">El inicio de la luz</a></h1>
-
-                            
-                            </div> <!-- end entry__content -->
-
-                        </div> <!-- end entry -->
-
-                    </div> <!-- end featured__small -->
-                </div> <!-- end featured -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end pageheader-content row -->
-
     </section> <!-- end s-pageheader -->
+
+    <div>
+        <div class="col-full">
+            <div class="featured">
+                <div class="featured__column featured__column--big">
+                    <div class="entry" style="background-image:url('images/home1_sinhover.png');">
+                        
+                        <div class="entry__content">
+                            <span class="entry__category"><a href="#0">Ciencia en el mundo</a></span>
+                            <h1><a href="#0" title="">Las 6 misiones que han pisado la Luna, contadas por la NASA a
+                                    CienciaHoy</a></h1>
+
+                        </div> <!-- end entry__content -->
+                        
+                    </div> <!-- end entry -->
+                </div> <!-- end featured__big -->
+
+                <div class="featured__column featured__column--small">
+
+                    <div class="entry" style="background-image:url('images/home2_sinhover.png');">
+                        
+                        <div class="entry__content">
+                            <span class="entry__category"><a href="#0">Ensayos</a></span>
+                            <h1><a href="#0" title="">Brasil y más allá del amazonas</a></h1>
+
+                            <div class="entry__info">
+                                <a href="#0" class="entry__profile-pic">
+                                    <img class="avatar" src="images/home2_sinhover.png" alt="">
+                                </a>
+                            </div>
+                        </div> <!-- end entry__content -->
+                      
+                    </div> <!-- end entry -->
+
+                    <div class="entry" style="background-image:url('images/home3_sinhover.png');">
+
+                        <div class="entry__content">
+                            <span class="entry__category"><a href="#0">Memoria de la ciencia</a></span>
+                            <h1><a href="#0" title="">El inicio de la luz</a></h1>
+
+                        
+                        </div> <!-- end entry__content -->
+
+                    </div> <!-- end entry -->
+
+                </div> <!-- end featured__small -->
+            </div> <!-- end featured -->
+
+        </div> <!-- end col-full -->
+    </div> <!-- end pageheader-content row -->
+
 
 
     <!-- s-content
@@ -601,7 +599,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-4">
+                <div class="col-six">
                     <div class="footer__logo">
                         <a class="logo" href="index.html">
                             <img src="images/logo-blanco.png" alt="Homepage">
@@ -609,7 +607,7 @@
                     </div> <!-- end header__logo -->
                 </div> <!-- end s-footer__subscribe -->
 
-                <div class="col-2">
+                <div class="col-two">
                     <h4>Secciones</h4>
                     <ul class="s-footer__linklist">
                         <li><a href="#0">Revista</a></li>
@@ -618,7 +616,7 @@
                     </ul>
 
                 </div> <!-- end s-footer__sitelinks -->
-                <div class="col-2">
+                <div class="col-two">
                     <h4>AgendaHoy</h4>
                     <ul class="s-footer__linklist">
                         <li><a href="#0">Contacto</a></li>
@@ -627,7 +625,7 @@
                     </ul>
                 </div> <!-- end s-footer__archives -->
 
-                <div class="col-3">
+                <div class="col-two">
                     <h4 id="redesFooter">Redes</h4>
                     <div class="s-footer__linklist">
                         <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
