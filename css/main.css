@@ -4,7 +4,7 @@ body {
 
  }
  
- .navbar, .footer, .destacadas, .carousel {
+ .navbar, .footer, .destacadas, .carouselHome{
     background: black;
  }
 
@@ -14,9 +14,32 @@ body {
 
 }
 
-#redesFooter{
-   color:#ff0076;
+
+
+/*/---- Carousel ----/*/
+
+.carousel{
+    position: relative;
+    margin-top: 20%;
 }
+
+.tituloCarrusel{
+    font-weight: bold;
+    color: #23ACA2;;
+}
+
+.tituloNotaCarrusel{
+    font-weight: bold;
+    color: #ffff;
+}
+
+.botonCarrusel{
+    background-color: black;
+    color: #ffff;
+    border-radius: 5px;
+    border-color: #23ACA2;
+}
+
 
 
 /*/---- Section App ----/*/
@@ -48,3 +71,13 @@ background-size: 100%;;
     text-decoration: underline;
     text-decoration-color: #ff0076;
 } */
+
+
+
+/*/---- Section Footer ----/*/
+
+footer{
+
+    margin-bottom: 0%;
+    color:#ff0076;
+ }
