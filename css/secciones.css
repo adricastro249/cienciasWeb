@@ -1,4 +1,15 @@
+
+
 .barraSeccion {
+    margin-top: 5%;
     background-color: grey;
     font-size: 20px;
+}
+
+.secciones {
+    /* margin-top: 5%; */
+}
+
+.tituloSeccion {
+    
 }
