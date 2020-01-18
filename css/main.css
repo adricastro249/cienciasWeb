@@ -14,7 +14,11 @@ body {
 
 }
 
+/*/ ---- Mas Vistas ----/*/
 
+.masVistas{
+margin-top: 10%;
+}
 
 /*/---- Carousel ----/*/
 
@@ -33,6 +37,10 @@ body {
     color: #ffff;
 }
 
+.textoEvento{
+    margin-left: 15%;
+}
+
 .botonCarrusel{
     background-color: black;
     color: #ffff;
@@ -40,7 +48,10 @@ body {
     border-color: #23ACA2;
 }
 
-
+.imgCarrusel{
+    width: 90%;
+    height: 90%;
+}
 
 /*/---- Section App ----/*/
 .botonApp{
