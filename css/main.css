@@ -1,0 +1,50 @@
+body {
+
+    color: #656565;
+
+ }
+ 
+ .navbar, .footer, .destacadas, .carousel {
+    background: black;
+ }
+
+
+.s-footer__linklist {
+   list-style: none;
+
+}
+
+#redesFooter{
+   color:#ff0076;
+}
+
+
+/*/---- Section App ----/*/
+.botonApp{
+background-color: #ff0076;
+border-radius: 5px;
+color: #ffff;
+align-items: center;
+}
+
+.appStore{
+   
+background-image: url("/images/fondo_publicidad.png");
+background-repeat: no-repeat;
+background-size: 100%;;
+}
+
+.imgAppPlayStore{
+   width: 19%;
+   height: 19%;
+}
+
+.imgAppStore{
+    width: 20%;
+    height: 20%;
+ }
+
+/* .tituloApp{
+    text-decoration: underline;
+    text-decoration-color: #ff0076;
+} */
