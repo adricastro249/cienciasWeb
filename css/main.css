@@ -1,94 +1,20 @@
 body {
-
     color: #656565;
+}
 
- }
- 
- .navbar, .footer, .destacadas, .carouselHome{
+.navbar,
+.footer{
     background: black;
- }
-
+}
 
 .s-footer__linklist {
-   list-style: none;
+    list-style: none;
 
 }
-
-/*/ ---- Mas Vistas ----/*/
-
-.masVistas{
-margin-top: 10%;
-}
-
-/*/---- Carousel ----/*/
-
-.carouselHomel{
-    position: relative;
-    margin-top: 20%;
-}
-
-.tituloCarrusel{
-    font-weight: bold;
-    color: #23ACA2;;
-}
-
-.tituloNotaCarrusel{
-    font-weight: bold;
-    color: #ffff;
-}
-
-.textoEvento{
-    margin-left: 15%;
-}
-
-.botonCarrusel{
-    background-color: black;
-    color: #ffff;
-    border-radius: 5px;
-    border-color: #23ACA2;
-}
-
-.imgCarrusel{
-    width: 90%;
-    height: 90%;
-}
-
-/*/---- Section App ----/*/
-.botonApp{
-background-color: #ff0076;
-border-radius: 5px;
-color: #ffff;
-align-items: center;
-}
-
-.appStore{
-   
-background-image: url("/images/fondo_publicidad.png");
-background-repeat: no-repeat;
-background-size: 100%;;
-}
-
-.imgAppPlayStore{
-   width: 19%;
-   height: 19%;
-}
-
-.imgAppStore{
-    width: 20%;
-    height: 20%;
- }
-
-/* .tituloApp{
-    text-decoration: underline;
-    text-decoration-color: #ff0076;
-} */
-
-
 
 /*/---- Section Footer ----/*/
-
-footer{
+footer {
 
     margin-bottom: 0%;
-    color:#ff0076;
- }
+    color: #ff0076;
+}
