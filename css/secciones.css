@@ -1,15 +1,18 @@
 
 
 .barraSeccion {
+    margin-top: 2%;
+   font-size: 20px;
+}
+
+#hSecciones {
     margin-top: 5%;
-    background-color: grey;
-    font-size: 20px;
+    color: black;
 }
 
-.secciones {
-    /* margin-top: 5%; */
-}
+#tituloSeccion {
+    color: black;
+    margin-top: 5%;
+    /* background-color: blueviolet; */
 
-.tituloSeccion {
-    
 }
