@@ -1,7 +1,7 @@
 var navbar = `<!-- ====== Navegación ================================================== -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="images/logo-blanco.png" alt="Homepage"></a>
+        <a class="navbar-brand" href="index2.html"><img src="images/logo-blanco.png" alt="Homepage"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -10,10 +10,10 @@ var navbar = `<!-- ====== Navegación ==========================================
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Inicio</a>
+                    <a class="nav-link" href="index2.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Secciones</a>
+                    <a class="nav-link" href="secciones.html">Secciones</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
