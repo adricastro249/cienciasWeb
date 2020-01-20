@@ -20,27 +20,3 @@
       }
     ]
 }
-
-{
-  "agendaHoy": [
-    "Noticia 1"[
-{
-  "titulo": "Conferencia a Jane Goodall",
-  "texto": "De la mano de National Geographic y CienciaHoy con el patrocinio de KYMCO Motor de Cultura. Jane Goodall dará una conferencia en la Facultad de Derecho bajo el titulo 'Mi vida entre los chimpancés salvajes '",
-  "fecha": "11 febrero",
-  "horaio": "17 hrs"
-
-}
-],
-
-
-"Noticia 2"[
-  {
-    "titulo": "Simposio Científico",
-    "texto": "Se trata de un evento cienctífico llevado a cabo desde el 2003 en el que destacados especialistas nacionales e internacionalesdiscuten avances cientificos, debaten sobre nuevas estratégias",
-    "fecha": "22 febrero",
-    "horaio": "14"
-  }
-  ],
-  ]
-}

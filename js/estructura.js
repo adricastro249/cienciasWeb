@@ -23,8 +23,8 @@ var navbar = `
                         Revista
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="portfolio-1-col.html">Quienes Somos</a>
-                        <a class="dropdown-item" href="portfolio-2-col.html">Comprar</a>
+                        <a class="dropdown-item" href="quienesSomos.html">Quienes Somos</a>
+                        <a class="dropdown-item" href="comprar.html">Comprar</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -36,10 +36,14 @@ var navbar = `
                         Contacto
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="portfolio-1-col.html">Colaborá</a>
-                        <a class="dropdown-item" href="portfolio-2-col.html">Manda tu duda</a>
+                        <a class="dropdown-item" href="colabora.html">Colaborá</a>
+                        <a class="dropdown-item" href="mandaTuDuda.html">Manda tu duda</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="perfil.html">
+                <button type="button" class="btn btn-outline-light btn-sm"">Entrar</button></a>
+            </li>
             </ul>
         </div>
     </div>
