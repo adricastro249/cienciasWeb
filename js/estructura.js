@@ -28,7 +28,7 @@ var navbar = `
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">AgendaHoy</a>
+                    <a class="nav-link" href="agendaHoy.html">AgendaHoy</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
