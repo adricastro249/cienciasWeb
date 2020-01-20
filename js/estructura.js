@@ -54,7 +54,7 @@ var footer = `
 <footer class="text-white footer">
     <div class="container">
         <div class="row">
-            <div class="col-6 mt-5">
+            <div class="col-6 mt-5 mb-5">
                 <div class="footer__logo">
                     <a class="logo" href="index.html">
                         <img src="images/logo-blanco.png" alt="Homepage">
@@ -95,7 +95,7 @@ var footer = `
 
     <div class="container">
         <div class="row">
-            <div class="col mt-2">
+            <div class="col mt-2 mb-5">
                 <div class="s-footer__copyright">
                     <span>Todos los Derechos Reservados © 2019 CienciaHoy</span>
                 </div>

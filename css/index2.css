@@ -11,14 +11,6 @@
 }
 
 
-
-/*/ ---- Mas Vistas ----/*/
-
-.masVistas {
-    position: relative;
-    margin-top: 3%;
-}
-
 /*/---- Carousel ----/*/
 
 .carouselHomel {
@@ -54,18 +46,19 @@
 }
 
 /*/---- Section App ----/*/
+.appStore {
+    background-image: url("/images/fondo_publicidad.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+
+
+
 .botonApp {
     background-color: #ff0076;
     border-radius: 5px;
     color: #ffff;
     align-items: center;
-}
-
-.appStore {
-
-    background-image: url("/images/fondo_publicidad.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .imgAppPlayStore {
