@@ -3,18 +3,15 @@ body {
 }
 
 .navbar,
-.footer{
+.footer {
     background: black;
 }
 
 .s-footer__linklist {
     list-style: none;
-
 }
 
 /*/---- Section Footer ----/*/
-footer {
-
-    margin-bottom: 0%;
+#redesFooter {
     color: #ff0076;
 }

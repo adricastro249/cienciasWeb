@@ -12,13 +12,13 @@ var navbar = `
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index2.html">Inicio</a>
+                    <a class="nav-link text-white" href="index2.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="secciones.html">Secciones</a>
+                    <a class="nav-link text-white" href="secciones.html">Secciones</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Revista
                     </a>
@@ -28,10 +28,10 @@ var navbar = `
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="agendaHoy.html">AgendaHoy</a>
+                    <a class="nav-link text-white" href="agendaHoy.html">AgendaHoy</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Contacto
                     </a>
@@ -42,7 +42,7 @@ var navbar = `
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="perfil.html">
-                <button type="button" class="btn btn-outline-light btn-sm"">Entrar</button></a>
+                <button type="button" class="btn btn-outline-light btn-sm">Entrar</button></a>
             </li>
             </ul>
         </div>
@@ -54,7 +54,7 @@ var footer = `
 <footer class="text-white footer">
     <div class="container">
         <div class="row">
-            <div class="col-6 mt-5 mb-5">
+            <div class="col-5 mt-5 mb-5">
                 <div class="footer__logo">
                     <a class="logo" href="index.html">
                         <img src="images/logo-blanco.png" alt="Homepage">
@@ -65,23 +65,24 @@ var footer = `
             <div class="col-2 mt-5">
                 <h6>Secciones</h6>
                 <ul class="s-footer__linklist">
-                    <li><a href="#0">Revista</a></li>
-                    <li><a href="#0">Quienes Somos</a></li>
-                    <li><a href="#0">Comprar</a></li>
+                    <li><a class="text-white" href="#0">Revista</a></li>
+                    <li><a class="text-white  href="#0">Quienes Somos</a></li>
+                    <li><a class="text-white" href="#0">Comprar</a></li>
                 </ul>
 
             </div> <!-- end s-footer__sitelinks -->
-            <div class="col-2 mt-5">
+            <div class="col-3 mt-5">
                 <h6>AgendaHoy</h6>
                 <ul class="s-footer__linklist">
-                    <li><a href="#0">Contacto</a></li>
-                    <li><a href="#0">Mandanos tu nota</a></li>
-                    <li><a href="#0">Colaborá</a></li>
+                    <li><a class="text-white" href="#0">Contacto</a></li>
+                    <li><a class="text-white" href="#0">Mandanos tu nota</a></li>
+                    <li><a class="text-white" href="#0">Colaborá</a></li>
                 </ul>
             </div> <!-- end s-footer__archives -->
 
             <div class="col-2 mt-5">
-                <h6 id="redesFooter">Redes</h6>
+                <a href="perfil.html"><button type="button"  class="btn btn-outline-light btn-sm">Entrar</button></a>
+                <h6 class=mt-5 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
                     <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
