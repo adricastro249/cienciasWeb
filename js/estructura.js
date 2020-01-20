@@ -54,7 +54,7 @@ var footer = `
 <footer class="text-white footer">
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 mt-5">
                 <div class="footer__logo">
                     <a class="logo" href="index.html">
                         <img src="images/logo-blanco.png" alt="Homepage">
@@ -62,7 +62,7 @@ var footer = `
                 </div> <!-- end footer_logo -->
             </div> <!-- end s-footer__subscribe -->
 
-            <div class="col-2">
+            <div class="col-2 mt-5">
                 <h6>Secciones</h6>
                 <ul class="s-footer__linklist">
                     <li><a href="#0">Revista</a></li>
@@ -71,7 +71,7 @@ var footer = `
                 </ul>
 
             </div> <!-- end s-footer__sitelinks -->
-            <div class="col-2">
+            <div class="col-2 mt-5">
                 <h6>AgendaHoy</h6>
                 <ul class="s-footer__linklist">
                     <li><a href="#0">Contacto</a></li>
@@ -80,7 +80,7 @@ var footer = `
                 </ul>
             </div> <!-- end s-footer__archives -->
 
-            <div class="col-2">
+            <div class="col-2 mt-5">
                 <h6 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
                     <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -95,7 +95,7 @@ var footer = `
 
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col mt-2">
                 <div class="s-footer__copyright">
                     <span>Todos los Derechos Reservados © 2019 CienciaHoy</span>
                 </div>
