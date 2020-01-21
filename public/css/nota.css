@@ -1,0 +1,20 @@
+.etiquetasNota{
+    color: #8DD853;
+    text-align: center;
+}
+
+.profesion{
+    color: #23aca2;
+}
+
+.notaDerecha{
+    font-size: 14px;
+}
+
+.notasRelacionadas{
+    color: #8DD853;
+}
+
+li{
+    list-style:none
+}

@@ -4,7 +4,7 @@ body {
 
 .navbar,
 .footer {
-    background: black;
+    background: black !important;
 }
 
 .s-footer__linklist {
