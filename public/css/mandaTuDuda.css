@@ -1,4 +1,10 @@
 .bodyAgenda{
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
+.btnEnviar{
+    background-color: #ff0076;
+    border-radius: 5px;
+    color: #ffff;
+    align-items: center;
+}
