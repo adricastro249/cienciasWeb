@@ -84,13 +84,16 @@ var footer = `
                 <a href="perfil.html"><button type="button"  class="btn btn-outline-light btn-sm">Entrar</button></a>
                 <h6 class=mt-5 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
-                    <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+                <img class="" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
+                <img class="" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
+
+                <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
+                <img class="" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
+            </a>
+
                 </div>
             </div> <!-- end s-footer__social -->
-
-
         </div>
     </div> <!-- end s-footer__main -->
 

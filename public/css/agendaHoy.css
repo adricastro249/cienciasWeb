@@ -2,3 +2,51 @@
 .bodyAgenda{
     background-color: #F4FBEE;
 }
+
+
+/*/----Calendario----/*/
+#calendar {
+    background-color:#fff;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+#calendar caption {
+    color:black;
+    font-weight:bold;
+    font-size:medium;
+}
+
+
+#calendar caption div:nth-child(1) {float:center;}
+#calendar caption div:nth-child(2) {float:center;}
+#calendar caption div:nth-child(2) a {cursor:pointer;}
+
+#calendar th {
+    color:black;
+}
+
+#calendar td {
+    text-align:center;
+    padding:2px 4px;
+}
+
+
+#calendar .hoy {
+    background-color:#23ACA2;
+    color: #fff;
+    border-radius: 200px 200px 200px 200px;
+ -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+/*/---Notas----/*/
+.nota1, .nota2{
+    background-color: #fff;
+    padding: 2% 4%;
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+
+  
+}

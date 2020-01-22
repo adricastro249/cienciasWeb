@@ -13,7 +13,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
  -->
 
-  <!-- Bootstrap ================================================== -->
+    <!-- Bootstrap ================================================== -->
     <!-- Bootstrap core CSS -->
 
     <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -42,52 +42,89 @@
         <div class="container">
             <h1 class="tituloPag">AgendaHoy</h1>
         </div>
-           <hr>
-           <div class="container">
+        <hr>
+        <div class="container">
             <div class="row mt-5 mb-5">
 
+
+
+
+                <!-- ====== Calendario ================================================== -->
                 <div class="col-3 mt-5">
-                    <h1>CAlendario</h1>
+                    <table id="calendar">
+                        <caption></caption>
+                        <thead>
+                            <tr>
+                                <th>Lun</th>
+                                <th>Mar</th>
+                                <th>Mie</th>
+                                <th>Jue</th>
+                                <th>Vie</th>
+                                <th>Sab</th>
+                                <th>Dom</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
                 </div>
 
 
-                <div class="col-8 mt-5">
-                    <div class="d-flex bd-highlight ">
-                        <div class="p-2 w-100 bd-highlight">
-                            <img src="./images/agenda/janegodal.png">
-                        </div>
+                <!-- ====== Evento1 ================================================== -->
+                <div class="col-9 mt-5 nota1 ">
+                    <div class="d-flex ">
+                        <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
                         <div class="align-self-start">
-                            <div class="p-2 flex-shrink-1 bd-highlight"><h3>TITULO</h3>
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <h3>TITULO</h3>
                             </div>
-                            <div class="p-2 flex-shrink-1 bd-highlight"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p></div>
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-2 flex-shrink-1 bd-highlight">
+                            <h1>info nota1</h1>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-1 mt-5">
-                    <h1>info nota1</h1>
-                </div>
 
+
+                <!-- ====== Eventos anteriores ================================================== -->
                 <div class="col-3 mt-5">
                     <h1>eventos anteriores</h1>
                 </div>
 
-                <div class="col-8 mt-5">
-                    <div class="d-flex bd-highlight ">
-                        <div class="p-1 w-100 bd-highlight">
-                            <img src="./images/agenda/simposio.png">
-                        </div>
+
+                <!-- ====== Evento 2 ================================================== -->
+
+                <div class="col-9 mt-5 nota2">
+                    <div class="d-flex ">
+                        <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
                         <div class="align-self-start">
-                            <div class="p-1 flex-shrink-1 bd-highlight"><h3>TITULO</h3>
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <h3>TITULO</h3>
                             </div>
-                            <div class="p-2 flex-shrink-1 bd-highlight"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p></div>
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-2 flex-shrink-1 bd-highlight">
+                            <h1>info nota2</h1>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-1 mt-5">
-                    <h1>info nota2</h1>
-                </div>
+
+
+                <!-- ====== Proximos eventos ================================================== -->
 
                 <div class="col mt-5">
                     <h1>proximos eventos</h1>
@@ -103,22 +140,23 @@
     <footer id="footer"></footer>
 
 
- <!-- bootstrap ================================================== -->
-
- 
-<!-- Bootstrap core JavaScript -->
-  <script src="./css/bootstrap/vendor/jquery/jquery.js"></script>
-  <script src="./css/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap ================================================== -->
 
 
- <!--    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <!-- Bootstrap core JavaScript -->
+    <script src="./css/bootstrap/vendor/jquery/jquery.js"></script>
+    <script src="./css/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!--    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
  -->
-      <!-- Java Script ================================================== -->
+    <!-- Java Script ================================================== -->
 
-      <script src="./js/estructura.js"></script>
-      <script src="./data/agendaHoy.json"></script>
+    <script src="./js/estructura.js"></script>
+    <script src="./data/agendaHoy.json"></script>
+    <script src="js/calendario.js"></script>
 
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -131,41 +169,41 @@
 
 
 
-    
-<!-- Firebase ================================================== -->
+
+    <!-- Firebase ================================================== -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
 
-         <!-- update the version number as needed -->
-        <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
-        <!-- include only the Firebase features as you need -->
-        <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
-        <script defer src="/__/firebase/7.7.0/firebase-database.js"></script>
-        <script defer src="/__/firebase/7.7.0/firebase-messaging.js"></script>
-        <script defer src="/__/firebase/7.7.0/firebase-storage.js"></script>
-        <!-- initialize the SDK after all desired features are loaded -->
-        <script defer src="/__/firebase/init.js"></script>
-    
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyDjPSNyRtFcf1tnozyZemIdqjBl26DOZtA",
-        authDomain: "cienciashoyweb.firebaseapp.com",
-        databaseURL: "https://cienciashoyweb.firebaseio.com",
-        projectId: "cienciashoyweb",
-        storageBucket: "cienciashoyweb.appspot.com",
-        messagingSenderId: "370651011230",
-        appId: "1:370651011230:web:d9e2a193c99f6fb191838f"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDjPSNyRtFcf1tnozyZemIdqjBl26DOZtA",
+            authDomain: "cienciashoyweb.firebaseapp.com",
+            databaseURL: "https://cienciashoyweb.firebaseio.com",
+            projectId: "cienciashoyweb",
+            storageBucket: "cienciashoyweb.appspot.com",
+            messagingSenderId: "370651011230",
+            appId: "1:370651011230:web:d9e2a193c99f6fb191838f"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
     </script>
 
-     <script src="./js/main.js"></script>
-     <script src="./js/estructura.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/estructura.js"></script>
 </body>
 
 </html>
