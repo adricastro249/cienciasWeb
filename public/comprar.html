@@ -10,9 +10,20 @@
     <link rel="stylesheet" href="./css/comprar.css">
 
 
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ -->
+
+    <!-- Bootstrap ================================================== -->
+    <!-- Bootstrap core CSS -->
+
+    <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/bootstrap/css/modern-business.css" rel="stylesheet">
+
 
 
     <!-- favicons
@@ -30,41 +41,149 @@
     <!-- ====== Navegación ================================================== -->
     <nav id="navbar" class="col"></nav>
 
-    <div class="bodyAgenda mt-6">
+    <div class="bodyComprar">
         <div class="container">
+            <h1 class="tituloPag">Comprar</h1>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row mt-5">
 
-            <h1>Comprar</h1>
+                <!-- ====== Carrito ================================================== -->
 
-            <div class="row">
+                <section class="col-3 carrito mt-2">
+                    <p class="text-center">Carrito</p>
+                    <hr class="hrOriginal">
+                </section>
+
+                <!-- ====== Revistas ================================================== -->
+                <div class="col-8 mt-2 revistas">
+                    <div class="d-flex ">
+                        <div class="p-2 w-50 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
+                        <div class="align-self-start">
+
+                            <div class="flex-shrink-1 bd-highlight">
+                                <h3>Ojos animales</h3>
+                                <h6 class="fechaRevista">Agosto - Septiembre 2019</h6>
+                            </div>
+                            <div class="flex-shrink-1 bd-highlight mt-5">
+                                <p>Fuego en la amazonia
+                                    <br>
+                                    Meliponias: Abejas sin aguijón
+                                    <br>
+                                    Tecnologías domésticas
+                                    <br>
+                                    Expoplanetas
+                                </p>
+                                <div class="row">
+                                    <div class="col text-left mt-5 mb-5">
+                                        <button type="button" class="botonComprar">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ====== Mis revistas ================================================== -->
+
+                <section class=" col-3 compradas mt-5">
+                    <p class="text-center">Mis revistas</p>
+                    <hr class="hrOriginal">
+
+                </section>
+
+                <!-- ====== Revistas 2 ================================================== -->
+                <div class="col-8 mt-5 revistas">
+                    <div class="d-flex ">
+                        <div class="p-2 w-50 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
+                        <div class="align-self-start">
+
+                            <div class="flex-shrink-1 bd-highlight">
+                                <h3>Ojos animales</h3>
+                                <h6 class="fechaRevista">Julio - Agosto 2019</h6>
+                            </div>
+                            <div class="flex-shrink-1 bd-highlight mt-5">
+                                <p>Fuego en la amazonia
+                                    <br>
+                                    Meliponias: Abejas sin aguijón
+                                    <br>
+                                    Tecnologías domésticas
+                                    <br>
+                                    Expoplanetas
+                                </p>
+
+                                <div class="row">
+                                    <div class="col text-left mt-5 mb-5">
+                                        <button type="button" class="botonComprar">Comprar</button>
+                                    </div>
+                                </div>
 
 
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
 
+                <div class="mx-auto mt-5" style="width: 200px;">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+
+              
 
             </div> <!-- Fin Row-->
         </div> <!-- Fin Container-->
     </div><!-- Fin bodyAgenda-->
+
 
     <!-- ====== Footer ================================================== -->
 
     <footer id="footer"></footer>
 
 
+
+    <!-- bootstrap ================================================== -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="./css/bootstrap/vendor/jquery/jquery.js"></script>
+    <script src="./css/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!--    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+ -->
     <!-- Java Script ================================================== -->
 
     <script src="./js/estructura.js"></script>
+    <script src="./data/agendaHoy.json"></script>
+    <script src="js/calendario.js"></script>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    </script> -->
+
 
     <!-- FIREBASE -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -73,29 +192,29 @@
     <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
 
-         <!-- update the version number as needed -->
-        <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
-        <!-- include only the Firebase features as you need -->
-        <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
-        <script defer src="/__/firebase/7.7.0/firebase-database.js"></script>
-        <script defer src="/__/firebase/7.7.0/firebase-messaging.js"></script>
-        <script defer src="/__/firebase/7.7.0/firebase-storage.js"></script>
-        <!-- initialize the SDK after all desired features are loaded -->
-        <script defer src="/__/firebase/init.js"></script>
-    
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyDjPSNyRtFcf1tnozyZemIdqjBl26DOZtA",
-        authDomain: "cienciashoyweb.firebaseapp.com",
-        databaseURL: "https://cienciashoyweb.firebaseio.com",
-        projectId: "cienciashoyweb",
-        storageBucket: "cienciashoyweb.appspot.com",
-        messagingSenderId: "370651011230",
-        appId: "1:370651011230:web:d9e2a193c99f6fb191838f"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDjPSNyRtFcf1tnozyZemIdqjBl26DOZtA",
+            authDomain: "cienciashoyweb.firebaseapp.com",
+            databaseURL: "https://cienciashoyweb.firebaseio.com",
+            projectId: "cienciashoyweb",
+            storageBucket: "cienciashoyweb.appspot.com",
+            messagingSenderId: "370651011230",
+            appId: "1:370651011230:web:d9e2a193c99f6fb191838f"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
     </script>
 
 
