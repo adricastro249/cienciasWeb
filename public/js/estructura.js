@@ -112,8 +112,18 @@ var footer = `
 
 </footer> <!-- end s-footer -->`
 
+
+
+// ******Nombre de sección ==================================================
+var nombreSec = `<div class="container">
+<h1 class="tituloPag">Comprar</h1>
+</div>
+<hr>`
+
 document.getElementById("navbar").innerHTML = navbar;
 
 document.getElementById("footer").innerHTML = footer;
+
+document.getElementById("nombreSec").innerHTML = nombreSec;
 
 $("#seccion3 .tituloCategoria").append("Ciencia y Sociedad")
