@@ -25,3 +25,11 @@
 .secciones{
     margin-bottom: 3%;
 }
+
+#masSecc{
+    background-color: #8DD853;
+}
+/* 
+#seccion3 #seccion4 {
+    display: none ;
+} */
