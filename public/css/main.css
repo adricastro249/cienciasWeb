@@ -15,3 +15,35 @@ body {
 #redesFooter {
     color: #ff0076;
 }
+
+/*/---- Modal ----/*/
+.modal{
+    background-image: url("/public/Recursos/POPUP/Imagenes/Group\ 117b.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    } 
+    
+    .textVerde{
+    color: #8DD853;
+    margin-top: auto;
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: 60%;
+    }
+    
+    .btnAhoraNo{
+        background-color: #8DD853;
+        border-radius: 5px;
+        color: #ffff;
+        align-items: center;
+        padding: 8px;
+        width: 30%;
+        margin-left: 20%;
+        position: relative;
+    }
+    
+    .txtCenter{
+        position: relative;
+        margin-left: 30%;
+        margin-top: 10px;
+    }

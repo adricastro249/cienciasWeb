@@ -143,17 +143,13 @@
 
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalEntrar">
             Entrar
         </button>
-
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
+            aria-labelledby="modalEntrarTitle" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-
-
-
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -161,33 +157,36 @@
                         </button>
                     </div>
                     <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <img class="mt-5" src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                </div>
 
-                        <div class="row">
+                                <div class="col">
+                                    <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
+                                    <br>
+                                    <p><a href="#" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
+                                    <br>
+                                    <button type="button" role="button" class="mt-5 btnAhoraNo " data-dismiss="modal"
+                                        aria-label="Close">Ahora no</button>
 
-                            <div class="col-6 mt-5">
-                                <img class="mt-5"src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                </div>
                             </div>
-                            <div class="col-6 mx-auto">
-
-                                <h4 class="textVerde p-5">Para realizar acción deberá</h4>
-                                <button type="button" class="mx-auto" >Entrar</button>
-                                <br>
-                                <button type="button" class="close text-center" data-dismiss="modal" aria-label="Close">Ahora no</button>
-                            </div>
-
-
                         </div>
                     </div>
                 </div>
-
-
             </div>
-        </div>
+        </div>       <!-- Fin Modal -->
 
 
 
 
-    </div><!-- Fin bodyAgenda-->
+
+
+
+
+    </div><!-- Fin bodyColabora-->
 
     <!-- ====== Footer ================================================== -->
 
@@ -201,12 +200,9 @@
     <script src="./css/bootstrap/vendor/jquery/jquery.js"></script>
     <script src="./css/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-
-
     <!-- Java Script ================================================== -->
 
     <script src="./js/estructura.js"></script>
-
 
     <!-- Firebase ================================================== -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->

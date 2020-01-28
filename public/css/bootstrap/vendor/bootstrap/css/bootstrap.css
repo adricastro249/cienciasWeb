@@ -5822,7 +5822,7 @@ a.close.disabled {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-height: 650px;
+height:800px;
   pointer-events: auto;
 /* background-color: #fff;
   background-clip: padding-box;

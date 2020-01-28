@@ -1,7 +1,7 @@
 /* ******Navbar************************************* 
 ==================================================*/
 var navbar = `
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="./images/logo-blanco.png" alt="Homepage"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -43,6 +43,7 @@ var navbar = `
                 <li class="nav-item">
                 <a class="nav-link" href="perfil.html">
                 <button type="button" class="btn btn-outline-light btn-sm">Entrar</button></a>
+                
             </li>
             </ul>
         </div>
@@ -81,7 +82,48 @@ var footer = `
             </div> <!-- end s-footer__archives -->
 
             <div class="col-2 mt-5">
-                <a href="perfil.html"><button type="button"  class="btn btn-outline-light btn-sm">Entrar</button></a>
+              
+  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
+                    Entrar
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
+                    aria-labelledby="modalEntrarTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img class="mt-5" src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                        </div>
+        
+                                        <div class="col">
+                                            <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
+                                            <br>
+                                            <p><a  href="perfil.html" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
+                                            <br>
+                                            <button type="button" role="button" class="mt-5 btnAhoraNo " data-dismiss="modal"
+                                                aria-label="Close">Ahora no</button>
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       <!-- Fin Modal -->
+
+
+
+
+                
                 <h6 class=mt-5 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
 
