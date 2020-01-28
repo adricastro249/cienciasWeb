@@ -28,7 +28,7 @@
 
 #calendar td {
     text-align:center;
-    padding:2px 4px;
+    /* padding:2px 4px; */
 }
 
 
@@ -43,7 +43,7 @@
 /*/---Notas----/*/
 .nota1, .nota2{
     background-color: #fff;
-    padding: 2% 4%;
+    /* padding: 2% 4%; */
     border-radius: 40px 40px 40px 40px;
     -moz-border-radius: 40px 40px 40px 40px;
     -webkit-border-radius: 40px 40px 40px 40px;

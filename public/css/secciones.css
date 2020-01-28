@@ -5,10 +5,6 @@
    font-size: 20px;
 }
 
-#hSecciones {
-    margin-top: 5%;
-    color: black;
-}
 
 #tituloSeccion {
     color: black;
@@ -33,4 +29,8 @@
 #seccion3, #seccion4 {
     display: none;
 
+}
+
+.carousel-item{
+    background-color:unset !important;
 }

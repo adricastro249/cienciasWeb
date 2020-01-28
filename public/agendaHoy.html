@@ -36,43 +36,66 @@
     <!-- ====== Navegación ================================================== -->
     <nav id="navbar" class="col"></nav>
 
-    <!-- <div class="bodyAgenda"> -->
-        
-        <div id="tituloPag" class="container mt-3">
-            <!-- <h1 class="col-3 text-right"></h1> 
-            <img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-3"> -->
-                        
-        </div>
-        
-        <div id="contenido" class="container mt-3">
-        <div class="row mt-5 mb-5">
-
-            <!-- ====== Calendario ================================================== -->
-
-            <section class="calendario mt-5 p-3">
-                <div class="col-3 mt-2 ">
-                    <table id="calendar">
-                        <caption></caption>
-                        <thead>
-                            <tr>
-                                <th>Lun</th>
-                                <th>Mar</th>
-                                <th>Mie</th>
-                                <th>Jue</th>
-                                <th>Vie</th>
-                                <th>Sab</th>
-                                <th>Dom</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
+    <!-- <div class="bodyAgenda"> --> 
+       
+    <div id="tituloPag" class="container mt-3"></div>
+    
+    <!-- INICIO PRUEBA -->
+    <div class="container">
+        <div class="row border">
+          <div class="col-3">
+            1 of 2
+              <!-- calendario -->
+            <div id="cuadroCalendario" class="col p-2">
+                <section class="calendario mt-5">
+                    <div class="col mt-2 ">
+                        <table id="calendar">
+                            <caption></caption>
+                            <thead>
+                                <tr>
+                                    <th>Lun</th>
+                                    <th>Mar</th>
+                                    <th>Mie</th>
+                                    <th>Jue</th>
+                                    <th>Vie</th>
+                                    <th>Sab</th>
+                                    <th>Dom</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+    
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+            <!-- proximos eventos -->
+            <div id="proximosEventos" class="col ">
+                <section class="calendario mt-5">
+                    <div class="col mt-2  text-center">
+                        <div id="proxEvent" class="row" style="height: 50vh;">
+                            <img src="./Recursos/AGENDAHOY/Imagenes/adorno_evento.png" alt="adornoEventos" style="height: 1em;" class="" >
+                            <h5 class="">Proximos Eventos</h5>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- eventos pasados -->
+            <div id="proximosEventos" class="col ">
+                <section class="calendario mt-5">
+                    <div class="col mt-2  text-center">
+                        <div id="proxEvent" class="row" style="height: 50vh;">
+                            <img src="./Recursos/AGENDAHOY/Imagenes/adorno_evento.png" alt="adornoEventos" style="height: 1em;" class="" >
+                            <h5 class="">Eventos Pasados</h5>
+                        </div>
+                    </div>
+                </section>
+            </div>
+          </div>
+          <div class="col-9">
+            2 of 2
             <!-- ====== Evento1 ================================================== -->
-            <div class="col-9 mt-5 nota1 ">
+            <div class="col mt-5 nota1">
                 <div class="d-flex ">
                     <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
                     <div class="align-self-start">
@@ -91,17 +114,9 @@
                     </div>
                 </div>
             </div>
-
-            <!-- ====== Eventos anteriores ================================================== -->
-            <section class="eventAnt mt-5 p-3">
-                <div class="col-3 mt-2">
-                    <h1>proximos</h1>
-                </div>
-            </section>
-
             <!-- ====== Evento 2 ================================================== -->
 
-            <div class="col-9 mt-5 nota2">
+            <div class="col mt-5 nota2">
                 <div class="d-flex ">
                     <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
                     <div class="align-self-start">
@@ -120,18 +135,12 @@
                     </div>
                 </div>
             </div>
+          </div>
+        </div>
 
-            <!-- ====== Proximos eventos ================================================== -->
+    <!-- FIIN PRUEBA -->
 
-            <section class="eventProx mt-5 p-3">
-                <div class="col-3 mt-2">
-                    <h1>anteriores</h1>
-                </div>
-            </section>
-
-
-        </div> <!-- Fin Row-->
-
+   
         <!-- ====== Siguiente página ================================================== -->
         <div class="mx-auto mt-5" style="width: 200px;">
 
@@ -156,7 +165,7 @@
 
     </div> <!-- Fin Container-->
     </div><!-- Fin bodyAgenda-->
-
+</div>
     <!-- ====== Footer ================================================== -->
 
     <footer id="footer"></footer>
