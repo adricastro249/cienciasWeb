@@ -81,23 +81,14 @@
                         </div>
                     </section>
                 </div>
-                <!-- eventos pasados -->
-                <div id="proximosEventos" class="col ">
-                    <section class="calendario mt-5">
-                        <div class="col mt-2  text-center">
-                            <div id="proxEvent" class="row" style="height: 30vh;">
-                                <img src="./Recursos/AGENDAHOY/Imagenes/adorno_evento.png" alt="adornoEventos"
-                                    style="height: 1em;" class="">
-                                <h5 class="">Eventos Pasados</h5>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+             
             </div>
             <div class="col-9">
                 2 of 2
-                <!-- ====== Evento1 ================================================== -->
-                <div class="col mt-5 nota1">
+             
+                <section id="primerosEventos"> 
+                  <!-- ====== Evento1 ================================================== -->
+                  <div class="col mt-5 nota1">
                     <div class="d-flex"> 
                         <div class="p-4 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
                         <div id="notaEvento1>" class="">
@@ -143,33 +134,84 @@
                         </div>
                     </div>
                 </div>
-            </div>
+              </section>
+
+              <section id="segundosEventos"> 
+                <!-- ====== Evento1 ================================================== -->
+                <div class="col mt-5 nota1">
+                  <div class="d-flex"> 
+                      <div class="p-4 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
+                      <div id="notaEvento1>" class="">
+                      <div class="align-self-start p-2">
+                          <div class="p-2 flex-shrink-1 bd-highlight">
+                              <h3>TITULO2</h3>
+                          </div>
+                          <div class="p-2 flex-shrink-1 bd-highlight">
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                  unknown printer took a galley of type and scrambled it to make a type specimen book.
+                              </p>
+                          </div>
+                          <div class="text-rigth align-bottom">
+                              <button type="button" id="inscribirse" class=" btn justify-content" value="true">Inscribirme</button> <br>
+                          </div>
+                      </div>
+                  </div>
+                      <div class="p-2 flex-shrink-1 bd-highlight">
+                          <h1>info nota1</h1>
+                      </div>
+                  </div>
+                  
+              </div>
+              <!-- ====== Evento 2 ================================================== -->
+
+              <div class="col mt-5 nota2">
+                  <div class="d-flex ">
+                      <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
+                      <div class="align-self-start">
+                          <div class="p-2 flex-shrink-1 bd-highlight">
+                              <h3>TITULO2</h3>
+                          </div>
+                          <div class="p-2 flex-shrink-1 bd-highlight">
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                  unknown printer took a galley of type and scrambled it to make a type specimen book.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="p-2 flex-shrink-1 bd-highlight">
+                          <h1>info nota2</h1>
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+
+            </div> <!-- fin col-9 -->
         </div>
 
         <!-- FIIN PRUEBA -->
 
 
-        <!-- ====== Siguiente página ================================================== -->
-        <div class="mx-auto mt-5" style="width: 200px;">
-
-            <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
+      <!-- ====== Paginación ================================================== -->
+      <div class="mx-auto mt-5" style="width: 200px;">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link"  aria-label="Previous" id="masPrevEventos">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link"  id="masBloq1Eventos">1</a></li>
+                <li class="page-item"><a class="page-link"  id="masBloq2Eventos">2</a></li>
+                <li class="page-item">
+                    <a class="page-link"  aria-label="Next" id="masSigEventos">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
     </div> <!-- Fin Container-->
     </div><!-- Fin bodyAgenda-->
@@ -196,6 +238,7 @@
         <script src="./js/estructura.js"></script>
         <script src="./data/dataGral.json"></script>
         <script src="js/calendario.js"></script>
+        <script src="./js/main.js"></script>
 
 
         <!-- Firebase ================================================== -->

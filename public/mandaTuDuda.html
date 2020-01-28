@@ -60,39 +60,39 @@
 
 
                 <div class="col-8">
-                    <form>
+                    <form action="" name="formulario" method="get" >
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Nombre *">
+                                <input type="text" class="form-control" placeholder="Nombre *" value="Nombre" required>
                             </div>
                             <div class="col">
-                                <input type="email" class="form-control" placeholder="Email *">
+                                <input type="email" class="form-control" placeholder="Email *" value="Email" required>
                             </div>
                         </div>
                         <br>
                         <div class="form-row">
                             <div class="col">
-                                <input type="number" class="form-control" placeholder="Teléfono *">
+                                <input type="tel" class="form-control" placeholder="Teléfono *" value="Telefono" required>
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Ciudad *">
+                                <input type="text" class="form-control" placeholder="Ciudad *" value="Ciudad" required>
                             </div>
                         </div>
                         <br>
                         <div class="form-row">
                             <div class="col-6">
-                                <input type="text" class="form-control" placeholder="País *">
+                                <input type="text" class="form-control" placeholder="País *" value="Pais" required>
                             </div>
                         </div>
                         <br>
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="¿Cómo se enteró de nosotros? *">
+                                <input type="text" class="form-control" placeholder="¿Cómo se enteró de nosotros? *" value="ComoSeEntero"required>
                             </div>
                         </div>
                         <br>
                         <div class="form-group">
-                            <textarea class="form-control" id="formControlTextarea1" rows="6" placeholder="Mensaje *"></textarea>
+                            <textarea class="form-control" id="formControlTextarea1" rows="6" placeholder="Mensaje *" value="Mensaje" required></textarea>
                           </div>
                         <br>
                         <button type="submit" class="btnEnviar">Enviar</button>
@@ -127,6 +127,7 @@
     <!-- Java Script ================================================== -->
 
     <script src="./js/estructura.js"></script>
+    <script src="./js/main.js"></script>
 
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
