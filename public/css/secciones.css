@@ -29,7 +29,8 @@
 #masSecc{
     background-color: #8DD853;
 }
-/* 
-#seccion3 #seccion4 {
-    display: none ;
-} */
+
+#seccion3, #seccion4 {
+    display: none;
+
+}

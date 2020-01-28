@@ -17,8 +17,11 @@ function muestraMas () {
         
 }
 
-$("#seccion3 seccion4").click(function() {
-    $("#masSecc").hide();
+$("#masSecc").click(function() {
+    console.log("dia 2");
+    
+    $("#seccion3").show();
+    $("#seccion4").show();
     })
 
 $("#seccion4 .tituloCategoria").append("OTRO NOMBRE")
