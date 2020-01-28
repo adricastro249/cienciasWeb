@@ -41,9 +41,8 @@ var navbar = `
                     </div>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="perfil.html">
+ <a class="nav-link" href="perfil.html">
                 <button type="button" class="btn btn-outline-light btn-sm">Entrar</button></a>
-                
             </li>
             </ul>
         </div>
