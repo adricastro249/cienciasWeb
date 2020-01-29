@@ -48,3 +48,15 @@
 .aceptarTerminos{
   text-decoration: underline;
 }
+
+#premiumRechaz , #premiumUnir{
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 2px solid  #ff0076;
+  color:  #ff0076;
+  padding-top: 1%;
+  padding-bottom: 1%;
+padding-left: 2%;
+padding-right: 2%;
+}
