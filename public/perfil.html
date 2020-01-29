@@ -80,32 +80,32 @@
             <section class="mt-5 row">
 
                 <!-- ====== Bloque medio ================================================== -->
-      <div class="col-3">
+                <div class="col-3">
                     <!-- col-3 perfil -->
                     <div class="perfil">
                         <div>
                             <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoREvista"
                                 id="logoRevista" style="width: 10%; height: 10%;">
-                            <button type="button" class="btn">Mis carpetas</button>
+                            <button type="button" class="btn" id="carpetas">Mis carpetas</button>
                         </div>
 
                         <div>
                             <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" alt="logoREvista" id="logoRevista"
                                 style="width: 8%; height: 8%;">
-                            <button type="button" class="btn">Mis eventos</button>
+                            <button type="button" class="btn " id="eventos">Mis eventos</button>
                         </div>
 
                         <div>
                             <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" alt="logoREvista" id="logoRevista"
                                 style="width: 10%; height: 10%;">
-                            <button type="button" class="btn">Favoritos</button>
+                            <button type="button" class="btn" id="favs">Favoritos</button>
                         </div>
                     </div>
                     <!--perfil -->
 
                     <!-- Version premium -->
                     <div class="mt-5 ">
-                        <button type="button" class="btn"  style="width: 100%">
+                        <button type="button" class="btn" id="verPremium" style="width: 100%">
                             <div class="d-flex justify-content-around p-3" id="premium">
                                 <img src="./Recursos/PERFIL/Imagenes/premium.png" alt="logoPremiun" id="logoPremium"
                                     style="width: 13%; height: 13%;">
@@ -119,14 +119,24 @@
 
 
                 <div class="col-6">
-                    <section id="Mis eventos">
-                        <h4>Mis eventos</h4>
-                        <div class="perfil">
+                    <section id="misCarpetas">
+                        <h4>Mis carpetas</h4>
+                        <div id="misCarpetasContenido">
                             <p>contenido</p>
                         </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
+                                class="rounded mx-auto d-block" alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary">Cuando guardes una nota en una carpeta, aparecerá acá
+                            </p>
+                        </div>
+                    </section>
 
-
-
+                    <section id="misEventos">
+                        <h4>Mis eventos</h4>
+                        <div class="perfil" id="misEventosContenido">
+                            <p>contenido</p>
+                        </div>
                         <div class="mt-5">
                             <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" class="rounded mx-auto d-block"
                                 alt="logoREvista" id="logoRevista">
@@ -136,13 +146,64 @@
                         </div>
                     </section>
 
+                    <section id="misFavs">
+                        <h4>Favoritos</h4>
+                        <div id="misNotasFavs">
+                            <p>contenido</p>
+                        </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" class="rounded mx-auto d-block"
+                                alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary">Cuando te inscribas en algún evento en
+                                AgendaHoy,
+                                aparecerá acá</p>
+                        </div>
+                    </section>
+
+                    <section id="versionPremium">
+                        <h4>Version Premium</h4>
+                        <div id="versPrem" class="mt-5">
+                            <h3 class="text-center mt-5">Obtené CienciaHoy Premium ¡Por tan sólo $70 mensuales!</h3>
+                            <p class="aceptarTerminos text-center"> Al unirte a la version Premium aceptas las Bases y
+                                Condiciones</p>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-around">
+                            <button type="button" class="btn btn-primary">Rechazar</button>
+                            <button type="button" class="btn btn-primary">Unirse</button>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-around">
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+
                 </div> <!-- fin col-6 -->
 
                 <div class="col-3">
                     <div class="perfil">
                         <section id="perfilActividad">
                             <div class="d-flex justify-content-around ">
-                                <img src="./Recursos/COMPRAR/Imagenes/Frame-1.png" alt="logoActividad"
+                                <img src="./Recursos/PERFIL/Imagenes/activity-512.png" alt="logoActividad"
                                     id="logoActividad">
                                 <h6 class="text-center">Actividades</h6>
                             </div>
@@ -173,6 +234,7 @@
     <!-- Java Script ================================================== -->
 
     <script src="./js/estructura.js"></script>
+    <script src="./js/perfil.js"></script>
 
     <!-- Firebase ================================================== -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
