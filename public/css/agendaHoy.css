@@ -53,5 +53,26 @@
 
 #inscribirse{
     background-color: #8DD853;
+    margin-top: 20%;
     
+}
+#desinscribirse{
+    color: #8DD853;
+    border-color: #8DD853;
+    background-color: #fff;
+    margin-top: 20%;
+    
+}
+
+.resaltaDyH {
+    color: #8DD853;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.comoLlegar{
+    color: #8DD853;
+    margin-top: 45%;
+    text-decoration: #8DD853;
+    font-weight: bold;
 }

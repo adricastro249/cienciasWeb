@@ -1,4 +1,4 @@
-{
+var data = {
     "noticias": [{
       "titulo": "",
       "id": 1,
@@ -42,7 +42,7 @@
         "matchID":"",
         "location":"",
         "location_id":"",
-        "time":"17:00 hrs",
+        "time":"17 hrs",
         "horario": "t",
         "idCollap": "",
         "timeH":"17",
@@ -52,6 +52,25 @@
         "titulo": "Simposio Científico",
         "imagen": "./images/agenda/simposio.png",
         "texto": "Se trata de un evento cienctífico llevado a cabo desde el 2003 en el que destacados especialistas nacionales e internacionalesdiscuten avances cientificos, debaten sobre nuevas estratégias",
+        "month":"Febrero",
+        "monthN":"02",
+        "year": "2020", 
+        "day": "22",
+        "dayID":"veintidos",
+        "fullDay":"22 de Febrero",
+        "matchID":"",
+        "location":"",
+        "location_id":"",
+        "time":"14 hrs",
+        "horario": "t",
+        "idCollap": "",
+        "timeH":"14",
+        "timeM":"00"
+    },
+    {
+        "titulo": "Radiación: Prevención",
+        "imagen": "./images/agenda/simposio.png",
+        "texto": "lorem",
         "month":"Febrero",
         "monthN":"02",
         "year": "2020", 

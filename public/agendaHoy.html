@@ -49,8 +49,12 @@
                 <div id="cuadroCalendario" class="col p-2">
                     <section class="calendario mt-5">
                         <div class="col mt-2 ">
-                            <table id="calendar">
-                                <caption></caption>
+                            <div class="">
+                                <div id="mes" class="col row justify-content-center font-weight-bold font-italic">
+                                </div>
+                            </div>
+                            <table id="calendar" class="">
+                                <!-- <caption class="row"></caption> -->
                                 <thead>
                                     <tr>
                                         <th>Lun</th>
@@ -73,118 +77,155 @@
                 <div id="proximosEventos" class="col ">
                     <section class="calendario mt-5">
                         <div class="col mt-2  text-center">
-                            <div id="proxEvent" class="row" style="height: 30vh;">
+                            <div id="proxEvent" class="row">
                                 <img src="./Recursos/AGENDAHOY/Imagenes/adorno_evento.png" alt="adornoEventos"
                                     style="height: 1em;" class="">
                                 <h5 class="">Proximos Eventos</h5>
                             </div>
+                            <div id="listaEventprox"></div>
                         </div>
                     </section>
                 </div>
-             
+
             </div>
             <div class="col-9">
                 2 of 2
-             
-                <section id="primerosEventos"> 
-                  <!-- ====== Evento1 ================================================== -->
-                  <div class="col mt-5 nota1">
-                    <div class="d-flex"> 
-                        <div class="p-4 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
-                        <div id="notaEvento1>" class="">
-                        <div class="align-self-start p-2">
-                            <div class="p-2 flex-shrink-1 bd-highlight">
-                                <h3>TITULO</h3>
+
+                <section id="primerosEventos">
+                    <!-- ====== Evento1 ================================================== -->
+                    <div class="col mt-5 nota1">
+                        <div class="d-flex">
+                            <div class="p-4 w-100 bd-highlight col-5"><img src="./images/agenda/janegodal.png"></div>
+                            <div id="" class="col-5">
+                                <div class="align-self-start p-2">
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <h3 id="tituloEvent1">TITULO</h3>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p id="notaEvent1">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem
+                                            Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                            an
+                                            unknown printer took a galley of type and scrambled it to make a type
+                                            specimen book.
+                                        </p>
+                                    </div>
+                                    <div class="p-2">
+                                        <button type="button" id="inscribirse" class=" btn justify-content "
+                                            value="true">Inscribirme</button> <br>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="p-2 flex-shrink-1 bd-highlight">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
+                            <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
+                                <div class="fechasEvent">
+                                    <p id="mesEvent1">mes evento 1</p>
+                                    <p id="diaEvent1" class="resaltaDyH">dia</p>
+                                </div>
+                                <div class="horariosEvent">
+                                    <p> Horario</p>
+                                    <p id="horaEvent1" class="resaltaDyH">hora</p>
+                                </div>
+                                <div class="comoLlegar">
+                                    <a href="">¿Cómo llegar?</a>
+                                </div>
+
                             </div>
-                            <div class="text-rigth align-bottom">
-                                <button type="button" id="inscribirse" class=" btn justify-content" value="true">Inscribirme</button> <br>
+                        </div>
+
+                    </div>
+                    <!-- ====== Evento 2 ================================================== -->
+
+                    <div class="col mt-5 nota2">
+                        <div class="d-flex ">
+                            <div class="p-4 w-100 bd-highlight col-5"><img src="./images/agenda/simposio.png"></div>
+                            <div class="align-self-start col-5">
+                                <div class="p-2 flex-shrink-1 bd-highlight">
+                                    <h3 id="tituloEvent2">TITULO</h3>
+                                </div>
+                                <div class="p-2 flex-shrink-1 bd-highlight">
+                                    <p id="notaEvent2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.
+                                    </p>                                    
+                                </div>
+                                <div class="p-2">
+                                    <button type="button" id="desinscribirse" class=" btn justify-content "
+                                        value="true">Desinscribirme</button> <br>
+                                </div>
+                            </div>
+                            <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
+                                <div class="fechasEvent">
+                                    <p id="mesEvent2">mes evento 1</p>
+                                    <p id="diaEvent2" class="resaltaDyH">dia</p>
+                                </div>
+                                <div class="horariosEvent">
+                                    <p> Horario</p>
+                                    <p id="horaEvent2" class="resaltaDyH"">hora</p>
+                                </div>
+                                <div class="comoLlegar">
+                                    <a href="">¿Cómo llegar?</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                        <div class="p-2 flex-shrink-1 bd-highlight">
-                            <h1>info nota1</h1>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!-- ====== Evento 2 ================================================== -->
+                </section>
 
-                <div class="col mt-5 nota2">
-                    <div class="d-flex ">
-                        <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
-                        <div class="align-self-start">
-                            <div class="p-2 flex-shrink-1 bd-highlight">
-                                <h3>TITULO</h3>
+                <section id="segundosEventos">
+                    <!-- ====== Evento1 ================================================== -->
+                    <div class="col mt-5 nota1">
+                        <div class="d-flex">
+                            <div class="p-4 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
+                            <div id="notaEvento1>" class="">
+                                <div class="align-self-start p-2">
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <h3>TITULO2</h3>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem
+                                            Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                            an
+                                            unknown printer took a galley of type and scrambled it to make a type
+                                            specimen book.
+                                        </p>
+                                    </div>
+                                    <div class="text-rigth align-bottom">
+                                        <button type="button" id="inscribirse" class=" btn justify-content"
+                                            value="true">Inscribirme</button> <br>
+                                    </div>
+                                </div>
                             </div>
                             <div class="p-2 flex-shrink-1 bd-highlight">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
+                                <h1>info nota1</h1>
                             </div>
                         </div>
-                        <div class="p-2 flex-shrink-1 bd-highlight">
-                            <h1>info nota2</h1>
+
+                    </div>
+                    <!-- ====== Evento 2 ================================================== -->
+
+                    <div class="col mt-5 nota2">
+                        <div class="d-flex ">
+                            <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
+                            <div class="align-self-start">
+                                <div class="p-2 flex-shrink-1 bd-highlight">
+                                    <h3>TITULO2</h3>
+                                </div>
+                                <div class="p-2 flex-shrink-1 bd-highlight">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <h1>info nota2</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-              </section>
-
-              <section id="segundosEventos"> 
-                <!-- ====== Evento1 ================================================== -->
-                <div class="col mt-5 nota1">
-                  <div class="d-flex"> 
-                      <div class="p-4 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
-                      <div id="notaEvento1>" class="">
-                      <div class="align-self-start p-2">
-                          <div class="p-2 flex-shrink-1 bd-highlight">
-                              <h3>TITULO2</h3>
-                          </div>
-                          <div class="p-2 flex-shrink-1 bd-highlight">
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                  unknown printer took a galley of type and scrambled it to make a type specimen book.
-                              </p>
-                          </div>
-                          <div class="text-rigth align-bottom">
-                              <button type="button" id="inscribirse" class=" btn justify-content" value="true">Inscribirme</button> <br>
-                          </div>
-                      </div>
-                  </div>
-                      <div class="p-2 flex-shrink-1 bd-highlight">
-                          <h1>info nota1</h1>
-                      </div>
-                  </div>
-                  
-              </div>
-              <!-- ====== Evento 2 ================================================== -->
-
-              <div class="col mt-5 nota2">
-                  <div class="d-flex ">
-                      <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
-                      <div class="align-self-start">
-                          <div class="p-2 flex-shrink-1 bd-highlight">
-                              <h3>TITULO2</h3>
-                          </div>
-                          <div class="p-2 flex-shrink-1 bd-highlight">
-                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                  unknown printer took a galley of type and scrambled it to make a type specimen book.
-                              </p>
-                          </div>
-                      </div>
-                      <div class="p-2 flex-shrink-1 bd-highlight">
-                          <h1>info nota2</h1>
-                      </div>
-                  </div>
-              </div>
-            </section>
+                </section>
 
 
             </div> <!-- fin col-9 -->
@@ -193,25 +234,25 @@
         <!-- FIIN PRUEBA -->
 
 
-      <!-- ====== Paginación ================================================== -->
-      <div class="mx-auto mt-5" style="width: 200px;">
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <li class="page-item">
-                    <a class="page-link"  aria-label="Previous" id="masPrevEventos">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link"  id="masBloq1Eventos">1</a></li>
-                <li class="page-item"><a class="page-link"  id="masBloq2Eventos">2</a></li>
-                <li class="page-item">
-                    <a class="page-link"  aria-label="Next" id="masSigEventos">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        <!-- ====== Paginación ================================================== -->
+        <div class="mx-auto mt-5" style="width: 200px;">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Previous" id="masPrevEventos">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" id="masBloq1Eventos">1</a></li>
+                    <li class="page-item"><a class="page-link" id="masBloq2Eventos">2</a></li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next" id="masSigEventos">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
     </div> <!-- Fin Container-->
     </div><!-- Fin bodyAgenda-->
@@ -236,7 +277,7 @@
         <!-- Java Script ================================================== -->
 
         <script src="./js/estructura.js"></script>
-        <script src="./data/dataGral.json"></script>
+        <script src="./data/dataGral.js"></script>
         <script src="js/calendario.js"></script>
         <script src="./js/main.js"></script>
 
@@ -273,8 +314,7 @@
             firebase.initializeApp(firebaseConfig);
         </script>
 
-        <script src="./js/main.js"></script>
-        <script src="./js/estructura.js"></script>
+
     </div> <!-- FIN SCRIPTS-->
 </body>
 

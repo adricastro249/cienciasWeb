@@ -154,17 +154,21 @@ var footer = `
 </footer> <!-- end s-footer -->`
 
 
+// ********************** trae el titutlo
+$(window).on("load", function () {
+    console.log(this.event);
+    console.log(this.event.target.title);
+    let titulo = this.event.target.title;
+    $("#tituloPag").append(`<h1 class="col-3 text-right"> ${titulo} </h1> 
+    <img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-3">`)
+});
 
-// ******Nombre de sección ==================================================
-var nombreSec = `<div class="container">
-<h1 class="tituloPag">Comprar</h1>
-</div>
-<hr>`
 
+// llamado INNERS
 document.getElementById("navbar").innerHTML = navbar;
 
 document.getElementById("footer").innerHTML = footer;
 
-document.getElementById("nombreSec").innerHTML = nombreSec;
 
-$("#seccion3 .tituloCategoria").append("Ciencia y Sociedad")
+
+

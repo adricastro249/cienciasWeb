@@ -69,7 +69,7 @@ function mostrarCalendario(year,month)
 
 
 	document.getElementById("calendar").getElementsByTagName("tbody")[0].innerHTML=resultado;
-	document.getElementById("calendar").getElementsByTagName("caption")[0].innerHTML="<a onclick='mostrarCalendario("+prevYear+","+prevMonth+")'>&lt;</a><div>"+meses[month-1]+"  "+year+"</div><div> <a onclick='mostrarCalendario("+nextYear+","+nextMonth+")'>&gt;</a></div>";
+	document.getElementById("mes").innerHTML="<a onclick='mostrarCalendario("+prevYear+","+prevMonth+")'>&lt;</a><div>"+meses[month-1]+"  "+year+"</div><div> <a onclick='mostrarCalendario("+nextYear+","+nextMonth+")'>&gt;</a></div>";
 
 }
  
