@@ -33,3 +33,11 @@ $("#verPremium").click(function () {
     $("#misFavs").hide();
     $("#versionPremium").show();
 })
+
+
+$("#premiumRechaz").click(function () {
+    $("#misCarpetas").hide();
+    $("#misEventos").show();
+    $("#misFavs").hide();
+    $("#versionPremium").hide();
+})
