@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/perfil.css">
 
- <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
  -->
 
@@ -31,74 +31,192 @@
 
     <title>CienciaHoy</title>
 </head>
+
 <body>
 
     <!-- ====== Navegación ================================================== -->
     <nav id="navbar" class="col"></nav>
 
-    <div class="bodyAgenda mt-5">
+    <div class="bodyAgenda">
         <div class="container">
 
             <!-- ====== Datos Perfil  ================================================== -->
-          <section >
-            <div class="col mt-5 perfil">
-                <div class="d-flex ">
-                    <div class="p-2 w-20 bd-highlight"><img src="./Recursos/QuienesSomos/Imagenes/image 11.png"></div>
-                    <div class="align-self-start">
-                        <div class="p-2 flex-shrink-1 bd-highlight">
-                            <h3>Nombre y Apellido</h3>
+            <section>
+                <div class="col perfil">
+                    <div class="d-flex ">
+                        <div class="p-2 w-20 bd-highlight"><img src="./Recursos/QuienesSomos/Imagenes/image 11.png">
                         </div>
-                        <div class="p-2 flex-shrink-1 bd-highlight">
-                            <p>Fecha de Nacimiento</p>
-                            <p>Usuario</p>
+                        <div class="align-self-start">
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <h3>Nombre y Apellido</h3>
+                            </div>
+                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                <p>Fecha de Nacimiento</p>
+                                <p>Usuario</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-3 flex-shrink-1 bd-highlight">
-                        <div class="vl"></div>
-                    </div>
-                    <div class="p-3 flex-shrink-1 bd-highlight">
-                        <h6>Perfil profesional</h6>
-                        <br>
-                        <p>Universidad
+                        <div class="p-3 flex-shrink-1 bd-highlight">
+                            <div class="vl"></div>
+                        </div>
+                        <div class="p-3 flex-shrink-1 bd-highlight">
+                            <h6>Perfil profesional</h6>
                             <br>
-                            Estudiante de Biología
-                            <br>
-                            Profesión
-                        </p>
+                            <p>Universidad
+                                <br>
+                                Estudiante de Biología
+                                <br>
+                                Profesión
+                            </p>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-          </section>
-            <hr class="mt-4">
-
-    
+            </section>
+            <hr class="mt-4 hrPerfil">
 
 
-            <section class="mt-5">
-                <div class="row">
-                <div class="col-4 perfil">
-                    <p>Prueba</p>
-                </div>
-                <div class="col-5">
-                    <p>Mis eventos</p>
+            <!-- ====== Bloque inferior ================================================== -->
+
+            <section class="mt-5 row">
+
+              
+                <div class="col-3">
+                    <!-- col-3 perfil -->
                     <div class="perfil">
-                        <p>contenido</p>
+                        <div>
+                            <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoREvista"
+                                id="logoRevista" style="width: 10%; height: 10%;">
+                            <button type="button" class="btn active" id="carpetas">Mis carpetas</button>
+                        </div>
+
+                        <div>
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" alt="logoREvista" id="logoRevista"
+                                style="width: 8%; height: 8%;">
+                            <button type="button" class="btn " id="eventos">Mis eventos</button>
+                        </div>
+
+                        <div>
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" alt="logoREvista" id="logoRevista"
+                                style="width: 10%; height: 10%;">
+                            <button type="button" class="btn" id="favs">Favoritos</button>
+                        </div>
                     </div>
-                </div>
-                <div class="col-3 perfil">
-                    <p>Actividades</p>
-                </div>
+                    <!--perfil -->
+
+                    <!-- Version premium -->
+                    <div class="mt-5 ">
+                        <button type="button" class="btn" id="verPremium" style="width: 100%">
+                            <div class="d-flex justify-content-around p-3" id="premium">
+                                <img src="./Recursos/PERFIL/Imagenes/premium.png" alt="logoPremiun" id="logoPremium"
+                                    style="width: 13%; height: 13%;">
+                                <h6 class="">Version Premium</h6>
+                        </button>
+
+                    </div><!-- fin mt-5 perfil-->
+
+
+                </div><!-- fin col-3 perfil-->
+
+  <!-- ====== Bloque medio ================================================== -->
+                <div class="col-6">
+                    <section id="misCarpetas">
+                        <h4>Mis carpetas</h4>
+                        <div id="misCarpetasContenido">
+                            <p>contenido</p>
+                        </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
+                                class="rounded mx-auto d-block" alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary">Cuando guardes una nota en una carpeta, aparecerá acá
+                            </p>
+                        </div>
+                    </section>
+
+                    <section id="misEventos">
+                        <h4>Mis eventos</h4>
+                        <div class="perfil" id="misEventosContenido">
+                            <p>contenido</p>
+                        </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" class="rounded mx-auto d-block"
+                                alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary">Cuando te inscribas en algún evento en
+                                AgendaHoy,
+                                aparecerá acá</p>
+                        </div>
+                    </section>
+
+                    <section id="misFavs">
+                        <h4>Favoritos</h4>
+                        <div id="misNotasFavs">
+                            <p>contenido</p>
+                        </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" class="rounded mx-auto d-block"
+                                alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary">Cuando te inscribas en algún evento en
+                                AgendaHoy,
+                                aparecerá acá</p>
+                        </div>
+                    </section>
+
+                    <section id="versionPremium">
+                        <h4>Version Premium</h4>
+                        <div id="versPrem" class="mt-5">
+                            <h3 class="text-center mt-5">Obtené CienciaHoy Premium ¡Por tan sólo $70 mensuales!</h3>
+                            <p class="aceptarTerminos text-center"> Al unirte a la version Premium aceptas las Bases y
+                                Condiciones</p>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-around">
+                            <button type="button" class="btn" id="premiumRechaz">Rechazar</button>
+                            <button type="button" class="btn" id="premiumUnir">Unirse</button>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-around">
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                </div> <!-- fin col-6 -->
+
+                <div class="col-3">
+                    <div class="perfil">
+                        <section id="perfilActividad">
+                            <div class="d-flex justify-content-around ">
+                                <img src="./Recursos/PERFIL/Imagenes/activity-512.png" alt="logoActividad"
+                                    id="logoActividad">
+                                <h6 class="text-center">Actividades</h6>
+                            </div>
+                            <hr class="hrOriginal">
+                        </section>
+                    </div>
+
+
+                </div> <!-- fin col-3 -->
 
 
             </section>
-
-
-
-            </div> <!-- Fin Row-->
-
-
-        </div> <!-- Fin Container-->
+        </div>
     </div><!-- Fin bodyAgenda-->
 
     <!-- ====== Footer ================================================== -->
@@ -106,7 +224,7 @@
     <footer id="footer"></footer>
 
 
-<!-- bootstrap ================================================== -->
+    <!-- bootstrap ================================================== -->
 
 
     <!-- Bootstrap core JavaScript -->
@@ -116,6 +234,7 @@
     <!-- Java Script ================================================== -->
 
     <script src="./js/estructura.js"></script>
+    <script src="./js/perfil.js"></script>
 
     <!-- Firebase ================================================== -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->

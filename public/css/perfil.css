@@ -1,18 +1,62 @@
 .bodyAgenda{
-
     background-color: #ddf7f5;
 }
 
 .perfil{
     background-color: #fff;
     padding: 2% 4%;
-    border-radius: 40px 40px 40px 40px;
-    -moz-border-radius: 40px 40px 40px 40px;
-    -webkit-border-radius: 40px 40px 40px 40px;
-
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
 }
 
 .vl {
-    border-left: 1px solid grey;
+    border-left: 1.8px solid rgba(0,0,0,.1);
     height: 100%;
   }
+
+
+  .hrPerfil{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1.8px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+
+  .hrOriginal{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin-left: 0rem;
+   
+}
+
+
+#premium{
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 2px solid  #ff0076;
+    color:  #ff0076;
+}
+
+.aceptarTerminos{
+  text-decoration: underline;
+}
+
+#premiumRechaz , #premiumUnir{
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 2px solid  #ff0076;
+  color:  #ff0076;
+  padding-top: 1%;
+  padding-bottom: 1%;
+padding-left: 2%;
+padding-right: 2%;
+}
