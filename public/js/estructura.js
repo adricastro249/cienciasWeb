@@ -46,49 +46,12 @@ var navbar = `
             </li>
 
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalEntrar">
-                Entrar
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
-                aria-labelledby="modalEntrarTitle" aria-hidden="true" >
-                <div class="modal-dialog modal-xl modal-dialog-centered" role="document" >
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col">
-                                        <img class="mt-2 p-5 mr-4 " src="./images/logoRecursoNegro.png" alt="logoNegro">
-                                    </div>
-    
-                                    <div class="col">
-                                        <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
-                                        <br>
-                                        <p><a href="#" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
-                                        <br>
-                                        <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
-                                            aria-label="Close">Ahora no</button>
-    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>       <!-- Fin Modal -->
 
 
+            
 
 
-
-
-
+            
 
 
 
@@ -210,8 +173,8 @@ $(window).on("load", function () {
     console.log(this.event);
     console.log(this.event.target.title);
     let titulo = this.event.target.title;
-    $("#tituloPag").append(`<h1 class="col-3 text-right"> ${titulo} </h1> 
-    <img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-3">`)
+    $("#tituloPag").append(`<h1 class="col-4 text-right"> ${titulo} </h1> 
+    <img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-4">`)
 });
 
 
