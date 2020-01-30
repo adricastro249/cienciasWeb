@@ -76,3 +76,9 @@
     text-decoration: #8DD853;
     font-weight: bold;
 }
+
+#listaEventprox{
+    list-style-image:linear-gradient(#000000, rgba(131, 131, 131, 0), rgba(195, 195, 196, 0))
+    /* list-style-position: inherit; */
+    /* url("/public/Recursos/AGENDAHOY/Imagenes/Vector60.png") */
+}
