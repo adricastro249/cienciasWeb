@@ -79,103 +79,57 @@ mostrarCalendario(actual.getFullYear(),actual.getMonth()+1);
 // ******* Inscribirme / desincribirme
 var misEventos = [];
 
-function crearBotones(tipo) {
-    switch (tipo) {
-        // boton entrar
-        case 1:
-            return '<button type="button" id="botonEvent1" class="btn justify-content" value="true" name="evento1" > Inscribirme</button> <br>'
-            break;
-        // boton unirse
-        case 2:
-            return `<td class='text-center'><button  data-gameId= "${gameID}" class='join' id= "${gameID}"> Unirse</button> </td>`
-            break;
-        // no crees boton
-        case 3:
-            return "<td class='text-center'>No puedes entrar</td>"
-            break;
-        default:
-            break;
-    }
-}
-
-
-
-
-function colocaBoton() {	
-console.log("boton");
-console.log(misEventos);
-// incribirse
-if (!misEventos.includes("evento1")) {
-	console.log("primer if");	
-	$("#botonEvent1").append(`Inscribirme`);
-	document.getElementById("botonEvent1").classList.add("inscribirse")
-	// $("#botonEvent1").on("click", inscribirse());
+function botonesAgregaQuita() {
 	
-	// classList.add("inscribirme")
-	// celda.onclick.add(`preparaTiro(${String.fromCharCode(i + 64).toLowerCase() + j})`);
-} 
-if (!misEventos.includes("evento2")){
-	console.log("2do if");	
-	$("#botonEvent2").append(`Inscribirme`);
-	document.getElementById("botonEvent2").classList.add("inscribirse")
-}
-// desincribirse
-if(misEventos.includes("evento1")){
-	console.log("3er if");	
-	$("#botonEvent1").append(`Desinscribirme`);
-	document.getElementById("botonEvent1").classList.add("desinscribirse")
-}
-if(misEventos.includes("evento2")){
-	console.log("4to if");	
-	$("#botonEvent2").append(`Desinscribirme`);
-	document.getElementById("botonEvent2").classList.add("desinscribirse")
-}
-// 	$("#botonEvent2").append(`<button type="button" class="inscribirse btn justify-content "
-// 	value="true" name="evento1" onclick="inscribirse()>Inscribirme</button> <br>`)
-// }
-// if(misEventos.includes("evento1")){
-// 	$("#botonEvent1").append(`<button type="button" class=" btn justify-content desinscribirse"
-// 	value="true" name="evento1">Inscribirme</button> <br>`)
-// }
-// if(misEventos.includes("evento2")){
-// 	$("#botonEvent2").append(`<button type="button" class=" btn justify-content desinscribirse"
-// 	value="true" name="evento2">Inscribirme</button> <br>`)}
-// 
-}
-colocaBoton();
 
-document.getElementsByClassName("inscribirse").addEventListener("click", inscribirse())
+// evento 1
+if (!misEventos.includes("evento1")) {
+	console.log("No incluye el evento1");
+	
+	$("#botonQuitaE1").hide();
+	$("#botonAgregaE1").show();
+	
+} else if (misEventos.includes("evento1")){
+	console.log(misEventos);
+	console.log("incluye el evento1");
+	$("#botonAgregaE1").hide();
+	$("#botonQuitaE1").show();
+}
+
+// evento2
+if (!misEventos.includes("evento2")) {
+	console.log("No incluye el evento2");
+	
+	$("#botonQuitaE2").hide();
+	$("#botonAgregaE2").show();
+	
+} else if (misEventos.includes("evento2")){
+	console.log(misEventos);
+	console.log("incluye el evento2");
+	$("#botonAgregaE2").hide();
+	$("#botonQuitaE2").show();
+}
+}
+botonesAgregaQuita() 
 
 function inscribirse () {
-		console.log(this);
-		console.log("entre a insc");
-		
-		let events = this.name;
-		misEventos.push(events);
-		console.log(misEventos);
-		
-		
-	}
-	console.log("mis eventos son" + misEventos);
+	console.log(event);
 	
+	let click = event.toElement.name;
+	console.log(click);
+	misEventos.push(click)
+	console.log("mis eventos son..." + misEventos);
+	botonesAgregaQuita();
 
+}
 
-	function desinscribirse () {
-		console.log(this);
-		let events = this.name;
-		misEventos.pop(events);
-		console.log(misEventos);
-		
-	}
-	
+function desinscribirse () {
+	console.log(event);
+	let click = event.toElement.name;
+	console.log(click);
+	let aux = misEventos.indexOf(click)
+	misEventos.splice(aux, 1);
+	console.log("mis eventos son..." + misEventos);
+	botonesAgregaQuita();
 
-// addEventListener()
-// function misEventosMas(e) {
-// 	$(window).on("load", function () {
-// 		console.log(this.event);
-// 		console.log(this.event.target.title);
-// 		let titulo = this.event.target.title;
-// 		$("#tituloPag").append(`<h1 class="col-3 text-right"> ${titulo} </h1> 
-// 		<img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-3">`)
-// 	});
-// }
+}

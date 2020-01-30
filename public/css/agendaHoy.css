@@ -52,12 +52,12 @@
   
 }
 
-.inscrbirse {
+#botonAgregaE1 , #botonAgregaE2{
     background-color: #8DD853;
     margin-top: 18%;
     
 }
-.desinscribirse {
+#botonQuitaE1 , #botonQuitaE2{
     color: #8DD853;
     border-color: #8DD853;
     background-color: #fff;
