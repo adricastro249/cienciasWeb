@@ -1,17 +1,36 @@
-{
-    "noticias": [{
-            "titulo": "Conferencia a Jane Goodall",
-            "imagen": "./images/agenda/janegodal.png",
-            "texto": "De la mano de National Geographic y CienciaHoy con el patrocinio de KYMCO Motor de Cultura. Jane Goodall dará una conferencia en la Facultad de Derecho bajo el titulo 'Mi vida entre los chimpancés salvajes '",
-            "fecha": "11 febrero",
-            "horaio": "17 hrs"
-        },
-        {
-            "titulo": "Simposio Científico",
-            "imagen": "./images/agenda/simposio.png",
-            "texto": "Se trata de un evento cienctífico llevado a cabo desde el 2003 en el que destacados especialistas nacionales e internacionalesdiscuten avances cientificos, debaten sobre nuevas estratégias",
-            "fecha": "22 febrero",
-            "horaio": "14"
-        }
-    ]
-}
+var data = {
+    "revistas": [{
+  
+        "titulo": "¿Centrales nucleares?",
+        "fechas":"Enero - Febrero 2019",
+        "imagen": "./images/revistas/revCentralesNucleares.png",
+        "texto": "Patagotitan: El dinosaurio más grande. Investigación y guerra de Malvinas. Astronomia",
+        "matchID":"",
+        "location":"",
+        "idCollap": "",
+        "buy":"1.80$",
+    },
+    {
+        "titulo": "Muere una estrella",
+        "fechas":"Julio - Agosto 2019",
+        "imagen": "./images/revistas/revMuereUnaEstrella.png",
+        "texto": "Paleoneurologia. Un nuevo mapa fitogeográfico. Explosión de la pesca del langostino. La construcción del Estado argentino",
+        "matchID":"",
+        "location":"",
+        "idCollap": "",
+        "buy":"1.80$",
+    },
+    {
+        "titulo": "Inteligencia Artificial",
+        "fechas":"Octubre - Noviembre 2019",
+        "imagen": "./images/revistas/revInteligenciaArtificial.png",
+        "texto": "Fitoplacton. El crecimiento de Puerto Madryn. Premios Nobel 2019. Guía del cielo nocturno",
+        "matchID":"",
+        "location":"",
+        "idCollap": "",
+        "buy":"1.80$",
+    }
+    
+]
+    
+    }

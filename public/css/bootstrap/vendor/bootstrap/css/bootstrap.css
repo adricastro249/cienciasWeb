@@ -5824,7 +5824,7 @@ a.close.disabled {
   width: 90%;
 height:600px;
   pointer-events: auto;
- background-color: #fff; 
+/*  background-color: #fff;  */
 /*  background-clip: padding-box;  */
   background-image: url("/public/Recursos/POPUP/Imagenes/Group\ 117b.png"); 
  background-repeat: no-repeat;
@@ -5859,7 +5859,7 @@ height:600px;
   align-items: flex-start;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 3rem 4em;
  /* border-bottom: 1px solid #dee2e6; */
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
