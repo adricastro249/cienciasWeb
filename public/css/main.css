@@ -17,17 +17,13 @@ body {
 }
 
 /*/---- Modal ----/*/
-.modal{
-    background-image: url("/public/Recursos/POPUP/Imagenes/Group\ 117b.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    } 
+
     
     .textVerde{
     color: #8DD853;
     margin-top: auto;
     margin-left: 10%;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 60%;
     }
     
