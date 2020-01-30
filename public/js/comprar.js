@@ -27,7 +27,7 @@ $("#masBloqPrevCompra").click(function () {
 
 /*/--Function Agregar al Carrito/*/
 
-var comprarIA = document.getElementById('comprarIA');
+/* var comprarIA = document.getElementById('comprarIA');
 var btnComp = document.getElementsByClassName('botonComprar')
 
 comprarIA.click();
@@ -54,11 +54,33 @@ function comprar() {
         console.log("pruebaIA")
     })
 
-
-
-
-
     console.log(carrito);
 console.log(revistas);
 }
-comprar();
+comprar(); */
+
+var carrito = [];
+function comprar () {
+	console.log(event);
+	
+	let click = event.toElement.name;
+	console.log(click);
+	carrito.push(click)
+    console.log("mis eventos son..." + carrito);
+    
+}
+
+console.log(carrito);
+
+
+
+/* function desinscribirse () {
+	console.log(event);
+	let click = event.toElement.name;
+	console.log(click);
+	let aux = misEventos.indexOf(click)
+carrito.splice(aux, 1);
+	console.log("mis eventos son..." + misEventos);
+	botonesAgregaQuita();
+
+} */
