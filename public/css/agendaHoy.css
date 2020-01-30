@@ -8,6 +8,7 @@
 .calendario, .eventAnt, .eventProx  {
     background-color:#fff;
     border-radius: 30px 30px 30px 30px;
+    width: 250px;
 }
 
 
@@ -53,14 +54,14 @@
 
 #inscribirse{
     background-color: #8DD853;
-    margin-top: 20%;
+    margin-top: 18%;
     
 }
 #desinscribirse{
     color: #8DD853;
     border-color: #8DD853;
     background-color: #fff;
-    margin-top: 20%;
+    margin-top: 30%;
     
 }
 
@@ -78,7 +79,20 @@
 }
 
 #listaEventprox{
-    list-style-image:linear-gradient(#000000, rgba(131, 131, 131, 0), rgba(195, 195, 196, 0))
+    font-size: 12px;
     /* list-style-position: inherit; */
     /* url("/public/Recursos/AGENDAHOY/Imagenes/Vector60.png") */
+}
+
+li {
+margin-left: 0em !important;
+color: #8DD853;
+}
+
+.noList{
+    color: black;
+}
+
+ul{
+    padding-left: 0em;
 }
