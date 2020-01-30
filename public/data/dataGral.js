@@ -31,6 +31,7 @@ var data = {
     "eventos": [{
   
         "titulo": "Conferencia a Jane Goodall",
+        "idEvento": 1,
         "imagen": "./images/agenda/janegodal.png",
         "texto": "De la mano de National Geographic y CienciaHoy con el patrocinio de KYMCO Motor de Cultura. Jane Goodall dará una conferencia en la Facultad de Derecho bajo el titulo 'Mi vida entre los chimpancés salvajes '",
         "month":"Febrero",
@@ -50,6 +51,7 @@ var data = {
     },
     {
         "titulo": "Simposio Científico",
+        "idEvento": 2,
         "imagen": "./images/agenda/simposio.png",
         "texto": "Se trata de un evento cienctífico llevado a cabo desde el 2003 en el que destacados especialistas nacionales e internacionalesdiscuten avances cientificos, debaten sobre nuevas estratégias",
         "month":"Febrero",

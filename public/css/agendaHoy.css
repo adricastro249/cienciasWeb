@@ -52,12 +52,12 @@
   
 }
 
-#inscribirse{
+.inscrbirse {
     background-color: #8DD853;
     margin-top: 18%;
     
 }
-#desinscribirse{
+.desinscribirse {
     color: #8DD853;
     border-color: #8DD853;
     background-color: #fff;

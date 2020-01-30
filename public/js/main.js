@@ -77,3 +77,6 @@ $("#masPrevEventos").click(function () {
 
 
 // ********** Formulario
+
+// ********** agregar a carrito
+var posiblesCompras = [];
