@@ -5830,6 +5830,21 @@ a.close.disabled {
   outline: 0;
 }
 
+.modal-entrada {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 88%;
+height:580px;
+  pointer-events: auto;
+background-image: url("/public/Recursos/POPUP/Imagenes/Group\ 117b.png"); 
+ background-repeat: no-repeat;
+ background-size: 100%; 
+}
+
+
 .modal-backdrop {
  position: fixed;
   top: 0;
