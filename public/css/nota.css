@@ -18,3 +18,11 @@
 li{
     list-style:none
 }
+
+.lineaDer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 100%;
+    border-top: 0.18rem solid #ff0076;
+}
