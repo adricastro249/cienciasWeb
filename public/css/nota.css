@@ -19,10 +19,16 @@ li{
     list-style:none
 }
 
-.lineaDer{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    width: 100%;
-    border-top: 0.18rem solid #ff0076;
-}
+.divDer{
+    width: 120%;
+    border-top: 0.18rem solid  #ff0076;
+  }
+
+  .btnComen{
+    border-radius: 77px 77px 77px 77px;
+    -moz-border-radius: 77px 77px 77px 77px;
+    -webkit-border-radius: 77px 77px 77px 77px;
+    border: 0.05rem solid #c7c7c7;
+
+
+  }
