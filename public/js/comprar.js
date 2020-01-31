@@ -45,11 +45,11 @@ console.log(carrito);
 function contCarrito() {
 // Revistas en carrito
 if (carrito.includes("comprarIA" || "comprarCN" || "comprarMUN")) {
-	console.log("incluye comprarIA");
+	console.log("incluye revistas para carrito");
 	$("#btncomprarCarrito").show();
 	$("#txtCarrito").hide();	
 } else if (!carrito.includes("comprarIA" || "comprarCN" || "comprarMUN")){
-	console.log("No incluye comprarIA");
+	console.log("No incluye revistas para carrito");
 	$("#btncomprarCarrito").hide();
 	$("#txtCarrito").show();
 }
@@ -62,6 +62,12 @@ function comprar () {
 	console.log(click);
 	misRevistas.push(click)
 	console.log("mis revistas son..." + misRevistas); 
+	contRevistas();
+	var carrito = [];
+console.log(carrito);
+$("#btncomprarCarrito").hide();
+$("#txtCarrito").show();
+
 }
 
 function contRevistas() {
