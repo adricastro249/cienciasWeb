@@ -161,10 +161,12 @@
                                         </p>
                                     </div>
                                     <div class="p-2 ">
-                                        <button type="button" id="botonAgregaE1" class="inscribirse btn justify-content "
-                                            value="true" name="evento1" onclick="inscribirse()"> Inscribirme</button> <br>
-                                        <button type="button" id="botonQuitaE1" class="desinscribirse btn justify-content "
-                                            value="true" name="evento1" onclick="desinscribirse()"> Desinscribirme</button> <br>
+                                        <button type="button" id="botonAgregaE1"
+                                            class="inscribirse btn justify-content " value="true" name="evento1"
+                                            onclick="inscribirse()"> Inscribirme</button> <br>
+                                        <button type="button" id="botonQuitaE1"
+                                            class="desinscribirse btn justify-content " value="true" name="evento1"
+                                            onclick="desinscribirse()"> Desinscribirme</button> <br>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +180,30 @@
                                     <p id="horaEvent1" class="resaltaDyH">hora</p>
                                 </div>
                                 <div class="comoLlegar">
-                                    <a href="">¿Cómo llegar?</a>
+                                    <!-- Button trigger modal -->
+                                    <a class="btn-light " data-toggle="modal" data-target="#exampleModal"
+                                        href="" style="color: #8DD853;">
+                                        ¿Cómo llegar?
+                                    </a>
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title tituloMapaE1" id="exampleModalLabel"></h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                    id="mapaEvent1">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -203,10 +228,11 @@
                                     </p>
                                 </div>
                                 <div class="p-2">
-                                    <button type="button" id="botonAgregaE2" class=" btn justify-content inscribirse" value="true"
-                                        name="evento2" onclick="inscribirse()"> Inscribirme</button>
-                                    <button type="button" id="botonQuitaE2" class=" btn justify-content desinscribirse" value="true"
-                                        name="evento2" onclick="desinscribirse()"> Desinscribirme</button> <br>
+                                    <button type="button" id="botonAgregaE2" class=" btn justify-content inscribirse"
+                                        value="true" name="evento2" onclick="inscribirse()"> Inscribirme</button>
+                                    <button type="button" id="botonQuitaE2" class=" btn justify-content desinscribirse"
+                                        value="true" name="evento2" onclick="desinscribirse()"> Desinscribirme</button>
+                                    <br>
                                 </div>
                             </div>
                             <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
@@ -219,7 +245,29 @@
                                     <p id="horaEvent2" class="resaltaDyH"">hora</p>
                                 </div>
                                 <div class=" comoLlegar">
-                                        <a href="">¿Cómo llegar?</a>
+                                        <a  class="btn-light " data-toggle="modal"
+                                            data-target="#exampleModal" href="" style="color: #8DD853;">
+                                            ¿Cómo llegar?</a>
+                                        <!-- Modal -->
+                                        <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title tituloMapaE2" id="exampleModalLabel">
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                        id="mapaEvent2">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -246,7 +294,7 @@
                                         </p>
                                     </div>
                                     <div class="text-rigth align-bottom">
-                                        
+
                                     </div>
                                 </div>
                             </div>

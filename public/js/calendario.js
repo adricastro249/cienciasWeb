@@ -133,3 +133,11 @@ function desinscribirse () {
 	botonesAgregaQuita();
 
 }
+
+// mapas
+
+$("#mapaEvent1").append(`<iframe class="border" src="${data.eventos[0].map}"></iframe>`)
+$(".tituloMapaE1").text(data.eventos[1].address)
+
+$("#mapaEvent2").append(`<iframe class="border" src="${data.eventos[0].map}"></iframe>`)
+$(".tituloMapaE2").text(data.eventos[1].address)
