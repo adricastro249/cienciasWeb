@@ -41,9 +41,8 @@ var navbar = `
                     </div>
                 </li>
                 <li class="nav-item">
- <a class="nav-link" href="perfil.html">
-                <button type="button" class="btn btn-outline-light btn-sm">Entrar</button></a>
-            </li>
+ 
+         
 
             <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
@@ -51,7 +50,7 @@ var navbar = `
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
+                <div class="modal fade" id="modalEntrarNavbar" tabindex="-1" role="dialog"
                     aria-labelledby="modalEntrarTitle" aria-hidden="true" >
                     <div class="modal-dialog modal-xl modal-dialog-centered" role="document" >
                         <div class="modal-entrada">
@@ -70,7 +69,7 @@ var navbar = `
                                         <div class="col">
                                             <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
                                             <br>
-                                            <p><a href="#" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
+                                            <p><a href="perfil.html" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
                                             <br>
                                             <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
                                                 aria-label="Close">Ahora no</button>
@@ -83,17 +82,7 @@ var navbar = `
                     </div>
                 </div>       <!-- Fin Modal -->
 
-
-
-
-            
-
-
-            
-
-
-
-
+                </li>
 
             </ul>
         </div>
@@ -158,7 +147,7 @@ var footer = `
                                         <div class="col">
                                             <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
                                             <br>
-                                            <p><a href="#" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
+                                            <p><a href="perfil.html" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
                                             <br>
                                             <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
                                                 aria-label="Close">Ahora no</button>
