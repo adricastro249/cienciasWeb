@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/agendaHoy.css">
+    
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -29,7 +31,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <title>CienciaHoy</title>
+    <title>Perfil</title>
 </head>
 
 <body>
@@ -146,8 +148,129 @@
                     <section id="misEventos">
                         <h4>Mis eventos</h4>
                         <div class="perfil" id="misEventosContenido">
-                            <p>contenido</p>
+                            <div class="col mt-5 nota1">
+                                <div class="d-flex">
+                                    <div class="p-4 w-100 bd-highlight col-5"><img src="./images/agenda/janegodal.png" ></div>
+                                    <div id="" class="col-5">
+                                        <div class="align-self-start p-2">
+                                            <div class="p-2 flex-shrink-1 bd-highlight">
+                                                <h3 id="tituloEvent1">TITULO</h3>
+                                            </div>
+                                            <p id="notaEvent1" style="display: none;"></p>
+                                            
+                                            <div class="p-2 ">
+                                                <button type="button" id="botonAgregaE1"
+                                                    class="inscribirse btn justify-content " value="true" name="evento1"
+                                                    onclick="inscribirse()"> Inscribirme</button> <br>
+                                                <button type="button" id="botonQuitaE1"
+                                                    class="desinscribirse btn justify-content " value="true" name="evento1"
+                                                    onclick="desinscribirse()"> Desinscribirme</button> <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
+                                        <div class="fechasEvent">
+                                            <p id="mesEvent1">mes evento 1</p>
+                                            <p id="diaEvent1" class="resaltaDyH">dia</p>
+                                        </div>
+                                        <div class="horariosEvent">
+                                            <p> Horario</p>
+                                            <p id="horaEvent1" class="resaltaDyH">hora</p>
+                                        </div>
+                                        <div class="comoLlegar">
+                                            <!-- Button trigger modal -->
+                                            <a class="btn-light " data-toggle="modal" data-target="#exampleModal"
+                                                href="" style="color: #8DD853;">
+                                                ¿Cómo llegar?
+                                            </a>
+                                            <!-- Modal -->
+                                            <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title tituloMapaE1" id="exampleModalLabel"></h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                            id="mapaEvent1">
+                                                        </div>
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+        
+                            </div>
                         </div>
+                        <!-- evento 2 -->
+                        <div class="col mt-5 nota2" style="display: none;">
+                            <div class="d-flex ">
+                                <div class="p-4 w-100 bd-highlight col-5"><img src="./images/agenda/simposio.png"></div>
+                                <div class="align-self-start col-5">
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <h3 id="tituloEvent2">TITULO</h3>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p id="notaEvent2">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem
+                                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type and scrambled it to make a type specimen
+                                            book.
+                                        </p>
+                                    </div>
+                                    <div class="p-2">
+                                        <button type="button" id="botonAgregaE2" class=" btn justify-content inscribirse"
+                                            value="true" name="evento2" onclick="inscribirse()"> Inscribirme</button>
+                                        <button type="button" id="botonQuitaE2" class=" btn justify-content desinscribirse"
+                                            value="true" name="evento2" onclick="desinscribirse()"> Desinscribirme</button>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
+                                    <div class="fechasEvent">
+                                        <p id="mesEvent2">mes evento 1</p>
+                                        <p id="diaEvent2" class="resaltaDyH">dia</p>
+                                    </div>
+                                    <div class="horariosEvent">
+                                        <p> Horario</p>
+                                        <p id="horaEvent2" class="resaltaDyH"">hora</p>
+                                    </div>
+                                    <div class=" comoLlegar">
+                                            <a  class="btn-light " data-toggle="modal"
+                                                data-target="#exampleModal" href="" style="color: #8DD853;">
+                                                ¿Cómo llegar?</a>
+                                            <!-- Modal -->
+                                            <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title tituloMapaE2" id="exampleModalLabel">
+                                                            </h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                            id="mapaEvent2">
+                                                        </div>
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- cierre de evento  -->
                         <div class="mt-5">
                             <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" class="rounded mx-auto d-block"
                                 alt="logoREvista" id="logoRevista">
@@ -244,6 +367,8 @@
 
     <!-- Java Script ================================================== -->
 
+    <script src="./data/dataGral.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/estructura.js"></script>
     <script src="./js/perfil.js"></script>
 

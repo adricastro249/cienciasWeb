@@ -1,4 +1,4 @@
-// ********** boton Paginación Comprar
+// ********** carpetas
 $("#misCarpetas").hide();
 $("#misEventos").show();
 $("#misFavs").hide();
@@ -17,6 +17,8 @@ $("#eventos").click(function () {
     $("#misEventos").show();
     $("#misFavs").hide();
     $("#versionPremium").hide();
+    console.log(misEventos);
+    
 })
 
 $("#favs").click(function () {
@@ -41,3 +43,5 @@ $("#premiumRechaz").click(function () {
     $("#misFavs").hide();
     $("#versionPremium").hide();
 })
+
+// ******************* MIS EVENTOS
