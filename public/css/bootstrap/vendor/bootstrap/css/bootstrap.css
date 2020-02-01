@@ -5839,7 +5839,7 @@ a.close.disabled {
   width: 88%;
 height:580px;
   pointer-events: auto;
-background-image: url("/public/Recursos/POPUP/Imagenes/Group\ 117b.png"); 
+  background-image: url("../images/modal.png");
  background-repeat: no-repeat;
  background-size: 100%; 
 }

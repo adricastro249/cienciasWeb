@@ -36,9 +36,14 @@ $("#pruebaLoginAibby").click(function () {
 	var provider = new firebase.auth.GoogleAuthProvider();
 	alert("esto es"+ provider);
 	firebase.auth().signInWithPopup(provider);
-	
-	
+
 })
+
+
+
+
+
+
 
 // ********** boton SECCIONES
 $("#masSecc").click(function () {
