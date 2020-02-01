@@ -382,16 +382,11 @@
         <script src="./data/dataGral.js"></script>
         <script src="js/calendario.js"></script>
         <script src="./js/main.js"></script>
+        <script src="./js/eventos.js"></script>
 
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-        <!-- Firebase ================================================== -->
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
-
-        <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#available-libraries -->
-
-        <!-- update the version number as needed -->
+    
         <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
         <!-- include only the Firebase features as you need -->
         <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
@@ -400,23 +395,30 @@
         <script defer src="/__/firebase/7.7.0/firebase-storage.js"></script>
         <!-- initialize the SDK after all desired features are loaded -->
         <script defer src="/__/firebase/init.js"></script>
-
+    
+    
         <script>
-            // Your web app's Firebase configuration
-            var firebaseConfig = {
-                apiKey: "AIzaSyDjPSNyRtFcf1tnozyZemIdqjBl26DOZtA",
-                authDomain: "cienciashoyweb.firebaseapp.com",
-                databaseURL: "https://cienciashoyweb.firebaseio.com",
-                projectId: "cienciashoyweb",
-                storageBucket: "cienciashoyweb.appspot.com",
-                messagingSenderId: "370651011230",
-                appId: "1:370651011230:web:d9e2a193c99f6fb191838f"
-            };
-            // Initialize Firebase
-            firebase.initializeApp(firebaseConfig);
-        </script>
-
-
+            document.addEventListener('DOMContentLoaded', function() {
+              // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+              // // The Firebase SDK is initialized and available here!
+              //
+              // firebase.auth().onAuthStateChanged(user => { });
+              // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+              // firebase.messaging().requestPermission().then(() => { });
+              // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+              //
+              // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      
+              try {
+                let app = firebase.app();
+                let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+                document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+              } catch (e) {
+                console.error(e);
+                document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+              }
+            });
+          </script>
     </div> <!-- FIN SCRIPTS-->
 </body>
 

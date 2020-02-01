@@ -73,6 +73,7 @@ var navbar = `
                                             <br>
                                             <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
                                                 aria-label="Close">Ahora no</button>
+                    
         
                                         </div>
                                     </div>
@@ -141,7 +142,7 @@ var footer = `
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col">
-                                            <img class="mt-2 p-5 mr-4 " src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                            <img class="mt-2 p-5 mr-4 " src="../images/logoRecursoNegro.png" alt="logoNegro">
                                         </div>
         
                                         <div class="col">
@@ -149,6 +150,7 @@ var footer = `
                                             <br>
                                             <p><a href="perfil.html" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
                                             <br>
+                                            
                                             <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
                                                 aria-label="Close">Ahora no</button>
         
