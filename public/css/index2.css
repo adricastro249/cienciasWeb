@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
 .destacadas,
 .carouselHome,
 .headerIndex {
@@ -26,36 +30,36 @@
 }
 
 .nota1 {
-    background-image: url("/public/images/home1_sinhover.png");
+    background-image: url("..//images/home1_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .nota1:hover {
-    background-image: url("/public/images/home1_conhover.png");
+    background-image: url("..//images/home1_conhover.png");
     color: grey;
 }
 
 .nota2 {
-    background-image: url("/public/images/home2_sinhover.png");
+    background-image: url("../images/home2_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
 
 .nota2:hover {
-    background-image: url("/public/images/home2_conhover.png");
+    background-image: url("..//images/home2_conhover.png");
     color: grey;
 }
 
 .nota3 {
-    background-image: url("/public/images/home3_sinhover.png");
+    background-image: url("../images/home3_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .nota3:hover {
-    background-image: url("/public/images/home3_conhover.png");
+    background-image: url("../images/home3_conhover.png");
     color: grey;
 }
 
@@ -95,7 +99,7 @@
 
 /*/---- Section App ----/*/
 .appStore {
-    background-image: url("/public/images/fondo_publicidad.png");
+    background-image: url("../images/fondo_publicidad.png");
     background-repeat: no-repeat;
  background-size: 100%;  
 }
