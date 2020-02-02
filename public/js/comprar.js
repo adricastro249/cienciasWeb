@@ -26,23 +26,64 @@ $("#masBloqPrevCompra").click(function () {
 var carrito = [];
 var misRevistas = [];
 
+$("#misRevistasCarrito").hide()
+
+if (carrito.length ===0){
+	$("#txtCarrito").show();
+}else if (carrito.length < 0){
+	alert("entre a carrito con algo")
+	$("#misRevistasCarrito").show()
+	document.getElementById("misRevistasCarrito").textContent(carrito)
+	$("#txtCarrito").hide();
+}
+
 $("#textRevistas").show();
-$("#txtCarrito").show();
+
 $("#btncomprarCarrito").hide();
 
 
 function agregCarrito () {
+	console.log(carrito);	
 	console.log(event);
 	let click = event.toElement.name;
+	
+	if (!carrito.includes(click)){	
 	console.log(click);
 	carrito.push(click)
 	console.log("mis revistas son..." + carrito);
-	contCarrito()   
+	// contCarrito() 
+	alert("entre a carrito con algo")
+	$("#misRevistasCarrito").show()
+	var node = document.createElement("LI");                 // Create a <li> node
+	var textnode = document.createTextNode(click);         // Create a text node
+	node.classList.add("listaCarrito")
+	node.addEventListener("click", function () {
+		console.log(this);
+		this.remove();
+		let aux = carrito.indexOf(click)
+	carrito.splice(aux, 1);
+	if (carrito.length === 0){
+		$("#btncomprarCarrito").hide();
+		$("#txtCarrito").show(); 
+	}
+	console.log("mis REVISTAS DEFINITIVAS son..." + carrito);		
+	})
+	node.appendChild(textnode);                              // Append the text to <li>
+	document.getElementById("misRevistasCarrito").appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
+	
+	$("#txtCarrito").hide();  
+	$("#btncomprarCarrito").show();
+} else if (carrito.includes(click)){
+	alert("ya incluiste esta revista");
+} 
 }
 
 console.log(carrito);
 
 function contCarrito() {
+
+
+
 // Revistas en carrito
 if (carrito.includes("comprarIA" || "comprarCN" || "comprarMUN")) {
 	console.log("incluye revistas para carrito");
@@ -67,6 +108,8 @@ function comprar () {
 console.log(carrito);
 $("#btncomprarCarrito").hide();
 $("#txtCarrito").show();
+
+
 
 }
 
