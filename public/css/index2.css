@@ -97,6 +97,12 @@ body{
     height: 90%;
 }
 
+.colorTxtEvnt{
+   color: rgba(192, 192, 192, 0.9)  ; 
+
+
+}
+
 /*/---- Section App ----/*/
 .appStore {
     background-image: url("../images/fondo_publicidad.png");
@@ -120,3 +126,4 @@ body{
     width: 20%;
     height: 20%;
 }
+

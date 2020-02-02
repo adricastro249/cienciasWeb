@@ -48,14 +48,8 @@ var navbar = `
 Entrar
 </button>
 
-
 </div>
-                
-          
-                 
-
-
-                </li>
+ </li>
 
             </ul>
         </div>

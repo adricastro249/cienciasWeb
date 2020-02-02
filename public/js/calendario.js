@@ -1,4 +1,29 @@
 
+// ********** boton Paginación Revistas
+$("#segundosEventos").hide();
+
+$("#masBloq2Eventos").click(function () {
+    $("#segundosEventos").show();
+    $("#primerosEventos").hide();
+})
+
+$("#masSigEventos").click(function () {
+    $("#segundosEventos").show();
+    $("#primerosEventos").hide();
+})
+
+$("#masBloq1Eventos").click(function () {
+    $("#segundosEventos").hide();
+    $("#primerosEventos").show();
+})
+
+$("#masPrevEventos").click(function () {
+    $("#segundosEventos").hide();
+    $("#primerosEventos").show();
+})
+
+
+
 var actual=new Date();
 function mostrarCalendario(year,month)
 {

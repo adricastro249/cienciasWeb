@@ -1,3 +1,5 @@
+
+
 // ***** AUTENTICACION
 // ++ codigos de documentacion original firebase
 /* var provider = new firebase.auth.GoogleAuthProvider();
@@ -88,18 +90,19 @@ alert("esto es"+ provider);
 })
  */
 
-
-
-
-
-
-// ********** boton SECCIONES
 $("#masSecc").click(function () {
     console.log("dia 2");
 
     $("#seccion3").show();
     $("#seccion4").show();
 })
+
+
+
+
+
+// ********** boton SECCIONES
+
 
 //  ******** agrega titulo a SECCIONES- falta traer los datos del jsonGral, pero no estan los datos incluidos 
 $("#seccion4 .tituloCategoria").append("OTRO NOMBRE")
@@ -108,29 +111,6 @@ $("#seccion3 .tituloCategoria").append("Ciencia y Sociedad")
 /
 
 
-
-// ********** boton Paginación Revistas
-$("#segundosEventos").hide();
-
-$("#masBloq2Eventos").click(function () {
-    $("#segundosEventos").show();
-    $("#primerosEventos").hide();
-})
-
-$("#masSigEventos").click(function () {
-    $("#segundosEventos").show();
-    $("#primerosEventos").hide();
-})
-
-$("#masBloq1Eventos").click(function () {
-    $("#segundosEventos").hide();
-    $("#primerosEventos").show();
-})
-
-$("#masPrevEventos").click(function () {
-    $("#segundosEventos").hide();
-    $("#primerosEventos").show();
-})
 
 
 // ********** Formulario
