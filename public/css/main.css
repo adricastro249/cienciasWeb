@@ -24,7 +24,8 @@ body {
     color: #8DD853;
     margin-top: auto;
     margin-left: 10%;
-    font-size: 20px;
+    font-size: 21px;
+    font-family: 'Reforma 2018';
     }
     
     .btnAhoraNo{
@@ -35,10 +36,14 @@ body {
         padding: 8px;
         width: 30%;
  margin-left: 18%;
+ font-size: 18px;
+ font-family: 'Roboto Slab', serif !important;
 
     }
     
     .txtCenter{
-        position: absolute;       
+        position: absolute;    
+        font-size: 18px;
+        font-family: 'Roboto Slab', serif !important;   
          margin-left: 23%;
     }

@@ -58,9 +58,9 @@ alert("esto es"+ provider);
 
 
 
-	var signOutButton = document.getElementById('sign-out-button');
+	var logOutButton = document.getElementById('sign-out-button');
 
-	signOutButton.addEventListener('click', function (e) {
+	logOutButton.addEventListener('click', function (e) {
 		alert("desconectando")
 		e.preventDefault();
 		firebase.auth().signOut();
@@ -90,31 +90,4 @@ alert("esto es"+ provider);
 })
  */
 
-$("#masSecc").click(function () {
-    console.log("dia 2");
-
-    $("#seccion3").show();
-    $("#seccion4").show();
-})
-
-
-
-
-
-// ********** boton SECCIONES
-
-
-//  ******** agrega titulo a SECCIONES- falta traer los datos del jsonGral, pero no estan los datos incluidos 
-$("#seccion4 .tituloCategoria").append("OTRO NOMBRE")
-$("#seccion3 .tituloCategoria").append("Ciencia y Sociedad")
-
-/
-
-
-
-
-// ********** Formulario
-
-// ********** agregar a carrito
-var posiblesCompras = [];
 

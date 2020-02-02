@@ -43,10 +43,7 @@ var navbar = `
                 <li class="nav-item">
  
 <div>
-<!-- Acá va el modal -->
-<button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalNavbarEntrar">
-Entrar
-</button>
+
 
 </div>
  </li>
