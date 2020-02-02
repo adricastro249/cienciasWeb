@@ -39,14 +39,35 @@ loginB.addEventListener("click", function(){
   });  */
 
 
-  document.querySelector('.login2').addEventListener('click', event => {
-alert("probando");
-console.log("prueba");
+
+  var btnAcceder = document.getElementsByClassName("login2");
+    
+    //Recorres la lista de elementos seleccionados
+    for (var i=0; i< btnAcceder.length; i++) {
+        //Añades un evento a cada elemento
+		btnAcceder[i].addEventListener("click",function() {
+           //Aquí la función que se ejecutará cuando se dispare el evento
+		   alert("probando");
+		   console.log("prueba");
 
 	var provider = new firebase.auth.GoogleAuthProvider();
 alert("esto es"+ provider);
-	firebase.auth().signInWithPopup(provider);
-  })
+	firebase.auth().signInWithPopup(provider); 
+        });
+    }
+
+
+
+
+/* 
+  document.querySelector('.login2').addEventListener('click', event => {
+alert("probando");
+console.log("prueba"); */
+
+/* 	var provider = new firebase.auth.GoogleAuthProvider();
+alert("esto es"+ provider);
+	firebase.auth().signInWithPopup(provider); */
+/*   }) */
 
 /*  $("#login").click(function () {
 	alert("probando");
