@@ -4,7 +4,7 @@ body{
 
 
 
-.bodyAgenda{
+.bodyPerfil{
   background-color: #f4fbee;
 }
 
@@ -92,13 +92,23 @@ color: #fff;
 .desinscribirse{
 
   color: #8DD853;
-
-  border-radius: 10px 10px 10px 10px;
+ border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 1px solid #8DD853;
 }
 
+
+
+.carpeta{
+
+  color:#23ACA2;
+ border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #23ACA2;
+  font-family: 'Roboto Slab', serif;
+}
 
 .divQS{
   margin-top: 1rem;
@@ -106,4 +116,13 @@ color: #fff;
   border: 0;
   width: 100%;
   border-top: 0.18rem solid #23ACA2;
+}
+
+
+.estrella {
+  position: absolute;
+  right:12%;
+  z-index: 0;
+  width: 9%;
+  height: 9%;
 }

@@ -39,7 +39,7 @@
     <!-- ====== Navegación ================================================== -->
     <nav id="navbar" class="col"></nav>
 
-    <div class="bodyAgenda">
+    <div class="bodyPerfil">
         <div class="container">
 
             <!-- ====== Datos Perfil  ================================================== -->
@@ -131,20 +131,60 @@
                 </div><!-- fin col-3 perfil-->
 
                 <!-- ====== Bloque medio ================================================== -->
-                <div class="col-7">
+                <div class="col-6">
                     <section id="misCarpetas">
                         <h4>Mis carpetas</h4>
-                        <div class="d-flex justify-content-around">
-                            <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoCarpetas"
-                                id="logoCarpetas" style="width: 3%; height: 3%;">
-                            <h6>Mis carpetas</h6>
+
+                        <div>
+                            <button class="  d-flex justify-content-around carpeta p-2" type="button">
+                                <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoCarpetas"
+                                    class="p-2" id="logoCarpetas" style="width: 33%; height: 33%;">
+                                <h6 class="mt-1">Carpeta 1</h6 clas>
+                            </button>
+
                         </div>
 
-                       <!--  <button type="button" id="botonQuitaEvt1" class="desinscribirse"
-                        value="true" name="evento1"> Desinscribirme</button> -->
                         <hr class="divQS">
                         <div id="misCarpetasContenido">
-                            <p>contenido</p>
+
+
+                            <div class="row">
+
+                                <div class="col-6 portfolio-item">
+                                    <a href="nota1.html"><img class="card-img-top" src="./images/masVistas/image 38.png"
+                                            alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            <a href="nota1.html" class="text-dark titNota">ECLIPSES DEL SOL, TELÉFONOS
+                                                CELULARES Y CIENCIA
+                                                CIUDADANA</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 portfolio-item">
+                                    <a href="nota6.html"><img class="card-img-top" src="./images/masVistas/image 12.png"
+                                            alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            <a href="nota6.html" class="text-dark titNota">ARGENTINA PARA EL VIAJERO</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 portfolio-item">
+                                    <a href="nota2.html"><img class="card-img-top" src="./images/masVistas/image 10.png"
+                                            alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            <a href="nota2.html" class="text-dark">FRASES CÉLEBRES DE STEPHEN HAWKIN</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
                         </div>
                         <div class="mt-5">
                             <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
@@ -162,8 +202,8 @@
                                 <div class="nota1 p-3">
                                     <div class="d-flex">
 
-                                        <div class="w-20 bd-highlight"><img src="./images/agenda/janegodal.png">
-                                        </div>
+                                        <img style="width: 40%; height: 70%;" src="./images/agenda/janegodal.png">
+
 
 
                                         <div class="col">
@@ -247,26 +287,31 @@
 
                             <div class="row">
 
-                                <div class="col portfolio-item">
+                                <div class="col-6 portfolio-item">
 
-                                    <a href="nota1.html"><img class="card-img-top" src="./images/masVistas/image 38.png"
+                                    <a href="nota1.html"><img class="card-img-top fotoNota" src="./images/masVistas/image 38.png"
                                             alt=""></a>
+                                            <img class="estrella" src="./images/estrella.png">
+                                            
                                     <div class="card-body">
                                         <h4 class="card-title">
                                             <a href="nota1.html" class="text-dark titNota">ECLIPSES DEL SOL, TELÉFONOS
                                                 CELULARES Y CIENCIA
                                                 CIUDADANA</a>
                                         </h4>
-
-
                                     </div>
                                 </div>
 
 
-                                <div class="col portfolio-item">
+                                <div class="col-6 portfolio-item">
 
                                     <a href="nota6.html"><img class="card-img-top" src="./images/masVistas/image 12.png"
                                             alt=""></a>
+
+                                            <button class="estrella">
+                                                <img class="estrella" src="./images/estrella.png">
+                                            </button>
+                                            <img class="estrella" src="./images/estrella.png">
                                     <div class="card-body">
                                         <h4 class="card-title">
                                             <a href="nota6.html" class="text-dark titNota">ARGENTINA PARA EL VIAJERO</a>
@@ -275,6 +320,8 @@
 
                                 </div>
 
+
+                        
 
 
                             </div>
@@ -328,7 +375,7 @@
 
                 </div> <!-- fin col-6 -->
 
-                <div class="col-2">
+                <div class="col-3">
                     <div class="perfil">
                         <section id="perfilActividad">
                             <div class="d-flex justify-content-around ">
