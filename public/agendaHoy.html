@@ -275,58 +275,139 @@
                 </section>
 
                 <section id="segundosEventos">
-                    <!-- ====== Evento1 ================================================== -->
-                    <div class="col mt-5 nota1">
+                    <!-- ====== Evento3 ================================================== -->
+                    <div class="col mt-5 nota3">
                         <div class="d-flex">
-                            <div class="p-4 w-100 bd-highlight"><img src="./images/agenda/simposio.png"></div>
-                            <div id="notaEvento1>" class="">
+                            <div class="p-4 w-100 bd-highlight col-5"><img src="./images/agenda/janegodal.png"></div>
+                            <div id="" class="col-5">
                                 <div class="align-self-start p-2">
                                     <div class="p-2 flex-shrink-1 bd-highlight">
-                                        <h3>TITULO2</h3>
+                                        <h3 id="tituloEvent3">TITULO</h3>
                                     </div>
                                     <div class="p-2 flex-shrink-1 bd-highlight">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem
+                                        <p id="notaEvent3">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem
                                             Ipsum has been the industry's standard dummy text ever since the 1500s, when
                                             an
                                             unknown printer took a galley of type and scrambled it to make a type
                                             specimen book.
                                         </p>
                                     </div>
-                                    <div class="text-rigth align-bottom">
-
+                                    <div class="p-2 ">
+                                        <button type="button" id="botonAgregaE3"
+                                            class="inscribirse btn justify-content " value="true" name="evento3"
+                                            onclick="inscribirse()"> Inscribirme</button> <br>
+                                        <button type="button" id="botonQuitaE3"
+                                            class="desinscribirse btn justify-content " value="true" name="evento3"
+                                            onclick="desinscribirse()"> Desinscribirme</button> <br>
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-2 flex-shrink-1 bd-highlight">
-                                <h1>info nota1</h1>
+                            <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
+                                <div class="fechasEvent">
+                                    <p id="mesEvent3">mes evento 3</p>
+                                    <p id="diaEvent3" class="resaltaDyH">dia</p>
+                                </div>
+                                <div class="horariosEvent">
+                                    <p> Horario</p> 
+                                    <p id="horaEvent3" class="resaltaDyH">hora</p>
+                                </div>
+                                <div class="comoLlegar">
+                                    <!-- Button trigger modal -->
+                                    <a class="btn-light " data-toggle="modal" data-target="#modalMapa3"
+                                        href="" style="color: #8DD853;">
+                                        ¿Cómo llegar?
+                                    </a>
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="modalMapa3" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title tituloMapaE1" id="exampleModalLabel"></h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                    id="mapaEvent3">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
                     </div>
-                    <!-- ====== Evento 2 ================================================== -->
+                    <!-- ====== Evento 4 ================================================== -->
 
-                    <div class="col mt-5 nota2">
+                    <div class="col mt-5 nota4">
                         <div class="d-flex ">
-                            <div class="p-2 w-100 bd-highlight"><img src="./images/agenda/janegodal.png"></div>
-                            <div class="align-self-start">
+                            <div class="p-4 w-100 bd-highlight col-5"><img src="./images/agenda/simposio.png"></div>
+                            <div class="align-self-start col-5">
                                 <div class="p-2 flex-shrink-1 bd-highlight">
-                                    <h3>TITULO2</h3>
+                                    <h3 id="tituloEvent4">TITULO</h3>
                                 </div>
                                 <div class="p-2 flex-shrink-1 bd-highlight">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    <p id="notaEvent4">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem
                                         Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen
                                         book.
                                     </p>
                                 </div>
+                                <div class="p-2">
+                                    <button type="button" id="botonAgregaE4" class=" btn justify-content inscribirse"
+                                        value="true" name="evento4" onclick="inscribirse()"> Inscribirme</button>
+                                    <button type="button" id="botonQuitaE4" class=" btn justify-content desinscribirse"
+                                        value="true" name="evento4" onclick="desinscribirse()"> Desinscribirme</button>
+                                    <br>
+                                </div>
                             </div>
-                            <div class="p-2 flex-shrink-1 bd-highlight">
-                                <h1>info nota2</h1>
+                            <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
+                                <div class="fechasEvent">
+                                    <p id="mesEvent4">mes evento 4</p>
+                                    <p id="diaEvent4" class="resaltaDyH">dia</p>
+                                </div>
+                                <div class="horariosEvent">
+                                    <p> Horario</p>
+                                    <p id="horaEvent4" class="resaltaDyH"">hora</p>
+                                </div>
+                                <div class=" comoLlegar">
+                                        <a  class="btn-light " data-toggle="modal"
+                                            data-target="#modalMapa4" href="" style="color: #8DD853;">
+                                            ¿Cómo llegar?</a>
+                                        <!-- Modal -->
+                                        <div class="modal fade " id="modalMapa4" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title tituloMapaE4" id="exampleModalLabel">
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                        id="mapaEvent4">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
+               
 
 
             </div> <!-- fin col-9 -->

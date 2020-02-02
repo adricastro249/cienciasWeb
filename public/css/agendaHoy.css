@@ -45,7 +45,7 @@ body{
 }
 
 /*/---Notas----/*/
-.nota1, .nota2{
+.nota1, .nota2, .nota3, .nota4{
     background-color: #fff;
     /* padding: 2% 4%; */
     border-radius: 40px 40px 40px 40px;
@@ -55,12 +55,12 @@ body{
   
 }
 
-#botonAgregaE1 , #botonAgregaE2{
+#botonAgregaE1 , #botonAgregaE2, #botonAgregaE3, #botonAgregaE4{
     background-color: #8DD853;
     margin-top: 18%;
     
 }
-#botonQuitaE1 , #botonQuitaE2{
+#botonQuitaE1 , #botonQuitaE2, #botonQuitaE3, #botonQuitaE4{
     color: #8DD853;
     border-color: #8DD853;
     background-color: #fff;
