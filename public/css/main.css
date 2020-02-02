@@ -25,7 +25,6 @@ body {
     margin-top: auto;
     margin-left: 10%;
     font-size: 20px;
-    margin-top: 60%;
     }
     
     .btnAhoraNo{
@@ -35,11 +34,11 @@ body {
         align-items: center;
         padding: 8px;
         width: 30%;
-
+ margin-left: 18%;
 
     }
     
     .txtCenter{
-
-        margin-top: 10px;
+        position: absolute;       
+         margin-left: 23%;
     }

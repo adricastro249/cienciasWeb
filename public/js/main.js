@@ -48,14 +48,24 @@ loginB.addEventListener("click", function(){
 		btnAcceder[i].addEventListener("click",function() {
            //Aquí la función que se ejecutará cuando se dispare el evento
 		   alert("probando");
-		   console.log("prueba");
-
-	var provider = new firebase.auth.GoogleAuthProvider();
+var provider = new firebase.auth.GoogleAuthProvider();
 alert("esto es"+ provider);
 	firebase.auth().signInWithPopup(provider); 
         });
     }
 
+
+
+	var signOutButton = document.getElementById('sign-out-button');
+
+	signOutButton.addEventListener('click', function (e) {
+
+		alert("desconectando")
+		e.preventDefault();
+		firebase.auth().signOut();
+		location.reload();
+	  });
+	
 
 
 

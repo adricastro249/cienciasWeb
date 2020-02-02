@@ -42,9 +42,17 @@ var navbar = `
                 </li>
                 <li class="nav-item">
  
+<div>
+<!-- Acá va el modal -->
+<button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalNavbarEntrar">
+Entrar
+</button>
 
-                <!-- Button trigger modal -->
-                <!--Fin  Modal -->
+
+</div>
+                
+          
+                 
 
 
                 </li>
@@ -89,8 +97,44 @@ var footer = `
 
 
             <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalFooter">
+               Entrar
+                 </button>
+                 
+                 <!-- Modal -->
+           <div class="modal fade" id="modalFooter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitleFooter" aria-hidden="true">
+                   <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                     <div class="modal-entrada">
+                       <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                         </button>
+                       </div>
+                       <div class="modal-body">
+                   
+                           <div class="container-fluid">
+               
+                               <div class="row">
+                                   <div class="col">
+                                       <img class="p-3 mr-5 mt-2 " src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                   </div>
+                           
+                                   <div class="col">
+                                       <h4 class="textVerde mt-5">Para realizar acción deberá</h4>
+                                       <br>
+                                       <p>  <button  type="button" class="login2 btn btn-link txtCenter text-body" data-dismiss="modal">Acceder</button>
+                                       </p>
            
-             <!--Fin  Modal -->
+                                       <button type="button" role="button" class="btnAhoraNo mt-5" data-dismiss="modal"
+                                           aria-label="Close">Ahora no</button>
+                           
+                                   </div>
+                               </div>
+                           </div>
+           </div>    
+                     </div>
+                   </div>
+                 </div>  <!--Fin  Modal footer -->
 
 
                 <h6 class=mt-5 id="redesFooter">Redes</h6>
