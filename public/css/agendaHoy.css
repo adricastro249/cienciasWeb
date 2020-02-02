@@ -54,6 +54,14 @@ body{
 }
 
 
+.logEvent {
+    position: absolute;
+    right:-26%;
+    top: -3%;
+    z-index: 0;
+   width: 10%;
+    height: 10%;
+  }
 
 
 
