@@ -47,11 +47,10 @@ function agregCarrito () {
 	console.log(event);
 	let click = event.toElement.name;
 	
-	if (!carrito.includes(click)){	
+	if (!misRevistas.includes(click) && !carrito.includes(click)){	
 	console.log(click);
 	carrito.push(click)
 	console.log("mis revistas son..." + carrito);
-	// contCarrito() 
 	$("#misRevistasCarrito").show()
 	let node = document.createElement("LI");                 // Create a <li> node
 	let textnode = document.createTextNode(click);         // Create a text node
@@ -73,7 +72,9 @@ function agregCarrito () {
 	$("#txtCarrito").hide();  
 	$("#btncomprarCarrito").show();
 } else if (carrito.includes(click)){
-	alert("ya incluiste esta revista");
+	alert("ya incluiste esta revista en el Carrito");
+} else if (misRevistas.includes(click)){
+	alert("ya compraste esta revista");
 } 
 console.log("carrito final:" + carrito);
 console.log(carrito);
