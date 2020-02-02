@@ -42,7 +42,6 @@ var navbar = `
                 </li>
                 <li class="nav-item">
  
-         
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrarNavBar">
@@ -70,8 +69,9 @@ var navbar = `
                                     <div class="col">
                                         <h4 class="textVerde mt-5">Para realizar acción deberá</h4>
                                         <br>
-                                        <p>  <button type="button" class="login mt-5 btn btn-link mx-auto txtCenter " data-dismiss="modal">Acceder</button>
+                                        <p>  <button  type="button" class="login2 mt-5 btn btn-link mx-auto txtCenter" data-dismiss="modal">Acceder</button>
                                         </p>
+                                
                                         <br>
                                         <button type="button" role="button" class="btnAhoraNo mx-auto txtCenter" data-dismiss="modal"
                                             aria-label="Close">Ahora no</button>
@@ -88,9 +88,6 @@ var navbar = `
                       </div>
                     </div>
                   </div>  <!--Fin  Modal -->
-
-
-
 
 
                 </li>
@@ -133,13 +130,14 @@ var footer = `
 
             <div class="col-2 mt-5">
 
+
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
+            <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrarFooter">
             Entrar
               </button>
               
               <!-- Modal -->
-              <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+              <div class="modal fade" id="modalEntrarFooter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -159,8 +157,9 @@ var footer = `
                                 <div class="col">
                                     <h4 class="textVerde mt-5">Para realizar acción deberá</h4>
                                     <br>
-                                    <p>  <button type="button" class=" login mt-5 btn btn-link mx-auto txtCenter " data-dismiss="modal">Acceder</button>
+                                    <p>  <button  type="button" class="login2 mt-5 btn btn-link mx-auto txtCenter" data-dismiss="modal">Acceder</button>
                                     </p>
+                            
                                     <br>
                                     <button type="button" role="button" class="btnAhoraNo mx-auto txtCenter" data-dismiss="modal"
                                         aria-label="Close">Ahora no</button>
@@ -177,6 +176,8 @@ var footer = `
                   </div>
                 </div>
               </div>  <!--Fin  Modal -->
+
+
                 <h6 class=mt-5 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
 

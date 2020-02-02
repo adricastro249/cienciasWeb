@@ -40,9 +40,11 @@ loginB.addEventListener("click", function(){
 
 
   document.querySelector('.login2').addEventListener('click', event => {
-	alert("probando");
+alert("probando");
+console.log("prueba");
+
 	var provider = new firebase.auth.GoogleAuthProvider();
-	alert("esto es"+ provider);
+	//alert("esto es"+ provider);
 	firebase.auth().signInWithPopup(provider);
   })
 
