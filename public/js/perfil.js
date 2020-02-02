@@ -5,6 +5,11 @@ $("#misFavs").hide();
 $("#versionPremium").hide();
 
 
+// ********** eventos
+$("#fav1").show();
+$("#fav2").show();
+
+
 $("#carpetas").click(function () {
     $("#misCarpetas").show();
     $("#misEventos").hide();
@@ -61,4 +66,17 @@ $(".tituloMapaE1").text(data.eventos[1].address)
 $("#botonQuitaEvt1").click(function () {
     $("#misEventosContenido").hide();
 
+})
+
+
+// ******************* MIS FAVORITOS
+
+$("#btnFav1").click(function () {
+    console.log("prueba");
+    $("#fav1").hide();
+
+})
+
+$("#btnFav2").click(function () {
+$("#fav2").hide();
 })

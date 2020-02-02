@@ -123,6 +123,11 @@ color: #fff;
   position: absolute;
   right:12%;
   z-index: 0;
-  width: 9%;
-  height: 9%;
+ width: 10%;
+  height: 10%;
+}
+
+
+.btn-link{
+  color:#fff;
 }
