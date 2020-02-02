@@ -124,7 +124,7 @@ var footer = `
                                        <br>
                                        <p>  <button  type="button" class="login2 btn btn-link txtCenter text-body" data-dismiss="modal">Acceder</button>
                                        </p>
-           
+                                       <a id="sign-out-button" class="nav-link" href="#"><u>Desconectarse</u></a>
                                        <button type="button" role="button" class="btnAhoraNo mt-5" data-dismiss="modal"
                                            aria-label="Close">Ahora no</button>
                            

@@ -59,13 +59,13 @@ alert("esto es"+ provider);
 	var signOutButton = document.getElementById('sign-out-button');
 
 	signOutButton.addEventListener('click', function (e) {
-
 		alert("desconectando")
 		e.preventDefault();
 		firebase.auth().signOut();
 		location.reload();
 	  });
 	
+	  firebase.auth().onAuthStateChanged(onAuthStateChanged);
 
 
 
