@@ -45,3 +45,20 @@ $("#premiumRechaz").click(function () {
 })
 
 // ******************* MIS EVENTOS
+
+// evento 1
+document.getElementById("tituloEvent1").innerHTML= data.eventos[0].titulo;
+document.getElementById("notaEvent1").innerHTML= data.eventos[0].texto;
+document.getElementById("mesEvent1").innerHTML= data.eventos[0].month;
+document.getElementById("diaEvent1").innerHTML= data.eventos[0].day;
+document.getElementById("horaEvent1").innerHTML= data.eventos[0].time;
+// document.getElementById("nota1").getElementsByTagName("tbody")[0].innerHTML=resultado
+$("#mapaEvent1").append(`<iframe class="border" src="${data.eventos[0].map}"></iframe>`)
+$(".tituloMapaE1").text(data.eventos[1].address)
+
+
+
+$("#botonQuitaEvt1").click(function () {
+    $("#misEventosContenido").hide();
+
+})

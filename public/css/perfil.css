@@ -3,13 +3,14 @@ body{
 }
 
 
+
 .bodyAgenda{
-    background-color: #ddf7f5;
+  background-color: #f4fbee;
 }
 
 .perfil{
     background-color: #fff;
-    padding: 4% 6%;
+/*     padding: 4% 6%; */
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
@@ -86,4 +87,23 @@ color: #fff;
 
   font-family: 'Roboto Slab', serif;
   size: 17px;
+}
+
+.desinscribirse{
+
+  color: #8DD853;
+
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #8DD853;
+}
+
+
+.divQS{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 100%;
+  border-top: 0.18rem solid #23ACA2;
 }
