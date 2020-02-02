@@ -2,8 +2,6 @@ body{
   font-family: 'Roboto Slab', serif;
 }
 
-
-
 .bodyPerfil{
   background-color: #f4fbee;
 }
@@ -16,11 +14,35 @@ body{
     -webkit-border-radius: 15px 15px 15px 15px;
 }
 
+
+.detallesPerfil{
+margin-right: 25%;
+}
+
+.usuario{
+  margin-left: 5%;
+}
+
 .vl {
     border-left: 1.8px solid rgba(0,0,0,.1);
     height: 100%;
   }
 
+  .textActiv{
+    margin-left: -40px;
+   color: #23ACA2;
+   font-size: 12px;
+  }
+
+.nombrePefil{
+  margin-left: -40px;
+}
+
+.horaPublicar{
+  margin-left: -40px;
+  font-size: 12px;
+  margin-top: -12px;
+}
 
   .hrPerfil{
     margin-top: 1rem;
@@ -36,12 +58,22 @@ body{
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 3px solid rgba(0,0,0,.1);
     width: 100%;
-    margin-left: 0rem;
-   
+    margin-left: 0rem;  
 }
 
+
+.hrCort{
+  position: relative;
+  margin-top: 1;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid rgba(0,0,0,.1);
+  width: 50%;
+  margin-left: 5rem;
+ 
+}
 
 #premium{
     border-radius: 20px 20px 20px 20px;
