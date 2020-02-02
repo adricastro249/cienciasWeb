@@ -35,12 +35,11 @@ body {
         align-items: center;
         padding: 8px;
         width: 30%;
-        margin-left: 20%;
-        position: relative;
+
+
     }
     
     .txtCenter{
-        position: relative;
-        margin-left: 30%;
+
         margin-top: 10px;
     }

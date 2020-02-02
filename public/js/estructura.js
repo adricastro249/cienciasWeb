@@ -44,44 +44,54 @@ var navbar = `
  
          
 
-            <!-- Button trigger modal -->
-                <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
-                    Entrar
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="modalEntrarNavbar" tabindex="-1" role="dialog"
-                    aria-labelledby="modalEntrarTitle" aria-hidden="true" >
-                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document" >
-                        <div class="modal-entrada">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col">
-                                            <img class="mt-2 p-5 mr-4 " src="./images/logoRecursoNegro.png" alt="logoNegro">
-                                        </div>
-        
-                                        <div class="col">
-                                            <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
-                                            <br>
-                                            <p><a href="perfil.html" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
-                                            <br>
-                                            <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
-                                                aria-label="Close">Ahora no</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrarNavBar">
+                Entrar
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalEntrarNavBar" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
                     
-        
-                                        </div>
+                            <div class="container-fluid">
+                
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="mt-2 p-5 mr-4 " src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                    </div>
+                            
+                                    <div class="col">
+                                        <h4 class="textVerde mt-5">Para realizar acción deberá</h4>
+                                        <br>
+                                        <p>  <button type="button" class="login mt-5 btn btn-link mx-auto txtCenter " data-dismiss="modal">Acceder</button>
+                                        </p>
+                                        <br>
+                                        <button type="button" role="button" class="btnAhoraNo mx-auto txtCenter" data-dismiss="modal"
+                                            aria-label="Close">Ahora no</button>
+                            
                                     </div>
                                 </div>
+                                  
+                
                             </div>
-                        </div>
+                   
+                
                     </div>
-                </div>       <!-- Fin Modal -->
+                      
+                      </div>
+                    </div>
+                  </div>  <!--Fin  Modal -->
+
+
+
+
 
                 </li>
 
@@ -122,50 +132,51 @@ var footer = `
             </div> <!-- end s-footer__archives -->
 
             <div class="col-2 mt-5">
-              
-  <!-- Button trigger modal -->
-                <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
-                    Entrar
-                </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
-                    aria-labelledby="modalEntrarTitle" aria-hidden="true" >
-                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document" >
-                        <div class="modal-entrada">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col">
-                                            <img class="mt-2 p-5 mr-4 " src="../images/logoRecursoNegro.png" alt="logoNegro">
-                                        </div>
-        
-                                        <div class="col">
-                                            <h4 class="textVerde p-2 mt-5">Para realizar acción deberá</h4>
-                                            <br>
-                                            <p><a href="perfil.html" class="mt-5 text-body txtCenter" title="Tooltip">Entrar</a> </p>
-                                            <br>
-                                            
-                                            <button type="button" role="button" class="btnAhoraNo" data-dismiss="modal"
-                                                aria-label="Close">Ahora no</button>
-        
-                                        </div>
-                                    </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
+            Entrar
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                
+                        <div class="container-fluid">
+            
+                            <div class="row">
+                                <div class="col">
+                                    <img class="mt-2 p-5 mr-4 " src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                </div>
+                        
+                                <div class="col">
+                                    <h4 class="textVerde mt-5">Para realizar acción deberá</h4>
+                                    <br>
+                                    <p>  <button type="button" class=" login mt-5 btn btn-link mx-auto txtCenter " data-dismiss="modal">Acceder</button>
+                                    </p>
+                                    <br>
+                                    <button type="button" role="button" class="btnAhoraNo mx-auto txtCenter" data-dismiss="modal"
+                                        aria-label="Close">Ahora no</button>
+                        
                                 </div>
                             </div>
+                              
+            
                         </div>
-                    </div>
-                </div>       <!-- Fin Modal -->
-
-
-
-
-                
+               
+            
+                </div>
+                  
+                  </div>
+                </div>
+              </div>  <!--Fin  Modal -->
                 <h6 class=mt-5 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
 

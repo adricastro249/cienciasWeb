@@ -31,14 +31,29 @@ firebase.auth().signOut().then(function() {
 
 // **************** LOGIN Y LOGOUT
 
-$("#pruebaLoginAibby").click(function () {
+/*  var loginB = document.getElementById('#login2');
+
+loginB.addEventListener("click", function(){
+	console.log("prueba");
+	
+  });  */
+
+
+  document.querySelector('.login2').addEventListener('click', event => {
+	alert("probando");
+	var provider = new firebase.auth.GoogleAuthProvider();
+	alert("esto es"+ provider);
+	firebase.auth().signInWithPopup(provider);
+  })
+
+/*  $("#login").click(function () {
 	alert("probando");
 	var provider = new firebase.auth.GoogleAuthProvider();
 	alert("esto es"+ provider);
 	firebase.auth().signInWithPopup(provider);
 
 })
-
+ */
 
 
 
