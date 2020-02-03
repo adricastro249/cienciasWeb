@@ -59,6 +59,10 @@ function agregCarrito () {
 	img.src  = revista.imagen;
 	img.classList.add("imagenCarrito");
 	let textnode = document.createTextNode(revista.titulo);         // Create a text node
+	let pPrecio = document.createElement("P");
+	pPrecio.classList.add("precio");
+	let textPrecio = document.createTextNode(revista.buy);
+	pPrecio.appendChild(textPrecio);
 	node.classList.add("listaCarrito")
 	node.addEventListener("click", function () {
 		console.log(this);
@@ -73,6 +77,7 @@ function agregCarrito () {
 	})
 	node.appendChild(img)
 	node.appendChild(textnode);                              // Append the text to <li>
+	node.appendChild(pPrecio)
 	document.getElementById("misRevistasCarrito").appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
 	
 	$("#txtCarrito").hide();  
