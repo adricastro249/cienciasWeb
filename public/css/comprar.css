@@ -62,3 +62,8 @@ body{
 .txtGris{
 font-size: 12px;
 }
+
+.imagenCarrito{
+    height: 20px;
+    width: 20px;
+}

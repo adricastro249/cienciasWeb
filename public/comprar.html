@@ -96,7 +96,7 @@
                                 </div>
                                 <hr class="hrCarrito">
                                 <div id="cuerpoCarrito">
-                                    <ul id="misRevistasCarrito" style="color: blueviolet;"></ul>
+                                    <div id="misRevistasCarrito" style="color: blueviolet;"></div>
                                     <div class="mt-5" id="txtCarrito">
                                         <img src="./Recursos/COMPRAR/Imagenes/Group 107.png"
                                             class="rounded mx-auto d-block" alt="logoCarrito"
@@ -144,7 +144,8 @@
                                             <div class="row">
                                                 <div class="col text-left mt-5 mb-5">
                                                     <button type="button" class="botonComprar" id="comprarIA"
-                                                        name="IA- Inteligencia Artificial" onclick="agregCarrito()">Agregar al
+                                                        name="IA"
+                                                        onclick="agregCarrito()">Agregar al
                                                         carrito</button>
                                                 </div>
                                             </div>
@@ -175,7 +176,7 @@
                                             <div class="row">
                                                 <div class="col text-left mt-5 mb-5">
                                                     <button type="button" class="botonComprar" id="compCN"
-                                                        name="Centrales nucleares" onclick="agregCarrito()">Agregar al
+                                                        name="CN" onclick="agregCarrito()">Agregar al
                                                         carrito</button>
                                                 </div>
                                             </div>
@@ -212,7 +213,7 @@
                                             <div class="row">
                                                 <div class="col text-left mt-5 mb-5">
                                                     <button type="button" class="botonComprar" id="compMUN"
-                                                        name="Muere una estrella" onclick="agregCarrito()">Agregar al
+                                                        name="MUE" onclick="agregCarrito()">Agregar al
                                                         carrito</button>
                                                 </div>
                                             </div>
@@ -220,7 +221,7 @@
                                     </div>
                                 </div>
                             </div>
-                            </sectionid="primerBloque"><!-- Fin segundo Bloque Revistas-->
+                        </section> <!-- Fin segundo Bloque Revistas-->
 
                     </div><!-- Fin col-9-->
                 </div> <!-- Fin row border-->
@@ -275,7 +276,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-    
+
     <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
     <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
@@ -287,27 +288,29 @@
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-          // // The Firebase SDK is initialized and available here!
-          //
-          // firebase.auth().onAuthStateChanged(user => { });
-          // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-          // firebase.messaging().requestPermission().then(() => { });
-          // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-          //
-          // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-  
-          try {
-            let app = firebase.app();
-            let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-            document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-          } catch (e) {
-            console.error(e);
-            document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-          }
+        document.addEventListener('DOMContentLoaded', function () {
+            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+            // // The Firebase SDK is initialized and available here!
+            //
+            // firebase.auth().onAuthStateChanged(user => { });
+            // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+            // firebase.messaging().requestPermission().then(() => { });
+            // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+            //
+            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+            try {
+                let app = firebase.app();
+                let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[
+                    feature] === 'function');
+                document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+            } catch (e) {
+                console.error(e);
+                document.getElementById('load').innerHTML =
+                'Error loading the Firebase SDK, check the console.';
+            }
         });
-      </script>
+    </script>
 
 
 </body>

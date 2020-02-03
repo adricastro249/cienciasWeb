@@ -92,7 +92,40 @@ var data = {
         "timeH":"14",
         "timeM":"00"
     }
-    
+  ],
+    "revistas": [{
+  
+      "titulo": "¿Centrales nucleares?",
+      "fechas":"Enero - Febrero 2019",
+      "imagen": "./images/revistas/revCentralesNucleares.png",
+      "texto": "Patagotitan: El dinosaurio más grande. Investigación y guerra de Malvinas. Astronomia",
+      "matchID":"CN",
+      "location":"",
+      "idCollap": "",
+      "buy":"1.80$",
+  },
+  {
+      "titulo": "Muere una estrella",
+      "fechas":"Julio - Agosto 2019",
+      "imagen": "./images/revistas/revMuereUnaEstrella.png",
+      "texto": "Paleoneurologia. Un nuevo mapa fitogeográfico. Explosión de la pesca del langostino. La construcción del Estado argentino",
+      "matchID":"MUE",
+      "location":"",
+      "idCollap": "",
+      "buy":"1.80$",
+  },
+  {
+      "titulo": "Inteligencia Artificial",
+      "fechas":"Octubre - Noviembre 2019",
+      "imagen": "./images/revistas/revInteligenciaArtificial.png",
+      "texto": "Fitoplacton. El crecimiento de Puerto Madryn. Premios Nobel 2019. Guía del cielo nocturno",
+      "matchID":"IA",
+      "location":"",
+      "idCollap": "",
+      "buy":"1.80$",
+  }
+  
 ]
+
     
     }

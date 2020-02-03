@@ -46,14 +46,19 @@ function agregCarrito () {
 	console.log(carrito);	
 	console.log(event);
 	let click = event.toElement.name;
+	let revista = data.revistas.find(e => e.matchID == click);
+	console.log( revista );
 	
 	if (!misRevistas.includes(click) && !carrito.includes(click)){	
 	console.log(click);
 	carrito.push(click)
 	console.log("mis revistas son..." + carrito);
 	$("#misRevistasCarrito").show()
-	let node = document.createElement("LI");                 // Create a <li> node
-	let textnode = document.createTextNode(click);         // Create a text node
+	let node = document.createElement("DIV");                 // Create a <div> node
+	let img = document.createElement("IMG");				// Creta a IMG
+	img.src  = revista.imagen;
+	img.classList.add("imagenCarrito");
+	let textnode = document.createTextNode(revista.titulo);         // Create a text node
 	node.classList.add("listaCarrito")
 	node.addEventListener("click", function () {
 		console.log(this);
@@ -66,6 +71,7 @@ function agregCarrito () {
 	}
 	console.log("mis REVISTAS DEFINITIVAS en CARRITO son..." + carrito);		
 	})
+	node.appendChild(img)
 	node.appendChild(textnode);                              // Append the text to <li>
 	document.getElementById("misRevistasCarrito").appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
 	
@@ -114,7 +120,7 @@ console.log(misRevistas);
 	// mostrar en misRevistas
 	misRevistas.forEach(function (e) {
 		console.log(e);		
-		let node = document.createElement("LI");                 // Create a <li> 
+		let node = document.createElement("P");                 // Create a <li> 
 		let textnode = document.createTextNode(e);         // Create a text node
 		node.classList.add("listaRevistas");
 		node.appendChild(textnode);                              // Append the text to <li>
