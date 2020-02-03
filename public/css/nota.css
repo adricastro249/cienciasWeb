@@ -33,6 +33,21 @@ li{
     -moz-border-radius: 77px 77px 77px 77px;
     -webkit-border-radius: 77px 77px 77px 77px;
     border: 0.05rem solid #c7c7c7;
-
-
   }
+
+  .hrComent{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3.5px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin-left: 0rem;  
+}
+
+.tiempoComent{
+    font-size: 11px;
+    font-family: 'Roboto Slab', serif;
+}
+.nombreComentario{
+    font-family: 'Roboto Slab', serif;
+}
