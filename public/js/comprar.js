@@ -67,7 +67,7 @@ function agregCarrito () {
 	node.addEventListener("click", function () {
 		console.log(this);
 		this.remove();
-		let aux = carrito.indexOf(click)
+		let aux = carrito.indexOf(click) 
 	carrito.splice(aux, 1);
 	if (carrito.length === 0){
 		$("#btncomprarCarrito").hide();
