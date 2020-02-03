@@ -236,8 +236,8 @@
                                     node4.appendChild(imgNode4);
                                     node4.appendChild(node4_5);
                                     node3.appendChild(node4);
-                                    node3.appendChild(node3Coment);
                                     node2.appendChild(node3);
+                                    node2.appendChild(node3Coment);
                                     node.appendChild(node2);  
                                     // let textnode = document.createTextNode(aux); // Create a text node
                                     node.classList.add("comentarioAgregado");
@@ -245,6 +245,11 @@
                                     // node.appendChild(textnode); // Append the text to <li>
                                     document.getElementById(`comentariosUsuariosmb-`).appendChild(
                                         node); // Append <li> to <ul> con el id donde deseas colcoarlo
+                                    let separador = document.createElement("HR")
+                                    separador.classList.add("hrComent");
+                                    
+                                    document.getElementById(`comentariosUsuariosmb-`).appendChild(
+                                        separador); // Append <li> to <ul> con el id donde deseas colcoarlo
                                     $("#formControlTextarea1").val('')
                                     contadorComent = contadorComent+1;
                                     
@@ -275,7 +280,7 @@
                                     </div>
                                     <div class="col-9 text-justify" id="agregaComent"></div>
                                 </div> -->
-                                <hr class="hrComent">
+                                <!-- <hr class="hrComent"> -->
                             </div>
 
 
