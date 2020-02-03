@@ -99,8 +99,6 @@ function agregCarrito () {
 console.log("carrito final:" + carrito);
 console.log(carrito);
 
-
-
 }
 
 

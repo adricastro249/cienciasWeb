@@ -44,6 +44,12 @@ var navbar = `
  
 <div>
 
+<!-- Acá va el modal -->
+
+<button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
+Entrar
+  </button>
+
 
 </div>
  </li>
@@ -88,12 +94,12 @@ var footer = `
 
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalFooter">
+            <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#modalEntrar">
                Entrar
                  </button>
                  
                  <!-- Modal -->
-           <div class="modal fade" id="modalFooter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitleFooter" aria-hidden="true">
+           <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitleFooter" aria-hidden="true">
                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                      <div class="modal-entrada">
                        <div class="modal-header">
