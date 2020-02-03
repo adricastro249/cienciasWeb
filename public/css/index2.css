@@ -38,18 +38,23 @@ body{
 .nota1:hover {
     background-image: url("..//images/home1_conhover.png");
     color: grey;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .nota2 {
     background-image: url("../images/home2_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    
 
 }
 
 .nota2:hover {
     background-image: url("..//images/home2_conhover.png");
     color: grey;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .nota3 {
@@ -61,7 +66,13 @@ body{
 .nota3:hover {
     background-image: url("../images/home3_conhover.png");
     color: grey;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
+
+
+
 
 /*/---- Carousel ----/*/
 
@@ -113,10 +124,80 @@ body{
 
 /*/---- Section App ----/*/
 .appStore {
-    background-image: url("../images/fondo_publicidad.png");
+   background-image: url("../images/fondo_publicidad.png");
     background-repeat: no-repeat;
  background-size: 100%;  
+
+/*  background: url("../images/fondo_publicidad.png") no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; */
 }
+ 
+ /* @media only screen and (max-width: 767px) {
+    .appStore {      
+  
+ background: url("../images/fondo_publicidad.png") no-repeat ;
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size: 100%;
+ }
+    } */
+
+
+
+    @media (min-width: 576px) {
+        .appStore {
+            background: url("../images/fondo_publicidad.png") no-repeat cover cover cover;
+            background-size: 120%;
+       /*    max-width: 540px; */
+        }
+      }
+      
+      @media (min-width: 768px) {
+        .appStore {
+            background: url("../images/fondo_publicidad.png") no-repeat cover cover cover;
+            background-size: 120%;
+ /*          max-width: 720px; */
+        }
+      }
+      
+      @media (min-width: 992px) {
+        .appStore {
+            background: url("../images/fondo_publicidad.png") no-repeat cover cover cover;
+            background-size: 110%;
+       /*    max-width: 960px; */
+        }
+      }
+      
+      @media (min-width: 1200px){
+        .appStore {
+            background: url("../images/fondo_publicidad.png") no-repeat right ;
+            background-size: 80%;
+        /*   max-width: 1140px; */
+ 
+        }
+      }
+
+
+
+
+
+
+   /*  @media only screen and (max-width: 1200px) {
+        .appStore {      
+      
+     background: url("../images/fondo_publicidad.png") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     }
+        }
+ */
+
 
 .botonApp {
     background-color: #ff0076;
@@ -139,3 +220,7 @@ body{
       margin-left: 0.1rem;
 width: 20%;
 }
+
+
+
+
