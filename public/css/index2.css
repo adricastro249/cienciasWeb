@@ -166,8 +166,8 @@ background-size: cover; */
       
       @media (min-width: 992px) {
         .appStore {
-            background: url("../images/fondo_publicidad.png") no-repeat cover cover cover;
-            background-size: 110%;
+            background: url("../images/fondo_publicidad.png") no-repeat right;
+            background-size: 90%;
        /*    max-width: 960px; */
         }
       }
@@ -175,29 +175,11 @@ background-size: cover; */
       @media (min-width: 1200px){
         .appStore {
             background: url("../images/fondo_publicidad.png") no-repeat right ;
-            background-size: 80%;
+            background-size: 75%;
         /*   max-width: 1140px; */
  
         }
       }
-
-
-
-
-
-
-   /*  @media only screen and (max-width: 1200px) {
-        .appStore {      
-      
-     background: url("../images/fondo_publicidad.png") no-repeat center center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     }
-        }
- */
-
 
 .botonApp {
     background-color: #ff0076;
