@@ -64,7 +64,21 @@ font-size: 12px;
 }
 
 .imagenCarrito{
-    height: 40px;
-    width: 40px;
-    padding: 5px;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+
+
+.precio{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+
+
+.listaCarrito{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13.5px;
 }

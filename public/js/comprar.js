@@ -58,11 +58,20 @@ function agregCarrito () {
 	let img = document.createElement("IMG");				// Creta a IMG
 	img.src  = revista.imagen;
 	img.classList.add("imagenCarrito");
-	let textnode = document.createTextNode(revista.titulo);         // Create a text node
+
+
+	let textnode = document.createElement("h6");
+	textnode.classList.add("titRevista");
+	  textnode = document.createTextNode(revista.titulo);    // Create a text node
+/* textnode.appendChild(textnode) */
+
+
 	let pPrecio = document.createElement("P");
 	pPrecio.classList.add("precio");
 	let textPrecio = document.createTextNode(revista.buy);
 	pPrecio.appendChild(textPrecio);
+
+	
 	node.classList.add("listaCarrito")
 	node.addEventListener("click", function () {
 		console.log(this);
