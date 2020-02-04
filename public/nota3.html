@@ -172,26 +172,50 @@
 
 
 
-
                 <div class="col-12">
-                    <form action="" name="formulario" method="get">
+                    <form id="comentario1" action="" name="formulario" method="get">
                         <div class="form-group">
                             <textarea class="form-control" id="formControlTextarea1" rows="3"
                                 placeholder="¿Que opinas de esta nota?" value="comentario"></textarea>
                         </div>
 
                         <div class="d-flex flex-row-reverse">
-                            <button type="submit" class="p-2 btnComen">Publicar comentario</button>
+                            <button type="submit" class="p-2 btnComen mt-1" onclick="processData()"> Publicar
+                                comentario</button>
+                            <!-- <button >Post-process</button> -->
+                          
                         </div>
 
-                        <div class="mt-5">
-                            <h3>Acá aparecerán los comentarios anteriores</h3>
+
+                        <div class="mt-5 mb-5">
+
+                            <div class="row">
+                                <div class="col-3"></div>
+                                <div class="col-9" id="acaAparecenComents"></div>
+                            </div>
+
+                            <div id="comentariosUsuariosmb-">
+                                <!-- <div class="row">
+                                    <div class="col-3">
+                                        <div class="d-flex justify-content-around">
+                                            <img src="./Recursos/NOTA/Imagenes/moriacasan.png">
+                                            <div>
+                                                <strong class="nombreComentario">Moira Casán</strong>
+                                                <p class="tiempoComent">Hace 1 hora</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 text-justify" id="agregaComent"></div>
+                                </div> -->
+                                <!-- <hr class="hrComent"> -->
+                            </div>
 
                         </div>
 
                     </form>
+                </div><!-- Fin col-12-->
 
-                </div>
+
             </div><!-- Fin col-8-->
             <div class="col-2">
                 <h4 class="notasRelacionadas"> Notas Relacionadas</h4>
@@ -223,7 +247,9 @@
     <!-- Java Script ================================================== -->
 
     <script src="./js/estructura.js"></script>
+    <script src="./js/nota.js"></script>
     <script src="./data/dataGral.json"></script>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 

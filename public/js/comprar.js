@@ -107,6 +107,7 @@ function agregCarrito () {
 	console.log("mis revistas son..." + carrito);
 	$("#misRevistasCarrito").show()
 
+<<<<<<< HEAD
 	/* *** CODIGO QUE CREA LISTA DE REVISTA */
 	
 	let node = document.createElement("DIV");                 // Create a <div> node prncipal
@@ -140,6 +141,12 @@ function agregCarrito () {
 		// en datosDeRevista (node1_2) van los 2 P, que deben ser colcoados en el orden que se desea
 		node1_2.appendChild(pTituloRev);
 		node1_2.appendChild(pPrecioRev);
+=======
+	let textnodeH6 = document.createElement("h6");
+	textnodeH6.classList.add("titRevista");
+	  textnode = document.createTextNode(revista.titulo);    // Create a text node
+textnodeH6.appendChild(textnode)
+>>>>>>> 18d8ee3e6743645765cbdc13b2ebc444a29f3c11
 
 		// en el node1_1 va la imagen
 		node1_1.appendChild(imgNode1_1);
