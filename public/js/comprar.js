@@ -60,10 +60,10 @@ function agregCarrito () {
 	img.classList.add("imagenCarrito");
 
 
-	let textnode = document.createElement("h6");
-	textnode.classList.add("titRevista");
+	let textnodeH6 = document.createElement("h6");
+	textnodeH6.classList.add("titRevista");
 	  textnode = document.createTextNode(revista.titulo);    // Create a text node
-/* textnode.appendChild(textnode) */
+textnodeH6.appendChild(textnode)
 
 
 	let pPrecio = document.createElement("P");
