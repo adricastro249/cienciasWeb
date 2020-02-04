@@ -68,6 +68,7 @@ body{
 #botonAgregaE1 , #botonAgregaE2, #botonAgregaE3, #botonAgregaE4{
     background-color: #8DD853;
     margin-top: 18%;
+    color: #fff;
     
 }
 #botonQuitaE1 , #botonQuitaE2, #botonQuitaE3, #botonQuitaE4{
@@ -82,6 +83,7 @@ body{
     color: #8DD853;
     font-size: 25px;
     font-weight: bold;
+    font-family: "Roboto Bold";
 }
 
 .comoLlegar{
@@ -90,10 +92,25 @@ body{
     text-decoration: #8DD853;
     font-weight: bold;
     /* text-decoration: underline; */
+    font-family: "Roboto Bold";
+}
+
+
+.mesEv{
+    font-family: "Roboto Light";
+}
+
+th{
+    font-family: "Roboto Medium";  
+}
+
+.proxEvents{
+       font-family: "Roboto Medium";
 }
 
 #listaEventprox{
-    font-size: 12px;
+    font-size: 13px;
+    font-family: "Roboto Medium";
     /* list-style-position: inherit; */
     /* url("/public/Recursos/AGENDAHOY/Imagenes/Vector60.png") */
 }
@@ -109,4 +126,22 @@ color: #8DD853;
 
 ul{
     padding-left: 0em;
+}
+
+.titEvn{
+    font-family: "Roboto Slab Bold";
+}
+
+.notEvnt{
+    font-family: "Roboto Regular";
+}
+
+
+.inscribirse{
+    font-family: "Roboto Slab Bold";
+}
+
+.pagNum{
+    font-family: "Roboto Bold";
+    color: black;
 }

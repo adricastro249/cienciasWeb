@@ -1,6 +1,10 @@
+
 body{
     font-family: 'Roboto Slab', serif;
-}
+} 
+
+
+
 
 .destacadas,
 .carouselHome,
@@ -17,7 +21,12 @@ body{
 
 .secciones {
     color: #23ACA2;
+font-weight: bold;
+font-family: "Roboto Slab Bold";
+
 }
+
+
 
 
 .textoNotas2{
@@ -72,7 +81,22 @@ body{
 
 
 
+/*/---- Mas vistas ----/*/
+.masVistas{
+    font-family: "Roboto Slab Bold";
 
+}
+
+
+.titNotaMV{
+    font-family: "Roboto Slab Bold";
+}
+
+
+.resumenNota{
+    font-family: "Roboto Light";
+
+}
 
 /*/---- Carousel ----/*/
 
@@ -82,12 +106,16 @@ body{
 }
 
 .tituloCarrusel {
+    font-family: "Roboto Slab Bold";
     font-weight: bold;
+
     color: #23ACA2;
     ;
 }
 
 .tituloNotaCarrusel {
+    font-family: "Roboto Slab Bold";
+
     font-weight: bold;
     color: #ffff;
 }
@@ -101,6 +129,7 @@ body{
     color: #ffff;
     border-radius: 5px;
     border-color: #23ACA2;
+    font-family: "Roboto Slab Bold";
 }
 
 .imgCarrusel {
@@ -109,12 +138,23 @@ body{
 }
 
 .colorTxtEvnt{
+    font-family: "Roboto Regular";
    color: rgba(192, 192, 192, 0.9)  ; 
 
 }
 
 
 /*/---- Section App ----/*/
+
+.tituloApp, .descApp {
+    font-family: "Roboto Slab Bold";
+}
+
+
+#txtApp{
+    font-family: "Roboto Light";
+}
+
 .appStore {
    background-image: url("../images/fondo_publicidad.png");
     background-repeat: no-repeat;
@@ -178,6 +218,8 @@ background-size: cover; */
     border-radius: 5px;
     color: #ffff;
     align-items: center;
+    font-family: "Roboto Slab Bold";
+    
 }
 
 .imgAppPlayStore {

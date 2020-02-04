@@ -110,6 +110,7 @@ var footer = `
                </button>
 
 
+             
                <!-- Modal -->
                <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitleFooter" aria-hidden="true">
                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -132,7 +133,7 @@ var footer = `
                                        <h4 class="textVerde mt-4">Para realizar acción deberá</h4>
                                        <br>
                
-                                       <p>    <a href="perfil.html"><button type="button" class=" btn btn-link txtCenter text-body" id="btnAcceder">Acceder</button>
+                                       <p>    <a href="perfil.html"><button type="button" class=" btn btn-link txtCenter text-body btnAcceder" id="btnAcceder">Acceder</button>
                                        </a>  </p>
                                       <!--  <p>  <button  type="button" class="login2 btn btn-link txtCenter text-body" data-dismiss="modal">Acceder</button>
                                        </p> -->
@@ -147,7 +148,6 @@ var footer = `
                      </div>
                    </div>
                  </div>  <!--Fin  Modal footer -->
-               
 
 
 

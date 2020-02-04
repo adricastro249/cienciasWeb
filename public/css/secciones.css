@@ -8,6 +8,20 @@ body{
 }
 
 
+.tituloCategoria{
+    font-family: "Roboto Slab Bold";
+}
+
+
+.tituloNota{
+    font-family: "Roboto Slab Bold";
+}
+
+
+.resumenNota{
+    font-family: "Roboto Light"; 
+}
+
 #tituloSeccion {
     color: black;
     margin-top: 5%;
@@ -26,6 +40,8 @@ body{
 
 #masSecc{
     background-color: #8DD853;
+    font-family: "Roboto Slab Bold";
+
 }
 
 #seccion3, #seccion4 {

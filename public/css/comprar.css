@@ -19,15 +19,27 @@ body{
 .botonComprar {
     background-color: #8dd853;
     border-radius: 5px;
-    color: #ffff;
+    color: #fff;
     align-items: center;
+    font-family: "Roboto Slab Bold";
+}
+
+.btnCompCarrito{
+color: #8dd853;
+text-decoration-line: underline;
+font-weight: bold;
 }
 
 
 .fechaRevista{
     color: #23ACA2;
+    font-family: "Roboto Regular";
+
 }
 
+.desRevistas{
+    font-family: "Roboto Regular";
+}
 
 .hrOriginal{
     margin-top: 1rem;
@@ -61,6 +73,8 @@ body{
 
 .txtGris{
 font-size: 12px;
+font-family: "Roboto Regular";
+
 }
 
 .imagenCarrito{
@@ -76,12 +90,17 @@ font-size: 12px;
     font: outline;
 }
 
+
+.nombreDeRevista{
+    font-weight: bold;
+    font-family: "Roboto Slab Bold";
+}
+
+
 .datosDeRevista{
     color: black;
     font-family: 'Roboto Slab', serif;
     font-size: 13.5px;
-    
-
 }
 
 .precioRevista{
@@ -91,8 +110,8 @@ font-size: 12px;
 
 .precio{
     color: grey;
-    font-family: 'Roboto Slab', serif;
-    font-size: 12px;
+    font-family: "Reforma2018 Gris";
+
 }
 
 
@@ -101,4 +120,18 @@ font-size: 12px;
     padding: 0px 0px;
     font-family: 'Roboto Slab', serif;
     font-size: 13.5px;
+}
+
+.txtCuadrito{
+    font-family: "Roboto Slab Bold";
+
+}
+
+.titRev{
+    font-family: "Roboto Slab Bold";
+}
+
+.pagNum{
+    font-family: "Roboto Bold";
+    color: black;
 }

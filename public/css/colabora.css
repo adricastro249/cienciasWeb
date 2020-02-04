@@ -1,9 +1,24 @@
-body{
+/* body{
     font-family: 'Roboto Slab', serif;
-}
+} */
 
 .bodyColabora{
 background-color: #ddf7f5;
 }
 
 
+.txt1{
+    font-family: "Roboto Slab Bold";
+}
+
+.txtCompleto{
+    font-family: "Roboto Light";
+}
+
+.card-title{
+    font-family: "Roboto Slab Bold";
+}
+
+.desarrollo{
+    font-family: "Roboto Light";
+}

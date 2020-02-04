@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Reforma';
+    src:  url('..//css/tipografias/Reforma\ 2018/') format(‘woff’);
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
 body {
     color: #656565;
     font-family: 'Roboto Slab', serif;
@@ -25,7 +33,7 @@ body {
     margin-top: auto;
     margin-left: 10%;
     font-size: 21px;
-    font-family: 'Reforma 2018';
+    font-family: "Reforma2018 Negra";
     }
     
     .btnAhoraNo{
@@ -33,20 +41,22 @@ body {
         border-radius: 5px;
         color: #ffff;
         align-items: center;
-        padding: 8px;
+        padding: 6px;
         width: 30%;
  margin-left: 18%;
- font-size: 18px;
- font-family: 'Roboto Slab', serif !important;
+ font-family: "Roboto Slab Bold";
 
     }
     
     .txtCenter{
         position: absolute;    
         font-size: 18px;
-        font-family: 'Roboto Slab', serif !important;   
          margin-left: 23%;
     }
+
+.btnAcceder{
+    font-family: "Roboto Slab Regular";
+}
 
     .logoNegro{
         margin-left: 6rem !important;

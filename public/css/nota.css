@@ -2,20 +2,48 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
+
+.tituloNota{
+    font-family: "Roboto Slab Bold";
+}
+
+
 .etiquetasNota{
+
+    font-family: "Roboto Regular";
     color: #8DD853;
     text-align: center;
+
+}
+
+.autorNota{
+    font-family: "Roboto Slab Bold";
 }
 
 .profesion{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 5%;
+    font-family: "Roboto Slab Regular";
     color: #23aca2;
+
 }
 
 .notaDerecha{
     font-size: 14px;
+    font-family: "Roboto Slab Light";
+}
+
+.txtNota{
+    font-family: "Reforma2018 Blanca";  
+}
+
+.txtRedes{
+    font-family: "Reforma2018 Negra";
 }
 
 .notasRelacionadas{
+    font-family: "Roboto Slab Bold";
     color: #8DD853;
 }
 

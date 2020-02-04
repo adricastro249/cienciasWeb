@@ -1,5 +1,14 @@
-body{
-    font-family: 'Roboto Slab', serif;
+*{
+    font-family: "Roboto Slab Bold";
+}
+
+
+.contIzq{
+    font-family: "Roboto Slab Bold";
+}
+
+.form-control{
+    font-family: "Roboto Regular";
 }
 
 .bodyAgenda{
@@ -15,6 +24,7 @@ body{
     padding-right: 3%;
    padding-top: 1%;
    padding-bottom: 1%;
+   font-family: "Roboto Slab Bold";
 }
 
 

@@ -5,6 +5,31 @@ body{
 
 .titPag{
     color: #23ACA2;
+    font-family: "Roboto Slab Bold";
+}
+
+.descQS{
+    font-family: "Roboto Regular";
+}
+
+.listCheck{
+    font-family: "Reforma2018 Blanca";
+}
+
+
+.parrafo2QS{
+    font-family: "Roboto Medium";
+}
+
+
+.qSP{
+    font-family: "Roboto Slab Bold";
+}
+
+
+.emailQS{
+    margin-top: -4%;
+    font-family: "Roboto Light"; 
 }
 
 .part1{

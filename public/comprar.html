@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/comprar.css">
+    <link rel="stylesheet" href="./css/tipografias.css">
 
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -62,7 +63,7 @@
                                     <span></span>
                                     <img src="./Recursos/COMPRAR/Imagenes/Frame-1.png" alt="logoREvista"
                                         id="logoRevista">
-                                    <h6 class="text-center">Mis revistas</h6>
+                                    <h6 class="text-center txtCuadrito">Mis revistas</h6>
                                     <span></span>
                                     <span></span>
                                 </div>
@@ -90,7 +91,7 @@
                                     <span></span>
                                     <span></span>
                                     <img src="./Recursos/COMPRAR/Imagenes/Group 106.png" alt="">
-                                    <h6 class="text-center">Carrito</h6>
+                                    <h6 class="text-center txtCuadrito">Carrito</h6>
                                     <span></span>
                                     <span></span>
                                 </div>
@@ -118,8 +119,8 @@
                                     </div>
                                     <div id="btncomprarCarrito">
 
-                                        <button type="button" class="botonComprar mx-auto d-block" name="carrito"
-                                            onclick="comprar()">Comprar</button>
+                                        <button type="button" class="btn btn-link mx-auto d-block" name="carrito"
+                                            onclick="comprar()"><strong s="" class=" btnCompCarrito">Comprar</strong clas></button>
 
                                     </div>
 
@@ -139,13 +140,13 @@
                                             src="./images/revistas/revInteligenciaArtificial.png"></div>
                                     <div class="align-self-start">
                                         <div class="p-2 flex-shrink-1 bd-highlight">
-                                            <h3>Inteligencia Artificial</h3>
+                                            <h3 class="titRev">Inteligencia Artificial</h3>
                                         </div>
                                         <div class="p-2 flex-shrink-1 bd-highlight">
                                             <h6 class="fechaRevista">Octubre - Noviembre 2019</h6>
                                         </div>
                                         <div class="flex-shrink-1 bd-highlight mt-5">
-                                            <p>Filoplacton
+                                            <p class="desRevistas">Filoplacton
                                                 <br>
                                                 El crecimiento de Puerto Madryn
                                                 <br>
@@ -173,13 +174,13 @@
                                     </div>
                                     <div class="align-self-start">
                                         <div class="p-2 flex-shrink-1 bd-highlight">
-                                            <h3>Centrales nucleares</h3>
+                                            <h3 class="titRev">Centrales nucleares</h3>
                                         </div>
                                         <div class="p-2 flex-shrink-1 bd-highlight">
                                             <h6 class="fechaRevista">Enero - Febrero 2019</h6>
                                         </div>
                                         <div class="flex-shrink-1 bd-highlight mt-5">
-                                            <p>Patagotitan: El dinosaurio más grande
+                                            <p class="desRevistas">Patagotitan: El dinosaurio más grande
                                                 <br>
                                                 Investigación y guerra de Malvinas
                                                 <br>
@@ -208,13 +209,13 @@
                                     </div>
                                     <div class="align-self-start">
                                         <div class="p-2 flex-shrink-1 bd-highlight">
-                                            <h3>Muere una estrella</h3>
+                                            <h3 class="titRev">Muere una estrella</h3>
                                         </div>
                                         <div class="p-2 flex-shrink-1 bd-highlight">
                                             <h6 class="fechaRevista">Julio - Agosto 2019</h6>
                                         </div>
                                         <div class="flex-shrink-1 bd-highlight mt-5">
-                                            <p>Paleoneurología
+                                            <p class="desRevistas">Paleoneurología
                                                 <br>
                                                 Un nuevo mapa fitogeográfico
                                                 <br>
@@ -244,14 +245,14 @@
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
                         <li class="page-item">
-                            <a class="page-link" aria-label="Previous" id="masBloqPrevCompra">
+                            <a class="page-link  pagNum" aria-label="Previous" id="masBloqPrevCompra">
                                 <span aria-hidden="true">&laquo;</span>
                             </a>
                         </li>
-                        <li class="page-item"><a class="page-link" id="masBloq1Rev">1</a></li>
-                        <li class="page-item"><a class="page-link" id="masBloq2Rev">2</a></li>
-                        <li class="page-item">
-                            <a class="page-link" aria-label="Next" id="masBloqSigComprar">
+                        <li class="page-item pagNum"><a class="page-link" id="masBloq1Rev">1</a></li>
+                        <li class="page-item  pagNum"><a class="page-link" id="masBloq2Rev">2</a></li>
+                        <li class="page-item  pagNum">
+                            <a class="page-link  pagNum" aria-label="Next" id="masBloqSigComprar">
                                 <span aria-hidden="true">&raquo;</span>
                             </a>
                         </li>
