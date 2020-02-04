@@ -83,16 +83,21 @@ $("#fav2").hide();
 
 
 // ***************** MIS CARPETAS
-
+var cont= 1;
 // agregaOtraCarpeta
 $("#btnMasCarpetas").click(function () {
     console.log("Crea otra carpeta");
-    var auxCont = 1;
+    var auxCont = cont;
+    console.log(auxCont);
+    
     let node = document.createElement("BUTTON")
         node.classList.add("d-flex")
         node.classList.add("justify-content-around")
         node.classList.add("carpeta")
         node.classList.add("p-2")
+        node.classList.add("m-1")
+        node.classList.add("m-1")
+        
     
     let imgCarpeta = document.createElement("IMG")
         imgCarpeta.src = "./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
@@ -112,10 +117,8 @@ $("#btnMasCarpetas").click(function () {
 
     document.getElementById("agregaAquiCarpetas").appendChild(node);
     
-    
-    
-    var auxCont = auxCont + 1; 
-    console.log(auxCont);
+        
+    cont ++; 
 
 })
 
