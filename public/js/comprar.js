@@ -41,6 +41,58 @@ $("#textRevistas").show();
 
 $("#btncomprarCarrito").hide();
 
+function crearListaRevista(event, idQueDeseas) {
+	console.log(event);
+	
+	let click = event;
+	let revista = data.revistas.find(e => e.matchID == click);
+	$("#misRevistasCarrito").show()
+	let node = document.createElement("DIV");                 // Create a <div> node prncipal
+		node.classList.add("row");
+		node.classList.add("col");
+		node.classList.add("d-flex")
+		node.classList.add("justify-content-between")
+		node.classList.add("listaCarrito")
+	let node1_1= document.createElement("DIV")		// Create node hijo1 aca va imagen
+		node1_1.classList.add("col-5")
+		node1_1.classList.add("p-0")
+	let imgNode1_1= document.createElement("IMG")		// Create imag de hijo1
+		imgNode1_1.src = revista.imagen;
+		imgNode1_1.alt = revista.matchID;
+		imgNode1_1.classList.add("imagenDeRevista");
+
+	let node1_2= document.createElement("DIV")		// Create node hijo2 aca va datos de la revista
+		node1_2.classList.add("col-7")
+		node1_2.classList.add("datosDeRevista")
+	let pTituloRev = document.createElement("P"); 	//Create P para nombre de Revista
+		pTituloRev.classList.add("nombreDeRevista")
+	let textContentNombreREv = document.createTextNode(revista.titulo) 	// creo el texto del nombre de la revista
+		pTituloRev.appendChild(textContentNombreREv); 	//incluyo el nombre de la revista en su etiqueta P
+	/* ** NO LLEVA PRECIO EN MIS REVISTAS
+	let pPrecioRev = document.createElement("P"); 	//Create P para precio de Revista
+		pPrecioRev.classList.add("precioRevista")
+	let textContentPrecioREv = document.createTextNode(revista.buy) 	// creo el texto del Precio de la revista
+		pPrecioRev.appendChild(textContentPrecioREv);  */	//incluyo el precio de la revista en su etiqueta P
+	
+		// **** ahora se anidan todos lo elementos de lo mas chico a lo macro
+		// en datosDeRevista (node1_2) van los 2 P, que deben ser colcoados en el orden que se desea
+		node1_2.appendChild(pTituloRev);
+		/*  NO LLEVA PRECIO
+		node1_2.appendChild(pPrecioRev); */
+
+		// en el node1_1 va la imagen
+		node1_1.appendChild(imgNode1_1);
+
+		//en el node principal agregamos los 2 div que contiene en el orden que deseamos
+		node.appendChild(node1_1)
+		node.appendChild(node1_2)
+		node.id = (revista.matchID)
+
+		document.getElementById(idQueDeseas).appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
+
+		
+
+}
 
 function agregCarrito () {
 	console.log(carrito);	
@@ -54,25 +106,49 @@ function agregCarrito () {
 	carrito.push(click)
 	console.log("mis revistas son..." + carrito);
 	$("#misRevistasCarrito").show()
-	let node = document.createElement("DIV");                 // Create a <div> node
-	let img = document.createElement("IMG");				// Creta a IMG
-	img.src  = revista.imagen;
-	img.classList.add("imagenCarrito");
 
-
-	let textnode = document.createElement("h6");
-	textnode.classList.add("titRevista");
-	  textnode = document.createTextNode(revista.titulo);    // Create a text node
-/* textnode.appendChild(textnode) */
-
-
-	let pPrecio = document.createElement("P");
-	pPrecio.classList.add("precio");
-	let textPrecio = document.createTextNode(revista.buy);
-	pPrecio.appendChild(textPrecio);
-
+	/* *** CODIGO QUE CREA LISTA DE REVISTA */
 	
-	node.classList.add("listaCarrito")
+	let node = document.createElement("DIV");                 // Create a <div> node prncipal
+		node.classList.add("row");
+		node.classList.add("col");
+		node.classList.add("d-flex")
+		node.classList.add("justify-content-between")
+		node.classList.add("listaCarrito")
+		
+	let node1_1= document.createElement("DIV")		// Create node hijo1 aca va imagen
+		node1_1.classList.add("col-5")
+		node1_1.classList.add("p-0")
+	let imgNode1_1= document.createElement("IMG")		// Create imag de hijo1
+		imgNode1_1.src = revista.imagen;
+		imgNode1_1.alt = revista.matchID;
+		imgNode1_1.classList.add("imagenDeRevista");
+
+	let node1_2= document.createElement("DIV")		// Create node hijo2 aca va datos de la revista
+		node1_2.classList.add("col-7")
+		node1_2.classList.add("datosDeRevista")
+	let pTituloRev = document.createElement("P"); 	//Create P para nombre de Revista
+		pTituloRev.classList.add("nombreDeRevista")
+	let textContentNombreREv = document.createTextNode(revista.titulo) 	// creo el texto del nombre de la revista
+		pTituloRev.appendChild(textContentNombreREv); 	//incluyo el nombre de la revista en su etiqueta P
+	let pPrecioRev = document.createElement("P"); 	//Create P para precio de Revista
+		pPrecioRev.classList.add("precioRevista")
+	let textContentPrecioREv = document.createTextNode(revista.buy) 	// creo el texto del Precio de la revista
+		pPrecioRev.appendChild(textContentPrecioREv); 	//incluyo el precio de la revista en su etiqueta P
+	
+		// **** ahora se anidan todos lo elementos de lo mas chico a lo macro
+		// en datosDeRevista (node1_2) van los 2 P, que deben ser colcoados en el orden que se desea
+		node1_2.appendChild(pTituloRev);
+		node1_2.appendChild(pPrecioRev);
+
+		// en el node1_1 va la imagen
+		node1_1.appendChild(imgNode1_1);
+
+		//en el node principal agregamos los 2 div que contiene en el orden que deseamos
+		node.appendChild(node1_1)
+		node.appendChild(node1_2) 
+
+ 
 	node.addEventListener("click", function () {
 		console.log(this);
 		this.remove();
@@ -83,12 +159,10 @@ function agregCarrito () {
 		$("#txtCarrito").show(); 
 	}
 	console.log("mis REVISTAS DEFINITIVAS en CARRITO son..." + carrito);		
-	})
-	node.appendChild(img)
-	node.appendChild(textnode);                              // Append the text to <li>
-	node.appendChild(pPrecio)
+	}) 
+
 	document.getElementById("misRevistasCarrito").appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
-	
+	 
 	$("#txtCarrito").hide();  
 	$("#btncomprarCarrito").show();
 } else if (carrito.includes(click)){
@@ -100,23 +174,6 @@ console.log("carrito final:" + carrito);
 console.log(carrito);
 
 }
-
-
-/* function contCarrito() {
-
-
-
-// Revistas en carrito
-if (carrito.includes("comprarIA" || "comprarCN" || "comprarMUN")) {
-	console.log("incluye revistas para carrito");
-	$("#btncomprarCarrito").show();
-	$("#txtCarrito").hide();	
-} else if (!carrito.includes("comprarIA" || "comprarCN" || "comprarMUN")){
-	console.log("No incluye revistas para carrito");
-	$("#btncomprarCarrito").hide();
-	$("#txtCarrito").show();
-}
-} */
 
 
 function comprar () {
@@ -131,12 +188,16 @@ console.log(misRevistas);
 
 	// mostrar en misRevistas
 	misRevistas.forEach(function (e) {
-		console.log(e);		
-		let node = document.createElement("P");                 // Create a <li> 
+		console.log(e);	
+
+		/* let node = document.createElement("P");                 // Create a <li> 
 		let textnode = document.createTextNode(e);         // Create a text node
 		node.classList.add("listaRevistas");
 		node.appendChild(textnode);                              // Append the text to <li>
 		document.getElementById("misRevistasDef").appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
+ */
+		crearListaRevista(e, "misRevistasDef" )
+		
 
 	})
 	console.log("mis REVISTAS COMPRADAS son..." + misRevistas);	

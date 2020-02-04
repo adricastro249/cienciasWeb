@@ -64,9 +64,28 @@ font-size: 12px;
 }
 
 .imagenCarrito{
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    width: 50%;
 /*     padding: 3%; */
+}
+
+.imagenDeRevista{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    font: outline;
+}
+
+.datosDeRevista{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13.5px;
+    
+
+}
+
+.precioRevista{
+    color: grey;
 }
 
 
@@ -78,7 +97,8 @@ font-size: 12px;
 
 
 .listaCarrito{
-    color: grey;
+    margin: 0px 0px;
+    padding: 0px 0px;
     font-family: 'Roboto Slab', serif;
     font-size: 13.5px;
 }
