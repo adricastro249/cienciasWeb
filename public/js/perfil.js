@@ -80,3 +80,42 @@ $("#btnFav1").click(function () {
 $("#btnFav2").click(function () {
 $("#fav2").hide();
 })
+
+
+// ***************** MIS CARPETAS
+
+// agregaOtraCarpeta
+$("#btnMasCarpetas").click(function () {
+    console.log("Crea otra carpeta");
+    var auxCont = 1;
+    let node = document.createElement("BUTTON")
+        node.classList.add("d-flex")
+        node.classList.add("justify-content-around")
+        node.classList.add("carpeta")
+        node.classList.add("p-2")
+    
+    let imgCarpeta = document.createElement("IMG")
+        imgCarpeta.src = "./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
+        imgCarpeta.alt = "logoCarpetas"
+        imgCarpeta.style.width = "33%"
+        imgCarpeta.style.height = "33%"
+        imgCarpeta.id = "logoCarpetas"
+        imgCarpeta.classList.add("p-2")
+    
+    let hCarpeta = document.createElement("H6")
+        hCarpeta.classList.add("mt-1")
+    let hCarpetaTitulo = document.createTextNode(`Carpeta`+ ` `+ `${auxCont+1}`)
+        hCarpeta.appendChild(hCarpetaTitulo)
+    
+    node.appendChild(imgCarpeta)
+    node.appendChild(hCarpetaTitulo)
+
+    document.getElementById("agregaAquiCarpetas").appendChild(node);
+    
+    
+    
+    var auxCont = auxCont + 1; 
+    console.log(auxCont);
+
+})
+
