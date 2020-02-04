@@ -1,3 +1,20 @@
+$("#btnMiCuenta").hide();
+$("#btnLogOut").hide();
+$("#btnEntrar").show();
+
+
+$("#btnAcceder").click(function () {
+	$("#btnMiCuenta").show();
+    $("#btnLogOut").show();
+    $("#btnEntrar").hide();
+})
+
+
+$("#btnLogOut").click(function () {
+	$("#btnMiCuenta").hide();
+    $("#btnLogOut").hide();
+    $("#btnEntrar").show();
+})
 
 
 // ***** AUTENTICACION
