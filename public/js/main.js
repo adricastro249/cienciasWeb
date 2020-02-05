@@ -1,4 +1,4 @@
-$("#btnMiCuenta").hide();
+/* $("#btnMiCuenta").hide();
 $("#btnLogOut").hide();
 $("#btnEntrar").show();
 
@@ -15,7 +15,7 @@ $("#btnLogOut").click(function () {
 	$("#btnLogOut").hide();
 	$("#btnEntrar").show();
 })
-
+ */
 
 // ***** AUTENTICACION
 // ++ codigos de documentacion original firebase
