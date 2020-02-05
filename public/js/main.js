@@ -1,8 +1,17 @@
-/* $("#btnMiCuenta").hide();
-$("#btnLogOut").hide();
-$("#btnEntrar").show();
+/* var signOutButton = document.getElementById('sign-out-button');
+var entrar = document.getElementById('btnEntrar');
+var micuenta = document.getElementById('btnMiCuenta'); */
 
 
+
+
+
+$("btnEntrar").show();
+$("#sign-out-button").hide();
+$("#btnMiCuenta").hide();
+
+
+/* 
 $("#btnAcceder").click(function () {
 	$("#btnMiCuenta").show();
 	$("#btnLogOut").show();
@@ -57,6 +66,16 @@ loginB.addEventListener("click", function(){
 	
   });  */
 
+/* 
+const nameUser = "";
+const emailUser ="";
+const idUser = "";
+const foto = ""; 
+ */
+
+
+
+
 
 
 var btnAcceder = document.getElementsByClassName("login2");
@@ -69,10 +88,59 @@ for (var i = 0; i < btnAcceder.length; i++) {
 		alert("probando");
 		var provider = new firebase.auth.GoogleAuthProvider();
 		alert("esto es" + provider);
-		firebase.auth().signInWithPopup(provider);
+		firebase.auth()
+		.signInWithPopup(provider)
+		.then(function(result){
+	
+	// The signed-in user info.
+	var user = result.user;
+
+console.log(user);
+console.log(user.displayName);
+console.log(user.email);
+
+
+console.log(user.uid);
+console.log(user.photoURL);
+
+$(".botonEntrar").hide();
+$("#sign-out-button").show();
+$("#btnMiCuenta").show();
+
+alert("Bienvenido " + user.displayName + " " + "email" + " " + user.email)
+
+		});
 	});
 }
 
+
+
+
+
+
+//guarda automaticamente los datos del usuario
+/* function guardaDatos(user) {
+	var usuario ={
+		uid:user.uid,
+		nombre:user.displayName,
+		email:user.email,
+		foto:user.photoURL
+	}
+
+	firebase.database().ref("usuarios").push(usuario)
+};
+
+
+
+$('#guardar').click(function(){
+firebase.database().ref("prueba").set({
+	nombre:"Adriana",
+	sexo: "femenino",
+	edad: "15"
+})
+
+console.log("probadn db")
+}); */
 // Listen to change in auth state so it displays the correct UI for when
 // the user is signed in or not.
 /* firebase.auth().onAuthStateChanged(function (user) {
@@ -84,14 +152,22 @@ for (var i = 0; i < btnAcceder.length; i++) {
  */
 
 var logOutButton = document.getElementById('sign-out-button');
-
+ 
+// Bind Sign out button.
 logOutButton.addEventListener('click', function (e) {
 	alert("desconectando")
+
+	$("btnEntrar").show();
+	$("#sign-out-button").hide();
+	$("#btnMiCuenta").hide();
+
 	e.preventDefault();
 	firebase.auth().signOut();
-	location.reload();
+
+location.reload();
 });
 
+// Listen for auth state changes
 firebase.auth().onAuthStateChanged(onAuthStateChanged);
 
 
