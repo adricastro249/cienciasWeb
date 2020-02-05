@@ -133,13 +133,14 @@ var footer = `
                                        <h4 class="textVerde mt-4">Para realizar acción deberá</h4>
                                        <br>
                
-                                       <p>    <a href="perfil.html"><button type="button" class=" btn btn-link txtCenter text-body btnAcceder" id="btnAcceder">Acceder</button>
+                                       <p>    <a href=""><button type="button" class="login2 btn btn-link txtCenter text-body btnAcceder" id="btnAcceder">Acceder</button>
                                        </a>  </p>
                                       <!--  <p>  <button  type="button" class="login2 btn btn-link txtCenter text-body" data-dismiss="modal">Acceder</button>
                                        </p> -->
                                    <!--     <a id="sign-out-button" class="nav-link" href="#"><u>Desconectarse</u></a> -->
                                        <button type="button" role="button" class="btnAhoraNo mt-5" data-dismiss="modal"
                                            aria-label="Close">Ahora no</button>
+                                           
                            
                                    </div>
                                </div>
