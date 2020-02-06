@@ -98,10 +98,9 @@ for (var i = 0; i < btnAcceder.length; i++) {
 console.log(user);
 console.log(user.displayName);
 console.log(user.email);
-
-
-console.log(user.uid);
 console.log(user.photoURL);
+
+
 
 $(".botonEntrar").hide();
 $("#sign-out-button").show();
@@ -109,9 +108,18 @@ $("#btnMiCuenta").show();
 
 alert("Bienvenido " + user.displayName + " " + "email" + " " + user.email)
 
+//********* Perfil 
+document.getElementById("nombrePerfil").innerHTML= user.displayName;
+document.getElementById("emailPerfil").innerHTML= user.email;
+$('#fotoPerfil').append("<img src='" + user.photoURL +"'/>");
+
+
 		});
 	});
 }
+
+
+
 
 
 

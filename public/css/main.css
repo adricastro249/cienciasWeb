@@ -5,6 +5,11 @@
     font-style: normal;
     }
 
+    
+    *{
+        font-family: "Roboto Slab Bold";
+    }
+    
 
 body {
     color: #656565;

@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./css/agendaHoy.css">
     <link rel="stylesheet" href="./css/tipografias.css">
 
-    <link rel="stylesheet" href="./css/fontawesome-free-5.12.0-web/css/fontawesome.css">
+    <!-- <link rel="stylesheet" href="./css/fontawesome-free-5.12.0-web/css/fontawesome.css">
     <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
-
+ -->
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -52,15 +52,19 @@
                     <div class="d-flex justify-content-between">
 
                         <div class=" usuario d-flex justify-content-around">
-                            <div class="mt-2 p-2  bd-highlight"><img src="./Recursos/PERFIL/Imagenes/image 54.png">
+                            <div class="mt-2 p-2  bd-highlight">
+                                <div id="fotoPerfil"></div> <!-- <img src="./Recursos/PERFIL/Imagenes/image 54.png">-->
                             </div>
-                            <div class="p-4 align-self-start">
+
+                            <div class="p-4 align-self-start mt-5">
                                 <div class="flex-shrink-1 bd-highlight">
-                                    <h3 class=" mt-4"><strong class="userName">Nombre y Apellido</strong c></h3>
+                                    <h3 class=" mt-4"><strong class="userName" id="nombrePerfil">Nombre y
+                                            Apellido</strong>
+                                    </h3>
                                 </div>
-                                <div class="bd-highlight">
-                                    <p class="fechaNac">Fecha de Nacimiento</p>
-                                    <p class="emailUser">angel@gmail.com</p>
+                                <div class="bd-highlight mt-5">
+                                  <!--   <p class="fechaNac">Fecha de Nacimiento</p> -->
+                                    <p class="emailUser" id="emailPerfil">email</p>
                                 </div>
                             </div>
                         </div>
@@ -69,20 +73,20 @@
                             <div class="vl"></div>
                         </div>
 
-                   
-                            <div class="detallesPerfil">
-                                <div class="mt-4 bd-highlight">
-                                    <h4 class="mt-2 perfilProf">Perfil profesional</h4>
+
+                        <div class="detallesPerfil">
+                            <div class="mt-4 bd-highlight">
+                                <h4 class="mt-2 perfilProf">Perfil profesional</h4>
+                                <br>
+                                <p class="descripUser">Universidad
                                     <br>
-                                    <p class="descripUser">Universidad
-                                        <br>
-                                        Estudiante de Biología
-                                        <br>
-                                        Profesión
-                                    </p>
-                                </div>
-                            </div c>
-                      
+                                    Estudiante de Biología
+                                    <br>
+                                    Profesión
+                                </p>
+                            </div>
+                        </div c>
+
 
                     </div>
                 </div>
@@ -112,7 +116,7 @@
                                 <div class="d-flex justify-content-around">
                                     <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" alt="logoEvt" id="logoEvt"
                                         style="width: 8.3%; height: 8.3%;">
-                                        <h6 class="btnIzqPerfil">Mis eventos   </h6>
+                                    <h6 class="btnIzqPerfil">Mis eventos </h6>
                                 </div>
                             </button>
                         </div>
@@ -122,7 +126,7 @@
                                 <div class="d-flex justify-content-around">
                                     <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" alt="logoRevista"
                                         id="logoRevista" style="width: 10%; height: 10%;">
-                                        <h6 class="btnIzqPerfil">Mis favoritos</h6>
+                                    <h6 class="btnIzqPerfil">Mis favoritos</h6>
                                 </div>
                             </button>
                         </div>
@@ -136,7 +140,7 @@
                             <div class="d-flex justify-content-around p-3" id="premium">
                                 <img src="./Recursos/PERFIL/Imagenes/premium.png" alt="logoPremiun" id="logoPremium"
                                     style="width: 13%; height: 13%;">
-                                    <h6 class="btnIzqPerfil">Version Premium</h6>
+                                <h6 class="btnIzqPerfil">Version Premium</h6>
                         </button>
 
                     </div><!-- fin mt-5 perfil-->
@@ -146,22 +150,22 @@
 
                 <!-- ====== Bloque medio ================================================== -->
                 <div class="col-6">
-                    <section id="misCarpetas" >
+                    <section id="misCarpetas">
                         <h4 class="titSec">Mis carpetas</h4>
-                        <div  class="row">
-                        <div id="agregaAquiCarpetas" class="row col">
-                            <button class="  d-flex justify-content-around carpeta p-2 m-1" type="button">
-                                <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoCarpetas"
-                                    class="p-2" id="logoCarpetas" style="width: 33%; height: 33%;">
-                                <h6 class="mt-1">Carpeta 1</h6>
-                            </button>
-                        </div>
+                        <div class="row">
+                            <div id="agregaAquiCarpetas" class="row col">
+                                <button class="  d-flex justify-content-around carpeta p-2 m-1" type="button">
+                                    <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoCarpetas"
+                                        class="p-2" id="logoCarpetas" style="width: 33%; height: 33%;">
+                                    <h6 class="mt-1">Carpeta 1</h6>
+                                </button>
+                            </div>
                             <div>
 
-                            <button class="btn btn-link masCarpetas" id="btnMasCarpetas">
-                                <i class="fa fa-plus-circle text-secondary"></i>
-                            </button>
-                        </div>
+                                <button class="btn btn-link masCarpetas" id="btnMasCarpetas">
+                                    <i class="fa fa-plus-circle text-secondary"></i>
+                                </button>
+                            </div>
 
                         </div>
 
@@ -199,7 +203,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">
                                             <a href="nota2.html" class="text-dark">FRASES CÉLEBRES DE STEPHEN HAWKIN</a>
-                                        </h>
+                                            </h>
                                     </div>
                                 </div>
 
@@ -210,7 +214,9 @@
                         <div class="mt-5">
                             <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
                                 class="rounded mx-auto d-block" alt="logoREvista" id="logoRevista">
-                            <p class="text-center text-secondary descSec">Cuando guardes una nota en una carpeta, aparecerá acá
+                            <p class="text-center text-secondary descSec">Cuando guardes una nota en una carpeta,
+                                aparecerá
+                                acá
                             </p>
                         </div>
                     </section>
@@ -224,12 +230,9 @@
                                     <div class="d-flex">
 
                                         <img style="width: 40%; height: 70%;" src="./images/agenda/janegodal.png">
-
-
-
                                         <div class="col">
                                             <div class="align-self-start">
-                                                <h3 id="tituloEvent1"class="titEvnt">TITULO</h3>
+                                                <h3 id="tituloEvent1" class="titEvnt">TITULO</h3>
                                                 <p id="notaEvent1" style="display: none;"></p>
                                             </div>
 
@@ -251,7 +254,8 @@
                                                     <div class="comoLlegar mt-3">
                                                         <!-- Button trigger modal -->
                                                         <a class="btn-light " data-toggle="modal"
-                                                            data-target="#exampleModal" href="" style="color: #8DD853;" class="comoLlegar">
+                                                            data-target="#exampleModal" href="" style="color: #8DD853;"
+                                                            class="comoLlegar">
                                                             ¿Cómo llegar?
                                                         </a>
                                                         <!-- Modal -->
@@ -297,7 +301,7 @@
                             <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" class="rounded mx-auto d-block"
                                 alt="logoREvista" id="logoRevista">
                             <p class="text-center text-secondary descSec">Cuando te inscribas en algún evento en
-                               <span class="agndHoy">AgendaHoy</span> 
+                                <span class="agndHoy">AgendaHoy</span>
                                 aparecerá acá</p>
                         </div>
                     </section>
@@ -358,16 +362,20 @@
                         <div class="mt-5">
                             <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" class="rounded mx-auto d-block"
                                 alt="logoREvista" id="logoRevista">
-                            <p class="text-center text-secondary descSec">Cuando marques una nota como favorito, aparecerá acá</p>
+                            <p class="text-center text-secondary descSec">Cuando marques una nota como favorito,
+                                aparecerá
+                                acá</p>
                         </div>
                     </section>
 
                     <section id="versionPremium">
                         <h4 class="titSec">Version Premium</h4>
                         <div id="versPrem" class="mt-5">
-                            <h3 class="text-center mt-5 "><strong>Obtené CienciaHoy Premium ¡Por tan sólo $70 mensuales!</strong></h3>
-                            <p class="text-center unirVP"> Al unirte a la version Premium aceptas las <span class="aceptarTerminos "> Bases y
-                                Condiciones </span></p>
+                            <h3 class="text-center mt-5 "><strong>Obtené CienciaHoy Premium ¡Por tan sólo $70
+                                    mensuales!</strong></h3>
+                            <p class="text-center unirVP"> Al unirte a la version Premium aceptas las <span
+                                    class="aceptarTerminos "> Bases y
+                                    Condiciones </span></p>
                         </div>
 
                         <div class="mt-5 d-flex justify-content-around">
@@ -379,19 +387,25 @@
                             <div>
                                 <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
                                     alt="logoREvista" id="logoRevista">
-                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div>
                                 <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
                                     alt="logoREvista" id="logoRevista">
-                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div>
                                 <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
                                     alt="logoREvista" id="logoRevista">
-                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
@@ -409,7 +423,8 @@
                             <div class="d-flex justify-content-around ">
                                 <img src="./Recursos/PERFIL/Imagenes/activity-512.png" alt="logoActividad"
                                     id="logoActividad">
-                                <h6 class="text-center "> <strong class="text-secondary txtActiv">Actividades</strong c></h6>
+                                <h6 class="text-center "> <strong class="text-secondary txtActiv">Actividades</strong c>
+                                </h6>
                             </div>
                             <hr class="hrOriginal">
                             <h6 class="text-secondary ml-3 txtFecha">Hoy</h6>
@@ -484,12 +499,10 @@
     <script src="./css/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Java Script ================================================== -->
-
- 
-    <script src="./js/perfil.js"></script>
     <script src="./js/estructura.js"></script>
-    <script src="./js/main.js"></script>
     <script src="./data/dataGral.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/perfil.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
