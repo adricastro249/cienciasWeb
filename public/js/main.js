@@ -2,10 +2,6 @@
 var entrar = document.getElementById('btnEntrar');
 var micuenta = document.getElementById('btnMiCuenta'); */
 
-
-
-
-
 $("btnEntrar").show();
 $("#sign-out-button").hide();
 $("#btnMiCuenta").hide();
@@ -75,9 +71,6 @@ const foto = "";
 
 
 
-
-
-
 var btnAcceder = document.getElementsByClassName("login2");
 
 //Recorres la lista de elementos seleccionados
@@ -85,9 +78,8 @@ for (var i = 0; i < btnAcceder.length; i++) {
 	//Añades un evento a cada elemento
 	btnAcceder[i].addEventListener("click", function () {
 		//Aquí la función que se ejecutará cuando se dispare el evento
-		alert("probando");
-		var provider = new firebase.auth.GoogleAuthProvider();
-		alert("esto es" + provider);
+		alert("conectando");
+		var provider = new firebase.auth.GoogleAuthProvider();;
 		firebase.auth()
 		.signInWithPopup(provider)
 		.then(function(result){
@@ -101,12 +93,11 @@ console.log(user.email);
 console.log(user.photoURL);
 
 
-
 $(".botonEntrar").hide();
 $("#sign-out-button").show();
 $("#btnMiCuenta").show();
 
-alert("Bienvenido " + user.displayName + " " + "email" + " " + user.email)
+alert("Bienvenido " + user.displayName)
 
 //********* Perfil 
 document.getElementById("nombrePerfil").innerHTML= user.displayName;
