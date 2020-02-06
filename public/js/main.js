@@ -97,6 +97,8 @@ $(".botonEntrar").hide();
 $("#sign-out-button").show();
 $("#btnMiCuenta").show();
 
+
+
 alert("Bienvenido " + user.displayName)
 
 //********* Perfil 
@@ -164,6 +166,7 @@ logOutButton.addEventListener('click', function (e) {
 	firebase.auth().signOut();
 
 location.reload();
+location.href = "./index.html" 
 });
 
 // Listen for auth state changes
