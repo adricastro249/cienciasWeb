@@ -1,3 +1,7 @@
+
+
+
+
 /* var signOutButton = document.getElementById('sign-out-button');
 var entrar = document.getElementById('btnEntrar');
 var micuenta = document.getElementById('btnMiCuenta'); */
@@ -5,7 +9,6 @@ var micuenta = document.getElementById('btnMiCuenta'); */
 $("btnEntrar").show();
 $("#sign-out-button").hide();
 $("#btnMiCuenta").hide();
-
 
 /* 
 $("#btnAcceder").click(function () {
@@ -70,10 +73,24 @@ const foto = "";
  */
 
 
-
 var btnAcceder = document.getElementsByClassName("login2");
 
-//Recorres la lista de elementos seleccionados
+
+/* firebase.auth().onAuthStateChanged(function (user) {
+	if(user) {
+		console.log("estoy logueado")
+	}else {
+
+
+		
+
+	}
+
+});
+ */
+
+
+
 for (var i = 0; i < btnAcceder.length; i++) {
 	//Añades un evento a cada elemento
 	btnAcceder[i].addEventListener("click", function () {
@@ -81,36 +98,33 @@ for (var i = 0; i < btnAcceder.length; i++) {
 		alert("conectando");
 		var provider = new firebase.auth.GoogleAuthProvider();;
 		firebase.auth()
-		.signInWithPopup(provider)
-		.then(function(result){
-	
-	// The signed-in user info.
-	var user = result.user;
+			.signInWithPopup(provider)
+			.then(function (result) {
 
-console.log(user);
-console.log(user.displayName);
-console.log(user.email);
-console.log(user.photoURL);
+				// The signed-in user info.
+				var user = result.user;
 
+				console.log(user);
+				console.log(user.displayName);
+				console.log(user.email);
+				console.log(user.photoURL);
 
-$(".botonEntrar").hide();
-$("#sign-out-button").show();
-$("#btnMiCuenta").show();
+				$(".botonEntrar").hide();
+				$("#sign-out-button").show();
+				$("#btnMiCuenta").show();
 
+				alert("Bienvenido " + user.displayName)
 
-
-alert("Bienvenido " + user.displayName)
-
-//********* Perfil 
-document.getElementById("nombrePerfil").innerHTML= user.displayName;
-document.getElementById("emailPerfil").innerHTML= user.email;
-$('#fotoPerfil').append("<img src='" + user.photoURL +"'/>");
+				//********* Perfil 
+				document.getElementById("nombrePerfil").innerHTML = user.displayName;
+				document.getElementById("emailPerfil").innerHTML = user.email;
+				$('#fotoPerfil').append("<img src='" + user.photoURL + "'/>");
 
 
-		});
+			});
 	});
+	
 }
-
 
 
 
@@ -142,6 +156,8 @@ firebase.database().ref("prueba").set({
 
 console.log("probadn db")
 }); */
+
+
 // Listen to change in auth state so it displays the correct UI for when
 // the user is signed in or not.
 /* firebase.auth().onAuthStateChanged(function (user) {
@@ -153,26 +169,23 @@ console.log("probadn db")
  */
 
 var logOutButton = document.getElementById('sign-out-button');
- 
+
 // Bind Sign out button.
 logOutButton.addEventListener('click', function (e) {
 	alert("desconectando")
-
 	$("btnEntrar").show();
 	$("#sign-out-button").hide();
 	$("#btnMiCuenta").hide();
-
 	e.preventDefault();
 	firebase.auth().signOut();
-
-location.reload();
-location.href = "./index.html" 
+	location.reload();
+	location.href = "./index.html"
 });
 
 // Listen for auth state changes
-firebase.auth().onAuthStateChanged(onAuthStateChanged);
+/* firebase.auth().onAuthStateChanged(onAuthStateChanged); */
 
-
+console.log("prueba");
 
 /* 
   document.querySelector('.login2').addEventListener('click', event => {
