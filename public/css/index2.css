@@ -23,7 +23,12 @@ body{
     color: #23ACA2;
 font-weight: bold;
 font-family: "Roboto Slab Bold";
+margin-left: 78px;
 
+}
+
+.tituloNotaHeader{
+    margin-left: 78px;
 }
 
 
@@ -35,18 +40,27 @@ font-family: "Roboto Slab Bold";
 }
 .textoNotas1, .textoNotas3{
     position: absolute;
-    top: 380px;
+    top: 350px;
 }
+
+
+.textoNotas3{
+    position: absolute;
+    top: 410px;
+}
+
+
 
 .nota1 {
     background-image: url("..//images/home1_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    color: #EFEFEF;
 }
 
 .nota1:hover {
     background-image: url("..//images/home1_conhover.png");
-    color: grey;
+    color: #fff;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -55,13 +69,14 @@ font-family: "Roboto Slab Bold";
     background-image: url("../images/home2_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    color: #EFEFEF;
     
 
 }
 
 .nota2:hover {
     background-image: url("..//images/home2_conhover.png");
-    color: grey;
+    color: #fff;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -70,11 +85,12 @@ font-family: "Roboto Slab Bold";
     background-image: url("../images/home3_sinhover.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    color: #EFEFEF;
 }
 
 .nota3:hover {
     background-image: url("../images/home3_conhover.png");
-    color: grey;
+    color: #fff;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -219,7 +235,7 @@ background-size: cover; */
     align-items: center;
     font-family: "Roboto Slab Bold";
     padding: 1% 1% 1%;
-    pa
+   
     
 }
 
