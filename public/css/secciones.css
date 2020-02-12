@@ -36,7 +36,9 @@ body{
 
 .secciones{
     margin-bottom: 3%;
+    font-family: "Roboto Slab Bold";
 }
+
 
 #masSecc{
     background-color: #8DD853;

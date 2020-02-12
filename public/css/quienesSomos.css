@@ -33,7 +33,7 @@ body{
 }
 
 .part1{
-    background-color: #ddf7f5;
+    background-color: #F4FBFA;
 }
 
 .imgContact{
@@ -50,7 +50,7 @@ body{
     margin-left: 4rem;
     border: 0;
     width: 100%;
-    border-top: 0.18rem solid #23ACA2;
+    border-top: 0.08rem solid #23ACA2;
   }
 
   li{

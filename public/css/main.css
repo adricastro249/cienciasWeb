@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Reforma';
     src:  url('..//css/tipografias/Reforma\ 2018/') format(‘woff’);
     font-weight: normal;
@@ -14,7 +14,7 @@
 body {
     color: #656565;
     font-family: 'Roboto Slab', serif;
-}
+} */
 
 .navbar,
 .footer {
