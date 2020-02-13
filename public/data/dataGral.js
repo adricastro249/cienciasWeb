@@ -127,7 +127,8 @@ var data = {
 
   ],
   "secciones": [{
-      "nombreSecc": "Aqui Ciencia- PROBANDO",
+      "nombreSecc": "Aqui Ciencia",
+      "codSecc": "AC",
       "notas": [{
           "titulo": "ECLIPSES DEL SOL, TELÉFONOS CELULARES Y CIENCIA CIUDADANA",
           "texto": "Diferente de la divulgación científica, la ciencia ciudadana permite y fomenta que personas de cualquier nivel o área",
@@ -147,12 +148,98 @@ var data = {
           "idNota": "",
           "imagen": "./Recursos/SECCIONES/Imagenes/image 4.png",
           "otros": "",
-        }
+        },
+      // repetidos para completar
+      {
+        "titulo": "ECLIPSES DEL SOL, TELÉFONOS CELULARES Y CIENCIA CIUDADANA",
+        "texto": "Diferente de la divulgación científica, la ciencia ciudadana permite y fomenta que personas de cualquier nivel o área",
+        "idNota": "",
+        "imagen": "./Recursos/SECCIONES/Imagenes/image 38.png",
+        "otros": "",
+      }, 
+      {
+        "titulo": "ALAN TURING",
+        "texto": "Este excelente matemático británico fue famoso por idear una serie de avances que cambiaron para siempre.",
+        "idNota": "",
+        "imagen": "./Recursos/SECCIONES/Imagenes/image 3.png",
+        "otros": "",
+      },
+      {
+        "titulo": "EXCESO DE ANTIBIOTICOS EN ANIMALES",
+        "texto": "Las bacterias resistentes a los antibióticos están incrementando en todo el mundo.",
+        "idNota": "",
+        "imagen": "./Recursos/SECCIONES/Imagenes/image 4.png",
+        "otros": "",
+      },
+      {
+        "titulo": "ECLIPSES DEL SOL, TELÉFONOS CELULARES Y CIENCIA CIUDADANA",
+        "texto": "Diferente de la divulgación científica, la ciencia ciudadana permite y fomenta que personas de cualquier nivel o área",
+        "idNota": "",
+        "imagen": "./Recursos/SECCIONES/Imagenes/image 38.png",
+        "otros": "",
+      }, {
+        "titulo": "ALAN TURING",
+        "texto": "Este excelente matemático británico fue famoso por idear una serie de avances que cambiaron para siempre.",
+        "idNota": "",
+        "imagen": "./Recursos/SECCIONES/Imagenes/image 3.png",
+        "otros": "",
+      },
+      {
+        "titulo": "EXCESO DE ANTIBIOTICOS EN ANIMALES",
+        "texto": "Las bacterias resistentes a los antibióticos están incrementando en todo el mundo.",
+        "idNota": "",
+        "imagen": "./Recursos/SECCIONES/Imagenes/image 4.png",
+        "otros": "",
+      }
       ]
     },
     {
       "nombreSecc": "Carta de lectura",
+      "codSecc": "CL",
       "notas": [{
+          "titulo": "VIDA DE LOS UNIVERSITARIOS",
+          "texto": "Mientras se preparaban para duros exámenes, los jóvenes que estudiaban en la Universidad afrontaban",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 4.png",
+          "otros": "",
+        }, 
+        {
+          "titulo": "BELLEZA ANTIGUA",
+          "texto": "En este podcast te explicamos cómo las mujeres griegas lucían una tez blanca, labios pintados de rojo y mejillas rosadas.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 5.png",
+          "otros": "",
+        },
+        {
+          "titulo": "ABRAHAM LINCOLN",
+          "texto": "Nacido en una humilde granja de Kentucky, el decimosexto presidente de Estados Unidos.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 6.png",
+          "otros": "",
+        },
+        // repetido para completar data
+        {
+          "titulo": "VIDA DE LOS UNIVERSITARIOS",
+          "texto": "Mientras se preparaban para duros exámenes, los jóvenes que estudiaban en la Universidad afrontaban",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 4.png",
+          "otros": "",
+        }, 
+        {
+          "titulo": "BELLEZA ANTIGUA",
+          "texto": "En este podcast te explicamos cómo las mujeres griegas lucían una tez blanca, labios pintados de rojo y mejillas rosadas.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 5.png",
+          "otros": "",
+        },
+        {
+          "titulo": "ABRAHAM LINCOLN",
+          "texto": "Nacido en una humilde granja de Kentucky, el decimosexto presidente de Estados Unidos.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 6.png",
+          "otros": "",
+        },
+        {
           "titulo": "VIDA DE LOS UNIVERSITARIOS",
           "texto": "Mientras se preparaban para duros exámenes, los jóvenes que estudiaban en la Universidad afrontaban",
           "idNota": "",
@@ -177,6 +264,7 @@ var data = {
     },
     {
       "nombreSecc": "Ciencia y Sociedad",
+      "codSecc": "CS",
       "notas": [{
           "titulo": "LUNARES EN VEZ DE RAYAS",
           "texto": "Una mutación genética podría explicar este insólito caso documentado en el Parque Nacional Masai Mara.",
@@ -202,6 +290,7 @@ var data = {
     },
     {
       "nombreSecc": "Ciencia en el Mundo",
+      "codSecc": "CM",
       "notas": [{
           "titulo": "MOLISE, LA REGIÓN ITALIANA",
           "texto": "Comenzar de cero nunca fue tan apetecible. Para contrarrestar la despoblación, la región de Molise.",

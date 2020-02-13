@@ -15,6 +15,7 @@ body{
 
 .tituloNota{
     font-family: "Roboto Slab Bold";
+    font-weight: bolder;
 }
 
 
@@ -54,4 +55,9 @@ body{
 
 .carousel-item{
     background-color:unset !important;
+}
+
+.logosSecc {
+    height: 20px;
+    width: 20px;
 }

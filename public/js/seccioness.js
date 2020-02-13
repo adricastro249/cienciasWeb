@@ -12,20 +12,39 @@ $("#seccion4 .tituloCategoria").append("OTRO NOMBRE");
 $("#seccion3 .tituloCategoria").append("Ciencia y Sociedad");
 
 var contSecc = 1;
+
 data.secciones.forEach(secc =>{
     console.log("lololo");
     console.log(secc);
     let idSecc= "tituloSecc"+contSecc
     console.log(idSecc);
     
-    
+    let contNotas = 1;
     
     document.getElementById(`${idSecc}`).innerHTML = secc.nombreSecc;
-    secc.forEach(nota => {
-        console.log(nota);
+
+    secc.notas.forEach(nota => {
         
-        document.getElementById(`"tituloNota`+contSecc+`"`).innerHTML = nota.titulo;
-    })
+        console.log("el contador de nostas es : "+ contNotas);
+        
+        console.log(nota);
+        let tituNota= "tituloNota"+contNotas+secc.codSecc;
+        let textNota= "textoNota"+contNotas+secc.codSecc;
+        let imgNota= "imgNota"+contNotas+secc.codSecc;
+        console.log(tituNota)
+        console.log(nota.titulo);
+        
+        
+        document.getElementById(`${tituNota}`).innerHTML = nota.titulo;
+        document.getElementById(`${textNota}`).innerHTML = nota.texto;
+        document.getElementById(`${imgNota}`).src = nota.imagen;
+
+        contNotas++
+        console.log("terminaste un for each de notas"+ contNotas);
+        
+    }
+    
+    )
     contSecc++
 } 
 )
