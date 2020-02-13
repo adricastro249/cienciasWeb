@@ -1,9 +1,12 @@
-.contIzq{
+*{
     font-family: "Roboto Slab Bold";
+    color: #7E7E7E;
 }
+
 
 .form-control{
     font-family: "Roboto Regular";
+    color: #7E7E7E;
 }
 
 .bodyAgenda{
@@ -25,4 +28,9 @@
 
 .mensaje{
     margin-top: 10%;
+}
+
+
+.form-control{
+    border: 1px solid #23ACA2;
 }

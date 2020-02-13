@@ -1,8 +1,3 @@
-body{
-    font-family: 'Roboto Slab', serif;
-}
-
-
 .titPag{
     color: #23ACA2;
     font-family: "Roboto Slab Bold";
@@ -16,6 +11,10 @@ body{
     font-family: "Reforma2018 Blanca";
 }
 
+/* .listCheck::before{
+    content:"✓";
+    color: #8DD853;
+} */
 
 .parrafo2QS{
     font-family: "Roboto Medium";
@@ -34,6 +33,7 @@ body{
 
 .part1{
     background-color: #F4FBFA;
+    height: 540px;
 }
 
 .imgContact{
