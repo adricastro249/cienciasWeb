@@ -11,6 +11,24 @@ $("#masSecc").click(function () {
 $("#seccion4 .tituloCategoria").append("OTRO NOMBRE");
 $("#seccion3 .tituloCategoria").append("Ciencia y Sociedad");
 
+var contSecc = 1;
+data.secciones.forEach(secc =>{
+    console.log("lololo");
+    console.log(secc);
+    let idSecc= "tituloSecc"+contSecc
+    console.log(idSecc);
+    
+    
+    
+    document.getElementById(`${idSecc}`).innerHTML = secc.nombreSecc;
+    secc.forEach(nota => {
+        console.log(nota);
+        
+        document.getElementById(`"tituloNota`+contSecc+`"`).innerHTML = nota.titulo;
+    })
+    contSecc++
+} 
+)
 
 
 // ********** Formulario
