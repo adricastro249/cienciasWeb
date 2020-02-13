@@ -36,20 +36,18 @@ margin-left: 78px;
 
 .textoNotas2{
     position: absolute;
-    top: 150px;
+    top: 220px;
 }
 .textoNotas1, .textoNotas3{
     position: absolute;
-    top: 350px;
+    top: 480px;
 }
 
 
 .textoNotas3{
     position: absolute;
-    top: 410px;
+    top: 545px;
 }
-
-
 
 .nota1 {
     background-image: url("..//images/home1_sinhover.png");
@@ -147,10 +145,11 @@ margin-left: 78px;
     font-family: "Roboto Slab Bold";
 }
 
-.imgCarrusel {
-    width: 90%;
-    height: 90%;
-}
+/* .imgCarrusel {
+
+    width: 75%;
+    height: 85%;
+} */
 
 .colorTxtEvnt{
     font-family: "Roboto Regular";
@@ -238,15 +237,14 @@ background-size: cover; */
    
     
 }
-
 .imgAppPlayStore {
-    width: 14%;
-    height: 14%;
+    width: 13%;
+    height: 13%;
 }
 
 .imgAppStore {
-    width: 14%;
-    height: 14%;
+    width: 13%;
+    height: 13%;
 }
 
 .hrMvHome{
