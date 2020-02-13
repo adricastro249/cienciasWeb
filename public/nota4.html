@@ -53,14 +53,20 @@
                 #cienciHoy</h5>
         </div>
 
+
+        
         <div id="barNota" class="barraNota container d-flex bd-highlight mt-3">
             <div class="p-2 flex-grow-1 bd-highlight">
             </div>
             <div class="p-2 bd-highlight">
-                <img class="" src="./Recursos/NOTA/Imagenes/carpeta.png" alt="logoCarpeta">
+                <button type="button" class="btn btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
+                data-target="#modalEntrar"><img class="" src="./Recursos/NOTA/Imagenes/carpeta.png" alt="logoCarpeta">
+              </button>
             </div>
             <div class="p-2 bd-highlight">
-                <img class="" src="./Recursos/NOTA/Imagenes/favorito.png" alt="logoFavorito">
+                <button type="button" class="btn btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
+                data-target="#modalEntrar"><img class="" src="./Recursos/NOTA/Imagenes/favorito.png" alt="logoFavorito">
+              </button>
             </div>
             <div class="p-2 bd-highlight">
                 <a class="logoFace" href="https://www.facebook.com/">
@@ -72,7 +78,42 @@
                 </a>
             </div>
 
+            <!-- Cuerpo Modal -->
+            <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
+                aria-labelledby="modalCenterTitleFooter" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-entrada">
+                        <div class="modal-headerEntrada">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-bodyEntrada">
 
+                            <div class="container-fluid">
+
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="p-3 logoNegro" src="./images/logoRecursoNegro.png" alt="logoNegro">
+                                    </div>
+
+                                    <div class="col ml-5">
+                                        <h4 class="textVerde mt-4">Para realizar acción deberá</h4>
+                                        <br>
+                                        <p>
+                                            <a href="incioSesion.html"><button type="button"
+                                                    class="btn btn-link txtCenter text-body">Acceder</button></a>
+                                        </p>
+                                        <button type="button" role="button" class="btnAhoraNo mt-5" data-dismiss="modal"
+                                            aria-label="Close">Ahora no</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin  Modal -->
 
         </div>
         <!--barNota-->
