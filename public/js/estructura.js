@@ -44,11 +44,11 @@ var navbar = `
  
 <div>
 
-<!-- Button trigger modal -->
+<a href="incioSesion.html">
         <button type="button" class="btn btn-outline-light btn-lm botonEntrar" id="btnEntrar" data-toggle="modal"
             data-target="#modalEntrar">
             Entrar
-        </button>
+        </button></a>
 
         <a href="perfil.html">
             <button type="button" class="btn btn-outline-danger btn-lm" id="btnMiCuenta" href="nota1.html">
@@ -102,60 +102,10 @@ var footer = `
             <div class="col-2 mt-5">
 
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-light btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
-                data-target="#modalEntrar">
+            <a href="incioSesion.html">
+            <button type="button" class="btn btn-outline-light btn-sm botonEntrar">
                 Entrar
-            </button>
-    
-            <!-- Modal -->
-            <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitleFooter"
-                aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-                    <div class="modal-entrada">
-                        <div class="modal-headerEntrada">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-bodyEntrada">
-    
-                            <div class="container-fluid">
-    
-                                <div class="row">
-                                    <div class="col">
-                                        <img class="p-3 logoNegro" src="./images/logoRecursoNegro.png" alt="logoNegro">
-                                    </div>
-    
-                                    <div class="col ml-5">
-                                        <h4 class="textVerde mt-4">Para realizar acción deberá</h4>
-                                        <br>
-    
-                                        <!--        <p>    <a href=""><button type="button" class="login2 btn btn-link txtCenter text-body btnAcceder" id="btnAcceder">Acceder</button>
-                                  </a>  </p> -->
-                                        <p> <button type="button" class="login2 btn btn-link txtCenter text-body"
-                                                data-dismiss="modal">Acceder</button>
-                                        </p>
-    
-                                        <!--  <a id="sign-out-button" class="nav-link" href="#"><u>Desconectarse</u></a> -->
-    
-                                        <button type="button" role="button" class="btnAhoraNo mt-5" data-dismiss="modal"
-                                            aria-label="Close">Ahora no</button>
-    
-    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Fin  Modal footer -->
-    
-
-
-
-
+            </button></a>
 
                 <h6 class=mt-5 id="redesFooter">Redes</h6>
                 <div class="s-footer__linklist">
