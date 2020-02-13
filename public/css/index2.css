@@ -32,21 +32,18 @@ margin-left: 78px;
 }
 
 
-
-
 .textoNotas2{
     position: absolute;
     top: 220px;
 }
-.textoNotas1, .textoNotas3{
+.textoNotas1{
     position: absolute;
-    top: 480px;
+    top: 390px;
 }
-
 
 .textoNotas3{
     position: absolute;
-    top: 545px;
+    top: 445px;
 }
 
 .nota1 {
