@@ -4582,7 +4582,7 @@ input[type="button"].btn-block {
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem;
+  padding: 0.4rem;
 }
 
 .card-title {
@@ -6316,7 +6316,7 @@ a.close.disabled {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 10%;
+  width: 5%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
