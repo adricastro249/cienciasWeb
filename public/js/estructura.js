@@ -139,19 +139,67 @@ var footer = `
 
 
 // ********************** trae el titutlo
-$(window).on("load", function () {
+/* $(window).on("load", function () {
     console.log(this.event);
     console.log(this.event.target.title);
     let titulo = this.event.target.title;
     $("#tituloPag").append(`<h1 class="col-4 text-right"> ${titulo} </h1> 
     <img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-4">`)
-});
+}); */
+
+
+
+// ********************** Cuerpo Modal
+
+
+var cuerpoModal = `
+<!-- Cuerpo Modal -->
+<div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog"
+    aria-labelledby="modalCenterTitleFooter" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-entrada">
+            <div class="modal-headerEntrada">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-bodyEntrada">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col">
+                            <img class="p-3 logoNegro" src="./images/logoRecursoNegro.png" alt="logoNegro">
+                        </div>
+
+                        <div class="col ml-5">
+                            <h4 class="textVerde mt-4">Para realizar acción deberá</h4>
+                            <br>
+                            <p>
+                                <a href="incioSesion.html"><button type="button"
+                                        class="btn btn-link txtCenter text-body">Acceder</button></a>
+                            </p>
+                            <button type="button" role="button" class="btnAhoraNo mt-5" data-dismiss="modal"
+                                aria-label="Close">Ahora no</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin  Modal -->
+
+
+`
 
 
 // llamado INNERS
 document.getElementById("navbar").innerHTML = navbar;
 
 document.getElementById("footer").innerHTML = footer;
+
+document.getElementById("cuerpoModal").innerHTML = cuerpoModal;
 
 
 

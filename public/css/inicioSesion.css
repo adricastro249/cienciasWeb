@@ -1,13 +1,8 @@
 .fondoSesion{
     background-image: url("..//images/fondoInicioSesion.png");
-background-size: 83%;
+background-size: 95%;
     background-repeat: no-repeat;
 }
-
-.prueba{
-    color: red;
-}
-
 
 .txtVerde{
     margin-top: 17%;
@@ -24,7 +19,6 @@ background-size: 83%;
     padding: 6px;
     width: 30%;
 font-family: "Roboto Slab Bold";
-
 }
 
 .btnCorreo{
@@ -34,5 +28,4 @@ font-family: "Roboto Slab Bold";
 .subrayar{
     text-decoration: underline;
     font-family: "Roboto Regular";
-
 }

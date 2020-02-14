@@ -95,11 +95,11 @@ if (!misEventos.includes("evento4")) {
 }
 
 }
-botonesAgregaQuita() 
 
+
+botonesAgregaQuita() 
 function inscribirse () {
 	console.log(event);
-	
 	let click = event.toElement.name;
 	console.log(click);
 	misEventos.push(click)

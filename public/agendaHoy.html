@@ -38,11 +38,6 @@
     <!-- ====== Navegación ================================================== -->
     <nav id="navbar" class="col"></nav>
 
-    <!-- <div class="bodyAgenda"> -->
-
-    <div id="tituloPag" class="container mt-3"></div>
-
- 
     <div class="container">
         <div class="row">
             <div class="col-3">
@@ -167,12 +162,17 @@
                                         </p>
                                     </div>
                                     <div class="p-2 ">
-                                        <button type="button" id="botonAgregaE1"
+
+                                    <button type="button" class="inscribirse btn justify-content" id="btnEntrar" data-toggle="modal"
+                                        data-target="#modalEntrar"  value="true" name="evento1"
+                                        onclick="inscribirse()"><strong>Inscribirme</strong>
+                                      </button>
+                                        <!-- <button type="button" id="botonAgregaE1"
                                             class="inscribirse btn justify-content " value="true" name="evento1"
-                                            onclick="inscribirse()"> <strong>Inscribirme</strong></button> <br>
+                                            onclick="inscribirse()"> <strong>Inscribirme</strong></button>  -->
                                         <button type="button" id="botonQuitaE1"
                                             class="desinscribirse btn justify-content " value="true" name="evento1"
-                                            onclick="desinscribirse()"> Desinscribirme</button> <br>
+                                            onclick="desinscribirse()"> Desinscribirme</button> 
                                     </div>
                                 </div>
                             </div>
@@ -237,11 +237,18 @@
                                     </p>
                                 </div>
                                 <div class="p-2">
+
+                                    <button type="button" class="inscribirse btn justify-content" id="btnEntrar" data-toggle="modal"
+                                        data-target="#modalEntrar"  value="true" name="evento1"
+                                        onclick="inscribirse()"><strong>Inscribirme</strong>
+                                      </button>
+
+<!-- 
                                     <button type="button" id="botonAgregaE2" class=" btn justify-content inscribirse"
-                                        value="true" name="evento2" onclick="inscribirse()"><strong>Inscribirme</strong></button>
-                                    <button type="button" id="botonQuitaE2" class=" btn justify-content desinscribirse"
+                                        value="true" name="evento2" onclick="inscribirse()"><strong>Inscribirme</strong></button> -->
+                                    <button type="button" id="botonQuitaE2" class="btn justify-content desinscribirse"
                                         value="true" name="evento2" onclick="desinscribirse()"> Desinscribirme</button>
-                                    <br>
+                     
                                 </div>
                             </div>
                             <div class="p-2 flex-shrink-1 bd-highlight align-self-center col-2">
@@ -306,12 +313,19 @@
                                         </p>
                                     </div>
                                     <div class="p-2 ">
-                                        <button type="button" id="botonAgregaE3"
+
+
+                                        <button type="button" class="inscribirse btn justify-content" id="btnEntrar" data-toggle="modal"
+                                        data-target="#modalEntrar"  value="true" name="evento1"
+                                        onclick="inscribirse()"><strong>Inscribirme</strong>
+                                      </button>
+
+                                      <!--   <button type="button" id="botonAgregaE3"
                                             class="inscribirse btn justify-content " value="true" name="evento3"
-                                            onclick="inscribirse()"> <strong>Inscribirme</strong></button> <br>
+                                            onclick="inscribirse()"> <strong>Inscribirme</strong></button> -->
                                         <button type="button" id="botonQuitaE3"
                                             class="desinscribirse btn justify-content " value="true" name="evento3"
-                                            onclick="desinscribirse()"> Desinscribirme</button> <br>
+                                            onclick="desinscribirse()"> Desinscribirme</button>
                                     </div>
                                 </div>
                             </div>
@@ -376,8 +390,13 @@
                                     </p>
                                 </div>
                                 <div class="p-2">
-                                    <button type="button" id="botonAgregaE4" class=" btn justify-content inscribirse"
-                                        value="true" name="evento4" onclick="inscribirse()"><strong>Inscribirme</strong></button>
+
+                                    <button type="button" class="inscribirse btn justify-content" id="btnEntrar" data-toggle="modal"
+                                    data-target="#modalEntrar"  value="true" name="evento1"
+                                    onclick="inscribirse()"><strong>Inscribirme</strong>
+                                  </button>
+                                    <!-- <button type="button" id="botonAgregaE4" class=" btn justify-content inscribirse"
+                                        value="true" name="evento4" onclick="inscribirse()"><strong>Inscribirme</strong></button> -->
                                     <button type="button" id="botonQuitaE4" class=" btn justify-content desinscribirse"
                                         value="true" name="evento4" onclick="desinscribirse()"> Desinscribirme</button>
                                     <br>
@@ -423,7 +442,7 @@
                 </section>
 
                
-
+                <div id="cuerpoModal"></div>
 
             </div> <!-- fin col-9 -->
         </div>
