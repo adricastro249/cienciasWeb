@@ -118,11 +118,11 @@ var footer = `
           Entrar
         </button></a>
 
-      <h6 class=mt-5 id="redesFooter">Redes</h6>
-      <div class="s-footer__linklist">
+      <h6 class= "mt-5" id="redesFooter">Redes</h6>
+      <div class="s-footer__linklist mt-1">
 
-        <img class="logoFace" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
-        <img class="logoTw" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
+        <img class="logoFace mr-3" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
+        <img class="logoTw mr-3" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
 
         <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
           <img class="logoInsta" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
