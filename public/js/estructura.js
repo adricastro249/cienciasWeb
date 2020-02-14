@@ -137,7 +137,7 @@ var footer = `
 
 <div class="container">
   <div class="row">
-    <div class="col mt-2 mb-3">
+    <div class="col mt-2 mb-1">
       <div class="s-footer__copyright">
         <p class="derechosReservados">Todos los Derechos Reservados © 2019 CienciaHoy</p>
       </div>
