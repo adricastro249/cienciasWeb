@@ -70,72 +70,87 @@ var navbar = `
 
 // ******Footer ==================================================
 var footer = `
+
 <footer class="text-white footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-5 mt-5 mb-5">
-                <div class="footer__logo">
-                    <a class="logo" href="index.html">
-                        <img src="./images/logo-blanco.png" alt="Homepage">
-                    </a>
-                </div> <!-- end footer_logo -->
-            </div> <!-- end s-footer__subscribe -->
+<div class="container">
+  <div class="row">
+    <div class="col-5 mt-5 mb-5">
+      <div class="footer__logo">
+        <a class="logo" href="index.html">
+          <img src="./images/logo-blanco.png" alt="Homepage">
+        </a>
+      </div> <!-- end footer_logo -->
+    </div> <!-- end s-footer__subscribe -->
 
-            <div class="col-2 mt-5">
-                <h6>Secciones</h6>
-                <ul class="s-footer__linklist">
-                    <li><a class="text-white" href="#0">Revista</a></li>
-                    <li><a class="text-white  href="#0">Quienes Somos</a></li>
-                    <li><a class="text-white" href="#0">Comprar</a></li>
-                </ul>
+     <div class="col-2 mt-5">
+      <a class="nav-link text-white" href="secciones.html">Secciones</a>
+      <div class="mt-5">
+        <a class="dropdown-toggle ml-3">Revista</a> <br>
+        <a class="text-white-50 ml-3" href="quienesSomos.html">¿Quienes somos?</a>
+        <br>
+        <a class="text-white-50 ml-3" href="quienesSomos.html">Comprar</a>
+      </div>
+    </div> <!-- end s-footer__sitelinks -->
+    
+    
+    <div class="col-1 mt-5">
+      <div class="vl"></div> 
+      </div>
 
-            </div> <!-- end s-footer__sitelinks -->
-            <div class="col-3 mt-5">
-                <h6>AgendaHoy</h6>
-                <ul class="s-footer__linklist">
-                    <li><a class="text-white" href="#0">Contacto</a></li>
-                    <li><a class="text-white" href="#0">Mandanos tu nota</a></li>
-                    <li><a class="text-white" href="#0">Colaborá</a></li>
-                </ul>
-            </div> <!-- end s-footer__archives -->
+    <div class="col-2 mt-5">
+      <a class="nav-link text-white" href="agendaHoy.html">AgendaHoy</a>
+      <div class="mt-5">
+        <a class="dropdown-toggle ml-3">Contacto</a> <br>
+        <a class="text-white-50 ml-3 tipoDelgada" href="mandaTuDuda.html">Mandanos tu nota</a>
+        <br>
+        <a class="text-white-50 ml-3 tipoDelgada" href="colabora.html">Colaborá</a>
+      </div>
+    </div> <!-- end s-footer__archives -->
 
-            <div class="col-2 mt-5">
+    <div class="col-1 mt-5">
+      <div class="vl"></div> 
+      </div>
 
+    <div class="col-2 mt-5">
 
-            <a href="incioSesion.html">
-            <button type="button" class="btn btn-outline-light btn-sm botonEntrar">
-                Entrar
-            </button></a>
+      <a href="incioSesion.html">
+        <button type="button" class="btn btn-outline-light botonEntrar px-4 mt-2">
+          Entrar
+        </button></a>
 
-                <h6 class=mt-5 id="redesFooter">Redes</h6>
-                <div class="s-footer__linklist">
+      <h6 class=mt-5 id="redesFooter">Redes</h6>
+      <div class="s-footer__linklist">
 
-                <img class="" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
-                <img class="" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
+        <img class="logoFace" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
+        <img class="logoTw" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
 
-                <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
-                <img class="" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
-            </a>
+        <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
+          <img class="logoInsta" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
+        </a>
 
-                </div>
-            </div> <!-- end s-footer__social -->
-        </div>
-    </div> <!-- end s-footer__main -->
+      </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col mt-2 mb-5">
-                <div class="s-footer__copyright">
-                    <span>Todos los Derechos Reservados © 2019 CienciaHoy</span>
-                </div>
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"></a>
-                </div>
-            </div>
-        </div>
-    </div> <!-- end s-footer__bottom -->
+    </div> <!-- end col-2 mt-5 -->
 
-</footer> <!-- end s-footer -->`
+  </div>
+</div> <!-- end s-footer__main -->
+
+<div class="container">
+  <div class="row">
+    <div class="col mt-2 mb-5">
+      <div class="s-footer__copyright">
+        <p class="derechosReservados">Todos los Derechos Reservados © 2019 CienciaHoy</p>
+      </div>
+      <div class="go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+      </div>
+    </div>
+  </div>
+</div> <!-- fin container Derechos Reservados -->
+
+</footer> <!-- end s-footer -->
+
+`
 
 
 // ********************** trae el titutlo
