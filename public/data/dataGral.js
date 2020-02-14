@@ -285,6 +285,48 @@ var data = {
           "idNota": "",
           "imagen": "./Recursos/SECCIONES/Imagenes/image 9.png",
           "otros": "",
+        },
+        // repetidos
+        {
+          "titulo": "LUNARES EN VEZ DE RAYAS",
+          "texto": "Una mutación genética podría explicar este insólito caso documentado en el Parque Nacional Masai Mara.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 10.png",
+          "otros": "",
+        }, 
+        {
+          "titulo": "¿CUANTO SABES DE LA TABLA PERIODITA?",
+          "texto": "Elementos. Todo está formado de elementos. Y se ordenan en una tabla según su naturaleza y propiedades.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 11.1.png",
+          "otros": "",
+        },
+        {
+          "titulo": "FRASES CÉLEBRES DE STEPHEN HAWKING",
+          "texto": "Una de las mentes más brillantes de nuestro tiempo ha fallecido a los 76 años. Revolucionó la física con sus teoríaS.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 9.png",
+          "otros": "",
+        },{
+          "titulo": "LUNARES EN VEZ DE RAYAS",
+          "texto": "Una mutación genética podría explicar este insólito caso documentado en el Parque Nacional Masai Mara.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 10.png",
+          "otros": "",
+        }, 
+        {
+          "titulo": "¿CUANTO SABES DE LA TABLA PERIODITA?",
+          "texto": "Elementos. Todo está formado de elementos. Y se ordenan en una tabla según su naturaleza y propiedades.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 11.1.png",
+          "otros": "",
+        },
+        {
+          "titulo": "FRASES CÉLEBRES DE STEPHEN HAWKING",
+          "texto": "Una de las mentes más brillantes de nuestro tiempo ha fallecido a los 76 años. Revolucionó la física con sus teoríaS.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 9.png",
+          "otros": "",
         }
       ]
     },
@@ -292,6 +334,49 @@ var data = {
       "nombreSecc": "Ciencia en el Mundo",
       "codSecc": "CM",
       "notas": [{
+          "titulo": "MOLISE, LA REGIÓN ITALIANA",
+          "texto": "Comenzar de cero nunca fue tan apetecible. Para contrarrestar la despoblación, la región de Molise.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 11.png",
+          "otros": "",
+        }, 
+        {
+          "titulo": "TRAS LAS HUELLAS DE LEONARDO DA VINCI",
+          "texto": "Hay hombres y mujeres cuyo destino es convertirse en mito. Leonardo da Vinci no podía saberlo aún.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 1.png",
+          "otros": "",
+        },
+        {
+          "titulo": "DESEMBARCO DE NORMANDÍA",
+          "texto": "El 6 de junio de 1944, más conocido como el Día D, durante el transcurso de la Segunda Guerra Mundial.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 11.png",
+          "otros": "",
+        },
+        // repetidos
+        {
+          "titulo": "MOLISE, LA REGIÓN ITALIANA",
+          "texto": "Comenzar de cero nunca fue tan apetecible. Para contrarrestar la despoblación, la región de Molise.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 11.png",
+          "otros": "",
+        }, 
+        {
+          "titulo": "TRAS LAS HUELLAS DE LEONARDO DA VINCI",
+          "texto": "Hay hombres y mujeres cuyo destino es convertirse en mito. Leonardo da Vinci no podía saberlo aún.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/imagen 1.png",
+          "otros": "",
+        },
+        {
+          "titulo": "DESEMBARCO DE NORMANDÍA",
+          "texto": "El 6 de junio de 1944, más conocido como el Día D, durante el transcurso de la Segunda Guerra Mundial.",
+          "idNota": "",
+          "imagen": "./Recursos/SECCIONES/Imagenes/image 11.png",
+          "otros": "",
+        },
+        {
           "titulo": "MOLISE, LA REGIÓN ITALIANA",
           "texto": "Comenzar de cero nunca fue tan apetecible. Para contrarrestar la despoblación, la región de Molise.",
           "idNota": "",
