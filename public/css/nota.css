@@ -49,9 +49,13 @@ li{
 }
 
 .divDer{
-    width: 120%;
+    width: 100%;
     border-top: 0.18rem solid  #ff0076;
   }
+
+.imgDer{
+    width: 17vw;
+}
 
   .btnComen{
     border-radius: 77px 77px 77px 77px;
