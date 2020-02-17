@@ -6,13 +6,28 @@
 
 
 .etiquetasNota{
-
     font-family: "Roboto Regular";
     color: #8DD853;
     text-align: center;
     font-size: 18px;
-
 }
+
+.iconNotas{
+    width: 75%;
+    height: 65%;
+}
+
+
+.iconNotasInferior{
+    width: 90%;
+    height: 90%;
+}
+
+.logoTwI, .logoFbI{
+width: 70%;
+height: 70%;
+}
+
 
 .autorNota{
     font-family: "Roboto Slab Bold";
@@ -21,24 +36,20 @@
 .profesion{
     position: absolute;
     margin-top: -7%;
-    margin-left: 15%;
     font-family: "Roboto Slab Regular";
     color: #23aca2;
 
 }
 
-.texto1{
-    margin-left: 5%;
-    font-size: 18px;
-}
 
 .notaDerecha{
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Roboto Slab Light";
 }
 
 .txtNota{
     font-family: "Reforma2018 Blanca";  
+    font-size: 16px;
 }
 
 .txtRedes{
@@ -58,23 +69,30 @@ li{
     width: 100%;
     border-top: 0.18rem solid  #ff0076;
   }
-
-<<<<<<< HEAD
   .divDerVerde{
     width: 120%;
     border-top: 0.18rem solid  #8DD853;
   }
-=======
+
 .imgDer{
-    width: 17vw;
+    width: 20vw;
+    margin-left: -8%;
+} 
+
+.compartirInferior{
+    margin-top: 50%;
 }
->>>>>>> 625fe27a5848a818e7f196ad1360eb0e6d186f33
+
+ .notasRelacionadas{
+    margin-top: 316%;
+ }
 
   .btnComen{
-    border-radius: 77px 77px 77px 77px;
-    -moz-border-radius: 77px 77px 77px 77px;
-    -webkit-border-radius: 77px 77px 77px 77px;
+    border-radius: 80px 80px 80px 80px;
+/*     -moz-border-radius: 77px 77px 77px 77px;
+    -webkit-border-radius: 77px 77px 77px 77px; */
     border: 0.05rem solid #c7c7c7;
+    padding: 7px 18px 7px 18px;
   }
 
   .hrComent{
