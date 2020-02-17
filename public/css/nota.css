@@ -49,14 +49,20 @@ li{
 }
 
 .divDer{
-    width: 120%;
+    width: 100%;
     border-top: 0.18rem solid  #ff0076;
   }
 
+<<<<<<< HEAD
   .divDerVerde{
     width: 120%;
     border-top: 0.18rem solid  #8DD853;
   }
+=======
+.imgDer{
+    width: 17vw;
+}
+>>>>>>> 625fe27a5848a818e7f196ad1360eb0e6d186f33
 
   .btnComen{
     border-radius: 77px 77px 77px 77px;
