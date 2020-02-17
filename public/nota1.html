@@ -42,6 +42,13 @@
 
 
     <div class="bodyContenido">
+        <nav aria-label="breadcrumb" >
+            <ol class="breadcrumb" >
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.html#masVistasId" >Mas Vistas</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Eclipses de Sol, teléfonos celulares y ciencia ciudadana</li>
+            </ol>
+          </nav>
 
         <div class="row">
             <div class="col-12">
@@ -224,7 +231,11 @@
 
 
 
-                <div class="col-12">
+                <div class="col-12"> 
+                    <div id="" class=" row justify-content-end mr-2" >
+                        <p id="contComent" class="col-1 m-0">2</p>
+                        <img class="col-1 align-self-center p-0" src="./Recursos/NOTA/Imagenes/comentario.png" alt="comentario" style="height: 15%;">
+                    </div>
                     <form id="comentario1" action="" name="formulario" method="get">
                         <div class="form-group">
                             <textarea class="form-control" id="formControlTextarea1" rows="3"
@@ -247,7 +258,7 @@
                             </div>
 
                             <div id="comentariosUsuariosmb-">
-                                <!-- <div class="row">
+                                <div class="row">
                                     <div class="col-3">
                                         <div class="d-flex justify-content-around">
                                             <img src="./Recursos/NOTA/Imagenes/moriacasan.png">
@@ -257,9 +268,22 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-9 text-justify" id="agregaComent"></div>
-                                </div> -->
-                                <!-- <hr class="hrComent"> -->
+                                    <div class="col-9 text-justify" id="agregaComent1">Excelente articulo</div>
+                                </div> 
+                                <hr class="hrComent">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="d-flex justify-content-around">
+                                            <img src="./Recursos/NOTA/Imagenes/moriacasan.png">
+                                            <div>
+                                                <strong class="nombreComentario">Moira Casán</strong>
+                                                <p class="tiempoComent">Hace 2 hora</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 text-justify" id="agregaComent2">Me encantaria poder contribuir con mas información.</div>
+                                </div> 
+                                <hr class="hrComent">
                             </div>
 
                         </div>

@@ -1,7 +1,7 @@
 function processData() {
     event.preventDefault();
     var coment = [];
-    var contadorComent = 1;
+    var contadorComent = 2;
     let auxCont = `agregaComent`+contadorComent;
     let aux = event.toElement.form.elements.formControlTextarea1.value;
     console.log(event);
@@ -55,6 +55,7 @@ function processData() {
     $("#formControlTextarea1").val('')
     contadorComent = contadorComent+1;
     
+    document.getElementById("contComent").innerHTML = contadorComent;
 
        // document.getElementById("agregaComent").innerHTML = coment;
 }
