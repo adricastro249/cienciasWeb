@@ -16,7 +16,7 @@ margin-left: 5%;
 .revistas, .carrito, .compradas{
     background-color: #fff;
     padding: 2% 1%;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 40px 40px 40px 40px;
 /*     -moz-border-radius: 40px 40px 40px 40px;
     -webkit-border-radius: 40px 40px 40px 40px; */
 }
@@ -91,7 +91,8 @@ font-family: "Roboto Regular";
 .imagenDeRevista{
     height: 80px;
     width: 80px;
-    padding: 10px;
+/*     padding: 10px; */
+margin-left: 25%;
     font: outline;
 }
 
