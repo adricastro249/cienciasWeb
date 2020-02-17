@@ -7,13 +7,18 @@ body{
 
 }
 
+/*/---Bloque Izq----/*/
+ .bloqueIzq{
+margin-left: 5%;
+}  
+
 /*/---Notas----/*/
 .revistas, .carrito, .compradas{
     background-color: #fff;
-    padding: 2% 4%;
-    border-radius: 40px 40px 40px 40px;
-    -moz-border-radius: 40px 40px 40px 40px;
-    -webkit-border-radius: 40px 40px 40px 40px;
+    padding: 2% 1%;
+    border-radius: 50px 50px 50px 50px;
+/*     -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px; */
 }
 
 .botonComprar {

@@ -10,6 +10,7 @@
     font-family: "Roboto Regular";
     color: #8DD853;
     text-align: center;
+    font-size: 18px;
 
 }
 
@@ -20,10 +21,15 @@
 .profesion{
     position: absolute;
     margin-top: -7%;
-    margin-left: 5%;
+    margin-left: 15%;
     font-family: "Roboto Slab Regular";
     color: #23aca2;
 
+}
+
+.texto1{
+    margin-left: 5%;
+    font-size: 18px;
 }
 
 .notaDerecha{
