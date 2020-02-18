@@ -11,13 +11,13 @@ var navbar = `
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li id="CienciaHoy" class="nav-item">
                     <a class="nav-link text-white" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <li id="Secciones" class="nav-item">
                     <a class="nav-link text-white" href="secciones.html">Secciones</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li id="revista" class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Revista
@@ -27,10 +27,10 @@ var navbar = `
                         <a class="dropdown-item" href="comprar.html">Comprar</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li id="AgendaHoy" class="nav-item">
                     <a class="nav-link text-white" href="agendaHoy.html">AgendaHoy</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li id="Contacto" class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Contacto
@@ -40,7 +40,7 @@ var navbar = `
                         <a class="dropdown-item" href="mandaTuDuda.html">Manda tu duda</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ml-2">
  
 <div>
 
@@ -151,17 +151,24 @@ var footer = `
 </footer> <!-- end s-footer -->
 
 `
-
+;
 
 // ********************** trae el titutlo
-/* $(window).on("load", function () {
+ $(window).on("load", function () {
+   document.getElementById("")
     console.log(this.event);
     console.log(this.event.target.title);
-    let titulo = this.event.target.title;
-    $("#tituloPag").append(`<h1 class="col-4 text-right"> ${titulo} </h1> 
-    <img src="./images/linea-ROSA.png" alt="lineaRosa" class="col-4">`)
-}); */
-
+    var titulo = this.event.target.title;
+    // console.log(`${titulo}`);
+    addId = `${titulo}`;
+    // console.log(addId);
+    
+    
+    document.getElementById(addId).classList.add("menuActivo");
+  
+ 
+}); 
+ 
 
 
 // ********************** Cuerpo Modal

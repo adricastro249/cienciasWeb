@@ -20,6 +20,15 @@ body {
     background: black !important;
 }
 
+.menuActivo{
+    background-color: #ff0076;
+    border-radius: 5px;
+    color: #ffff;
+    align-items: center;
+    font-family: "Roboto Slab Bold";
+    /* padding: 1% 1% 1%; */
+}
+
 .s-footer__linklist {
     list-style: none;
 }
