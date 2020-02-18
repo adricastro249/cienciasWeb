@@ -39,8 +39,7 @@ margin-left: 78px;
 .textoNotas1{
     position: absolute;
     top: 390px;
-    margin-left: 15%;
-
+    margin-left: 8%;
 }
 
 .textoNotas3{
@@ -169,16 +168,17 @@ margin-left: 78px;
 }
 
  .appStore {
-   background-image: url("../images/fondo_publicidad.png") cover cover cover;
-    background-repeat: no-repeat;
- background-size: 900%;  
+   background-image: url("../images/fondo_publicidad.png");
+/*     background-repeat: no-repeat; */
+ background-size: 90%;  
+ margin-top: -2.5%;
 }
 
-    @media (min-width: 576px) {
+   /*  @media (min-width: 576px) {
         .appStore {
             background: url("../images/fondo_publicidad.png") no-repeat right;
             background-size: 120%;
-       /*    max-width: 540px; */
+        max-width: 540px; 
         }
       }
       
@@ -186,7 +186,7 @@ margin-left: 78px;
         .appStore {
             background: url("../images/fondo_publicidad.png") no-repeat right;
             background-size: 100%;
- /*          max-width: 720px; */
+       max-width: 720px; 
         }
       }
       
@@ -194,7 +194,7 @@ margin-left: 78px;
         .appStore {
             background: url("../images/fondo_publicidad.png") no-repeat right;
             background-size: 90%;
-       /*    max-width: 960px; */
+      max-width: 960px; 
         }
       }
       
@@ -202,10 +202,10 @@ margin-left: 78px;
         .appStore {
             background: url("../images/fondo_publicidad.png") no-repeat right;
             background-size: 75%;
-        /*   max-width: 1140px; */
+      max-width: 1140px; 
  
         }
-      }
+      } */
 
 .botonApp {
     background-color: #ff0076;
@@ -213,10 +213,15 @@ margin-left: 78px;
     color: #ffff;
     align-items: center;
     font-family: "Roboto Slab Bold";
-    padding: 1% 1% 1%;
-
-    
+    padding: 1% 1% 1%; 
 }
+
+.botonAplicacionWeb{
+margin-top: 15%;
+margin-bottom: 4%;
+}
+
+
 .imgAppPlayStore {
     width: 13%;
     height: 13%;
