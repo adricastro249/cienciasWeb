@@ -39,11 +39,13 @@ margin-left: 78px;
 .textoNotas1{
     position: absolute;
     top: 390px;
+    margin-left: 15%;
+
 }
 
 .textoNotas3{
     position: absolute;
-    top: 445px;
+    top: 455px;
 }
 
 .nota1 {
@@ -166,34 +168,15 @@ margin-left: 78px;
     font-family: "Roboto Light";
 }
 
-.appStore {
-   background-image: url("../images/fondo_publicidad.png");
+ .appStore {
+   background-image: url("../images/fondo_publicidad.png") cover cover cover;
     background-repeat: no-repeat;
- background-size: 100%;  
-
-/*  background: url("../images/fondo_publicidad.png") no-repeat center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover; */
+ background-size: 900%;  
 }
- 
- /* @media only screen and (max-width: 767px) {
-    .appStore {      
-  
- background: url("../images/fondo_publicidad.png") no-repeat ;
- -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
- background-size: 100%;
- }
-    } */
-
-
 
     @media (min-width: 576px) {
         .appStore {
-            background: url("../images/fondo_publicidad.png") no-repeat cover cover cover;
+            background: url("../images/fondo_publicidad.png") no-repeat right;
             background-size: 120%;
        /*    max-width: 540px; */
         }
@@ -201,8 +184,8 @@ background-size: cover; */
       
       @media (min-width: 768px) {
         .appStore {
-            background: url("../images/fondo_publicidad.png") no-repeat cover cover cover;
-            background-size: 120%;
+            background: url("../images/fondo_publicidad.png") no-repeat right;
+            background-size: 100%;
  /*          max-width: 720px; */
         }
       }
@@ -217,7 +200,7 @@ background-size: cover; */
       
       @media (min-width: 1200px){
         .appStore {
-            background: url("../images/fondo_publicidad.png") no-repeat cover ;
+            background: url("../images/fondo_publicidad.png") no-repeat right;
             background-size: 75%;
         /*   max-width: 1140px; */
  
@@ -231,7 +214,7 @@ background-size: cover; */
     align-items: center;
     font-family: "Roboto Slab Bold";
     padding: 1% 1% 1%;
-   
+
     
 }
 .imgAppPlayStore {
