@@ -191,11 +191,11 @@ var cuerpoModal = `
 
                     <div class="row">
                         <div class="col">
-                            <img class="p-3 logoNegro" src="./images/logoRecursoNegro.png" alt="logoNegro">
+                            <img class="logoNegro" src="./images/logoRecursoNegro.png" alt="logoNegro">
                         </div>
 
                         <div class="col ml-5">
-                            <h4 class="textVerde mt-4">Para realizar acción deberá</h4>
+                            <h4 class="textVerde mt-2">Para realizar acción deberá</h4>
                             <br>
                             <p>
                                 <a href="incioSesion.html"><button type="button"
