@@ -1,15 +1,20 @@
-
-
 .tituloNota{
     font-family: "Roboto Slab Bold";
+    font-weight: bold;
+    font-size: 50px;
 }
 
+
+.secTitulo{
+    margin-left: 17%;
+}
 
 .etiquetasNota{
     font-family: "Roboto Regular";
     color: #8DD853;
-    text-align: center;
-    font-size: 18px;
+    text-align: left;
+    font-size: 19px;
+    margin-left: 25%;
 }
 
 .iconNotas{
