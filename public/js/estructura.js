@@ -1,7 +1,7 @@
 /* ******Navbar************************************* 
 ==================================================*/
 var navbar = `
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="./images/logo-blanco.png" alt="Homepage"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -72,83 +72,83 @@ var navbar = `
 var footer = `
 
 <footer class="text-white footer">
-<div class="container">
-  <div class="row">
-    <div class="col-5 mt-5 mb-5">
-      <div class="footer__logo">
-        <a class="logo" href="index.html">
-          <img src="./images/logo-blanco.png" alt="Homepage">
-        </a>
-      </div> <!-- end footer_logo -->
-    </div> <!-- end s-footer__subscribe -->
-
-     <div class="col-2 mt-5">
-      <a class="nav-link text-white" href="secciones.html">Secciones</a>
-      <div class="mt-5">
-        <a class="dropdown-toggle ml-3">Revista</a> <br>
-        <a class="text-white-50 ml-3" href="quienesSomos.html">¿Quienes somos?</a>
-        <br>
-        <a class="text-white-50 ml-3" href="quienesSomos.html">Comprar</a>
-      </div>
-    </div> <!-- end s-footer__sitelinks -->
-    
-    
-    <div class="col-1 mt-5">
-      <div class="vl"></div> 
-      </div>
-
-    <div class="col-2 mt-5">
-      <a class="nav-link text-white" href="agendaHoy.html">AgendaHoy</a>
-      <div class="mt-5">
-        <a class="dropdown-toggle ml-3">Contacto</a> <br>
-        <a class="text-white-50 ml-3 tipoDelgada" href="mandaTuDuda.html">Mandanos tu nota</a>
-        <br>
-        <a class="text-white-50 ml-3 tipoDelgada" href="colabora.html">Colaborá</a>
-      </div>
-    </div> <!-- end s-footer__archives -->
-
-    <div class="col-1 mt-5">
-      <div class="vl"></div> 
-      </div>
-
-    <div class="col-2 mt-5">
-
-      <a href="incioSesion.html">
-        <button type="button" class="btn btn-outline-light botonEntrar px-4 mt-2">
-          Entrar
-        </button></a>
-
-      <h6 class= "mt-5" id="redesFooter">Redes</h6>
-      <div class="s-footer__linklist mt-1">
-
-        <img class="logoFace mr-3" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
-        <img class="logoTw mr-3" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
-
-        <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
-          <img class="logoInsta" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
-        </a>
-
-      </div>
-
-    </div> <!-- end col-2 mt-5 -->
-
-  </div>
-</div> <!-- end s-footer__main -->
-
-<div class="container">
-  <div class="row">
-    <div class="col mt-2 mb-1">
-      <div class="s-footer__copyright">
-        <p class="derechosReservados">Todos los Derechos Reservados © 2019 CienciaHoy</p>
-      </div>
-      <div class="go-top">
-        <a class="smoothscroll" title="Back to Top" href="#top"></a>
-      </div>
-    </div>
-  </div>
-</div> <!-- fin container Derechos Reservados -->
-
-</footer> <!-- end s-footer -->
+        <div class="container">
+          <div class="row">
+            <div class="col-5 mt-5 mb-5">
+              <div class="footer__logo">
+                <a class="logo" href="index.html">
+                  <img src="./images/logo-blanco.png" alt="Homepage">
+                </a>
+              </div> <!-- end footer_logo -->
+            </div> <!-- end s-footer__subscribe -->
+        
+             <div class="col-2 mt-5">
+              <a class="nav-link tipoGeneral" href="secciones.html">Secciones</a>
+              <div class="mt-5">
+                <a class="dropdown-toggle ml-3 text-white">Revista</a> <br>
+                <a class=" ml-3 tipoDelgada" href="quienesSomos.html">¿Quienes somos?</a>
+                <br>
+                <a class="ml-3 tipoDelgada" href="quienesSomos.html">Comprar</a>
+              </div>
+            </div> <!-- end s-footer__sitelinks -->
+            
+            
+            <div class="col-1 mt-5">
+              <div class="vl"></div> 
+              </div>
+        
+            <div class="col-2 mt-5">
+              <a class="nav-link tipoGeneral" href="agendaHoy.html">AgendaHoy</a>
+              <div class="mt-5">
+                <a class="dropdown-toggle ml-3 text-white">Contacto</a> <br>
+                <a class="ml-3 tipoDelgada" href="mandaTuDuda.html">Mandanos tu nota</a>
+                <br>
+                <a class=" ml-3 tipoDelgada" href="colabora.html">Colaborá</a>
+              </div>
+            </div> <!-- end s-footer__archives -->
+        
+            <div class="col-1 mt-5">
+              <div class="vl"></div> 
+              </div>
+        
+            <div class="col-2 mt-5">
+        
+              <a href="incioSesion.html">
+                <button type="button" class="btn btn-outline-light botonEntrar px-4 mt-2">
+                  Entrar
+                </button></a>
+        
+              <h6 class= "mt-5" id="redesFooter">Redes</h6>
+              <div class="s-footer__linklist mt-1">
+        
+                <img class="logoFace mr-3" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
+                <img class="logoTw mr-3" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
+        
+                <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
+                  <img class="logoInsta" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
+                </a>
+        
+              </div>
+        
+            </div> <!-- end col-2 mt-5 -->
+        
+          </div>
+        </div> <!-- end s-footer__main -->
+        
+        <div class="container">
+          <div class="row">
+            <div class="col mt-2 mb-1">
+              <div class="s-footer__copyright">
+                <p class="derechosReservados">Todos los Derechos Reservados © 2019 CienciaHoy</p>
+              </div>
+              <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- fin container Derechos Reservados -->
+        
+        </footer>
 
 `
 ;

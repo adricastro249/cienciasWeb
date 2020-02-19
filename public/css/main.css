@@ -43,6 +43,18 @@ body {
     color: #ff0076;
 }
 
+.tipoDelgada{
+    font-family: "Roboto Thin" !important;
+    color:grey;
+font-size: 15px;
+}
+
+.tipoGeneral{
+    font-family: "Roboto Slab Bold";
+    color: #fff;
+}
+
+
 /*/---- Modal ----/*/
 
 
@@ -120,9 +132,11 @@ body {
 
 /* --- Footer --- */
 
-* {
+/* * {
     font-family: "Roboto Slab Bold";
-}
+} */
+
+
 
 .vl {
     border-left: 1px solid #ffff;

@@ -3916,7 +3916,9 @@
         return c.getAttribute(DATA_FA_PSEUDO_ELEMENT) === position;
       })[0];
       var styles = WINDOW.getComputedStyle(node, position);
+/* 
       var fontFamily = styles.getPropertyValue('font-family').match(FONT_FAMILY_PATTERN);
+       */
       var fontWeight = styles.getPropertyValue('font-weight');
 
       if (alreadyProcessedPseudoElement && !fontFamily) {
