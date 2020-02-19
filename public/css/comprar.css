@@ -105,7 +105,7 @@ margin-left: 25%;
 
 .datosDeRevista{
     color: black;
-    font-family: 'Roboto Slab', serif;
+/*     font-family: 'Roboto Slab', serif; */
     font-size: 13.5px;
 }
 
@@ -124,7 +124,7 @@ margin-left: 25%;
 .listaCarrito{
     margin: 0px 0px;
     padding: 0px 0px;
-    font-family: 'Roboto Slab', serif;
+/*     font-family: 'Roboto Slab', serif; */
     font-size: 13.5px;
 }
 

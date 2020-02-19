@@ -1,7 +1,7 @@
-body{
+/* body{
   font-family: 'Roboto Slab', serif;
 }
-
+ */
 .bodyPerfil{
   background-color: #f4fbee;
 }
@@ -157,7 +157,7 @@ color: #fff;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 1px solid #23ACA2;
-  font-family: 'Roboto Slab', serif;
+/*   font-family: 'Roboto Slab', serif; */
 }
 
 .divQS{

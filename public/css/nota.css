@@ -38,12 +38,11 @@ height: 70%;
     margin-top: -7%;
     font-family: "Roboto Slab Regular";
     color: #23aca2;
-
 }
 
 
 .notaDerecha{
-    font-size: 12px;
+    font-size: 15px;
     font-family: "Roboto Slab Light";
 }
 
@@ -81,11 +80,11 @@ li{
 } 
 
 .compartirInferior{
-    margin-top: 50%;
+    margin-top: 22%;
 }
 
  .notasRelacionadas{
-    margin-top: 290%;
+    margin-top: 140%;
  }
 
   .btnComen{
@@ -107,10 +106,10 @@ li{
 
 .tiempoComent{
     font-size: 11px;
-    font-family: 'Roboto Slab', serif;
+ /*    font-family: 'Roboto Slab', serif; */
 }
 .nombreComentario{
-    font-family: 'Roboto Slab', serif;
+/*     font-family: 'Roboto Slab', serif; */
 }
 
 /* ---Miga de Pan--- */
