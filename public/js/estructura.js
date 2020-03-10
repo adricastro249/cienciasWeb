@@ -46,8 +46,6 @@ var navbar = `
 
 <div class="bloqDerNavbar">
 
-<i class="fas fa-search"></i>
-
 <a href="incioSesion.html">
         <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar" data-toggle="modal"
             data-target="#modalEntrar">
@@ -116,12 +114,17 @@ var footer = `
         
               <h6 class= "mt-5" id="redesFooter">Redes</h6>
               <div class="s-footer__linklist mt-1">
-        
-                <img class="logoFace mr-3" src="./Recursos/Footer/facebook_blanco.png" alt="logoFace" href="">
-                <img class="logoTw mr-3" src="./Recursos/Footer/twitter_blanco.png" alt="logoTw" href="">
-        
+
+              <a class="instaInsta" href="https://www.facebook.com/RevistaCienciaHoy/">
+                <img class="logoFace mr-3" src="./images/Footer/facebook_blanco.png" alt="logoFace" href="">
+                </a>
+
+                <a class="instaInsta" href="https://twitter.com/cienciahoyok?lang=es">
+               <img class="logoTw mr-3" src="./images/Footer/twitter_blanco.png" alt="logoTw" href="">
+        </a>
+
                 <a class="instaInsta" href="https://www.instagram.com/cienciahoy.ok/">
-                  <img class="logoInsta" src="./Recursos/Footer/instagram_blanco.png" alt="InstaLogo">
+                  <img class="logoInsta" src="./images/Footer/instagram_blanco.png" alt="InstaLogo">
                 </a>
         
               </div>

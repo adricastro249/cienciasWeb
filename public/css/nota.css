@@ -11,10 +11,9 @@
 
 .etiquetasNota{
     font-family: "Roboto Regular";
-    color: #8DD853;
+    color:   #ff0076;
     text-align: left;
     font-size: 19px;
-    margin-left: 25%;
 }
 
 .iconNotas{
@@ -47,7 +46,7 @@ height: 70%;
 
 
 .notaDerecha{
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Roboto Slab Light";
 }
 
@@ -60,9 +59,10 @@ height: 70%;
     font-family: "Reforma2018 Negra";
 }
 
-.notasRelacionadas{
+.notasRelac{
     font-family: "Roboto Slab Bold";
-    color: #8DD853;
+    font-weight: bold;
+    color: #000000;
 }
 
 li{
@@ -70,8 +70,8 @@ li{
 }
 
 .divDer{
-    width: 100%;
-    border-top: 0.18rem solid  #ff0076;
+    width: 50%;
+    border-top: 0.4rem solid  #ff0076;
   }
   
   .divDerVerde{
@@ -83,6 +83,10 @@ li{
     width: 20vw;
     margin-left: -8%;
 } 
+
+.imgArticulo{
+    width: 100%;
+}
 
 .compartirInferior{
     margin-top: 22%;
@@ -121,3 +125,23 @@ li{
 .linkMiga{
     color: #6c757d;
 }
+
+.vlNota {
+    border-left: 1.5px solid #7E7E7E;
+    opacity: 0.1;
+    height: 1680px;
+    margin-left: 45%;
+  }
+
+.imgComentario{
+width: 30%;
+height: 30%;
+  }
+
+  .seccNota{
+    color:  #7E7E7E;
+  }
+
+  .msec{
+    font-family: "Roboto Slab Light";
+  }

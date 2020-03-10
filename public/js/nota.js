@@ -17,11 +17,11 @@ function processData() {
         node4.classList.add("d-flex");
         node4.classList.add("justify-content-around");
     let imgNode4= document.createElement("IMG");
-        imgNode4.src = "./Recursos/NOTA/Imagenes/moriacasan.png" ;
+        imgNode4.src = "./images/nota/alejandroCurino.png" ;
     let node4_5 = document.createElement("DIV");
     let node4_5_Strong = document.createElement("STRONG");
         node4_5_Strong.classList.add("nombreComentario");
-    let node4_5_StrongText = document.createTextNode("Maria Casán");
+    let node4_5_StrongText = document.createTextNode("Angel Castro");
     let node4_5_Tiempo = document.createElement("P");
         node4_5_Tiempo.classList.add("tiempoComent");
     let node4_5_TiempoText = document.createTextNode("Hace 1 hora");

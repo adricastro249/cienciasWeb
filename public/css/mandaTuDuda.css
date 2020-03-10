@@ -28,12 +28,26 @@
    font-family: "Roboto Slab Regular";
 }
 
-
 .mensaje{
     margin-top: 10%;
 }
-
-.vl {
-    border-left: 1.8px solid rgba(0,0,0,.1);
+.vlCont {
+    border-left: 1.5px solid #7E7E7E;
+    opacity: 0.1;
     height: 100%;
   }
+
+.logoTwC,
+.logoInstaC {
+    width: 6%;
+    height: 6%;
+}
+
+.logoFaceC{
+    width: 3%;
+    height: 3%;
+}
+
+.email{
+color:  #7E7E7E;
+}
