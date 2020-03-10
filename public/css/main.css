@@ -18,6 +18,16 @@ body {
 .navbar,
 .footer {
     background: black !important;
+    font-family: "Roboto Slab Regular";
+}
+
+.navbar-nav{
+    margin-left: 25%;
+}
+
+
+.bloqDerNavbar{
+    margin-left: 80%;
 }
 
 .menuActivo{

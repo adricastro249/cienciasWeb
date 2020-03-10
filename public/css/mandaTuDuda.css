@@ -25,7 +25,7 @@
     padding-right: 3%;
    padding-top: 1%;
    padding-bottom: 1%;
-   font-family: "Roboto Slab Bold";
+   font-family: "Roboto Slab Regular";
 }
 
 
@@ -33,7 +33,7 @@
     margin-top: 10%;
 }
 
-
-.form-control{
-    border: 1px solid #23ACA2;
-}
+.vl {
+    border-left: 1.8px solid rgba(0,0,0,.1);
+    height: 100%;
+  }

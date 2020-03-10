@@ -10,7 +10,7 @@ var navbar = `
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav">
                 <li id="CienciaHoy" class="nav-item">
                     <a class="nav-link text-white" href="index.html">Inicio</a>
                 </li>
@@ -44,20 +44,16 @@ var navbar = `
  
 <div>
 
+<div class="bloqDerNavbar">
+
+<i class="fas fa-search"></i>
+
 <a href="incioSesion.html">
-        <button type="button" class="btn btn-outline-light btn-lm botonEntrar" id="btnEntrar" data-toggle="modal"
+        <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar" data-toggle="modal"
             data-target="#modalEntrar">
             Entrar
         </button></a>
-
-        <a href="perfil.html">
-            <button type="button" class="btn btn-outline-danger btn-lm" id="btnMiCuenta" href="nota1.html">
-                Mi cuenta
-            </button></a>
-
-        <button type="button" id="sign-out-button" class="btn btn-outline-success btn-lm" href="">Salir</button>
-
-
+</div>
 
 
 </div>
