@@ -2,17 +2,13 @@
     font-family: 'Roboto Slab', serif;
 } */
 
-
-.destacadas,
-.carouselHome,
-.headerIndex {
-    background: black;
+header{
+    background-color: #00000;
 }
-
-/*/ ---- Header Index----/*/
-.notasIndex {
-    background-color: black;
-    color: #ffff;
+.destacadas,
+.carouselHome
+/* .headerIndex  */{
+    background: black;
 }
 
 .secciones {
@@ -20,14 +16,11 @@
     font-weight: bold;
     font-family: "Roboto Slab Bold";
     margin-left: 78px;
-
 }
 
 .tituloNotaHeader {
     margin-left: 78px;
 }
-
-
 
 .textoNotas2 {
     position: absolute;
@@ -45,63 +38,15 @@
     top: 455px;
 }
 
-.nota1 {
-    background-image: url("..//images/home1_sinhover.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: #EFEFEF;
-}
-
-.nota1:hover {
-    background-image: url("..//images/home1_conhover.png");
-    color: #fff;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.nota2 {
-    background-image: url("../images/home2_sinhover.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: #EFEFEF;
-
-
-}
-
-.nota2:hover {
-    background-image: url("..//images/home2_conhover.png");
-    color: #fff;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.nota3 {
-    background-image: url("../images/home3_sinhover.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: #EFEFEF;
-}
-
-.nota3:hover {
-    background-image: url("../images/home3_conhover.png");
-    color: #fff;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-
 
 /*/---- Mas vistas ----/*/
 .masVistas {
     font-family: "Roboto Slab Bold";
-
 }
-
 
 .titNotaMV {
     font-family: "Roboto Slab Bold";
 }
-
 
 .resumenNota {
     font-family: "Reforma2018 Gris";
@@ -123,7 +68,6 @@
 
 .tituloNotaCarrusel {
     font-family: "Roboto Slab Bold";
-
     font-weight: bold;
     color: #ffff;
 }
@@ -149,17 +93,14 @@
 .colorTxtEvnt {
     font-family: "Roboto Regular";
     color: rgba(192, 192, 192, 0.9);
-
 }
 
 
 /*/---- Section App ----/*/
-
 .tituloApp,
 .descApp {
     font-family: "Roboto Slab Bold";
 }
-
 
 #txtApp {
     font-family: "Roboto Light";
@@ -169,38 +110,9 @@
     background-image: url("../images/fondo_publicidad.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    /*  margin-top: -2.5%; */
-    /*  margin-right: -5.3%; */
     margin-left: 8%;
 }
 
-/* @media (min-width: 576px) {
-    .appStore {
-        background: url("../images/fondo_publicidad.png") no-repeat right;
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px) {
-    .appStore {
-        background: url("../images/fondo_publicidad.png") no-repeat right;
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .appStore {
-        background: url("../images/fondo_publicidad.png") no-repeat right;
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .appStore {
-        background: url("../images/fondo_publicidad.png") no-repeat right;
-        max-width: 1140px;
-    }
-} */
 
 .botonApp {
     background-color: #ff0076;
@@ -230,4 +142,13 @@
 .hrMvHome {
     margin-left: 0.1rem;
     width: 20%;
+}
+
+.cuadrado {
+    width: 40%; 
+    height: 100%; 
+    background: #000000;
+    opacity: 50%;
+    z-index: 100;
+    padding: 5%;
 }

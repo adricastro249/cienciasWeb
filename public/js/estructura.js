@@ -71,7 +71,7 @@ var footer = `
             <div class="col-5 mt-5 mb-5">
               <div class="footer__logo">
                 <a class="logo" href="index.html">
-                  <img src="./images/logo-blanco.png" alt="Homepage">
+                  <img src="./images/Footer/Group 150.png" alt="Homepage">
                 </a>
               </div> <!-- end footer_logo -->
             </div> <!-- end s-footer__subscribe -->
