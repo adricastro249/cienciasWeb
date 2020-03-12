@@ -5,7 +5,7 @@
 .tituloNota{
     font-family: "Roboto Slab Bold";
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .secTitulo{
@@ -147,7 +147,7 @@ li{
 .vlImgTxt{
     border-left:  0.4rem solid  #23ACA2;
     height: 610px;
-    margin-top: 34.3%;
+    margin-top: 37.3%;
     margin-left: 2%;
 }
 
@@ -209,11 +209,6 @@ height: 30%;
 
 .imgAutor{
     margin-top: 4%;
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
 }
-
-/* .imgAutor2{
-    width: 15%;
-    height: 15%;
-} */
