@@ -1,47 +1,52 @@
-/* body{
-    font-family: 'Roboto Slab', serif;
-} */
-
 header{
-    background-color: #00000;
+    background-color: #000000;
 }
+
 .destacadas,
-.carouselHome
-/* .headerIndex  */{
+.carouselHome{
     background: black;
 }
 
+/*/---- HEADER ----/*/
+
+.cuadrado {
+    width: 40%; 
+    height: 100%; 
+    background: #000000;
+    opacity: 80%;
+    z-index: 100;
+    padding: 5%;
+}
+
 .secciones {
-    color: #23ACA2;
-    font-weight: bold;
+    color: #ffffff;
+    font-family: "Roboto Light";
+    font-size: 25px;
+    
+}
+
+.tituloNotaHeader{
     font-family: "Roboto Slab Bold";
-    margin-left: 78px;
+    font-size: 50px;
 }
 
-.tituloNotaHeader {
-    margin-left: 78px;
+.nota1{
+    width: 33%;
 }
 
-.textoNotas2 {
+.nota2{
+width: 55%;
+}
+
+.notasHeader{
     position: absolute;
-    top: 220px;
+margin-bottom: 12%;
 }
-
-.textoNotas1 {
-    position: absolute;
-    top: 390px;
-    margin-left: -1%;
-}
-
-.textoNotas3 {
-    position: absolute;
-    top: 455px;
-}
-
 
 /*/---- Mas vistas ----/*/
 .masVistas {
     font-family: "Roboto Slab Bold";
+    text-align: center;
 }
 
 .titNotaMV {
@@ -51,6 +56,12 @@ header{
 .resumenNota {
     font-family: "Reforma2018 Gris";
 }
+
+.divLeidas{
+    width: 20%;
+    border-top: 0.6rem solid #23ACA2;
+/*     margin-right: 50%; */
+  }
 
 /*/---- Carousel ----/*/
 
@@ -144,11 +155,4 @@ header{
     width: 20%;
 }
 
-.cuadrado {
-    width: 40%; 
-    height: 100%; 
-    background: #000000;
-    opacity: 50%;
-    z-index: 100;
-    padding: 5%;
-}
+
