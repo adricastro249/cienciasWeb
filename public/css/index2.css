@@ -63,6 +63,17 @@ margin-bottom: 12%;
 /*     margin-right: 50%; */
   }
 
+  .vlCont {
+    border-left: 2.5px solid #7E7E7E;
+    opacity: 0.1;
+    height: 100%;
+  }
+
+  .seccion{
+        font-family: "Roboto Slab Light";   
+        color: #7E7E7E;
+        font-size: 17px;
+}
 /*/---- Carousel ----/*/
 
 .carouselHomel {
