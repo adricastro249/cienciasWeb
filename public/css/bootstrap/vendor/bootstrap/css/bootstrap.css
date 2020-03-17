@@ -4093,6 +4093,8 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
+
+
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4504,30 +4506,41 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+/*   color: #fff; */
+color: green;
+
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+/*   color: #fff; */
+color: green;
+
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+/*   color: rgba(255, 255, 255, 0.5);  */
+ color: #fff;
 }
 
+
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+ /*  color: rgba(255, 255, 255, 0.75); */
+ color: #ff0076;
+
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
+
 }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+/*   color: #fff; */
+color: #ff0076;
+
 }
 
 .navbar-dark .navbar-toggler {
@@ -4544,11 +4557,13 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-  color: #fff;
+/*   color: #fff; */
+color:   red;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+/*   color: #fff; */
+  color:   red;
 }
 
 .card {

@@ -31,12 +31,13 @@ body {
 }
 
 .menuActivo{
-    background-color: #ff0076;
-    border-radius: 5px;
-    color: #ffff;
+/*   background-color:  #ff0076; */
+   border-radius: 5px; 
+ color: #ff0076 !important;
     align-items: center;
-    font-family: "Roboto Slab Bold";
-    /* padding: 1% 1% 1%; */
+    font-family: "Roboto Slab Regular";  
+    outline-color: #8DD853;
+ 
 }
 
 .s-footer__linklist {
@@ -62,6 +63,11 @@ font-size: 15px;
 .tipoGeneral{
     font-family: "Roboto Slab Bold";
     color: #fff;
+    font-size: 17px;
+}
+
+.subTitFooter{
+
 }
 
 

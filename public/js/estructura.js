@@ -12,13 +12,13 @@ var navbar = `
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li id="CienciaHoy" class="nav-item">
-                    <a class="nav-link text-white" href="index.html">Inicio</a>
+                    <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li id="Secciones" class="nav-item">
-                    <a class="nav-link text-white" href="secciones.html">Secciones</a>
+                    <a class="nav-link " href="secciones.html">Secciones</a>
                 </li>
                 <li id="revista" class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Revista
                     </a>
@@ -28,10 +28,10 @@ var navbar = `
                     </div>
                 </li>
                 <li id="AgendaHoy" class="nav-item">
-                    <a class="nav-link text-white" href="agendaHoy.html">AgendaHoy</a>
+                    <a class="nav-link " href="agendaHoy.html">AgendaHoy</a>
                 </li>
                 <li id="Contacto" class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Contacto
                     </a>
@@ -45,6 +45,10 @@ var navbar = `
 <div>
 
 <div class="bloqDerNavbar">
+
+
+
+<a class="" href=""><img src="./images/logo-blanco.png" alt="Homepage"></a>
 
 <a href="incioSesion.html">
         <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar" data-toggle="modal"
@@ -74,7 +78,9 @@ var footer = `
                   <img src="./images/Footer/Group 150.png" alt="Homepage">
                 </a>
               </div> <!-- end footer_logo -->
-            </div> <!-- end s-footer__subscribe -->
+
+              <p class="mt-3 subTitFooter">Revista de divulgación científica y tecnológica</p>
+                          </div> <!-- end s-footer__subscribe -->
         
              <div class="col-2 mt-5">
               <a class="nav-link tipoGeneral" href="secciones.html">Secciones</a>
@@ -163,7 +169,7 @@ var footer = `
     // console.log(addId);
     
     
-    document.getElementById(addId).classList.add("menuActivo");
+    document.getElementById(addId).classList.add("active");
   
  
 }); 
