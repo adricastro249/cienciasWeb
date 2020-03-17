@@ -47,8 +47,7 @@ var navbar = `
 <div class="bloqDerNavbar">
 
 
-
-<a class="" href=""><img src="./images/logo-blanco.png" alt="Homepage"></a>
+<a class="" href=""><img src="./images/lupa" alt="lupa"></a>
 
 <a href="incioSesion.html">
         <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar" data-toggle="modal"
