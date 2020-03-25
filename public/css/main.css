@@ -22,12 +22,12 @@ body {
 }
 
 .navbar-nav{
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 
 .bloqDerNavbar{
-    margin-left: 80%;
+    margin-left: 40%;
 }
 
 .menuActivo{
@@ -49,6 +49,24 @@ body {
     margin-right: 4vw;
 }
 
+
+.navBarArriba{
+margin-right: 130px;
+    display: flex;
+    float: right;
+}
+
+
+.margenLogo{
+    
+margin-left: 6rem;
+
+}
+
+.nav-item{
+    padding-left: 15px;
+padding-right: 15px;
+}
 /*/---- Section Footer ----/*/
 #redesFooter {
     color: #ff0076;

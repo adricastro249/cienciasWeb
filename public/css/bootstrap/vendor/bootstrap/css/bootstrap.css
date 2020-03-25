@@ -421,9 +421,9 @@ h6, .h6 {
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
-/*   margin-left: 4rem; */
+ margin-left:0.2rem;
   border: 0;
-/*   width: 19%; */
+   width: 60%;
   border-top: 0.35rem solid #ff0076;
 }
 
@@ -4540,7 +4540,6 @@ color: green;
 .navbar-dark .navbar-nav .nav-link.active {
 /*   color: #fff; */
 color: #ff0076;
-
 }
 
 .navbar-dark .navbar-toggler {

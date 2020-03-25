@@ -2,14 +2,9 @@
 ==================================================*/
 var navbar = `
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
-    <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="./images/logo-blanco.png" alt="Homepage"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+    <div class="margenLogo">
+        <a class="navbar-brand " href="index.html"><img src="./images/logo-blanco.png" alt="Homepage"></a>
+        <div class="navBarArriba" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li id="CienciaHoy" class="nav-item">
                     <a class="nav-link" href="index.html">Inicio</a>
@@ -40,14 +35,20 @@ var navbar = `
                         <a class="dropdown-item" href="mandaTuDuda.html">Manda tu duda</a>
                     </div>
                 </li>
-                <li class="nav-item ml-2">
- 
-<div>
+               
+
+
+
+
+
+
+
+
+
 
 <div class="bloqDerNavbar">
-
-
-<a class="" href=""><img src="./images/lupa" alt="lupa"></a>
+<div class="d-flex  mr-5">
+<a class="mt-2" href=""><img src="./images/lupa.png" alt="lupa"></a>
 
 <a href="incioSesion.html">
         <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar" data-toggle="modal"
@@ -55,10 +56,8 @@ var navbar = `
             Entrar
         </button></a>
 </div>
-
-
 </div>
- </li>
+
 
             </ul>
         </div>
@@ -154,25 +153,24 @@ var footer = `
         
         </footer>
 
-`
-;
+`;
 
 // ********************** trae el titutlo
- $(window).on("load", function () {
-   document.getElementById("")
-    console.log(this.event);
-    console.log(this.event.target.title);
-    var titulo = this.event.target.title;
-    // console.log(`${titulo}`);
-    addId = `${titulo}`;
-    // console.log(addId);
-    
-    
-    document.getElementById(addId).classList.add("active");
-  
- 
-}); 
- 
+$(window).on("load", function () {
+  document.getElementById("")
+  console.log(this.event);
+  console.log(this.event.target.title);
+  var titulo = this.event.target.title;
+  // console.log(`${titulo}`);
+  addId = `${titulo}`;
+  // console.log(addId);
+
+
+  document.getElementById(addId).classList.add("active");
+
+
+});
+
 
 
 // ********************** Cuerpo Modal
@@ -226,7 +224,3 @@ document.getElementById("navbar").innerHTML = navbar;
 document.getElementById("footer").innerHTML = footer;
 
 document.getElementById("cuerpoModal").innerHTML = cuerpoModal;
-
-
-
-
