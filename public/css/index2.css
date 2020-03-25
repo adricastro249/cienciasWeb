@@ -1,8 +1,5 @@
-header{
-  /*   background-color: #000000;
-} */
-}
-.destacadas,
+
+/* .destacadas, */
 .carouselHome{
     background: black;
 }
@@ -44,9 +41,23 @@ margin-bottom: 15%;
 }
 
 .nota2{
-
     width:60%;
 }
+
+#nota1F{
+    background-image: url("../images/Home/image\ 90.png");
+}
+
+
+#nota2F{
+    background-image: url("../images/Home/image\ 91.png");
+}
+
+
+#nota3F{
+    background-image: url("../images/Home/image\ 92.png");
+}
+
 
 /*/---- Mas vistas ----/*/
 .masVistas {
