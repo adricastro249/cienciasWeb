@@ -17,7 +17,9 @@ function processData() {
         node4.classList.add("d-flex");
         node4.classList.add("justify-content-around");
     let imgNode4= document.createElement("IMG");
+ 
         imgNode4.src = "./images/nota/alejandroCurino.png" ;
+        imgNode4.classList.add("imgComentarioAgregado");
     let node4_5 = document.createElement("DIV");
     let node4_5_Strong = document.createElement("STRONG");
         node4_5_Strong.classList.add("nombreComentario");
@@ -28,6 +30,7 @@ function processData() {
     let node3Coment = document.createElement("DIV");
         node3Coment.classList.add("col-9");
         node3Coment.classList.add("text-justify");
+        node3Coment.classList.add("comentario");
     let comentario = document.createTextNode(aux);
         node3Coment.appendChild(comentario);
     

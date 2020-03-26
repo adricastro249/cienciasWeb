@@ -47,11 +47,12 @@
     <div class="bodyContenido">
 
 
-        <div class="row mt-5">
+        <div class="row">
+
 
 
             <div class="vlImgTxt"></div>
-            <div class="col-8 bloqIzq mt-5">
+            <div class="col-7 bloqIzq mt-5">
 
 
                 <div class="ml-5">
@@ -62,20 +63,19 @@
                         #argentina</p>
 
 
-                    <div class="mt-5 row">
+                    <div class="row compartirRedes">
                         <div class="col-6">
-                            <button class="btn btn-primary btn-sm btn-block">
+                            <button class="btn btn-primary btn-fb btn-lg btn-block">
                                 <img class="iconFb" src="./images/nota/facebookBlanco.png" alt="logoFbBlanco"><span
                                     class="ml-2"></span> Compartir en Facebook
                             </button>
                         </div>
 
                         <div class="col-6">
-                            <button class="btn btn-primary btn-sm btn-block">
+                            <button class="btn btn-primary btn-twitter btn-lg btn-block">
                                 <img class="iconTw" src="./images/nota/twitterBlanco.png" alt="logoTwBlanco"><span
                                     class="ml-2"></span> Compartir en Twitter
                             </button>
-                       
                         </div>
                     </div>
 
@@ -137,15 +137,16 @@
 
                         <div class="d-flex justify-content-start mt-3">
                             <div class="mt-3">
-                                <p class="">Escrito por</p>
-                                <p class="nombreAutor"><strong><u>Hector San Miguel</u></strong></p>
+                                <p class="escritoPor">Escrito por</p>
+                                <p class="nombreAutor"><strong><u>Santiago Gimenez</u></strong></p>
                             </div>
-                            <img class="imgAutor2" src="./images/nota/hectosanmiguel.png">
+                            <img class="ml-3" src="./images/nota/hectosanmiguel.png">
                         </div>
 
+            
                         <div class="mt-5">
                             <button type="button" class="btn btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
-                                data-target="#modalEntrar"><img class="iconNotas" src="./images/nota/carpeta.png"
+                                data-target="#modalEntrar"><img class="iconNotas" src="./images/nota/Trazado37.png"
                                     alt="logoCarpeta">
                             </button>
                             <button type="button" class="btn btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
@@ -159,11 +160,17 @@
 
                     <div class="mt-5 row">
                         <div class="col-6">
-                            <button class="btn btn-primary btn-sm btn-block">Compartir en Facebook</button>
+                            <button class="btn btn-primary btn-fb btn-lg btn-block">
+                                <img class="iconFb" src="./images/nota/facebookBlanco.png" alt="logoFbBlanco"><span
+                                    class="ml-2"></span> Compartir en Facebook
+                            </button>
                         </div>
 
                         <div class="col-6">
-                            <button class="btn btn-primary btn-sm btn-block">Compartir en Twitter</button>
+                            <button class="btn btn-primary btn-twitter btn-lg btn-block">
+                                <img class="iconTw" src="./images/nota/twitterBlanco.png" alt="logoTwBlanco"><span
+                                    class="ml-2"></span> Compartir en Twitter
+                            </button>
                         </div>
                     </div>
 
@@ -200,7 +207,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-9 text-justify" id="agregaComent1">Lorem ipsum dolor sit amet
+                                    <div class="col-9 text-justify comentario" id="agregaComent1">Lorem ipsum dolor sit amet
                                         consectetur adipiscing elit ultricies, bibendum placerat auctor risus feugiat
                                         inceptos neque, ultrices pulvinar tempor nisl nunc semper platea. Dictumst
                                         montes ligula risus ut penatibus morbi est sagittis conubia, porttitor aenean in
@@ -218,7 +225,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-9 text-justify" id="agregaComent2">Massa ornare nec vivamus dapibus
+                                    <div class="col-9 text-justify comentario" id="agregaComent2">Massa ornare nec vivamus dapibus
                                         aliquet quam auctor sem eleifend, per integer habitant laoreet tellus erat vitae
                                         morbi diam, rhoncus feugiat proin viverra fusce aptent non turpis. Hendrerit
                                         ante laoreet purus enim sodales suspendisse dui, himenaeos aliquet faucibus a
@@ -242,10 +249,10 @@
             <div class="col-1">
             </div><!-- Fin col-1 -->
 
-            <div class="col-2 mt-5 ml-5 bloqueDer">
+            <div class="col-3 bloqueDer">
                 <div>
                     <button type="button" class="btn btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
-                        data-target="#modalEntrar"><img class="iconNotas" src="./images/nota/carpeta.png"
+                        data-target="#modalEntrar"><img class="iconNotas" id="iconEvnt" src="./images/nota/Trazado37.png"
                             alt="logoCarpeta">
                     </button>
                     <button type="button" class="btn btn-sm botonEntrar" id="btnEntrar" data-toggle="modal"
@@ -256,43 +263,55 @@
 
                 <div class="d-flex justify-content-start">
                     <div class="mt-3">
-                        <p class="">Escrito por</p>
-                        <p class="nombreAutor"><strong><u>Hector San Miguel</u></strong></p>
+                        <p class="escritoPor">Escrito por</p>
+                        <p class="nombreAutor"><strong><u>Santiago Gimenez</u></strong></p>
                     </div>
                     <img class="imgAutor" src="./images/nota/hectosanmiguel.png">
                 </div>
 
-                <div class="mt-4">
-                    <h4 class="msec">En la misma sección</h4>
+                <div class="">
+                    <h4 class="enMsec">En la misma sección</h4>
                     <h4 class="notasRelac"> AQUÍ CIENCIAS</h4>
                     <hr class="divDer">
                 </div>
 
                 <div class="card border-0 mt-3">
                     <a href=""><img class="card-img-top" src="./images/nota/image105.png" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text seccNota">AQUI CIENCIA</p>
+                        <div class="mt-3 d-flex justify-content-between">
+                            <div class="">
+                                <h5 class="text-left secMS ">AQUI CIENCIA</h5>
+                            </div>
+                            <div class="imgFlecha">
+                                <img class="" src="./images/Home/flecha_notas.png" alt="flecha">
+                            </div>
+                        </div>
                         <h6 class="card-title">
                             <a href="" class="text-dark titNotaMV"> <strong>René Favaloro, todo lo que nos
                                     dejó</strong> </a>
                         </h6>
-                    </div>
                 </div>
 
-                <div class="card border-0">
+
+
+                <div class="card border-0 mt-3">
                     <a href=""><img class="card-img-top" src="./images/nota/image106.png" alt=""></a>
-                    <div class="card-body">
-                        <p class="card-text seccNota">AQUI CIENCIA</p>
+                        <div class="mt-3 d-flex justify-content-between">
+                            <div class="">
+                                <h5 class="text-left secMS ">AQUI CIENCIA</h5>
+                            </div>
+                            <div class="imgFlecha">
+                                <img class="" src="./images/Home/flecha_notas.png" alt="flecha">
+                            </div>
+                        </div>
                         <h6 class="card-title">
-                            <a href="" class="text-dark titNotaMV"> <strong>Exceso de antibioticos en animales</strong>
-                            </a>
+                            <a href="" class="text-dark titNotaMV"> <strong>Exceso de antibioticos en animales</strong> </a>
                         </h6>
-                    </div>
                 </div>
+  
 
                 <div id="masLeidas" class="mt-5">
 
-                    <h4 class="masLeidas">Las má leídas</h4>
+                    <h4 class="masLeidas">Las más leídas</h4>
                     <hr class="divAzul">
 
 
@@ -300,8 +319,8 @@
                         <div>
                             <p class=" ml-2 numLeidos text-center">1</p>
                         </div>
-                        <div class="">
-                            <p class="seccNota2 mt-4">AQUI CIENCIA</p>
+                        <div class="ml-5">
+                            <p class="seccNota2 mt-3">AQUI CIENCIA</p>
                             <p class="nombreNota">ECLIPSES DEL SOL, TELEFÓNOS CELULARES Y CIENCIAS CIUDADANAS
                             </p>
                         </div>
@@ -314,10 +333,10 @@
 
                     <div class="d-flex justify-content-between">
                         <div>
-                            <p class=" ml-2 numLeidos text-center">2</p>
+                            <p class=" ml-1 numLeidos text-center">2</p>
                         </div>
-                        <div class="">
-                            <p class="seccNota2 mt-4">CIENCIA Y SOCIEDAD</p>
+                        <div class="ml-5">
+                            <p class="seccNota2 mt-3">CIENCIA Y SOCIEDAD</p>
                             <p class="nombreNota">FRASES CELEBRES DE STEPHEN HAWKING</p>
                         </div>
                         <div>
@@ -330,12 +349,12 @@
                         <div>
                             <p class=" ml-2 numLeidos text-center">3</p>
                         </div>
-                        <div class="">
-                            <p class="seccNota2 mt-4">CARTA DE LECTURA</p>
+                        <div class="ml-5">
+                            <p class="seccNota2 mt-3">CARTA DE LECTURA</p>
                             <p class="nombreNota">LA VIDA DE LOS UNIVERSITARIOS</p>
                         </div>
                         <div>
-                            <img class="mt-4 mr-3 imgMasLeidas" src="./images/nota/masLeidas/image 5.png" alt="">
+                            <img class="mt-4 imgMasLeidas" src="./images/nota/masLeidas/image 5.png" alt="">
                         </div>
                     </div>
                     <hr class="hrOriginal">
@@ -344,8 +363,8 @@
                         <div>
                             <p class=" ml-2 numLeidos text-center">4</p>
                         </div>
-                        <div class="">
-                            <p class="seccNota2 mt-4">AQUI CIENCIA</p>
+                        <div class="ml-5">
+                            <p class="seccNota2 mt-3">AQUI CIENCIA</p>
                             <p class="nombreNota">RENÉ FAVALORO, TODO LO QUE NOS DEJÓ</p>
                         </div>
                         <div>
@@ -358,8 +377,8 @@
                         <div>
                             <p class=" ml-2 numLeidos text-center">5</p>
                         </div>
-                        <div class="">
-                            <p class="seccNota2 mt-4">CIENCIA EN EL MUNDO</p>
+                        <div class="ml-5">
+                            <p class="seccNota2 mt-3">CIENCIA EN EL MUNDO</p>
                             <p class="nombreNota">¿CUANTO SABES DE LA TABLA PERIODICA</p>
                         </div>
                         <div>
@@ -373,7 +392,7 @@
                             <p class=" ml-2 numLeidos text-center">6</p>
                         </div>
                         <div class="">
-                            <p class="seccNota2 mt-4">CIENCIA Y SOCIEDAD</p>
+                            <p class="seccNota2 mt-3">CIENCIA Y SOCIEDAD</p>
                             <p class="nombreNota">ARGENTINA PARA EL VIAJERO</p>
                         </div>
                         <div>
@@ -389,37 +408,56 @@
                     <h4 class="notasRelac"> Notas</br>relacionadas</h4>
                     <hr class="divDer">
 
-                    <div class="card border-0">
+                    <div class="card border-0 mt-3">
                         <a href=""><img class="card-img-top" src="./images/nota/Fig-pag-31 2.png" alt=""></a>
-                        <div class="card-body">
-                            <p class="seccNota2">AQUI CIENCIA</p>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div class="">
+                                    <h5 class="text-left secMS ">AQUI CIENCIA</h5>
+                                </div>
+                                <div class="imgFlecha">
+                                    <img class="" src="./images/Home/flecha_notas.png" alt="flecha">
+                                </div>
+                            </div>
                             <h6 class="card-title">
                                 <a href="" class="text-dark titNotaMV"> <strong>Los caminos del fuego en la
-                                        Amazonia</strong> </a>
+                                    Amazonia</strong> </a>
                             </h6>
-                        </div>
                     </div>
 
-                    <div class="card border-0">
+
+
+                    <div class="card border-0 mt-3">
                         <a href=""><img class="card-img-top" src="./images/nota/nacionalismo-1 3.png" alt=""></a>
-                        <div class="card-body">
-                            <p class="seccNota2">CIENCIA Y SOCIEDAD</p>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div class="">
+                                    <p class="seccNota2">CIENCIA Y SOCIEDAD</p>
+                                </div>
+                                <div class="imgFlecha">
+                                    <img class="" src="./images/Home/flecha_notas.png" alt="flecha">
+                                </div>
+                            </div>
                             <h6 class="card-title">
-                                <a href="" class="text-dark titNotaMV"> <strong>Nacionalismo de los pueblos</strong>
-                                </a>
+                                <a href="" class="text-dark titNotaMV"> <strong>Nacionalismo de los pueblos</strong> </a>
                             </h6>
-                        </div>
                     </div>
-                    <div class="card border-0">
+
+
+                    <div class="card border-0 mt-3">
                         <a href=""><img class="card-img-top" src="./images/nota/image 95.png" alt=""></a>
-                        <div class="card-body">
-                            <p class="seccNota">CIENCIA Y SOCIEDAD</p>
+                            <div class="mt-3 d-flex justify-content-between">
+                                <div class="">
+                                    <p class="seccNota2">CIENCIA Y SOCIEDAD</p>
+                                </div>
+                                <div class="imgFlecha">
+                                    <img class="" src="./images/Home/flecha_notas.png" alt="flecha">
+                                </div>
+                            </div>
                             <h6 class="card-title">
                                 <a href="" class="text-dark titNotaMV"> <strong>Petroleo en Argentina</strong> </a>
                             </h6>
-                        </div>
                     </div>
-                </div>
+
+
 
 
 
@@ -429,8 +467,11 @@
             </div><!-- Fin col-3-->
 
 
-        </div> <!-- Fin Row-->
+        </div> 
+    </div> <!-- Fin Row-->
     </div> <!-- Fin bodyContenido-->
+
+
 
 
     <!-- ====== Footer ================================================== -->

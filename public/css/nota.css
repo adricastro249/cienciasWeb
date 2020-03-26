@@ -5,7 +5,9 @@
 .tituloNota{
     font-family: "Roboto Slab Bold";
     font-weight: bold;
-    font-size: 50px;
+    font-size: 57px;
+    width: 100%;
+    letter-spacing: 1.65px;
 }
 
 .secTitulo{
@@ -20,9 +22,11 @@
 }
 
 .iconNotas{
-    width: 75%;
-    height: 65%;
+    width: 100%;
+    height: 100%;
 }
+
+
 
 .iconNotasInferior{
     width: 90%;
@@ -48,24 +52,35 @@ height: 70%;
 
 
 .notaFoto{
-    font-size: 13px;
+    font-size: 15px;
     font-family: "Roboto Slab Light";
 }
 
 .txtNota{
     font-family: "Reforma2018 Blanca";  
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 .txtRedes{
     font-family: "Reforma2018 Negra";
 }
 
-.notasRelac , .masLeidas{
+.notasRelac {
     font-family: "Roboto Slab Bold";
     font-weight: bold;
     color: #000000;
 }
+
+.masLeidas{
+    font-family: "Roboto Slab Bold";
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+
 
 li{
     list-style:none
@@ -78,7 +93,7 @@ li{
   }
   
   .divAzul{
-    width: 75%;
+    width: 55%;
     border-top: 0.4rem solid  #23ACA2;
     margin-right: 50%;
   }
@@ -112,6 +127,7 @@ li{
     -webkit-border-radius: 77px 77px 77px 77px; */
     border: 0.05rem solid #c7c7c7;
     padding: 7px 18px 7px 18px;
+    font-family: "Roboto Bold";
   }
 
   .hrComent{
@@ -139,15 +155,15 @@ li{
 .vlNota {
     border-left: 2.5px solid #7E7E7E;
     opacity: 0.1;
-    height: 1550px;
-    margin-left: 180%;
-    margin-top: 510%;
+    height: 1950px;
+    margin-left: 250%;
+    margin-top: 700% !important; 
   }
 
 .vlImgTxt{
     border-left:  0.4rem solid  #23ACA2;
-    height: 610px;
-    margin-top: 37.3%;
+    height: 595px;
+    margin-top: 46.3%;
     margin-left: 2%;
 }
 
@@ -156,6 +172,14 @@ width: 30%;
 height: 30%;
   }
 
+.imgComentarioAgregado{
+
+height: 28% !important;
+width: 28% !important;
+
+}
+
+
   .seccNota{
     color:  #7E7E7E;
     font-size: 14px;
@@ -163,11 +187,20 @@ height: 30%;
 
   .seccNota2{
     color:  #7E7E7E;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: "Roboto Regular";
   }
 
   .msec{
+    font-family: "Roboto Regular";
+    color: #818181
+  }
+
+
+  .enMsec{
     font-family: "Roboto Slab Light";
+    color: #818181;
+    margin-top: 17% !important;
   }
 
 
@@ -181,14 +214,15 @@ height: 30%;
   .nombreNota{
     font-family: "Roboto Slab Bold";
     font-weight: bold;
-    font-size: 12px;
-    margin-top: -12%;
+    font-size: 14px;
+    margin-top: -8%;
+    width: 90%;
   }
 
- /*  .imgMasLeidas{
-      width: 100%;
-      height: 60%;
-  } */
+  .bloqueDer{
+      margin-top: 6% !important;
+      margin-left: 7% !important;
+  }
 
   .hrOriginal{
     margin-top: 0.1rem;
@@ -201,14 +235,62 @@ height: 30%;
 
 .titNotaMV{
     margin-top: -55%;
+    font-family: "Roboto Slab Bold";
+
+
 }
 
 .nombreAutor{
     margin-top: -8%;
+    font-family: "Roboto Slab Bold";
+    color:  #818181;
 }
 
 .imgAutor{
     margin-top: 4%;
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
+}
+
+
+.btn-twitter{
+    color: #fff;
+    background-color: #4099FF!important;
+    border-color: #4099FF !important;
+    font-family: "Roboto Slab Regular";
+}
+
+.btn-fb{
+    color: #fff;
+    background-color:  #3B5998!important;
+    border-color:  #3B5998!important;
+    font-family: "Roboto Slab Regular";
+}
+
+.escritoPor{
+  color:  #818181;
+    font-family: "Roboto Slab Light";
+}
+
+.imgFlecha{
+    border: 1px solid grey;
+padding: 2px;
+height:90%;
+}
+
+.compartirRedes{
+    margin-top: 5% !important;
+}
+
+.secMS{
+    font-family: "Roboto Regular";
+    color:  #818181;
+}
+
+.imgMasLeidas{
+    margin-left: -50% !important;
+}
+
+.comentario{
+    font-family: "Roboto Light";
 }

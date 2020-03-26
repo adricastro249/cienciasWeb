@@ -2,10 +2,7 @@
     font-family: "Roboto Slab Bold";
     color: #7E7E7E;
 }
-/* 
-.bodyMandaTuDuda{
-    margin-left: 3vw;
-} */
+
 
 .form-control{
     font-family: "Roboto Regular";
@@ -33,7 +30,7 @@
 }
 .vlCont {
     border-left: 1.5px solid #7E7E7E;
-    opacity: 0.1;
+    opacity: 0.2;
     height: 100%;
   }
 
@@ -50,6 +47,7 @@
 
 .email{
 color:  #7E7E7E;
+margin-left: 4% !important;
 }
 
 .mensajeEscrito{
@@ -58,7 +56,7 @@ color:  #7E7E7E;
 
 .logoTlfs{
     height: 100%;
-    margin-left: -21% !important;
+    margin-left: -19% !important;
     margin-top: 1%;
 }
 
@@ -68,5 +66,9 @@ color:  #7E7E7E;
 }
 
 #telfs{
-    margin-left: -40%;
+    margin-left: -33%;
+}
+
+.direc{
+    margin-left: 6%;
 }
