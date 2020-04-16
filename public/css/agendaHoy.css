@@ -2,6 +2,40 @@
     font-family: 'Roboto Slab', serif;
 } */
 
+header{
+    background: black ;
+    color: #ffffff;
+}
+
+
+.contHeader{
+margin-top: 5%;
+
+}
+.titHeader{
+    font-family: "Roboto Slab Bold"; 
+    font-size: 55px;
+}
+
+.hoyHeader{
+    color: #ff0076 !important;
+    font-family: "Roboto Slab Bold";
+    font-size: 45px;
+    margin-bottom: -0.5rem !important;
+}
+
+.vlImgTxt{
+    border-left:  0.1rem solid  #ff0076;
+    height: 35px;
+}
+
+
+header h3, header h5{
+    font-family: "Roboto Light";
+}
+
+
+
 .bodyAgenda{
     background-color: #F4FBFA;
 }
@@ -10,9 +44,9 @@
 /*/----Calendario----/*/
 .calendario, .eventAnt, .eventProx  {
     background-color:#fff;
-    border-radius: 30px 30px 30px 30px;
-    width: 250px;
+    width: 90%;
 }
+
 
 
 #calendar caption {
@@ -37,37 +71,35 @@
 
 
 #calendar .hoy {
-    background-color:#23ACA2;
+    background-color:#ff0076;
     color: #fff;
     border-radius: 200px 200px 200px 200px;
- -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
+/*  -moz-border-radius: 200px 200px 200px 200px; */
+  /*   -webkit-border-radius: 200px 200px 200px 200px; */
 }
 
 /*/---Notas----/*/
 .nota1, .nota2, .nota3, .nota4{
     background-color: #fff;
-    /* padding: 2% 4%; */
-    border-radius: 40px 40px 40px 40px;
-    -moz-border-radius: 40px 40px 40px 40px;
-    -webkit-border-radius: 40px 40px 40px 40px;
 }
 
 
-.logEvent {
-    position: absolute;
-    right:-26%;
-    top: -3%;
-    z-index: 0;
-   width: 10%;
-    height: 10%;
+.col-5{
+  padding-left: 0 !important;  
+}
+
+.col{
+    padding-left: 0 !important;  
   }
 
 
   #btnInscribir{
-    background-color: #8DD853;
-    margin-top: 18%;
-    color: #fff;   
+      text-decoration: underline;
+color:  #ff0076;
+
+    font-family: "Roboto Condensed";
+font-size: 22px;
+
 }
 
 #botonAgregaE1 , #botonAgregaE2, #botonAgregaE3, #botonAgregaE4{
@@ -85,8 +117,8 @@
 }
 
 .resaltaDyH {
-    color: #8DD853;
-    font-size: 25px;
+    color: #23ACA2;
+    font-size: 45px;
     font-weight: bold;
     font-family: "Roboto Bold";
 }
@@ -102,7 +134,8 @@
 
 
 .mesEv{
-    font-family: "Roboto Light";
+    font-family: "Roboto Slab";
+    font-size: 24px;
 }
 
 th{

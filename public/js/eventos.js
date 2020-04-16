@@ -1,12 +1,12 @@
 // ********* AGENDA HOY
 
 // evento 1
-document.getElementById("tituloEvent1").innerHTML= data.eventos[0].titulo;
+/* document.getElementById("tituloEvent1").innerHTML= data.eventos[0].titulo;
 document.getElementById("notaEvent1").innerHTML= data.eventos[0].texto;
 document.getElementById("mesEvent1").innerHTML= data.eventos[0].month;
 document.getElementById("diaEvent1").innerHTML= data.eventos[0].day;
-document.getElementById("horaEvent1").innerHTML= data.eventos[0].time;
-// document.getElementById("nota1").getElementsByTagName("tbody")[0].innerHTML=resultado
+document.getElementById("horaEvent1").innerHTML= data.eventos[0].time; */
+
 
 // evento 2
 
@@ -16,20 +16,7 @@ document.getElementById("mesEvent2").innerHTML= data.eventos[1].month;
 document.getElementById("diaEvent2").innerHTML= data.eventos[1].day;
 document.getElementById("horaEvent2").innerHTML= data.eventos[1].time;
 
-// evento 3
 
-document.getElementById("tituloEvent3").innerHTML= data.eventos[1].titulo;
-document.getElementById("notaEvent3").innerHTML= data.eventos[1].texto;
-document.getElementById("mesEvent3").innerHTML= data.eventos[1].month;
-document.getElementById("diaEvent3").innerHTML= data.eventos[1].day;
-document.getElementById("horaEvent3").innerHTML= data.eventos[1].time;
-
-// evento 1
-document.getElementById("tituloEvent4").innerHTML= data.eventos[0].titulo;
-document.getElementById("notaEvent4").innerHTML= data.eventos[0].texto;
-document.getElementById("mesEvent4").innerHTML= data.eventos[0].month;
-document.getElementById("diaEvent4").innerHTML= data.eventos[0].day;
-document.getElementById("horaEvent4").innerHTML= data.eventos[0].time;
 
 // ******* Inscribirme / desincribirme
 const misEventos = [];
@@ -66,33 +53,6 @@ if (!misEventos.includes("evento2")) {
 }
 
 
-// evento3
-if (!misEventos.includes("evento3")) {
-	console.log("No incluye el evento3");
-	
-	$("#botonQuitaE3").hide();
-	$("#botonAgregaE3").show();
-	
-} else if (misEventos.includes("evento3")){
-	console.log(misEventos);
-	console.log("incluye el evento3");
-	$("#botonAgregaE3").hide();
-	$("#botonQuitaE3").show();
-}
-
-// evento4
-if (!misEventos.includes("evento4")) {
-	console.log("No incluye el evento4");
-	
-	$("#botonQuitaE4").hide();
-	$("#botonAgregaE4").show();
-	
-} else if (misEventos.includes("evento4")){
-	console.log(misEventos);
-	console.log("incluye el evento4");
-	$("#botonAgregaE4").hide();
-	$("#botonQuitaE4").show();
-}
 
 }
 

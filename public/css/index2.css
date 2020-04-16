@@ -93,12 +93,12 @@ margin-bottom: 15%;
         font-size: 17px;
 }
 
+
 .imgFlecha{
     border: 1px solid grey;
 padding: 3px;
 height:90%;
 }
-
 /*/---- Carousel ----/*/
 
 .carouselHomel {
@@ -165,14 +165,7 @@ height:90%;
 }
 
 
-.botonApp {
-    border: 1px solid #ff0076;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    align-items: center;
-    font-family: "Roboto Slab Bold";
-    padding: 1% 1% 1%;
-}
+
 
 .botonAplicacionWeb {
     margin-top: 22%;

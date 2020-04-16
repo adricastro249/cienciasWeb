@@ -15,6 +15,14 @@ body {
     font-family: 'Roboto Slab', serif;
 } */
 
+
+/* 
+NOTAS */
+
+
+
+
+
 .navbar,
 .footer {
     background: black !important;
@@ -197,4 +205,15 @@ font-size: 15px;
 
 .derechosReservados {
     font-size: 80%;
+}
+
+
+/* INDEX */
+.botonApp {
+    border: 1px solid #ff0076;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: "Roboto Slab Bold";
+    padding: 1% 1% 1%;
 }

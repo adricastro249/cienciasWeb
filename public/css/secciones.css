@@ -1,12 +1,16 @@
-/* body{
-    font-family: 'Roboto Slab', serif;
-} */
+.divSecciones{
+    width: 100%;
+    border-top: 0.1rem solid rgb(196, 193, 193);
 
-.barraSeccion {
-    margin-top: 2%;
-   font-size: 20px;
-}
 
+  }
+
+
+  .secCards{
+      margin-left: 10%;
+      margin-right: 10%;
+
+  }
 
 .tituloCategoria{
     font-family: "Roboto Slab Bold";
@@ -23,41 +27,46 @@
     font-family: "Roboto Light"; 
 }
 
-#tituloSeccion {
+#tituloCategoria {
     color: black;
     margin-top: 5%;
     /* background-color: blueviolet; */
-
 }
 
-#seccion2, #seccion4, #seccion6 {
-    background-color: #F4FBFA;
-    
+.btnNotasSecc{
+    border: 1px solid #ff0076;
+    background-color:  #ff0076;
+    border-radius: 7px;
+    color: #ffff;
+    align-items: center;
+    font-family: "Roboto Slab";
+    padding: 0% 0% 0%;
 }
 
-.secciones{
-    margin-bottom: 3%;
+.etiquetas{
+font-family: "Roboto Regular";
+color: #818181;
+margin-left: 15%;
+}
+
+.autor{
+    font-family: "Roboto Light";
+    color: #818181; 
+}
+
+ .titNotaMV {
     font-family: "Roboto Slab Bold";
+color: #000000;
+width: 85% !important;
 }
 
 
-#masSecc{
-    background-color: #8DD853;
-    font-family: "Roboto Slab Bold";
-    color: white;
-
+.card{
+    width: 28% !important;
 }
 
-#seccion4 {
-    display: none;
 
-}
-
-.carousel-item{
-    background-color:unset !important;
-}
-
-.logosSecc {
-    height: 20px;
-    width: 20px;
-}
+.imgFlecha{
+    border: 1px solid grey;
+padding: 1px;
+} 
