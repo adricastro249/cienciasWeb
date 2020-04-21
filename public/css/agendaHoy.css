@@ -1,20 +1,33 @@
-/* body{
-    font-family: 'Roboto Slab', serif;
-} */
+.bodyAgenda{
+  background-color: #F4FBFA;
+ 
+    }
+    
 
 header{
-    background: black ;
+    background-image: url(/public/images/agenda/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: #ffffff;
 }
 
 
 .contHeader{
 margin-top: 5%;
-
 }
+
+.msj-Header{
+    margin-left: -5%;
+}
+.img-header{
+  margin-left: 30% !important;
+}
+
+
 .titHeader{
     font-family: "Roboto Slab Bold"; 
     font-size: 55px;
+    margin-top: 10%;
 }
 
 .hoyHeader{
@@ -36,53 +49,29 @@ header h3, header h5{
 
 
 
-.bodyAgenda{
-    background-color: #F4FBFA;
-}
-
-
-/*/----Calendario----/*/
-.calendario, .eventAnt, .eventProx  {
-    background-color:#fff;
-    width: 90%;
-}
-
-
-
-#calendar caption {
-    color:black;
-    font-weight:bold;
-    font-size:medium;
-}
-
-
-#calendar caption div:nth-child(1) {float:center;}
-#calendar caption div:nth-child(2) {float:center;}
-#calendar caption div:nth-child(2) a {cursor:pointer;}
-
-#calendar th {
-    color:black;
-}
-
-#calendar td {
-    text-align:center;
-    /* padding:2px 4px; */
-}
-
-
-#calendar .hoy {
-    background-color:#ff0076;
-    color: #fff;
-    border-radius: 200px 200px 200px 200px;
-/*  -moz-border-radius: 200px 200px 200px 200px; */
-  /*   -webkit-border-radius: 200px 200px 200px 200px; */
-}
 
 /*/---Notas----/*/
-.nota1, .nota2, .nota3, .nota4{
+.nota1, .nota2{
     background-color: #fff;
 }
 
+.secEventos{
+    margin-left: 8% !important;
+}
+
+
+.divCalendar{
+    margin-top: 25% !important;
+    width: 100%;
+    border-top: 0.1rem solid grey;
+    opacity: 20%;
+    margin-left: 5%;
+
+  }
+
+.prox-event{
+    margin-top: 25% !important;
+}
 
 .col-5{
   padding-left: 0 !important;  
@@ -94,48 +83,49 @@ header h3, header h5{
 
 
   #btnInscribir{
-      text-decoration: underline;
-color:  #ff0076;
-
+width: 100;
+color: #fff;
     font-family: "Roboto Condensed";
+font-size: 18px;
+background-color:#ff0076;
+border-radius: 10px !important;
+
+}
+.mas-info{
+    text-decoration: underline;
+color:  #ff0076 !important;
+  font-family: "Roboto Condensed";
 font-size: 22px;
-
+margin-left: -3.3%;
 }
 
-#botonAgregaE1 , #botonAgregaE2, #botonAgregaE3, #botonAgregaE4{
-    background-color: #8DD853;
-    margin-top: 18%;
-    color: #fff;   
+
+.bloque-contenido{
+    margin-top: 15%;
+  margin-left: -20 !important; 
 }
 
-#botonQuitaE1 , #botonQuitaE2, #botonQuitaE3, #botonQuitaE4{
-    color: #8DD853;
-    border-color: #8DD853;
-    background-color: #fff;
-    margin-top: 30%;
-    
+
+.bloque-fecha{
+    margin-top: 5%; 
+    margin-left: 3% !important; 
 }
+
+
 
 .resaltaDyH {
     color: #23ACA2;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
-    font-family: "Roboto Bold";
-}
-
-.comoLlegar{
-    color: #8DD853;
-    margin-top: 45%;
-    text-decoration: #8DD853;
-    font-weight: bold;
-    /* text-decoration: underline; */
     font-family: "Roboto Bold";
 }
 
 
 .mesEv{
     font-family: "Roboto Slab";
-    font-size: 24px;
+    font-size: 18px;
+    margin-top: 20%;
+    font-weight: bold;
 }
 
 th{
@@ -143,14 +133,13 @@ th{
 }
 
 .proxEvents{
-       font-family: "Roboto Medium";
+   margin-left: 25%;
+   font-family: "Roboto Slab Bold" !important;
 }
 
 #listaEventprox{
     font-size: 13px;
     font-family: "Roboto Medium";
-    /* list-style-position: inherit; */
-    /* url("/public/Recursos/AGENDAHOY/Imagenes/Vector60.png") */
 }
 
 li {
@@ -175,11 +164,130 @@ ul{
 }
 
 
-.inscribirse{
-    font-family: "Roboto Slab Bold";
+
+
+/*/----Calendario----/*/
+.calendario, .eventAnt, .eventProx  {
+    background-color:#fff;
+    width: 90%;
 }
 
-.pagNum{
-    font-family: "Roboto Bold";
-    color: black;
+
+
+ul {list-style-type: none;}
+
+
+.month {
+    font-family: "Roboto Slab Bold" !important;
+    margin-top: 5%;
+  width: 100%;
+  text-align: center;
+  color: #0000;
 }
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+  color:#000000 !important;
+  margin-left: 10%
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+  color:#000000 !important;
+  margin-right: 10%;
+}
+
+.mes{
+    color:#000000 !important;
+}
+
+.weekdays {
+  margin: 0;
+
+}
+
+.weekdays li {
+    font-family: "Roboto Medium" !important;
+  color: #666;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 4%;
+padding: 3.5%;
+}
+
+.days {
+  margin-left: 3% ;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:14px;
+  color: #000000;
+}
+
+.days li .active {
+  padding: 5px;
+  font-size:16px;
+  background: #ff0076;
+  color: #ffffff !important;
+  border-radius: 180px 180px 180px 180px;
+
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+}
+
+
+.days li .next-date {
+padding: 2.5px;
+    background: #ffffff;
+    color: #000 !important;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px solid #ff0076;
+  }
+
+  .days li  .next-month,   .days li  .prev-month{
+    color: #777 !important;
+  }
+
+
+  .circle{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+  }
+  
+  .circle-bg {
+    position: relative
+  }
+  
+  .circle-bg:after {
+    width: 8px;
+    height: 8px;
+    content: "";
+top: 30px !important;
+left: -30px !important;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    background:  #ff0076;
+  }
+  

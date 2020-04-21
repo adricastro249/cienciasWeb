@@ -47,7 +47,7 @@ var navbar = `
 
 
 <div class="bloqDerNavbar">
-<div class="d-flex  mr-5">
+<div class="d-flex ">
 <a class="mt-2" href=""><img src="./images/lupa.png" alt="lupa"></a>
 
 <a href="incioSesion.html">

@@ -67,7 +67,7 @@ var data = {
       "address": "1734 N. Orleans St., Chicago",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0256986745426!2d-87.64002798505479!3d41.91380627115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses-419!2sar!4v1554989792517!5m2!1ses-419!2sar",
       "location_id": "",
-      "time": "14 hrs",
+      "time": "13 hrs",
       "horario": "t",
       "idCollap": "",
       "timeH": "13",
