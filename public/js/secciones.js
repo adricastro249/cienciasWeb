@@ -1,11 +1,13 @@
 var nodeSecc = document.getElementById("superior");
 
 data.secciones.forEach(secc => {
+
     let nodeSecc0 = document.createElement('DIV')
     nodeSecc0.classList.add("mt-5")
     nodeSecc0.classList.add("p-2")
     nodeSecc0.classList.add("flex-grow-1")
     nodeSecc0.classList.add("bd-highlight")
+    // nodeSecc0.setAttribute("id", secc.codSecc)
 
     let nodeSecc1 = document.createElement('DIV')
     nodeSecc1.classList.add("d-flex")
@@ -13,11 +15,11 @@ data.secciones.forEach(secc => {
 
     let nodeSecc2 = document.createElement('H2')
     nodeSecc2.classList.add("tituloCategoria")
-   nodeSecc2a = document.createTextNode(secc.nombreSecc) 
+    nodeSecc2a = document.createTextNode(secc.nombreSecc)
 
     let nodeSecc3 = document.createElement('H5')
     nodeSecc3.classList.add("etiquetas")
- nodeSecc3a = document.createTextNode(secc.etiquetas) 
+    nodeSecc3a = document.createTextNode(secc.etiquetas)
 
     let nodeSecc4 = document.createElement('BUTTON')
     nodeSecc4.classList.add("btnNotasSecc")
@@ -26,7 +28,8 @@ data.secciones.forEach(secc => {
     nodeSecc4.setAttribute('type', "button");
     nodeSecc4.setAttribute('id', secc.id);
     nodeSecc4.setAttribute('value', secc.codSecc);
-   nodeSecc4a = document.createTextNode("Ver más notas")
+    nodeSecc4a = document.createTextNode("Ver más notas")
+
 
     nodeSecc5 = document.createElement('HR');
     nodeSecc5.classList.add("divSecciones");
@@ -48,6 +51,7 @@ data.secciones.forEach(secc => {
 
     let nodeNota = document.createElement('DIV')
     nodeNota.classList.add("row")
+    nodeNota.setAttribute("id", secc.codSecc)
 
     let nodeNota1 = document.createElement('DIV')
     nodeNota1.classList.add("secCards")
@@ -57,14 +61,17 @@ data.secciones.forEach(secc => {
     nodeNota2.classList.add("flex-wrap")
     nodeNota2.classList.add("justify-content-around")
 
+    var iter = 0
     secc.notas.forEach(val => {
-
-    
 
         let nodeNota3 = document.createElement('DIV')
         nodeNota3.classList.add("card")
         nodeNota3.classList.add("border-0")
         nodeNota3.classList.add("mb-5")
+        if (iter > 5) {
+            nodeNota3.style.display = "none"
+            nodeNota3.setAttribute("title", secc.codSecc)
+        }
 
         let nodeNota4 = document.createElement('A')
         nodeNota4.setAttribute('href', val.href);
@@ -114,21 +121,16 @@ data.secciones.forEach(secc => {
         nodeNota7.appendChild(nodeNota8)
         nodeNota3.appendChild(nodeNota9)
         nodeNota9.appendChild(nodeTit)
+        iter++
+    })
 
-
-    }) //Cierra forEach de las categorias y marcas de los filtros
-
-
-
-var botonNotasSecc = nodeSecc4
+    var botonNotasSecc = nodeSecc4
     console.log(botonNotasSecc);
-    
+    botonNotasSecc.addEventListener("click", function (e) {
+        console.log(e);
+        console.log($("[title*='" + botonNotasSecc.value + "']"))
+        $("[title*='" + botonNotasSecc.value + "']").show()
 
-botonNotasSecc.addEventListener("click", function (e) {
-console.log("prueba2");
-console.log(botonNotasSecc.id);
-  
+    })
+
 })
-
-})
-
