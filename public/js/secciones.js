@@ -7,6 +7,8 @@ data.secciones.forEach(secc => {
     nodeSecc0.classList.add("p-2")
     nodeSecc0.classList.add("flex-grow-1")
     nodeSecc0.classList.add("bd-highlight")
+    nodeSecc0.classList.add(secc.codSecc)
+
     // nodeSecc0.setAttribute("id", secc.codSecc)
 
     let nodeSecc1 = document.createElement('DIV')
@@ -51,7 +53,7 @@ data.secciones.forEach(secc => {
 
     let nodeNota = document.createElement('DIV')
     nodeNota.classList.add("row")
-    nodeNota.setAttribute("id", secc.codSecc)
+    nodeNota.classList.add(secc.codSecc)
 
     let nodeNota1 = document.createElement('DIV')
     nodeNota1.classList.add("secCards")
@@ -128,8 +130,28 @@ data.secciones.forEach(secc => {
     console.log(botonNotasSecc);
     botonNotasSecc.addEventListener("click", function (e) {
         console.log(e);
+        var codSecciones = [];
+        data.secciones.map(ele => {
+            codSecciones.push(ele.codSecc)
+        })
+        console.log(codSecciones);
+        let aBorrar = codSecciones.indexOf(botonNotasSecc.value)
+        console.log(aBorrar);
+        
+        let seccHide = codSecciones.splice(aBorrar, 1)
+        console.log(codSecciones);
+        
         console.log($("[title*='" + botonNotasSecc.value + "']"))
+        console.log("'"+botonNotasSecc.value+"'")
         $("[title*='" + botonNotasSecc.value + "']").show()
+        console.log(("#"+codSecciones[0]));
+        
+        codSecciones.forEach(el=> {
+            $("."+el).hide()
+        })
+        // console.log($("#"));
+        // $("#" + botonNotasSecc.value).hide() 
+        
 
     })
 
