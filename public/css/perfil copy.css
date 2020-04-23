@@ -1,20 +1,20 @@
-.bloquePerfil, .bloqueActividad{
-  background-color:  #fff;
+/* body{
+  font-family: 'Roboto Slab', serif;
 }
-
-.bloqueInfo{
+ */
+/* .bodyPerfil{
   background-color: #f4fbee;
-}
+} */
 
-.divPerfil{
-  width: 80%;
-  border-top: 0.1rem solid rgb(204, 204, 204);
-  margin-left: 10%;
+.bloquePerfil, .bloqueActividad{
+  background-color: red !important
+
 }
 
 
 .perfil{
     background-color: #fff;
+/*     padding: 4% 6%; */
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
@@ -197,6 +197,10 @@ color: #fff;
 
 .btnIzqPerfil{
   font-family: "Roboto Slab Bold";
+}
+
+.btnIzqPerfilSelec{
+  font-weight: bold;
 }
 
 .txtActiv, .titSec {

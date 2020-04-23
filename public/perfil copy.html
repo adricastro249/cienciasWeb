@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/tipografias.css">
+
+    <!-- <link rel="stylesheet" href="./css/fontawesome-free-5.12.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+ -->
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ -->
+
+    <!-- Bootstrap ================================================== -->
+    <!-- Bootstrap core CSS -->
+
+    <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="./css/bootstrap/vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/bootstrap/css/modern-business.css" rel="stylesheet">
+
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Perfil</title>
+</head>
+
+<body>
+
+    <!-- ====== Navegación ================================================== -->
+    <nav id="navbar" class="col"></nav>
+
+    <div class="bodyPerfil">
+        <div class="bodyContenido">
+
+            <!-- ====== Datosa Perfil  ================================================== -->
+            <section>
+                <div class="col perfil">
+                    <div class="d-flex justify-content-between">
+
+                        <div class=" usuario d-flex justify-content-around">
+                            <div class="mt-2 p-2  bd-highlight">
+                                <div id="fotoPerfil"></div> <!-- <img src="./Recursos/PERFIL/Imagenes/image 54.png">-->
+                            </div>
+
+                            <div class="p-4 align-self-start mt-5">
+                                <div class="flex-shrink-1 bd-highlight">
+                                    <h3 class=" mt-4"><strong class="userName" id="nombrePerfil">Nombre y
+                                            Apellido</strong>
+                                    </h3>
+                                </div>
+                                <div class="bd-highlight mt-5">
+                                    <!--   <p class="fechaNac">Fecha de Nacimiento</p> -->
+                                    <p class="emailUser" id="emailPerfil">email</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 flex-shrink-1 bd-highlight">
+                            <div class="vl"></div>
+                        </div>
+
+
+                        <div class="detallesPerfil">
+                            <div class="mt-4 bd-highlight">
+                                <h4 class="mt-2 perfilProf">Perfil profesional</h4>
+                                <br>
+                                <p class="descripUser">Universidad
+                                    <br>
+                                    Estudiante de Biología
+                                    <br>
+                                    Profesión
+                                </p>
+                            </div>
+                        </div c>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <hr class="mt-4 hrPerfil">
+
+            <!-- ====== Bloque inferior ================================================== -->
+
+            <section class="mt-5 row">
+                <!-- ====== Menu izquierda ================================================== -->
+                <div class="col-3">
+                    <!-- col-3 perfil -->
+                    <div class="perfil">
+                        <div>
+                            <button type="button" class="btn" id="carpetas" style="width: 100%">
+                                <div class="d-flex justify-content-around">
+                                    <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoCarpetas"
+                                        id="logoCarpetas" style="width: 9%; height: 9%;">
+                                    <h6 class="btnIzqPerfil">Mis carpetas</h6>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div>
+                            <button type="button" class="btn" id="eventos" style="width: 100%">
+                                <div class="d-flex justify-content-around">
+                                    <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" alt="logoEvt" id="logoEvt"
+                                        style="width: 8.3%; height: 8.3%;">
+                                    <h6 class="btnIzqPerfil">Mis eventos </h6>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div>
+                            <button type="button" class="btn" id="favs" style="width: 100%">
+                                <div class="d-flex justify-content-around">
+                                    <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" alt="logoRevista"
+                                        id="logoRevista" style="width: 10%; height: 10%;">
+                                    <h6 class="btnIzqPerfil">Mis favoritos</h6>
+                                </div>
+                            </button>
+                        </div>
+
+                    </div>
+                    <!--perfil -->
+
+                    <!-- Version premium -->
+                    <div class="mt-5 ">
+                        <button type="button" class="btn" id="verPremium" style="width: 100%">
+                            <div class="d-flex justify-content-around p-3" id="premium">
+                                <img src="./Recursos/PERFIL/Imagenes/premium.png" alt="logoPremiun" id="logoPremium"
+                                    style="width: 13%; height: 13%;">
+                                <h6 class="btnIzqPerfil">Version Premium</h6>
+                        </button>
+
+                    </div><!-- fin mt-5 perfil-->
+
+
+                </div><!-- fin col-3 perfil-->
+
+                <!-- ====== Bloque medio ================================================== -->
+                <div class="col-6">
+                    <section id="misCarpetas">
+                        <h4 class="titSec">Mis carpetas</h4>
+                        <div class="row">
+                            <div id="agregaAquiCarpetas" class="row col">
+                                <button class="  d-flex justify-content-around carpeta p-2 m-1" type="button">
+                                    <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png" alt="logoCarpetas"
+                                        class="p-2" id="logoCarpetas" style="width: 33%; height: 33%;">
+                                    <h6 class="mt-1">Carpeta 1</h6>
+                                </button>
+                            </div>
+                            <div>
+
+                                <button class="btn btn-link masCarpetas" id="btnMasCarpetas">
+                                    <i class="fa fa-plus-circle text-secondary"></i>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <hr class="divQS">
+                        <div id="misCarpetasContenido">
+
+
+                            <div class="row">
+
+                                <div class="col-6 portfolio-item">
+                                    <a href="nota1.html"><img class="card-img-top" src="./images/masVistas/image 38.png"
+                                            alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            <a href="nota1.html" class="text-dark titNota">ECLIPSES DEL SOL, TELÉFONOS
+                                                CELULARES Y CIENCIA
+                                                CIUDADANA</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 portfolio-item">
+                                    <a href="nota6.html"><img class="card-img-top" src="./images/masVistas/image 12.png"
+                                            alt=""></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="nota6.html" class="text-dark titNota">ARGENTINA PARA EL VIAJERO</a>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 portfolio-item">
+                                    <a href="nota2.html"><img class="card-img-top" src="./images/masVistas/image 10.png"
+                                            alt=""></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="nota2.html" class="text-dark">FRASES CÉLEBRES DE STEPHEN HAWKIN</a>
+                                            </h>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
+                                class="rounded mx-auto d-block" alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary descSec">Cuando guardes una nota en una carpeta,
+                                aparecerá
+                                acá
+                            </p>
+                        </div>
+                    </section>
+
+                    <section id="misEventos">
+                        <h4 class="titSec">Mis eventos</h4>
+                        <div class="perfil" id="misEventosContenido">
+
+                            <div class="eventoPerfil">
+                                <div class="nota1 p-3">
+                                    <div class="d-flex">
+
+                                        <img style="width: 40%; height: 70%;" src="./images/agenda/janegodal.png">
+                                        <div class="col">
+                                            <div class="align-self-start">
+                                                <h3 id="tituloEvent1" class="titEvnt">TITULO</h3>
+                                                <p id="notaEvent1" style="display: none;"></p>
+                                            </div>
+
+                                            <div class="mt-4 d-flex justify-content-around">
+                                                <div class="fechasEvent">
+                                                    <h5 id="mesEvent1" class="mesEvnt">mes evento 1</h5>
+                                                    <p id="diaEvent1" class="resaltaDyH">dia</p>
+                                                </div>
+                                                <div class="horariosEvent">
+                                                    <h5 class="mesEvnt"> Horario</h5>
+                                                    <p id="horaEvent1" class="resaltaDyH">hora</p>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="d-flex justify-content-around">
+
+                                                <div>
+                                                    <div class="comoLlegar mt-3">
+                                                        <!-- Button trigger modal -->
+                                                        <a class="btn-light " data-toggle="modal"
+                                                            data-target="#exampleModal" href="" style="color: #8DD853;"
+                                                            class="comoLlegar">
+                                                            ¿Cómo llegar?
+                                                        </a>
+                                                        <!-- Modal -->
+                                                        <div class="modal fade " id="exampleModal" tabindex="-1"
+                                                            role="dialog" aria-labelledby="exampleModalLabel"
+                                                            aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered"
+                                                                role="document">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title tituloMapaE1"
+                                                                            id="exampleModalLabel">
+                                                                        </h5>
+                                                                        <button type="button" class="close"
+                                                                            data-dismiss="modal" aria-label="Close">
+                                                                            <span aria-hidden="true">&times;</span>
+                                                                        </button>
+                                                                    </div>
+                                                                    <div class="modal-body embed-responsive embed-responsive-16by9"
+                                                                        id="mapaEvent1">
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="mt-3">
+                                                    <button type="button" id="botonQuitaEvt1" class="desinscribirse"
+                                                        value="true" name="evento1"> Desinscribirme</button>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- cierre de evento  -->
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 63.png" class="rounded mx-auto d-block"
+                                alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary descSec">Cuando te inscribas en algún evento en
+                                <span class="agndHoy">AgendaHoy</span>
+                                aparecerá acá</p>
+                        </div>
+                    </section>
+
+                    <section id="misFavs">
+                        <h4 class="titSec">Favoritos</h4>
+                        <div id="misNotasFavs">
+
+                            <div class="row">
+
+                                <section class="col-6 portfolio-item" id="fav1">
+                                    <!--     <div class="col-6 portfolio-item"> -->
+
+                                    <a href="nota1.html"><img class="card-img-top fotoNota"
+                                            src="./images/masVistas/image 38.png" alt=""></a>
+                                    <!--  <img class="estrella" src="./images/estrella.png"> -->
+                                    <button class="btn btn-link text-white estrella" id="btnFav1">
+                                        <i class="fa fa-star"></i>
+                                    </button>
+
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            <a href="nota1.html" class="text-dark titNota">ECLIPSES DEL SOL, TELÉFONOS
+                                                CELULARES Y CIENCIA
+                                                CIUDADANA</a>
+                                        </h4>
+
+                                    </div>
+                                    <!--    </div> -->
+                                </section>
+
+                                <section class="col-6 portfolio-item" id="fav2">
+                                    <!--   <div class="col-6 portfolio-item"> -->
+
+                                    <a href="nota6.html"><img class="card-img-top" src="./images/masVistas/image 12.png"
+                                            alt=""></a>
+                                    <button class="btn btn-link text-white estrella" id="btnFav2">
+                                        <i class="fa fa-star"></i>
+                                    </button>
+
+                                    <!-- <button>
+                                            <i type="button" class="estrella" src="./images/estrella.png"></i>
+                                           </button> -->
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="nota6.html" class="text-dark titNota">ARGENTINA PARA EL VIAJERO</a>
+                                        </h5>
+                                    </div>
+
+                                    <!--  </div> -->
+
+                                </section>
+
+                            </div>
+
+                        </div>
+                        <div class="mt-5">
+                            <img src="./Recursos/PERFIL/Imagenes/Vector 45.png" class="rounded mx-auto d-block"
+                                alt="logoREvista" id="logoRevista">
+                            <p class="text-center text-secondary descSec">Cuando marques una nota como favorito,
+                                aparecerá
+                                acá</p>
+                        </div>
+                    </section>
+
+                    <section id="versionPremium">
+                        <h4 class="titSec">Version Premium</h4>
+                        <div id="versPrem" class="mt-5">
+                            <h3 class="text-center mt-5 "><strong>Obtené CienciaHoy Premium ¡Por tan sólo $70
+                                    mensuales!</strong></h3>
+                            <p class="text-center unirVP"> Al unirte a la version Premium aceptas las <span
+                                    class="aceptarTerminos "> Bases y
+                                    Condiciones </span></p>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-around">
+                            <button type="button" class="btn" id="premiumRechaz">Rechazar</button>
+                            <button type="button" class="btn" id="premiumUnir">Unirse</button>
+                        </div>
+
+                        <div class="mt-5 d-flex justify-content-around">
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <img src="./Recursos/PERFIL/Imagenes/Vector 101.png" class="rounded mx-auto d-block"
+                                    alt="logoREvista" id="logoRevista">
+                                <p class="text-center mt-4 textTC">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                </div> <!-- fin col-6 -->
+
+
+                <!-- ====== Bloque Actividad ================================================== -->
+                <div class="col-3">
+                    <div class="perfil mb-5">
+                        <section id="perfilActividad">
+                            <div class="d-flex justify-content-around ">
+                                <img src="./Recursos/PERFIL/Imagenes/activity-512.png" alt="logoActividad"
+                                    id="logoActividad">
+                                <h6 class="text-center "> <strong class="text-secondary txtActiv">Actividades</strong c>
+                                </h6>
+                            </div>
+                            <hr class="hrOriginal">
+                            <h6 class="text-secondary ml-3 txtFecha">Hoy</h6>
+                            <div class="d-flex justify-content-center ml-2">
+                                <div>
+                                    <img style="width: 60%; height: 90%;" src="./Recursos/PERFIL/Imagenes/image 54.png">
+                                </div>
+                                <div class="mr-2">
+                                    <h6 class="nombrePefil"><strong>Angel Castro</strong></h6>
+                                    <p class="textActiv">Leiste "Eclipse de ..."</p>
+                                    <p class="text-black-50 horaPublicar">Hace 1 hora</p>
+                                </div>
+                            </div>
+                            <hr class="hrCort">
+                            <div class="d-flex justify-content-center ml-2 mt-4">
+                                <div>
+                                    <img style="width: 60%; height: 90%;" src="./Recursos/PERFIL/Imagenes/image 54.png">
+                                </div>
+                                <div class="mr-2">
+                                    <h6 class="nombrePefil"><strong>Angel Castro</strong></h6>
+                                    <p class="textActiv">"Eclipse de sol..."</p>
+                                    <p class="text-black-50 horaPublicar">Hace 1 hora</p>
+                                </div>
+                            </div>
+                            <hr class="hrOriginal">
+                            <h6 class="text-secondary txtFecha">Ayer</h6>
+                            <div class="d-flex justify-content-center ml-2">
+                                <div>
+                                    <img style="width: 60%; height: 90%;" src="./Recursos/PERFIL/Imagenes/image 54.png">
+                                </div>
+                                <div class="mr-2">
+                                    <h6 class="nombrePefil"><strong>Moria Casán"</strong></h6>
+                                    <p class="textActiv">Respondio en "Eclip..."</p>
+                                    <p class="text-black-50 horaPublicar">Hace 12 hora</p>
+                                </div>
+                            </div>
+                            <hr class="hrCort">
+                            <div class="d-flex justify-content-center ml-2 mt-4">
+                                <div>
+                                    <img style="width: 60%; height: 90%;" src="./Recursos/PERFIL/Imagenes/image 54.png">
+                                </div>
+                                <div class="mr-2">
+                                    <h6 class="nombrePefil"><strong>Angel Castro</strong></h6>
+                                    <p class="textActiv">Inscribiste "Confer..."</p>
+                                    <p class="text-black-50 horaPublicar">Hace 1 hora</p>
+                                </div>
+                            </div>
+
+
+
+                        </section>
+                    </div>
+
+
+                </div> <!-- fin col-3 -->
+
+
+            </section>
+        </div>
+    </div><!-- Fin -->
+
+    <!-- ====== Footer ================================================== -->
+
+    <footer id="footer"></footer>
+
+
+    <!-- bootstrap ================================================== -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="./css/bootstrap/vendor/jquery/jquery.js"></script>
+    <script src="./css/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Java Script ================================================== -->
+    <script src="./js/estructura.js"></script>
+    <script src="./data/dataGral.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/perfil.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="./js/firebase.js"></script>
+
+    <script defer src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.7.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.7.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+            // // The Firebase SDK is initialized and available here!
+            //
+            // firebase.auth().onAuthStateChanged(user => { });
+            // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+            // firebase.messaging().requestPermission().then(() => { });
+            // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+            //
+            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+            try {
+                let app = firebase.app();
+                let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[
+                    feature] === 'function');
+                document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+            } catch (e) {
+                console.error(e);
+                document.getElementById('load').innerHTML =
+                    'Error loading the Firebase SDK, check the console.';
+            }
+        });
+    </script>
+
+    <script src="./js/estructura.js"></script>
+    <script src="./data/dataGral.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/perfil.js"></script>
+</body>
+
+
+</html>
