@@ -50,9 +50,8 @@ var navbar = `
 <div class="d-flex ">
 <a class="mt-2" href=""><img src="./images/lupa.png" alt="lupa"></a>
 
-<a href="incioSesion.html">
-        <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar" data-toggle="modal"
-            data-target="#modalEntrar">
+<a href="perfil.html">
+        <button type="button" class="btn btn-outline-light btn-lm ml-5 botonEntrar" id="btnEntrar">
             Entrar
         </button></a>
 </div>
@@ -111,7 +110,7 @@ var footer = `
         
             <div class="col-2 mt-5">
         
-              <a href="incioSesion.html">
+              <a href="perfil.html">
                 <button type="button" class="btn btn-outline-light botonEntrar px-4 mt-2">
                   Entrar
                 </button></a>
@@ -223,4 +222,4 @@ document.getElementById("navbar").innerHTML = navbar;
 
 document.getElementById("footer").innerHTML = footer;
 
-document.getElementById("cuerpoModal").innerHTML = cuerpoModal;
+/* document.getElementById("cuerpoModal").innerHTML = cuerpoModal; */
