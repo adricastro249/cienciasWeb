@@ -5,7 +5,7 @@
     
 
 header{
-    background-image: url(/public/images/agenda/fondo.png);
+    background-image: url("../images/agenda/fondo.png");
     background-repeat: no-repeat;
     background-size: 100%;
     color: #ffffff;

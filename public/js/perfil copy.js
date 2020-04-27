@@ -1,49 +1,52 @@
-// ********** secciones inicio
-$("#mi-perfil").show();
-$("#mis-carpetas").hide();
-$("#mis-favoritos").hide();
-$("#mis-revistas").hide();
-$("#mis-settings").hide();
+// ********** carpetas
+$("#misCarpetas").hide();
+$("#misEventos").show();
+$("#misFavs").hide();
+$("#versionPremium").hide();
 
-$("#radio_Perfil").click(function () {
-    $("#mi-perfil").show();
-    $("#mis-carpetas").hide();
-    $("#mis-favoritos").hide();
-    $("#mis-revistas").hide();
-    $("#mis-settings").hide();
+
+// ********** eventos
+$("#fav1").show();
+$("#fav2").show();
+
+
+$("#carpetas").click(function () {
+    $("#misCarpetas").show();
+    $("#misEventos").hide();
+    $("#misFavs").hide();
+    $("#versionPremium").hide();
 })
 
-$("#radio_Carpeta").click(function () {
-    $("#mi-perfil").hide();
-    $("#mis-carpetas").show();
-    $("#mis-favoritos").hide();
-    $("#mis-revistas").hide();
-    $("#mis-settings").hide();
+$("#eventos").click(function () {
+    $("#misCarpetas").hide();
+    $("#misEventos").show();
+    $("#misFavs").hide();
+    $("#versionPremium").hide();
+    console.log(misEventos);
+    
 })
 
-$("#radio_Fav").click(function () {
-    $("#mi-perfil").hide();
-    $("#mis-carpetas").hide();
-    $("#mis-favoritos").show();
-    $("#mis-revistas").hide();
-    $("#mis-settings").hide();
-})
-
-$("#radio_Rev").click(function () {
-    $("#mi-perfil").hide();
-    $("#mis-carpetas").hide();
-    $("#mis-favoritos").hide();
-    $("#mis-revistas").show();
-    $("#mis-settings").hide();
+$("#favs").click(function () {
+    $("#misCarpetas").hide();
+    $("#misEventos").hide();
+    $("#misFavs").show();
+    $("#versionPremium").hide();
 })
 
 
-$("#radio_Config").click(function () {
-    $("#mi-perfil").hide();
-    $("#mis-carpetas").hide();
-    $("#mis-favoritos").hide();
-    $("#mis-revistas").hide();
-    $("#mis-settings").show();
+$("#verPremium").click(function () {
+    $("#misCarpetas").hide();
+    $("#misEventos").hide();
+    $("#misFavs").hide();
+    $("#versionPremium").show();
+})
+
+
+$("#premiumRechaz").click(function () {
+    $("#misCarpetas").hide();
+    $("#misEventos").show();
+    $("#misFavs").hide();
+    $("#versionPremium").hide();
 })
 
 // ******************* MIS EVENTOS

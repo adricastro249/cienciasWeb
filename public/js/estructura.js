@@ -35,17 +35,6 @@ var navbar = `
                         <a class="dropdown-item" href="mandaTuDuda.html">Manda tu duda</a>
                     </div>
                 </li>
-               
-
-
-
-
-
-
-
-
-
-
 <div class="bloqDerNavbar">
 <div class="d-flex ">
 <a class="mt-2" href=""><img src="./images/lupa.png" alt="lupa"></a>
