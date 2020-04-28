@@ -154,7 +154,7 @@ width: 80% !important;
 .tituloApp,
 .descApp {
     position: relative;
-    margin-top: 10%;
+    margin-top: 15%;
     font-family: "Roboto Slab Bold";
 
 }
@@ -168,14 +168,14 @@ width: 80% !important;
     background-size: 100%;
     background-repeat: no-repeat;
     margin-left: 8%;
-/*     margin-top: 0%; */
+    margin-top: -3%;
 }
 
 
 
 
 .botonAplicacionWeb {
-    margin-top: 10%;
+    margin-top: 22%;
     margin-bottom: 4%;
 }
 

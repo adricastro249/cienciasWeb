@@ -30,12 +30,12 @@ NOTAS */
 }
 
 .navbar-nav{
-    margin-left: 12%;
+    margin-left: 15%;
 }
 
 
 .bloqDerNavbar{
-    margin-left: 18%;
+    margin-left: 60%;
 }
 
 
@@ -60,7 +60,7 @@ NOTAS */
 
 
 .navBarArriba{
-/* margin-right: 10px; */
+margin-right: 130px;
     display: flex;
     float: right;
 }
@@ -68,7 +68,7 @@ NOTAS */
 
 .margenLogo{
     
-margin-left: 2rem;
+margin-left: 6rem;
 
 }
 
