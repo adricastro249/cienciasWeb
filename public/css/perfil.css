@@ -43,7 +43,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 3px solid rgba(0,0,0,.1);
+  border-top: 2px solid rgba(0,0,0,.1);
   width: 100%;
   margin-left: 0rem;  
 }
@@ -57,7 +57,7 @@
   margin-top: 1;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 3px solid rgba(0,0,0,.1);
+  border-top: 2px solid rgba(0,0,0,.1);
   width: 50%;
   margin-left: 5rem;
  
@@ -77,20 +77,48 @@ background-color: #fff;
 
 .vl {
   border-left: 1.8px solid rgba(0,0,0,.1);
-  height:70px;
+  height:40px;
 position: relative;
-margin-top: 0.3rem;
+margin-top: 1rem;
   padding: 0 0% 0% 3%;
 }
 
 .imgEventPerfil{
-  width: 20%;
+  padding: 2%;
+  width: 18%;
 }
 
+.lin1Evento{
+  margin-top: 12%;
+}
+.fechaEvent{
+  margin-top: -12%;
+}
+
+.linproxEvent{
+  margin-top: 6%;
+}
 
 /* PERFIL */
 .form-control{
   border: 0.5px solid #fff !important;
+}
+
+/* CARPETAS */
+.carpetas{
+  color: #23ACA2;
+  font-size: large;
+  text-decoration: none;
+}
+
+.new-bin{
+color: black;
+font-size: large;
+text-decoration: none;
+}
+
+.titNotaMV{
+font-size: 14px;
 }
 
 /* REVISTAS */
@@ -101,7 +129,23 @@ position: relative;
 
 /* CONFIGURACIÓN */
 .v-premium{
+  width: 100%;
+  position: absolute;
+  margin-top: 4.5%;
   background-color: rgb(239, 253, 255) ;
+margin-left: -5px !important;
+height: 44%;
+}
+
+.txt-premium{
+  color: #23ACA2;
+}
+
+.icon-premium{
+
+width: 3%;
+height: 3%;
+margin-top: 1.2%;
 }
 
 .btn-premium{
@@ -114,7 +158,13 @@ position: relative;
 /*   padding: 0% 0% 0%; */
 }
 
+ul, .iconCheck{
+  list-style-image: url(../images/quienesSomos/Vector\ 86.png);
+}
+
 .costo-premium{
+  margin-left: 10%;
+  margin-bottom: 15px !important;
   color: #23ACA2 !important;
 }
 
@@ -350,4 +400,29 @@ body .scene #right-zone {
   height: 100%;
   -webkit-box-flex: 3;
           flex-grow: 3;
+}
+
+/* ACTIVIDAD */
+
+.activ-fav{
+  margin-top: -6%;
+  width: 12%;
+  height: 12%;
+}
+
+.textActiv{
+font-size: small;
+color:  #23ACA2;
+margin-top: -7%;
+}
+
+.horaPublicar{
+  font-size: small;
+  color: gray;
+  margin-top: -14%;
+}
+
+.mas-actividad{
+  margin-top: 5%;
+  color: #ff0076;
 }

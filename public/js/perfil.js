@@ -71,7 +71,6 @@ $("#mostrar-revistas1").click(function () {
 // ******************* MIS FAVORITOS
 
 $("#btnFav1").click(function () {
-    console.log("prueba");
     $("#fav1").hide();
 })
 
@@ -79,7 +78,14 @@ $("#btnFav2").click(function () {
 $("#fav2").hide();
 })
 
+$("#btnFav3").click(function () {
+    $("#fav3").hide();
+    })
 
+
+    $("#btnFav4").click(function () {
+        $("#fav4").hide();
+        })
 // ***************** MIS CARPETAS
 var cont= 1;
 // agregaOtraCarpeta
