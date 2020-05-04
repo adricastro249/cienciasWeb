@@ -13,7 +13,7 @@
   }
 
 .tituloCategoria{
-    font-family: "Roboto Slab Bold";
+    font-family: "Roboto Slab";
 }
 
 
@@ -50,12 +50,13 @@ margin-left: 15%;
 }
 
 .autor{
-    font-family: "Roboto Light";
+    font-family: "Roboto Regular";
     color: #818181; 
+    font-size: small;
 }
 
  .titNotaMV {
-    font-family: "Roboto Slab Bold";
+    font-family: "Roboto Slab";
 color: #000000;
 width: 85% !important;
 }

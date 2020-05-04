@@ -25,16 +25,24 @@ margin-top: 5%;
 
 
 .titHeader{
-    font-family: "Roboto Slab Bold"; 
+    font-family: "Roboto Slab"; 
     font-size: 55px;
     margin-top: 10%;
 }
 
+.eventHeader{
+  font-family: "Roboto Regular"; 
+}
+
 .hoyHeader{
     color: #ff0076 !important;
-    font-family: "Roboto Slab Bold";
+    font-family: "Roboto Slab";
     font-size: 45px;
     margin-bottom: -0.5rem !important;
+}
+
+.nombre-confer{
+  font-family: "Roboto Regular";
 }
 
 .vlImgTxt{
@@ -51,7 +59,7 @@ header h3, header h5{
 
 
 /*/---Notas----/*/
-.nota1, .nota2{
+.nota2{
     background-color: #fff;
 }
 
@@ -101,7 +109,7 @@ margin-left: -3.3%;
 
 
 .bloque-contenido{
-    margin-top: 15%;
+    margin-top: 10%;
   margin-left: -20 !important; 
 }
 
@@ -164,7 +172,18 @@ ul{
 }
 
 
+.margin-negativo{
+  margin-top: -5%;
+}
+ 
 
+.titulo-conferencia{
+  font-size: 66px;
+}
+
+.margin-titulo{
+  margin-top: -20%;
+}
 
 /*/----Calendario----/*/
 .calendario, .eventAnt, .eventProx  {

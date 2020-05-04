@@ -426,3 +426,27 @@ margin-top: -7%;
   margin-top: 5%;
   color: #ff0076;
 }
+
+.fa-bookmark{
+color: #23ACA2 !important;
+margin-top: -5%;
+font-size: small;
+}
+
+.fa-ellipsis-v{
+  color: #23ACA2 !important;
+}
+
+.fa-plus-circle{
+  color: #23ACA2;
+}
+.fa-cloud-download-alt{
+  color: #23ACA2;
+}
+
+.fa-chevron-down{
+  color: #23ACA2;
+  transform: rotate(-90deg);
+  margin-left: 2%;
+  margin-top: -1%;
+}

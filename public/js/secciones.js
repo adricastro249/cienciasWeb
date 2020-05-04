@@ -90,7 +90,7 @@ data.secciones.forEach(secc => {
         let nodeNota6 = document.createElement('H5')
         nodeNota6.classList.add("text-left")
         nodeNota6.classList.add("autor")
-        nodeNota6 = document.createTextNode(val.autor);
+        nodeNota6a = document.createTextNode(val.autor);
 
 
         let nodeNota7 = document.createElement('DIV')
@@ -119,6 +119,7 @@ data.secciones.forEach(secc => {
         nodeNota4.appendChild(nodeNotaImg)
         nodeNota3.appendChild(nodeNota5)
         nodeNota5.appendChild(nodeNota6)
+        nodeNota6.appendChild(nodeNota6a)
         nodeNota5.appendChild(nodeNota7)
         nodeNota7.appendChild(nodeNota8)
         nodeNota3.appendChild(nodeNota9)
