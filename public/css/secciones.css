@@ -1,8 +1,6 @@
 .divSecciones{
     width: 100%;
     border-top: 0.1rem solid rgb(196, 193, 193);
-
-
   }
 
 
@@ -13,18 +11,11 @@
   }
 
 .tituloCategoria{
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab Bold";
 }
-
 
 .tituloNota{
-    font-family: "Roboto Slab Bold";
-    font-weight: bolder;
-}
-
-
-.resumenNota{
-    font-family: "Roboto Light"; 
+    font-family: "Roboto Slab";
 }
 
 #tituloCategoria {
@@ -56,10 +47,13 @@ margin-left: 15%;
 }
 
  .titNotaMV {
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab Bold";
 color: #000000;
 width: 85% !important;
+/* font-size: 12px; */
+height: 20px;
 }
+
 
 
 .card{
@@ -71,3 +65,9 @@ width: 85% !important;
     border: 1px solid grey;
 padding: 1px;
 } 
+
+.divSeccionesNotas{
+    width: 100%;
+    margin-top: 15%;
+    border-top: 0.15rem solid rgb(196, 193, 193);
+}

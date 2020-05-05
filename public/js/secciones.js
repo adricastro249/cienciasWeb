@@ -47,10 +47,6 @@ data.secciones.forEach(secc => {
     nodeSecc4.appendChild(nodeSecc4a)
     nodeSecc0.appendChild(nodeSecc5)
 
-
-
-
-
     let nodeNota = document.createElement('DIV')
     nodeNota.classList.add("row")
     nodeNota.classList.add(secc.codSecc)
@@ -111,6 +107,12 @@ data.secciones.forEach(secc => {
         nodeTit = document.createTextNode(val.titulo);
 
 
+        nodeNota10 = document.createElement('HR');
+        nodeNota10.classList.add("divSeccionesNotas");
+        if (iter > 2) {
+            nodeNota10.style.display = "none"
+        }
+
         nodeSecc.appendChild(nodeNota)
         nodeNota.appendChild(nodeNota1)
         nodeNota1.appendChild(nodeNota2)
@@ -124,6 +126,9 @@ data.secciones.forEach(secc => {
         nodeNota7.appendChild(nodeNota8)
         nodeNota3.appendChild(nodeNota9)
         nodeNota9.appendChild(nodeTit)
+
+        nodeNota3.appendChild(nodeNota10)
+
         iter++
     })
 

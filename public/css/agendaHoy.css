@@ -145,9 +145,14 @@ th{
    font-family: "Roboto Slab Bold" !important;
 }
 
-#listaEventprox{
-    font-size: 13px;
-    font-family: "Roboto Medium";
+
+.titEvent{
+  color: #000000 !important;
+}
+
+
+.ubicaEvent{
+  color: gray !important;
 }
 
 li {
@@ -163,15 +168,6 @@ ul{
     padding-left: 0em;
 }
 
-.titEvn{
-    font-family: "Roboto Slab Bold";
-}
-
-.notEvnt{
-    font-family: "Roboto Regular";
-}
-
-
 .margin-negativo{
   margin-top: -5%;
 }
@@ -179,10 +175,13 @@ ul{
 
 .titulo-conferencia{
   font-size: 66px;
+  font-family: "Roboto Slab Regular";
+
 }
 
 .margin-titulo{
   margin-top: -20%;
+
 }
 
 /*/----Calendario----/*/
@@ -234,18 +233,18 @@ ul {list-style-type: none;}
     color:#000000 !important;
 }
 
-.weekdays {
-  margin: -2;
+/* .weekdays {
+  margin: -0.1rem;
 
-}
+} */
 
 .weekdays li {
     font-family: "Roboto Medium" !important;
   color: #666;
   text-align: center;
   margin-top: 5%;
-  margin-left: 4%;
-padding: 3.5%;
+  margin-left: 8%;
+padding: 1.3%;
 }
 
 .days {

@@ -1,18 +1,11 @@
 var nodeEvent = document.getElementById("listaEventos");
-
-console.log(data);
-
-
 data.eventos.forEach(event =>{
-console.log(event);
-
 
 let nodeEvent0 = document.createElement('DIV')
 nodeEvent0.classList.add("col")
 nodeEvent0.classList.add("mt-5")
 nodeEvent0.classList.add("nota2")
 nodeEvent0.classList.add("mb-5")
-
 
 let nodeEvent1 = document.createElement('DIV')
 nodeEvent1.classList.add("d-flex")
@@ -27,14 +20,12 @@ let nodeEvent3 = document.createElement('DIV')
 nodeEvent3.classList.add("col-5")
 nodeEvent3.classList.add("bloque-contenido")
 
-
 let nodetitulo = document.createElement('DIV')
 nodetitulo.classList.add("margin-titulo")
 
 let nodetituloH1 = document.createElement('H1')
 nodetituloH1.classList.add("titulo-conferencia")
 nodetituloH1a = document.createTextNode(event.titulo);
-
 
 let nodeEvent4 = document.createElement('DIV')
 nodeEvent4.classList.add("p-2")
@@ -156,4 +147,75 @@ nodeEvent20.appendChild(nodeEvent20a)
 
 nodeEvent19.appendChild(nodeEvent21)
 nodeEvent21.appendChild(nodeEvent21a)
+})
+
+
+
+var proxEvent = document.getElementById("lista-event-prox");
+data.proxEventos.forEach(prox => {
+
+let proxEvent1 = document.createElement('DIV')
+proxEvent1.classList.add("row")
+
+let proxEvent2 = document.createElement('DIV')
+proxEvent2.classList.add("row")
+proxEvent2.classList.add("col-4")
+proxEvent2.classList.add("align-items-center")
+proxEvent2.classList.add("p-0")
+proxEvent2.classList.add("ml-2")
+
+let proxEventImg = document.createElement('IMG')
+proxEventImg.setAttribute('src', prox.imagen);
+
+let proxEvent3 = document.createElement('P')
+proxEvent3.classList.add("mb-0")
+proxEvent3.classList.add("ml-3")
+proxEvent3a = document.createTextNode(prox.time);
+
+let proxEvent4 = document.createElement('DIV')
+proxEvent4.classList.add("col-7")
+proxEvent4.classList.add("ml-4")
+
+let circle = document.createElement('FIGURE')
+circle.classList.add("circle-bg")
+
+let ulProxEvent = document.createElement('UL')
+
+let liProxEvent = document.createElement('LI')
+liProxEvent.classList.add("col")
+liProxEvent.classList.add("align-items-center")
+liProxEvent.classList.add("p-0")
+
+let titEvent = document.createElement("A")
+titEvent.classList.add("titEvent")
+titEventa = document.createTextNode(prox.titulo);
+
+let brTit = document.createElement("BR")
+
+let ubicaEvent = document.createElement("A")
+ubicaEvent.classList.add("ubicaEvent")
+ubicaEventa = document.createTextNode(prox.ubicacion);
+
+proxEvent.appendChild(proxEvent1)
+proxEvent1.appendChild(proxEvent2)
+
+proxEvent2.appendChild(proxEventImg)
+proxEvent2.appendChild(proxEvent3)
+proxEvent3.appendChild(proxEvent3a)
+
+proxEvent1.appendChild(proxEvent4)
+proxEvent4.appendChild(circle)
+proxEvent4.appendChild(ulProxEvent)
+
+ulProxEvent.appendChild(liProxEvent)
+
+liProxEvent.appendChild(titEvent)
+titEvent.appendChild(titEventa)
+
+liProxEvent.appendChild(brTit)
+
+
+
+liProxEvent.appendChild(ubicaEvent)
+ubicaEvent.appendChild(ubicaEventa)
 })

@@ -70,7 +70,28 @@ var data = {
    
     }
   ],
-  "revistas": [{
+"proxEventos":[{
+  "titulo": "Radiación: Prevención",
+  "idEvento": 1,
+  "imagen": "./images/agenda/Vector59.png",
+  "ubicacion": "YPF",
+"time":"9:30"
+},
+{
+  "titulo": "HIV",
+  "idEvento": 2,
+  "imagen": "./images/agenda/Vector60.png",
+  "ubicacion": "Hospital Italiano",
+"time":"13:15"
+},
+{
+  "titulo": "De Simios a Humanos",
+  "idEvento": 3,
+  "imagen": "./images/agenda/Vector61.png",
+  "ubicacion": "Museo de Ciencias Naturales (La Plata)",
+"time":"18:30"
+}],
+ "revistas": [{
 
       "titulo": "¿Centrales nucleares?",
       "fechas": "Enero - Febrero 2019",
