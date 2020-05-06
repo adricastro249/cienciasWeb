@@ -54,9 +54,13 @@ margin-left: 4% !important;
     border: 0.5px solid #23ACA2 !important;
 }
 
+.secTelfs{
+    margin-left: -22% !important;
+}
+
 .logoTlfs{
     height: 100%;
-    margin-left: -19% !important;
+    margin-left: -5% !important;
     margin-top: 1%;
 }
 
@@ -66,7 +70,7 @@ margin-left: 4% !important;
 }
 
 #telfs{
-    margin-left: -33%;
+    margin-left: -43%;
 }
 
 .direc{

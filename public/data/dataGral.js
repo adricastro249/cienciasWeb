@@ -91,37 +91,50 @@ var data = {
   "ubicacion": "Museo de Ciencias Naturales (La Plata)",
 "time":"18:30"
 }],
- "revistas": [{
+ "revistas": [
+   
+  {
+    "titulo": "Inteligencia Artificial",
+    "fechas": "Octubre - Noviembre 2019",
+    "imagenCompra": "./images/revistas/revInteligenciaArtificial.png",
+    "imagenPerfil": "./images/perfil/img_REVISTAS/image 69.png",
+    "texto": "Fitoplacton. El crecimiento de Puerto Madryn. Premios Nobel 2019. Guía del cielo nocturno",
+    "matchID": "IA",
+    "location": "",
+    "idCollap": "",
+    "buy": "1.80$",
+    "nro": "167",
+    "vol": "28"
+  },
+  
+  {
 
       "titulo": "¿Centrales nucleares?",
       "fechas": "Enero - Febrero 2019",
-      "imagen": "./images/revistas/revCentralesNucleares.png",
+      "imagenCompra": "./images/revistas/revCentralesNucleares.png",
+      "imagenPerfil": "./images/perfil/img_REVISTAS/image 66.png",
       "texto": "Patagotitan: El dinosaurio más grande. Investigación y guerra de Malvinas. Astronomia",
       "matchID": "CN",
       "location": "",
       "idCollap": "",
       "buy": "1.80$",
+      "nro": "157",
+      "vol": "47"
     },
     {
       "titulo": "Muere una estrella",
       "fechas": "Julio - Agosto 2019",
-      "imagen": "./images/revistas/revMuereUnaEstrella.png",
+      "imagenCompra": "./images/revistas/revMuereUnaEstrella.png",
+      "imagenPerfil": "./images/perfil/img_REVISTAS/image 114.png",
       "texto": "Paleoneurologia. Un nuevo mapa fitogeográfico. Explosión de la pesca del langostino. La construcción del Estado argentino",
       "matchID": "MUE",
       "location": "",
       "idCollap": "",
       "buy": "1.80$",
-    },
-    {
-      "titulo": "Inteligencia Artificial",
-      "fechas": "Octubre - Noviembre 2019",
-      "imagen": "./images/revistas/revInteligenciaArtificial.png",
-      "texto": "Fitoplacton. El crecimiento de Puerto Madryn. Premios Nobel 2019. Guía del cielo nocturno",
-      "matchID": "IA",
-      "location": "",
-      "idCollap": "",
-      "buy": "1.80$",
+      "nro": "161",
+      "vol": "27"
     }
+
 
   ],
   "secciones": [{

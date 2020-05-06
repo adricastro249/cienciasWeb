@@ -52,6 +52,15 @@
   border-top: 0.1rem solid rgb(204, 204, 204);
   margin-left: 10%;
 }
+
+.divSesion{
+  width: 80%;
+  margin-top: 30%;
+  border-top: 0.15rem solid rgb(204, 204, 204) !important;
+  margin-left: 10%;
+}
+
+
 .hrCort{
   position: relative;
   margin-top: 1;
@@ -112,13 +121,55 @@ margin-top: 1rem;
 }
 
 .new-bin{
-color: black;
-font-size: large;
-text-decoration: none;
+  color: black;
+  font-size: large;
+  text-decoration: none;
+  }
+
+.tarjetas-mis-carpetas{
+width: 45%;
 }
 
+
+
 .titNotaMV{
+  font-family: "Roboto Slab Bold";
+  color: #000000;
 font-size: 14px;
+
+}
+
+.tit1{
+width: 70%;
+}
+
+.btn-varias-carpetas{
+margin-left: 10%;
+}
+
+
+
+.vl-mas-carpetas{
+  border-left: 1.8px solid rgba(0,0,0,.1);
+  height:40px;
+position: relative;
+  padding: 0 0% 0% 3%;
+}
+
+
+.imgFlecha{
+  border: 1px solid grey;
+padding: 0.5px;
+} 
+
+
+.titulo-large{
+  width: 220px;
+}
+
+
+.lista-carpetas, .lista-favoritas{
+  margin-left: 10% !important;
 }
 
 /* REVISTAS */
@@ -127,14 +178,27 @@ font-size: 14px;
 position: relative;
 }
 
+
+/* FAVORITOS */
+
+.lista-favoritas{
+  margin-top: 5% !important;
+}
+
 /* CONFIGURACIÓN */
+
+.bloque-config{
+  margin-left: 8%;
+}
+
 .v-premium{
   width: 100%;
   position: absolute;
-  margin-top: 4.5%;
+  margin-top: 2%;
   background-color: rgb(239, 253, 255) ;
+
 margin-left: -5px !important;
-height: 44%;
+height: 43.4%;
 }
 
 .txt-premium{
@@ -159,7 +223,12 @@ margin-top: 1.2%;
 }
 
 ul, .iconCheck{
+  margin-left: 12%;
   list-style-image: url(../images/quienesSomos/Vector\ 86.png);
+}
+
+.listCheck{
+  width: 80%;
 }
 
 .costo-premium{
@@ -248,7 +317,7 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_carpeta:b
   content: " ";
   display: block;
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 50px;
   margin-left: 15px;
   background-image: url("../images/perfil/img_CARPETA/Trazado\ 35_gris.png");
@@ -292,6 +361,20 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_config:be
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
+body .scene .left-zone .list li.item input[type="radio"] ~ label.label_sesion:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  background-image: url("../images/perfil/sign-out-alt-solid.svg");
+  background-position: center;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+
+
+}
 body .scene .left-zone .list li.item input[type="radio"]:checked ~ label {
   opacity: 1;
   -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -317,6 +400,10 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_c
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
+body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_sesion {
+  color: #ff0076;
+  border-right: solid 4px  #ff0076;
+}
 body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_perfil:before {
   content: " ";
   display: block;
@@ -333,7 +420,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_c
   content: " ";
   display: block;
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 50px;
   margin-left: 15px;
   background-image: url("../images/perfil/img_CARPETA/Trazado\ 35.png");
@@ -373,6 +460,18 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_c
   height: 50px;
   margin-left: 15px;
   background-image: url("../images/perfil/img_CONFIGURACION/Group\ 146-1.png");
+  background-position: center;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+}
+body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_sesion:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  background-image: url("../images/perfil/sign-out-alt-solid.svg");
   background-position: center;
   background-size: 75% 75%;
   background-repeat: no-repeat;

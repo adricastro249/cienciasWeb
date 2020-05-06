@@ -47,35 +47,28 @@ function crearListaRevista(event, idQueDeseas) {
 	let click = event;
 	let revista = data.revistas.find(e => e.matchID == click);
 	$("#misRevistasCarrito").show()
-	let node = document.createElement("DIV");                 // Create a <div> node prncipal
+	let node = document.createElement("DIV");               
 		node.classList.add("row");
 		node.classList.add("col");
 		node.classList.add("d-flex")
 		node.classList.add("justify-content-between")
 		node.classList.add("listaCarrito")
-	let node1_1= document.createElement("DIV")		// Create node hijo1 aca va imagen
+	let node1_1= document.createElement("DIV")		
 		node1_1.classList.add("col-5")
 		node1_1.classList.add("p-0")
-	let imgNode1_1= document.createElement("IMG")		// Create imag de hijo1
-		imgNode1_1.src = revista.imagen;
+	let imgNode1_1= document.createElement("IMG")	
+		imgNode1_1.src = revista.imagenCompra;
 		imgNode1_1.alt = revista.matchID;
 		imgNode1_1.classList.add("imagenDeRevista");
 
-	let node1_2= document.createElement("DIV")		// Create node hijo2 aca va datos de la revista
+	let node1_2= document.createElement("DIV")		
 		node1_2.classList.add("col-7")
 		node1_2.classList.add("datosDeRevista")
-	let pTituloRev = document.createElement("P"); 	//Create P para nombre de Revista
+	let pTituloRev = document.createElement("P"); 
 		pTituloRev.classList.add("nombreDeRevista")
-	let textContentNombreREv = document.createTextNode(revista.titulo) 	// creo el texto del nombre de la revista
-		pTituloRev.appendChild(textContentNombreREv); 	//incluyo el nombre de la revista en su etiqueta P
-	/* ** NO LLEVA PRECIO EN MIS REVISTAS
-	let pPrecioRev = document.createElement("P"); 	//Create P para precio de Revista
-		pPrecioRev.classList.add("precioRevista")
-	let textContentPrecioREv = document.createTextNode(revista.buy) 	// creo el texto del Precio de la revista
-		pPrecioRev.appendChild(textContentPrecioREv);  */	//incluyo el precio de la revista en su etiqueta P
-	
-		// **** ahora se anidan todos lo elementos de lo mas chico a lo macro
-		// en datosDeRevista (node1_2) van los 2 P, que deben ser colcoados en el orden que se desea
+	let textContentNombreREv = document.createTextNode(revista.titulo) 	
+		pTituloRev.appendChild(textContentNombreREv); 
+
 		node1_2.appendChild(pTituloRev);
 		/*  NO LLEVA PRECIO
 		node1_2.appendChild(pPrecioRev); */
@@ -88,8 +81,7 @@ function crearListaRevista(event, idQueDeseas) {
 		node.appendChild(node1_2)
 		node.id = (revista.matchID)
 
-		document.getElementById(idQueDeseas).appendChild(node);     // Append <li> to <ul> con el id donde deseas colcoarlo
-
+		document.getElementById(idQueDeseas).appendChild(node);     
 		
 
 }
@@ -120,7 +112,7 @@ function agregCarrito () {
 		node1_1.classList.add("col-5")
 		node1_1.classList.add("p-0")
 	let imgNode1_1= document.createElement("IMG")		// Create imag de hijo1
-		imgNode1_1.src = revista.imagen;
+		imgNode1_1.src = revista.imagenCompra;
 		imgNode1_1.alt = revista.matchID;
 		imgNode1_1.classList.add("imagenDeRevista");
 

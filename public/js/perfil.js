@@ -68,6 +68,7 @@ $("#mostrar-revistas1").click(function () {
 })
 
 
+
 // ******************* MIS FAVORITOS
 
 $("#btnFav1").click(function () {
