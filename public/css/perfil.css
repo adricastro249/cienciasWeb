@@ -71,6 +71,9 @@
   margin-left: 5rem;
  
 }
+
+
+
 .bloqueInfo{
   background-color: #f4fbee;
 /* background-color: red; */
@@ -173,9 +176,22 @@ padding: 0.5px;
 }
 
 /* REVISTAS */
+
 .vlRevs{
   border-left: 2.5px solid rgba(0,0,0,.1);
 position: relative;
+}
+
+.diVolRev{
+  position: relative;
+  margin-top: -30%;
+  border-top: 3px solid #23ACA2;
+  width: 90%;
+}
+
+
+.num-rev{
+  margin-top: -30%;
 }
 
 

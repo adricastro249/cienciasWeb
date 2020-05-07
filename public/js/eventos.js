@@ -1,5 +1,14 @@
 var nodeEvent = document.getElementById("listaEventos");
+
+
+console.log(data.eventos);
+
+
 data.eventos.forEach(event =>{
+
+console.log(event);
+
+
 
 let nodeEvent0 = document.createElement('DIV')
 nodeEvent0.classList.add("col")
@@ -33,9 +42,11 @@ nodeEvent4.classList.add("flex-shrink-1")
 nodeEvent4.classList.add("bd-highlight")
 
 let nodeEvent5 = document.createElement('STRONG')
+nodeEvent5.classList.add("tit-donde")
 nodeEvent5a = document.createTextNode("Donde");
 
 let nodeEvent6 = document.createElement('DIV')
+nodeEvent6.classList.add("ubicacion")
 
 let nodeEvent7 = document.createElement('P')
 nodeEvent7a = document.createTextNode(event.location);
@@ -81,6 +92,7 @@ let nodeEvent16 = document.createElement('DIV')
 nodeEvent16.classList.add("horariosEvent")
 
 let nodeEvent17 = document.createElement('STRONG')
+nodeEvent17.classList.add('horario-evento')
 nodeEvent17a = document.createTextNode("Horario");
 
 let nodeEvent18 = document.createElement('P')
@@ -89,8 +101,10 @@ nodeEvent18a = document.createTextNode(event.time);
 
 let nodeEvent19 = document.createElement('DIV')
 let nodeEvent20 = document.createElement('STRONG')
+nodeEvent20.classList.add("costo-entrada-tit")
 nodeEvent20a = document.createTextNode("Entrada");
 let nodeEvent21 = document.createElement('P')
+nodeEvent21.classList.add("costo-entrada")
 nodeEvent21a = document.createTextNode(event.cost);
 
 
@@ -170,6 +184,8 @@ proxEventImg.setAttribute('src', prox.imagen);
 let proxEvent3 = document.createElement('P')
 proxEvent3.classList.add("mb-0")
 proxEvent3.classList.add("ml-3")
+proxEvent3.classList.add("prox-event-detalles")
+
 proxEvent3a = document.createTextNode(prox.time);
 
 let proxEvent4 = document.createElement('DIV')
@@ -188,12 +204,14 @@ liProxEvent.classList.add("p-0")
 
 let titEvent = document.createElement("A")
 titEvent.classList.add("titEvent")
+titEvent.classList.add("prox-event-detalles")
 titEventa = document.createTextNode(prox.titulo);
 
 let brTit = document.createElement("BR")
 
 let ubicaEvent = document.createElement("A")
 ubicaEvent.classList.add("ubicaEvent")
+ubicaEvent.classList.add("prox-event-detalles")
 ubicaEventa = document.createTextNode(prox.ubicacion);
 
 proxEvent.appendChild(proxEvent1)

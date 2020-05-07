@@ -55,7 +55,92 @@ $("#botonQuitaEvt1").click(function () {
 
 // ******************* REVISTAS
 
+
+/* ARMADO DE REVISTAS */
+
 $("#revistas2").hide();
+
+var misRevistas = document.getElementById("revistas1");
+let nodeRev0 = document.createElement('DIV')
+    nodeRev0.classList.add("d-flex")
+    nodeRev0.classList.add("justify-content-center")
+
+    var iter = 0
+data.revistas.forEach(revs =>{
+
+console.log(revs);
+
+let nodeRev1 = document.createElement('DIV')
+    nodeRev1.classList.add("mt-5")
+    let nodeImgRev = document.createElement('IMG')
+    nodeImgRev.setAttribute('src', revs.imagenPerfil);
+
+    let nodeRev2 = document.createElement('DIV')
+nodeRev2.classList.add("d-flex")
+nodeRev2.classList.add("justify-content-between")
+
+let nodeRev3 = document.createElement('DIV')
+
+let nodeRev4 = document.createElement('P')
+nodeRev4a = document.createTextNode(revs.vol)
+
+let nodeHr = document.createElement('HR')
+    nodeHr.classList.add("diVolRev")
+
+    let nodeRev5 = document.createElement('DIV')
+    nodeRev5.classList.add("num-rev")
+
+
+    let nodeRev6 = document.createElement('P')
+    nodeRev6 = document.createTextNode("Nro");
+    let nodeRev7 = document.createElement('P')
+    nodeRev7a = document.createTextNode(revs.nro)
+
+    let nodeRev8 = document.createElement('DIV')
+    let nodeRev9 = document.createElement('I')
+    nodeRev9.classList.add("fa-cloud-download-alt")
+    nodeRev9.classList.add("fas")
+
+    let nodeRev10 = document.createElement('DIV')
+    nodeRev10.classList.add("vlRevs")
+    nodeRev10.classList.add("mr-5")
+    nodeRev10.classList.add("ml-5")
+    if (iter > 1) {
+        nodeRev10.style.display = "none"
+    }
+
+misRevistas.appendChild(nodeRev0)
+nodeRev0.appendChild(nodeRev1)
+nodeRev1.appendChild(nodeImgRev)
+
+nodeRev1.appendChild(nodeRev2)
+nodeRev2.appendChild(nodeRev3)
+nodeRev3.appendChild(nodeRev4)
+nodeRev4.appendChild(nodeRev4a)
+nodeRev3.appendChild(nodeHr)
+nodeRev3.appendChild(nodeRev5)
+nodeRev5.appendChild(nodeRev6)
+nodeRev5.appendChild(nodeRev7)
+nodeRev7.appendChild(nodeRev7a)
+
+nodeRev2.appendChild(nodeRev8)
+nodeRev8.appendChild(nodeRev9)
+
+nodeRev0.appendChild(nodeRev10)
+
+
+
+
+    
+iter++
+
+
+})
+
+
+
+
+
 
 $("#mostrar-revistas2").click(function () {
     $("#revistas1").hide();
@@ -66,8 +151,6 @@ $("#mostrar-revistas1").click(function () {
     $("#revistas2").hide();
     $("#revistas1").show();
 })
-
-
 
 // ******************* MIS FAVORITOS
 
@@ -87,43 +170,4 @@ $("#btnFav3").click(function () {
     $("#btnFav4").click(function () {
         $("#fav4").hide();
         })
-// ***************** MIS CARPETAS
-var cont= 1;
-// agregaOtraCarpeta
-$("#btnMasCarpetas").click(function () {
-    console.log("Crea otra carpeta");
-    var auxCont = cont;
-    console.log(auxCont);
-    
-    let node = document.createElement("BUTTON")
-        node.classList.add("d-flex")
-        node.classList.add("justify-content-around")
-        node.classList.add("carpeta")
-        node.classList.add("p-2")
-        node.classList.add("m-1")
-        node.classList.add("m-1")
-        
-    
-    let imgCarpeta = document.createElement("IMG")
-        imgCarpeta.src = "./Recursos/PERFIL/Imagenes/icons8-opened-folder-96.png"
-        imgCarpeta.alt = "logoCarpetas"
-        imgCarpeta.style.width = "33%"
-        imgCarpeta.style.height = "33%"
-        imgCarpeta.id = "logoCarpetas"
-        imgCarpeta.classList.add("p-2")
-    
-    let hCarpeta = document.createElement("H6")
-        hCarpeta.classList.add("mt-1")
-    let hCarpetaTitulo = document.createTextNode(`Carpeta`+ ` `+ `${auxCont+1}`)
-        hCarpeta.appendChild(hCarpetaTitulo)
-    
-    node.appendChild(imgCarpeta)
-    node.appendChild(hCarpetaTitulo)
-
-    document.getElementById("agregaAquiCarpetas").appendChild(node);
-    
-        
-    cont ++; 
-
-})
 

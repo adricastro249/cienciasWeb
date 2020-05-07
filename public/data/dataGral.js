@@ -29,7 +29,7 @@ var data = {
     }
   ],
   "eventos": [{
-  "titulo": "Conferencia a Jane Goodall",
+      "titulo": "Conferencia a Jane Goodall",
       "idEvento": 1,
       "imagen": "./images/agenda/image2.png",
       "texto": "De la mano de National Geographic y CienciaHoy con el patrocinio de KYMCO Motor de Cultura. Jane Goodall dará una conferencia en la Facultad de Derecho bajo el titulo 'Mi vida entre los chimpancés salvajes '",
@@ -44,7 +44,7 @@ var data = {
       "address": "Agustin Caffarena 1, La Boca",
       "map": "",
       "time": "17hs",
-      "cost": "Gratuitas" 
+      "cost": "Gratuitas"
 
     },
     {
@@ -63,52 +63,47 @@ var data = {
       "address": "Centro de Salud, Olivos",
       "map": "",
       "time": "13hs",
-      "cost": "250$" 
-
-      
-
-   
+      "cost": "250$"
     }
   ],
-"proxEventos":[{
-  "titulo": "Radiación: Prevención",
-  "idEvento": 1,
-  "imagen": "./images/agenda/Vector59.png",
-  "ubicacion": "YPF",
-"time":"9:30"
-},
-{
-  "titulo": "HIV",
-  "idEvento": 2,
-  "imagen": "./images/agenda/Vector60.png",
-  "ubicacion": "Hospital Italiano",
-"time":"13:15"
-},
-{
-  "titulo": "De Simios a Humanos",
-  "idEvento": 3,
-  "imagen": "./images/agenda/Vector61.png",
-  "ubicacion": "Museo de Ciencias Naturales (La Plata)",
-"time":"18:30"
-}],
- "revistas": [
-   
-  {
-    "titulo": "Inteligencia Artificial",
-    "fechas": "Octubre - Noviembre 2019",
-    "imagenCompra": "./images/revistas/revInteligenciaArtificial.png",
-    "imagenPerfil": "./images/perfil/img_REVISTAS/image 69.png",
-    "texto": "Fitoplacton. El crecimiento de Puerto Madryn. Premios Nobel 2019. Guía del cielo nocturno",
-    "matchID": "IA",
-    "location": "",
-    "idCollap": "",
-    "buy": "1.80$",
-    "nro": "167",
-    "vol": "28"
-  },
-  
-  {
-
+  "proxEventos": [
+    {
+      "titulo": "Radiación: Prevención",
+      "idEvento": 1,
+      "imagen": "./images/agenda/Vector59.png",
+      "ubicacion": "YPF",
+      "time": "9:30"
+    },
+    {
+      "titulo": "HIV",
+      "idEvento": 2,
+      "imagen": "./images/agenda/Vector60.png",
+      "ubicacion": "Hospital Italiano",
+      "time": "13:15"
+    },
+    {
+      "titulo": "De Simios a Humanos",
+      "idEvento": 3,
+      "imagen": "./images/agenda/Vector61.png",
+      "ubicacion": "Museo de Ciencias Naturales (La Plata)",
+      "time": "18:30"
+    }
+  ],
+  "revistas": [
+    {
+      "titulo": "Inteligencia Artificial",
+      "fechas": "Octubre - Noviembre 2019",
+      "imagenCompra": "./images/revistas/revInteligenciaArtificial.png",
+      "imagenPerfil": "./images/perfil/img_REVISTAS/image 69.png",
+      "texto": "Fitoplacton. El crecimiento de Puerto Madryn. Premios Nobel 2019. Guía del cielo nocturno",
+      "matchID": "IA",
+      "location": "",
+      "idCollap": "",
+      "buy": "1.80$",
+      "nro": "167",
+      "vol": "Vol 28"
+    },
+    {
       "titulo": "¿Centrales nucleares?",
       "fechas": "Enero - Febrero 2019",
       "imagenCompra": "./images/revistas/revCentralesNucleares.png",
@@ -119,7 +114,7 @@ var data = {
       "idCollap": "",
       "buy": "1.80$",
       "nro": "157",
-      "vol": "47"
+      "vol": "Vol 47"
     },
     {
       "titulo": "Muere una estrella",
@@ -132,10 +127,8 @@ var data = {
       "idCollap": "",
       "buy": "1.80$",
       "nro": "161",
-      "vol": "27"
+      "vol": "Vol 27"
     }
-
-
   ],
   "secciones": [{
       "nombreSecc": "Aqui Ciencia",
@@ -157,7 +150,7 @@ var data = {
           "texto": "Este excelente matemático británico fue famoso por idear una serie de avances que cambiaron para siempre.",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 89.png",
+          "imagen": "./images/secciones/img_secciones1/image 89.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -167,7 +160,7 @@ var data = {
           "texto": "Las bacterias resistentes a los antibióticos están incrementando en todo el mundo.",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 4.png",
+          "imagen": "./images/secciones/img_secciones1/image 4.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -177,7 +170,7 @@ var data = {
           "texto": "",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 23.png",
+          "imagen": "./images/secciones/img_secciones1/image 23.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -187,7 +180,7 @@ var data = {
           "texto": "",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 25.png",
+          "imagen": "./images/secciones/img_secciones1/image 25.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -197,7 +190,7 @@ var data = {
           "texto": "",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 51.png",
+          "imagen": "./images/secciones/img_secciones1/image 51.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -207,7 +200,7 @@ var data = {
           "texto": "",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 141.png",
+          "imagen": "./images/secciones/img_secciones1/image 141.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -217,7 +210,7 @@ var data = {
           "texto": "",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 142.png",
+          "imagen": "./images/secciones/img_secciones1/image 142.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -227,7 +220,7 @@ var data = {
           "texto": "",
           "idNota": "",
           "seccion": "aqui ciencias",
-          "imagen":"./images/secciones/img_secciones1/image 143.png",
+          "imagen": "./images/secciones/img_secciones1/image 143.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -244,17 +237,17 @@ var data = {
           "texto": "Mientras se preparaban para duros exámenes, los jóvenes que estudiaban en la Universidad afrontaban",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 5.png",
+          "imagen": "./images/secciones/img_secciones1/image 5.png",
           "otros": "",
           "href": "nota2.html",
-        }, 
+        },
         {
           "titulo": "Belleza Antigua",
           "autor": "por SANTIAGO SPRINFIELD",
           "texto": "En este podcast te explicamos cómo las mujeres griegas lucían una tez blanca, labios pintados de rojo y mejillas rosadas.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 6.png",
+          "imagen": "./images/secciones/img_secciones1/image 6.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -264,7 +257,7 @@ var data = {
           "texto": "Nacido en una humilde granja de Kentucky, el decimosexto presidente de Estados Unidos.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 88.png",
+          "imagen": "./images/secciones/img_secciones1/image 88.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -274,7 +267,7 @@ var data = {
           "texto": "Nacido en una humilde granja de Kentucky, el decimosexto presidente de Estados Unidos.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 28.png",
+          "imagen": "./images/secciones/img_secciones1/image 28.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -284,7 +277,7 @@ var data = {
           "texto": "Nacido en una humilde granja de Kentucky, el decimosexto presidente de Estados Unidos.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 29.png",
+          "imagen": "./images/secciones/img_secciones1/image 29.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -294,7 +287,7 @@ var data = {
           "texto": "Nacido en una humilde granja de Kentucky, el decimosexto presidente de Estados Unidos.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 27.png",
+          "imagen": "./images/secciones/img_secciones1/image 27.png",
           "otros": "",
           "href": "nota2.html",
         }
@@ -311,17 +304,17 @@ var data = {
           "texto": "Una mutación genética podría explicar este insólito caso documentado en el Parque Nacional Masai Mara.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 12.png",
+          "imagen": "./images/secciones/img_secciones1/image 12.png",
           "otros": "",
           "href": "nota2.html",
-        }, 
+        },
         {
           "titulo": "¿Cuánto sabes de la carta tabla periódica?",
           "autor": "por SANTIAGO SPRINGFIELD",
           "texto": "Elementos. Todo está formado de elementos. Y se ordenan en una tabla según su naturaleza y propiedades.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 11.1.png",
+          "imagen": "./images/secciones/img_secciones1/image 11.1.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -331,7 +324,7 @@ var data = {
           "texto": "Una de las mentes más brillantes de nuestro tiempo ha fallecido a los 76 años. Revolucionó la física con sus teoríaS.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 10.1.png",
+          "imagen": "./images/secciones/img_secciones1/image 10.1.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -341,7 +334,7 @@ var data = {
           "texto": "Una de las mentes más brillantes de nuestro tiempo ha fallecido a los 76 años. Revolucionó la física con sus teoríaS.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 35.png",
+          "imagen": "./images/secciones/img_secciones1/image 35.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -351,7 +344,7 @@ var data = {
           "texto": "Una de las mentes más brillantes de nuestro tiempo ha fallecido a los 76 años. Revolucionó la física con sus teoríaS.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 36.png",
+          "imagen": "./images/secciones/img_secciones1/image 36.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -361,13 +354,13 @@ var data = {
           "texto": "Una mutación genética podría explicar este insólito caso documentado en el Parque Nacional Masai Mara.",
           "idNota": "",
           "seccion": "carta de lectura",
-          "imagen":"./images/secciones/img_secciones1/image 37.png",
+          "imagen": "./images/secciones/img_secciones1/image 37.png",
           "otros": "",
           "href": "nota2.html",
-        }, 
-   
-  
-   
+        },
+
+
+
       ]
     },
     {
@@ -381,17 +374,17 @@ var data = {
           "texto": "Comenzar de cero nunca fue tan apetecible. Para contrarrestar la despoblación, la región de Molise.",
           "idNota": "",
           "seccion": "Ciencia en el mundo",
-          "imagen":"./images/secciones/img_secciones1/image 8.png",
+          "imagen": "./images/secciones/img_secciones1/image 8.png",
           "otros": "",
           "href": "nota2.html",
-        }, 
+        },
         {
           "titulo": "Tras las huellas de Leonardo da Vinci",
           "autor": "por SANTIAGO SPRINGFIELD",
           "texto": "Hay hombres y mujeres cuyo destino es convertirse en mito. Leonardo da Vinci no podía saberlo aún.",
           "idNota": "",
           "seccion": "Ciencia en el mundo",
-          "imagen":"./images/secciones/img_secciones1/image 9.png",
+          "imagen": "./images/secciones/img_secciones1/image 9.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -401,7 +394,7 @@ var data = {
           "texto": "El 6 de junio de 1944, más conocido como el Día D, durante el transcurso de la Segunda Guerra Mundial.",
           "idNota": "",
           "seccion": "Ciencia en el mundo",
-          "imagen":"./images/secciones/img_secciones1/image 11.png",
+          "imagen": "./images/secciones/img_secciones1/image 11.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -411,7 +404,7 @@ var data = {
           "texto": "El 6 de junio de 1944, más conocido como el Día D, durante el transcurso de la Segunda Guerra Mundial.",
           "idNota": "",
           "seccion": "Ciencia en el mundo",
-          "imagen":"./images/secciones/img_secciones1/image 130.png",
+          "imagen": "./images/secciones/img_secciones1/image 130.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -421,7 +414,7 @@ var data = {
           "texto": "El 6 de junio de 1944, más conocido como el Día D, durante el transcurso de la Segunda Guerra Mundial.",
           "idNota": "",
           "seccion": "Ciencia en el mundo",
-          "imagen":"./images/secciones/img_secciones1/image 131.png",
+          "imagen": "./images/secciones/img_secciones1/image 131.png",
           "otros": "",
           "href": "nota2.html",
         },
@@ -431,14 +424,12 @@ var data = {
           "texto": "El 6 de junio de 1944, más conocido como el Día D, durante el transcurso de la Segunda Guerra Mundial.",
           "idNota": "",
           "seccion": "Ciencia en el mundo",
-          "imagen":"./images/secciones/img_secciones1/image 132.png",
+          "imagen": "./images/secciones/img_secciones1/image 132.png",
           "otros": "",
           "href": "nota2.html",
         }
-      
+
       ]
     }
   ]
 }
-
-

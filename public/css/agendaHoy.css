@@ -25,7 +25,7 @@ margin-top: 5%;
 
 
 .titHeader{
-    font-family: "Roboto Slab"; 
+    font-family: "Roboto Slab Bold"; 
     font-size: 55px;
     margin-top: 10%;
 }
@@ -36,7 +36,7 @@ margin-top: 5%;
 
 .hoyHeader{
     color: #ff0076 !important;
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab Bold";
     font-size: 45px;
     margin-bottom: -0.5rem !important;
 }
@@ -93,7 +93,7 @@ header h3, header h5{
   #btnInscribir{
 width: 100;
 color: #fff;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto Slab Bold";
 font-size: 18px;
 background-color:#ff0076;
 border-radius: 10px !important;
@@ -102,11 +102,19 @@ border-radius: 10px !important;
 .mas-info{
     text-decoration: underline;
 color:  #ff0076 !important;
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Regular";
 font-size: 22px;
 margin-left: -3.3%;
 }
 
+
+.tit-donde{
+  font-family: "Roboto Slab Bold";
+}
+
+.ubicacion{
+  font-family: "Roboto Regular";
+}
 
 .bloque-contenido{
     margin-top: 10%;
@@ -128,9 +136,16 @@ margin-left: -3.3%;
     font-family: "Roboto Bold";
 }
 
+.horario-evento, .costo-entrada-tit{
+  font-family: "Roboto Slab Bold";
+}
+
+.costo-entrada{
+  font-family: "Roboto Regular";
+}
 
 .mesEv{
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab Bold";
     font-size: 18px;
     margin-top: 20%;
     font-weight: bold;
@@ -143,6 +158,10 @@ th{
 .proxEvents{
    margin-left: 25%;
    font-family: "Roboto Slab Bold" !important;
+}
+
+.prox-event-detalles{
+  font-family: "Roboto Regular"; 
 }
 
 
@@ -175,7 +194,7 @@ ul{
 
 .titulo-conferencia{
   font-size: 66px;
-  font-family: "Roboto Slab Regular";
+  font-family: "Roboto Slab Bold";
 
 }
 
@@ -233,10 +252,11 @@ ul {list-style-type: none;}
     color:#000000 !important;
 }
 
-/* .weekdays {
-  margin: -0.1rem;
+ .weekdays {
+  /* margin: -0.1rem; */
+  font-family: "Roboto Regular"; 
 
-} */
+} 
 
 .weekdays li {
     font-family: "Roboto Medium" !important;
@@ -249,6 +269,7 @@ padding: 1.3%;
 
 .days {
   margin-left: 3% ;
+  font-family: "Roboto Regular"; 
 }
 
 .days li {

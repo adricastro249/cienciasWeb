@@ -146,8 +146,7 @@ var footer = `
 // ********************** trae el titutlo
 $(window).on("load", function () {
   document.getElementById("")
-  console.log(this.event);
-  console.log(this.event.target.title);
+
   var titulo = this.event.target.title;
   // console.log(`${titulo}`);
   addId = `${titulo}`;
