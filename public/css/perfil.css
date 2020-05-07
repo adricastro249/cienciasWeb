@@ -317,7 +317,8 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label:hover {
   opacity: 0.75;
   cursor: pointer;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label.label_perfil:before {
+
+body .scene .left-zone .list li.item input ~ label.label_perfil:before {
   content: " ";
   display: block;
   position: absolute;
@@ -329,7 +330,7 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_perfil:be
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label.label_carpeta:before {
+body .scene .left-zone .list li.item input ~ label.label_carpeta:before {
   content: " ";
   display: block;
   position: absolute;
@@ -341,7 +342,7 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_carpeta:b
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label.label_favoritos:before {
+body .scene .left-zone .list li.item input ~ label.label_favoritos:before {
   content: " ";
   display: block;
   position: absolute;
@@ -353,7 +354,7 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_favoritos
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label.label_revistas:before {
+body .scene .left-zone .list li.item input ~ label.label_revistas:before {
   content: " ";
   display: block;
   position: absolute;
@@ -365,7 +366,7 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_revistas:
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label.label_config:before {
+body .scene .left-zone .list li.item input ~ label.label_config:before {
   content: " ";
   display: block;
   position: absolute;
@@ -377,7 +378,7 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_config:be
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label.label_sesion:before {
+body .scene .left-zone .list li.item input ~ label.label_sesion:before {
   content: " ";
   display: block;
   position: absolute;
@@ -391,36 +392,36 @@ body .scene .left-zone .list li.item input[type="radio"] ~ label.label_sesion:be
 
 
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label {
+body .scene .left-zone .list li.item input:checked ~ label {
   opacity: 1;
   -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
           animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_perfil {
+body .scene .left-zone .list li.item input:checked ~ label.label_perfil {
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_carpeta {
+body .scene .left-zone .list li.item input:checked ~ label.label_carpeta {
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_favoritos {
+body .scene .left-zone .list li.item input:checked ~ label.label_favoritos {
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_revistas {
+body .scene .left-zone .list li.item input:checked ~ label.label_revistas {
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_config {
+body .scene .left-zone .list li.item input:checked ~ label.label_config {
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_sesion {
+body .scene .left-zone .list li.item input:checked ~ label.label_sesion {
   color: #ff0076;
   border-right: solid 4px  #ff0076;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_perfil:before {
+body .scene .left-zone .list li.item input:checked ~ label.label_perfil:before {
   content: " ";
   display: block;
   position: absolute;
@@ -432,7 +433,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_p
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_carpeta:before {
+body .scene .left-zone .list li.item input:checked ~ label.label_carpeta:before {
   content: " ";
   display: block;
   position: absolute;
@@ -444,7 +445,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_c
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_favoritos:before {
+body .scene .left-zone .list li.item input:checked ~ label.label_favoritos:before {
   content: " ";
   display: block;
   position: absolute;
@@ -456,7 +457,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_f
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_revistas:before {
+body .scene .left-zone .list li.item input:checked ~ label.label_revistas:before {
   content: " ";
   display: block;
   position: absolute;
@@ -468,7 +469,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_r
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_config:before {
+body .scene .left-zone .list li.item input:checked ~ label.label_config:before {
   content: " ";
   display: block;
   position: absolute;
@@ -480,7 +481,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_c
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_sesion:before {
+body .scene .left-zone .list li.item input:checked ~ label.label_sesion:before {
   content: " ";
   display: block;
   position: absolute;
@@ -492,7 +493,7 @@ body .scene .left-zone .list li.item input[type="radio"]:checked ~ label.label_s
   background-size: 75% 75%;
   background-repeat: no-repeat;
 }
-body .scene .left-zone .list li.item input[type="radio"]:checked ~ .content {
+body .scene .left-zone .list li.item input:checked ~ .content {
   -webkit-animation-duration: 0.75s;
           animation-duration: 0.75s;
   -webkit-animation-name: slidein;
