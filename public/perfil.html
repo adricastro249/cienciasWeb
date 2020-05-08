@@ -69,28 +69,35 @@
                             <ul class="list">
                                 <li class="item">
 
-                                    <input type="radio" id="radio_Perfil" name="basic_carousel" checked="checked" />
-                                    <label class="label_perfil" for="radio_Perfil">Mi Perfil</label>
+
+
+                                    <input type="radio" onclick="showHide('perfil')" id="radio_Perfil"
+                                        name="basic_carousel" checked="checked" />
+                                    <label class="label_perfil" for="radio_Perfil"><p>Mi Perfil</p></label>
 
                                 </li>
                                 <li class="item">
-                                    <input type="radio" id="radio_Carpeta" name="basic_carousel" />
-                                    <label class="label_carpeta" for="radio_Carpeta">Carpetas</label>
+                                    <input type="radio" onclick="showHide('carpetas')" id="radio_Carpeta"
+                                        name="basic_carousel" />
+                                    <label class="label_carpeta" for="radio_Carpeta"><p>Carpetas</p></label>
 
                                 </li>
                                 <li class="item">
-                                    <input type="radio" id="radio_Fav" name="basic_carousel" />
-                                    <label class="label_favoritos" for="radio_Fav">Favoritos</label>
+                                    <input type="radio" onclick="showHide('favoritos')" id="radio_Fav"
+                                        name="basic_carousel" />
+                                    <label class="label_favoritos" for="radio_Fav"><p>Favoritos</p></label>
 
                                 </li>
                                 <li class="item">
-                                    <input type="radio" id="radio_Rev" name="basic_carousel" />
-                                    <label class="label_revistas" for="radio_Rev">Mis revistas</label>
+                                    <input type="radio" onclick="showHide('revistas')" id="radio_Rev"
+                                        name="basic_carousel" />
+                                    <label class="label_revistas" for="radio_Rev"><p>Mis revistas</p></label>
 
                                 </li>
                                 <li class="item">
-                                    <input type="radio" id="radio_Config" name="basic_carousel" />
-                                    <label class="label_config" for="radio_Config">Configuración</label>
+                                    <input type="radio" onclick="showHide('settings')" id="radio_Config"
+                                        name="basic_carousel" />
+                                    <label class="label_config" for="radio_Config"><p>Configuración</p></label>
 
                                 </li>
                             </ul>
@@ -104,7 +111,7 @@
                             <ul class="list">
                                 <li class="item">
                                     <input type="radio" id="radio_sesion" name="basic_carousel" />
-                                    <label class="label_sesion" for="radio_sesion">Cerrar Sesión</label>
+                                    <label class="label_sesion" for="radio_sesion"><p>Cerrar Sesión</p></label>
                                 </li>
 
                             </ul>
@@ -118,7 +125,7 @@
                     <section class=" mb-5 misEventos">
 
                         <div class="container">
-                            <h4>Mis eventos</h4>
+                            <h4 class="mt-4 tit-mis-eventos">Mis eventos</h4>
 
                             <div class="seccionEventos">
                                 <div class=" d-flex">
@@ -158,7 +165,7 @@
                         <div class="container pl-5 pr-5 ">
                             <form action="" name="formulario" method="get">
 
-                                <h4>Información Personal</h4>
+                                <h4 class="titulo-seccion">Información Personal</h4>
                                 <div class="form-row mt-3">
                                     <div class="col">
                                         <input type="text" class="form-control" placeholder="Nombre *" required>
@@ -197,7 +204,7 @@
                                 </div>
 
                                 <div class="form-group col-md-4 mt-4 mb-5">
-                                    <label for="inputState">Estado Actual</label>
+                                    <label for="inputState" class="titSelect">Estado Actual</label>
                                     <select id="inputState" class="form-control">
                                         <option selected>...</option>
                                         <option>...</option>
@@ -237,9 +244,10 @@
 
                             <div class="container">
                                 <div class="lista-carpetas d-flex flex-wrap ">
-                                    <div class="tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img class="card-img-top"
+                                    <div class="tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
+                                                class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 38.png"></a>
-                                        <div class="mt-2 d-flex justify-content-between">por ALBERTO SPINOZA<div
+                                        <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA<div
                                                 class="imgFlecha"><img class="mt-2" src="./images/Home/flecha_notas.png"
                                                     alt="flecha"></div>
                                         </div>
@@ -249,28 +257,36 @@
                                                 teléfonos celulares y ciencia ciudadana</a>
                                         </div>
 
-
+                                        <hr class="divSeccionesNotas">
                                     </div>
 
-                                    <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img class="card-img-top"
+                                 
+
+                                    <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
+                                                class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 89.png"></a>
-                                        <div class="mt-2 d-flex justify-content-between">por SANTIAGO SPRINFIELD<div
+                                        <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD<div
                                                 class="imgFlecha"><img class="mt-2" src="./images/Home/flecha_notas.png"
                                                     alt="flecha"></div>
                                         </div><a class="titNotaMV " href="nota2.html">René Favealoro,
                                             todo lo que nos dejó</a>
+                                            <hr class="divSeccionesNotas">
                                     </div>
-                                    <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img class="card-img-top"
+
+                                
+                                    <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
+                                                class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 23.png"></a>
-                                        <div class="mt-2 d-flex justify-content-between">por CAROLINA ROJAS<div
+                                        <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS<div
                                                 class="imgFlecha"><img class="mt-2" src="./images/Home/flecha_notas.png"
                                                     alt="flecha"></div>
                                         </div><a class="titNotaMV " href="nota2.html">Argentina ¿va al
                                             espacio?</a>
                                     </div>
-                                    <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img class="card-img-top"
+                                    <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
+                                                class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 25.png"></a>
-                                        <div class="mt-2 d-flex justify-content-between">por CECILIA BOLTON<div
+                                        <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON<div
                                                 class="imgFlecha"><img class="mt-2" src="./images/Home/flecha_notas.png"
                                                     alt="flecha"></div>
                                         </div><a class="titNotaMV" href="nota2.html">Plantas
@@ -286,59 +302,128 @@
 
                         <div class="container">
 
-                            <div class="lista-favoritas d-flex flex-wrap ">
+                            <div class="lista-favoritas d-flex flex-wrap " id="listaFavoritas1">
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav1"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 38.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA
 
+                                    <button class="btn btn-link text-white estrella" id="btnFav1">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
 
-                                <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav1"><a href="nota2.html"><img class="card-img-top"
-                                            src="./images/secciones/img_secciones1/image 38.png"></a>
-                                    <div class="mt-2 d-flex justify-content-between">por ALBERTO SPINOZA
-
-                                        <button class="btn btn-link text-white estrella" id="btnFav1">
-                                            <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                        </button>
-
-                                    </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Eclipses de sol,
-                                        teléfonos celulares y ciencia ciudadana</a>
-                                </div>
-
-                                <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav2"><a href="nota2.html"><img class="card-img-top"
-                                            src="./images/secciones/img_secciones1/image 89.png"></a>
-                                    <div class="mt-2 d-flex justify-content-between">por SANTIAGO SPRINFIELD
-
-                                        <button class="btn btn-link text-white estrella" id="btnFav2">
-                                            <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                        </button>
-
-
-                                    </div><a class="text-dark titNotaMV text-justify" href="nota2.html">René Favealoro,
-                                        todo lo que nos dejó</a>
-                                </div>
-
-                                <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav3"><a href="nota2.html"><img class="card-img-top"
-                                            src="./images/secciones/img_secciones1/image 23.png"></a>
-                                    <div class="mt-2 d-flex justify-content-between">por CAROLINA ROJAS
-
-                                        <button class="btn btn-link text-white estrella" id="btnFav3">
-                                            <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                        </button>
-
-                                    </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Argentina ¿va al
-                                        espacio?</a>
-                                </div>
-
-                                <div class="tarjetas-mis-carpetas pr-5" id="fav4"><a href="nota2.html"><img class="card-img-top"
-                                            src="./images/secciones/img_secciones1/image 25.png"></a>
-                                    <div class="mt-2 d-flex justify-content-between">por CECILIA BOLTON
-
-                                        <button class="btn btn-link text-white estrella" id="btnFav4">
-                                            <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                        </button>
-                                    </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Plantas
-                                        Carniboras</a>
-                                </div>
-
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Eclipses de sol,
+                                    teléfonos celulares y ciencia ciudadana</a>
+                                    <hr class="divSeccionesNotas">
                             </div>
 
+                            <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav2"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 89.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav2">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+
+
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">René Favealoro,
+                                    todo lo que nos dejó</a>
+                                    <hr class="divSeccionesNotas">
+                            </div>
+
+                            <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav3"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 23.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav3">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Argentina ¿va al
+                                    espacio?</a>
+                            </div>
+
+                            <div class="tarjetas-mis-carpetas pr-5" id="fav4"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 25.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav4">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Plantas
+                                    Carniboras</a>
+                            </div>
+                                </div>
+
+                                <div class="lista-favoritas d-flex flex-wrap " id="listaFavoritas2">
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav5"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 38.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav5">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Eclipses de sol,
+                                    teléfonos celulares y ciencia ciudadana</a>
+                                    <hr class="divSeccionesNotas">
+                            </div>
+
+                            <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav6"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 89.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav6">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+
+
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">René Favealoro,
+                                    todo lo que nos dejó</a>
+                                    <hr class="divSeccionesNotas">
+                            </div>
+
+                            <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav7"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 23.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav7">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Argentina ¿va al
+                                    espacio?</a>
+                            </div>
+
+                            <div class="tarjetas-mis-carpetas pr-5" id="fav8"><a href="nota2.html"><img
+                                        class="card-img-top"
+                                        src="./images/secciones/img_secciones1/image 25.png"></a>
+                                <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON
+
+                                    <button class="btn btn-link text-white estrella" id="btnFav8">
+                                        <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                    </button>
+                                </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Plantas
+                                    Carniboras</a>
+                            </div>
+                                </div>
+
+                            <nav aria-label="..." class="mt-5">
+                                <ul class="pagination pagination-sm justify-content-center">
+                                    <li class="page-item" aria-current="page">
+                                        <a class="page-link" id="mostrar-favoritos1">1</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" id="mostrar-favoritos2">2</a></li>
+                                </ul>
+                            </nav>
+
+                            
                         </div>
 
                     </section>
@@ -346,17 +431,47 @@
                     <section class="misRevistas" id="mis-revistas">
 
                         <div class=" mt-5" id="revistas1">
-                         <!--    <div class="d-flex justify-content-center">
-                                <div class="mt-5" >
+                        </div>
+
+                        <div class="container mt-5" id="revistas2">
+                            <div class="d-flex justify-content-center">
+
+                                <div class="mt-5">
+                                    <img src="./images/perfil/img_REVISTAS/image 114.png" alt="">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <p>Vol 27</p>
+                                            <hr class="diVolRev">
+                                            <div class="num-rev">
+                                                Nro.
+                                                <p>161</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <i class="fas fa-cloud-download-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+                                <div class="vlRevs mr-5 ml-5"></div>
+                                <div class="mt-5">
                                     <img src="./images/perfil/img_REVISTAS/image 69.png" alt="">
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <p>Vol 28</p>
                                             <hr class="diVolRev">
-                                        <div class="num-rev">
-                                            <p>Nro.</p>
+                                            <div class="num-rev">
+                                                Nro.
                                                 <p>167</p>
-                                        </div>
+                                            </div>
                                         </div>
 
                                         <div>
@@ -364,14 +479,18 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vlRevs mr-5 ml-5" ></div>
-                                <div class="mt-5" >
+
+                                <div class="vlRevs mr-5 ml-5"></div>
+                                <div class="mt-5">
                                     <img src="./images/perfil/img_REVISTAS/image 66.png" alt="">
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <p>Vol 47</p>
-                                            <p>Nro.</p>
-                                            <p>157</p>
+                                            <hr class="diVolRev">
+                                            <div class="num-rev">
+                                                Nro.
+                                                <p>157</p>
+                                            </div>
                                         </div>
 
                                         <div>
@@ -380,73 +499,6 @@
                                     </div>
                                 </div>
 
-                                <div class="vlRevs mr-5 ml-5" ></div>
-                                <div class="mt-5" >
-                                    <img src="./images/perfil/img_REVISTAS/image 114.png" alt="">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p>Vol 27</p>
-                                            <p>Nro.
-                                                <br>161</p>
-                                        </div>
-
-                                        <div>
-                                            <i class="fas fa-cloud-download-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-
-                        <div class="container mt-5" id="revistas2">
-                            <div class="d-flex justify-content-around">
-                                <div>
-                                    <img src="./images/perfil/img_REVISTAS/image 114.png" alt="">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p>Vol 28</p>
-                                            <p>Nro.
-                                                <br>167</p>
-                                        </div>
-
-                                        <div>
-                                            <i class="fas fa-cloud-download-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="vlRevs"></div>
-                                <div>
-                                    <img src="./images/perfil/img_REVISTAS/image 69.png" alt="">
-
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p>Vol 28</p>
-                                            <p>Nro.
-                                                <br>167</p>
-                                        </div>
-
-                                        <div>
-                                            <i class="fas fa-cloud-download-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="vlRevs"></div>
-                                <div>
-                                    <img src="./images/perfil/img_REVISTAS/image 66.png" alt="">
-
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p>Vol 28</p>
-                                            <p>Nro.
-                                                <br>167</p>
-                                        </div>
-
-                                        <div>
-                                            <i class="fas fa-cloud-download-alt"></i>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -455,25 +507,24 @@
                                 <li class="page-item" aria-current="page">
                                     <a class="page-link" id="mostrar-revistas1">1</a>
                                 </li>
-                                <li class="page-item"><a class="page-link" id="mostrar-revistas2">2</a></li>
+                           <li class="page-item"><a class="page-link" id="mostrar-revistas2">2</a></li>
 
                             </ul>
-                        </nav>
-
+                        </nav> 
                     </section>
 
                     <section class="config" id="mis-settings">
 
                         <div class="bloque-config">
-                            <h5>Configuración</h5>
+                            <h5 class="tit-config">Configuración</h5>
 
                             <div class="d-flex mt-4">
-                                <h5>Privacidad</h5>
+                                <h5 class="sec-config">Privacidad</h5>
                                 <i class="fas fa-chevron-down"></i>
                             </div>
 
                             <div class="d-flex mt-5">
-                                <h5>Seguridad</h5>
+                                <h5 class="sec-config">Seguridad</h5>
                                 <i class="fas fa-chevron-down"></i>
                             </div>
                         </div>
@@ -547,7 +598,7 @@
                         <div class="container ml-3">
                             <div class="d-flex justify-content-around ">
                                 <img src="./images/perfil/activity-512.png" alt="logoActividad" id="logoActividad">
-                                <h6 class="text-center "> <strong class="text-secondary">Actividades</strong>
+                                <h6 class="text-center "> <strong class="text-secondary text-actividad">Actividades</strong>
                                 </h6>
                             </div>
                             <hr class="hrOriginal">
@@ -557,7 +608,7 @@
                                     <img src="./images/perfil/img_PERFIL/Group 162.png">
                                 </div>
                                 <div class="ml-5">
-                                    <h6 class="nombrePefil"><strong>Angel Castro</strong></h6>
+                                    <h6 class="nombrePerfil"><strong class="nombrePerfil">Angel Castro</strong></h6>
                                     <p class="textActiv">Leiste "Eclipse de ..."</p>
                                     <p class="text-black-50 horaPublicar">Hace 1 hora</p>
                                 </div>
@@ -568,7 +619,7 @@
                                     <img src="./images/perfil/img_PERFIL/Group 162.png">
                                 </div>
                                 <div class="ml-5">
-                                    <h6 class="nombrePefil"><strong>Angel Castro</strong></h6>
+                                    <h6 class="nombrePerfil"><strong class="nombrePerfil">Angel Castro</strong></h6>
                                     <div class="d-flex">
                                         <img class="activ-fav" src="./images/perfil/Vector 73.png">
                                         <p class="textActiv">"Eclipse de sol..."</p>
@@ -583,7 +634,8 @@
                                     <img src="./images/perfil/img_PERFIL/Group 166.png">
                                 </div>
                                 <div class="ml-5">
-                                    <h6 class="nombrePefil"><strong>Moria Casán"</strong></h6>
+                                    <h6 class="nombrePerfil"><strong class="nombrePerfil">Moria Casán</strong></h6>
+                               
 
                                     <div class="d-flex">
                                         <i class="fas fa-bookmark"></i>
@@ -600,7 +652,7 @@
                                     <img src="./images/perfil/img_PERFIL/Group 162.png">
                                 </div>
                                 <div class="ml-5">
-                                    <h6 class="nombrePefil"><strong>Angel Castro</strong></h6>
+                                    <h6 class="nombrePerfil"><strong class="nombrePerfil">Angel Castro</strong></h6>
                                     <p class="textActiv">Inscribiste "Confer..."</p>
                                     <p class="text-black-50 horaPublicar">Hace 1 hora</p>
                                 </div>

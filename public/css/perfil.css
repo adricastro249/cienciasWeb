@@ -73,11 +73,21 @@
 }
 
 
+.userName{
+  font-family: "Roboto Slab Bold";
+}
+
 
 .bloqueInfo{
   background-color: #f4fbee;
 /* background-color: red; */
 }
+
+
+.titulo-seccion{
+  font-family: "Roboto Slab Regular";
+}
+
 
 .seccionEventos{
   border-radius: 10px 10px 10px 10px;
@@ -85,6 +95,10 @@
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
 background-color: #fff;
+}
+
+.tit-mis-eventos{
+  font-family: "Roboto Slab Regular";
 }
 
 .vl {
@@ -102,18 +116,27 @@ margin-top: 1rem;
 
 .lin1Evento{
   margin-top: 12%;
+  font-family: "Roboto Slab Regular";
 }
 .fechaEvent{
   margin-top: -12%;
+  font-family: "Roboto Regular";
+
 }
 
 .linproxEvent{
   margin-top: 6%;
+  font-family: "Roboto Slab Regular";
 }
 
 /* PERFIL */
 .form-control{
   border: 0.5px solid #fff !important;
+  font-family: "Roboto Light";
+}
+
+.titSelect{
+  font-family: "Roboto Light";
 }
 
 /* CARPETAS */
@@ -133,12 +156,15 @@ margin-top: 1rem;
 width: 45%;
 }
 
-
+.autor{
+  font-family: "roboto Light";
+}
 
 .titNotaMV{
   font-family: "Roboto Slab Bold";
   color: #000000;
 font-size: 14px;
+
 
 }
 
@@ -167,12 +193,19 @@ padding: 0.5px;
 
 
 .titulo-large{
-  width: 220px;
+  width: 50%;
+  height: 25px;
 }
 
 
 .lista-carpetas, .lista-favoritas{
   margin-left: 10% !important;
+}
+
+.divSeccionesNotas{
+  width: 100%;
+  margin-top: 15%;
+  border-top: 0.15rem solid rgb(196, 193, 193);
 }
 
 /* REVISTAS */
@@ -192,8 +225,22 @@ position: relative;
 
 .num-rev{
   margin-top: -30%;
+  font-family: "Roboto Light";
 }
 
+.vol-revs{
+  font-family: "Roboto Slab Bold";
+}
+
+.page-link{
+  border: none !important;
+  font-family: "Roboto Slab Bold";
+ background-color: #f4fbee !important;
+}
+
+ .page-item .active{
+color: red !important
+}
 
 /* FAVORITOS */
 
@@ -202,6 +249,15 @@ position: relative;
 }
 
 /* CONFIGURACIÓN */
+
+.tit-config{
+  font-family: "Roboto Slab Regular";
+}
+
+
+.sec-config{
+  font-family: "Roboto Light";
+}
 
 .bloque-config{
   margin-left: 8%;
@@ -219,6 +275,7 @@ height: 43.4%;
 
 .txt-premium{
   color: #23ACA2;
+  font-family: "Roboto Slab Regular";
 }
 
 .icon-premium{
@@ -234,7 +291,7 @@ margin-top: 1.2%;
   border-radius: 20px !important;
   color: #ffff !important;
   align-items: center;
-  font-family: "Roboto Slab" !important;
+  font-family: "Roboto Slab Regular" !important;
 /*   padding: 0% 0% 0%; */
 }
 
@@ -245,12 +302,15 @@ ul, .iconCheck{
 
 .listCheck{
   width: 80%;
+  font-family: "Roboto Light";
 }
 
 .costo-premium{
   margin-left: 10%;
   margin-bottom: 15px !important;
   color: #23ACA2 !important;
+  font-family: "Roboto Medium";
+
 }
 
 
@@ -300,26 +360,27 @@ body .scene .left-zone .list {
   margin: 0;
   padding: 0;
 }
-body .scene .left-zone .list li.item input[type="radio"] {
+body .scene .left-zone .list li.item input{
   display: none;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label {
+body .scene .left-zone .list li.item input ~ label {
   display: block;
   opacity: 0.5;
   height: 50px;
   text-align: center;
   line-height: 50px;
+  font-family: "Roboto Regular";
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label:first-letter {
+body .scene .left-zone .list li.item input ~ label:first-letter {
   text-transform: uppercase;
 }
-body .scene .left-zone .list li.item input[type="radio"] ~ label:hover {
+body .scene .left-zone .list li.item input ~ label:hover {
   opacity: 0.75;
   cursor: pointer;
 }
 
 body .scene .left-zone .list li.item input ~ label.label_perfil:before {
-  content: " ";
+  content: "";
   display: block;
   position: absolute;
   width: 50px;
@@ -329,6 +390,11 @@ body .scene .left-zone .list li.item input ~ label.label_perfil:before {
   background-position: center;
   background-size: 75% 75%;
   background-repeat: no-repeat;
+
+}
+label p {
+margin-left: 40% !important;
+text-align: justify;
 }
 body .scene .left-zone .list li.item input ~ label.label_carpeta:before {
   content: " ";
@@ -518,8 +584,18 @@ body .scene #right-zone {
           flex-grow: 3;
 }
 
+
+
+
 /* ACTIVIDAD */
 
+.text-actividad{
+  font-family: "Roboto Regular";
+}
+
+.nombrePerfil{
+  font-family: "Roboto Slab Bold";
+}
 .activ-fav{
   margin-top: -6%;
   width: 12%;

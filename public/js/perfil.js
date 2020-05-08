@@ -46,15 +46,8 @@ $("#radio_Config").click(function () {
     $("#mis-settings").show();
 })
 
-// ******************* MIS EVENTOS
-
-$("#botonQuitaEvt1").click(function () {
-    $("#misEventosContenido").hide();
-})
-
 
 // ******************* REVISTAS
-
 
 /* ARMADO DE REVISTAS */
 
@@ -62,29 +55,28 @@ $("#revistas2").hide();
 
 var misRevistas = document.getElementById("revistas1");
 let nodeRev0 = document.createElement('DIV')
-    nodeRev0.classList.add("d-flex")
-    nodeRev0.classList.add("justify-content-center")
+nodeRev0.classList.add("d-flex")
+nodeRev0.classList.add("justify-content-center")
 
-    var iter = 0
-data.revistas.forEach(revs =>{
+var iter = 0
+data.revistas.forEach(revs => {
 
-console.log(revs);
-
-let nodeRev1 = document.createElement('DIV')
+    let nodeRev1 = document.createElement('DIV')
     nodeRev1.classList.add("mt-5")
     let nodeImgRev = document.createElement('IMG')
     nodeImgRev.setAttribute('src', revs.imagenPerfil);
 
     let nodeRev2 = document.createElement('DIV')
-nodeRev2.classList.add("d-flex")
-nodeRev2.classList.add("justify-content-between")
+    nodeRev2.classList.add("d-flex")
+    nodeRev2.classList.add("justify-content-between")
 
-let nodeRev3 = document.createElement('DIV')
+    let nodeRev3 = document.createElement('DIV')
 
-let nodeRev4 = document.createElement('P')
-nodeRev4a = document.createTextNode(revs.vol)
+    let nodeRev4 = document.createElement('P')
+    nodeRev4.classList.add("vol-revs")
+    nodeRev4a = document.createTextNode(revs.vol)
 
-let nodeHr = document.createElement('HR')
+    let nodeHr = document.createElement('HR')
     nodeHr.classList.add("diVolRev")
 
     let nodeRev5 = document.createElement('DIV')
@@ -109,38 +101,27 @@ let nodeHr = document.createElement('HR')
         nodeRev10.style.display = "none"
     }
 
-misRevistas.appendChild(nodeRev0)
-nodeRev0.appendChild(nodeRev1)
-nodeRev1.appendChild(nodeImgRev)
+    misRevistas.appendChild(nodeRev0)
+    nodeRev0.appendChild(nodeRev1)
+    nodeRev1.appendChild(nodeImgRev)
 
-nodeRev1.appendChild(nodeRev2)
-nodeRev2.appendChild(nodeRev3)
-nodeRev3.appendChild(nodeRev4)
-nodeRev4.appendChild(nodeRev4a)
-nodeRev3.appendChild(nodeHr)
-nodeRev3.appendChild(nodeRev5)
-nodeRev5.appendChild(nodeRev6)
-nodeRev5.appendChild(nodeRev7)
-nodeRev7.appendChild(nodeRev7a)
+    nodeRev1.appendChild(nodeRev2)
+    nodeRev2.appendChild(nodeRev3)
+    nodeRev3.appendChild(nodeRev4)
+    nodeRev4.appendChild(nodeRev4a)
+    nodeRev3.appendChild(nodeHr)
+    nodeRev3.appendChild(nodeRev5)
+    nodeRev5.appendChild(nodeRev6)
+    nodeRev5.appendChild(nodeRev7)
+    nodeRev7.appendChild(nodeRev7a)
 
-nodeRev2.appendChild(nodeRev8)
-nodeRev8.appendChild(nodeRev9)
+    nodeRev2.appendChild(nodeRev8)
+    nodeRev8.appendChild(nodeRev9)
 
-nodeRev0.appendChild(nodeRev10)
+    nodeRev0.appendChild(nodeRev10)
 
-
-
-
-    
-iter++
-
-
+    iter++
 })
-
-
-
-
-
 
 $("#mostrar-revistas2").click(function () {
     $("#revistas1").hide();
@@ -153,21 +134,40 @@ $("#mostrar-revistas1").click(function () {
 })
 
 // ******************* MIS FAVORITOS
+$("#listaFavoritas2").hide();
+
+/* $("#mostrar-favoritos1").click(function () {
+    $("#listaFavoritas1").show();
+    $("#listaFavoritas2").hide();
+})
+$("#mostrar-favoritos2").click(function () {
+    $("#listaFavoritas2").show();
+    $("#listaFavoritas1").hide();
+})
+ */
+
 
 $("#btnFav1").click(function () {
     $("#fav1").hide();
 })
-
 $("#btnFav2").click(function () {
-$("#fav2").hide();
+    $("#fav2").hide();
 })
-
 $("#btnFav3").click(function () {
     $("#fav3").hide();
-    })
-
-
-    $("#btnFav4").click(function () {
-        $("#fav4").hide();
-        })
-
+})
+$("#btnFav4").click(function () {
+    $("#fav4").hide();
+})
+$("#btnFav5").click(function () {
+    $("#fav5").hide();
+})
+$("#btnFav6").click(function () {
+    $("#fav6").hide();
+})
+$("#btnFav7").click(function () {
+    $("#fav7").hide();
+})
+$("#btnFav8").click(function () {
+    $("#fav8").hide();
+})
