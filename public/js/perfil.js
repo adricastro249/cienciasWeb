@@ -123,28 +123,41 @@ data.revistas.forEach(revs => {
     iter++
 })
 
-$("#mostrar-revistas2").click(function () {
-    $("#revistas1").hide();
-    $("#revistas2").show();
-})
+    $("#mostrar-revistas2").click(function () {
+        $("#revistas1").hide();
+        $("#mostrar-revistas1").removeClass("active")
+        $("#revistas2").show();
+        $("#mostrar-revistas2").addClass("active")
+    })
+
 
 $("#mostrar-revistas1").click(function () {
     $("#revistas2").hide();
+    $("#mostrar-revistas2").removeClass("active")
     $("#revistas1").show();
+    $("#mostrar-revistas1").addClass("active")
 })
 
 // ******************* MIS FAVORITOS
-$("#listaFavoritas2").hide();
 
-/* $("#mostrar-favoritos1").click(function () {
-    $("#listaFavoritas1").show();
-    $("#listaFavoritas2").hide();
+$("#favoritas2").hide();
+
+$("#mostrar-favs2").click(function () {
+    $("#favoritas1").hide();
+    $("#mostrar-favs1").removeClass("active")
+    $("#favoritas2").show();
+    $("#mostrar-favs2").addClass("active")
 })
-$("#mostrar-favoritos2").click(function () {
-    $("#listaFavoritas2").show();
-    $("#listaFavoritas1").hide();
+
+
+$("#mostrar-favs1").click(function () {
+    $("#favoritas2").hide();
+    $("#mostrar-favs2").removeClass("active")
+    $("#favoritas1").show();
+    $("#mostrar-favs1").addClass("active")
 })
- */
+
+
 
 
 $("#btnFav1").click(function () {

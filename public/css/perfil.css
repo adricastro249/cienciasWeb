@@ -140,16 +140,20 @@ margin-top: 1rem;
 }
 
 /* CARPETAS */
-.carpetas{
-  color: #23ACA2;
-  font-size: large;
-  text-decoration: none;
-}
 
 .new-bin{
   color: black;
   font-size: large;
   text-decoration: none;
+  font-family: "Roboto Slab Bold";
+  }
+
+  .carpetas-btn{
+    color: #23ACA2;
+    font-size: large;
+    text-decoration: none;
+
+    font-family: "Roboto Slab Bold";
   }
 
 .tarjetas-mis-carpetas{
@@ -642,3 +646,4 @@ font-size: small;
   margin-left: 2%;
   margin-top: -1%;
 }
+
