@@ -9,8 +9,6 @@ data.secciones.forEach(secc => {
     nodeSecc0.classList.add("bd-highlight")
     nodeSecc0.classList.add(secc.codSecc)
 
-    // nodeSecc0.setAttribute("id", secc.codSecc)
-
     let nodeSecc1 = document.createElement('DIV')
     nodeSecc1.classList.add("d-flex")
     nodeSecc1.classList.add("justify-content-between")
@@ -32,10 +30,8 @@ data.secciones.forEach(secc => {
     nodeSecc4.setAttribute('value', secc.codSecc);
     nodeSecc4a = document.createTextNode("Ver más notas")
 
-
     nodeSecc5 = document.createElement('HR');
     nodeSecc5.classList.add("divSecciones");
-
 
     nodeSecc.appendChild(nodeSecc0)
     nodeSecc0.appendChild(nodeSecc1)
@@ -106,9 +102,13 @@ data.secciones.forEach(secc => {
         let nodeTit = document.createElement('STRONG')
         nodeTit = document.createTextNode(val.titulo);
 
-
+        console.log(secc.notas.length);
+        
+console.log(secc.notas[9]);
+  
         nodeNota10 = document.createElement('HR');
         nodeNota10.classList.add("divSeccionesNotas");
+        nodeNota10.setAttribute("title", "hrNotas")
         if (iter > 2) {
             nodeNota10.style.display = "none"
         }
@@ -126,14 +126,15 @@ data.secciones.forEach(secc => {
         nodeNota7.appendChild(nodeNota8)
         nodeNota3.appendChild(nodeNota9)
         nodeNota9.appendChild(nodeTit)
-
-        nodeNota3.appendChild(nodeNota10)
-
+        
+        if(iter <= secc.notas.length -4){
+            nodeNota3.appendChild(nodeNota10)
+        }
+        
         iter++
     })
 
     var botonNotasSecc = nodeSecc4
-    console.log(botonNotasSecc);
     botonNotasSecc.addEventListener("click", function (e) {
         console.log(e);
         var codSecciones = [];
@@ -150,15 +151,12 @@ data.secciones.forEach(secc => {
         console.log($("[title*='" + botonNotasSecc.value + "']"))
         console.log("'"+botonNotasSecc.value+"'")
         $("[title*='" + botonNotasSecc.value + "']").show()
+        $("[title*='hrNotas']").show()
         console.log(("#"+codSecciones[0]));
         
         codSecciones.forEach(el=> {
             $("."+el).hide()
         })
-        // console.log($("#"));
-        // $("#" + botonNotasSecc.value).hide() 
-        
-
     })
 
 })
