@@ -85,7 +85,7 @@ nodeEvent14.classList.add("mesEv")
 nodeEvent14a = document.createTextNode(event.month);
 
 let nodeEvent15 = document.createElement('P')
-nodeEvent15.classList.add("resaltaDyH")
+nodeEvent15.classList.add("resaltaD")
 nodeEvent15a = document.createTextNode(event.day);
 
 let nodeEvent16 = document.createElement('DIV')
@@ -96,10 +96,11 @@ nodeEvent17.classList.add('horario-evento')
 nodeEvent17a = document.createTextNode("Horario");
 
 let nodeEvent18 = document.createElement('P')
-nodeEvent18.classList.add("resaltaDyH")
+nodeEvent18.classList.add("resaltaH")
 nodeEvent18a = document.createTextNode(event.time);
 
 let nodeEvent19 = document.createElement('DIV')
+nodeEvent19.classList.add("costoEntrad")
 let nodeEvent20 = document.createElement('STRONG')
 nodeEvent20.classList.add("costo-entrada-tit")
 nodeEvent20a = document.createTextNode("Entrada");

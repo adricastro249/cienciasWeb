@@ -73,31 +73,41 @@
 
                                     <input type="radio" onclick="showHide('perfil')" id="radio_Perfil"
                                         name="basic_carousel" checked="checked" />
-                                    <label class="label_perfil" for="radio_Perfil"><p>Mi Perfil</p></label>
+                                    <label class="label_perfil" for="radio_Perfil">
+                                        <p>Mi Perfil</p>
+                                    </label>
 
                                 </li>
                                 <li class="item">
                                     <input type="radio" onclick="showHide('carpetas')" id="radio_Carpeta"
                                         name="basic_carousel" />
-                                    <label class="label_carpeta" for="radio_Carpeta"><p>Carpetas</p></label>
+                                    <label class="label_carpeta" for="radio_Carpeta">
+                                        <p>Carpetas</p>
+                                    </label>
 
                                 </li>
                                 <li class="item">
                                     <input type="radio" onclick="showHide('favoritos')" id="radio_Fav"
                                         name="basic_carousel" />
-                                    <label class="label_favoritos" for="radio_Fav"><p>Favoritos</p></label>
+                                    <label class="label_favoritos" for="radio_Fav">
+                                        <p>Favoritos</p>
+                                    </label>
 
                                 </li>
                                 <li class="item">
                                     <input type="radio" onclick="showHide('revistas')" id="radio_Rev"
                                         name="basic_carousel" />
-                                    <label class="label_revistas" for="radio_Rev"><p>Mis revistas</p></label>
+                                    <label class="label_revistas" for="radio_Rev">
+                                        <p>Mis revistas</p>
+                                    </label>
 
                                 </li>
                                 <li class="item">
                                     <input type="radio" onclick="showHide('settings')" id="radio_Config"
                                         name="basic_carousel" />
-                                    <label class="label_config" for="radio_Config"><p>Configuración</p></label>
+                                    <label class="label_config" for="radio_Config">
+                                        <p>Configuración</p>
+                                    </label>
 
                                 </li>
                             </ul>
@@ -111,7 +121,9 @@
                             <ul class="list">
                                 <li class="item">
                                     <input type="radio" id="radio_sesion" name="basic_carousel" />
-                                    <label class="label_sesion" for="radio_sesion"><p>Cerrar Sesión</p></label>
+                                    <label class="label_sesion" for="radio_sesion">
+                                        <p>Cerrar Sesión</p>
+                                    </label>
                                 </li>
 
                             </ul>
@@ -130,27 +142,30 @@
                             <div class="seccionEventos">
                                 <div class=" d-flex">
                                     <div class="d-flex">
-
                                         <img class="imgEventPerfil" src="./images/agenda/image2.png" alt="">
-
                                         <div class="detalles-evento">
                                             <p class="lin1Evento">Conferencia Jane Goodal</p>
-                                            <p class="fechaEvent">En 1 semana</p>
+                                           <div class="d-flex justify-content-start">
+                                            <p class="fechaEvent">En <span class="tiempo-evento"> 1 </span> semana</p>
+                                           </div>
                                         </div>
                                     </div>
-                                    <div class="vl"></div>
-                                    <div class="d-flex ">
-
-                                        <img class="imgEventPerfil" src="./images/agenda/image3.png" alt="">
-
+                                    <div class="vl mr-5"></div>
+                                    <div class="d-flex flex-wrap">
+                                        <img class="imgEventPerfil2" src="./images/agenda/image2.png" alt="">
                                         <div class="detalles-evento">
-                                            <p class="lin1Evento">Conferencia Jane Goodal</p>
-                                            <p class="fechaEvent">En 5 semana</p>
+                                            <p class="lin1Evento">Simposio Científico</p>
+                                            <div class="d-flex justify-content-start">
+                                                <p class="fechaEvent">En <span class="tiempo-evento"> 5 </span> semana</p>
+                                               </div>
                                         </div>
                                     </div>
-                                    <div class="vl"></div>
+                                    <div class="vl mr-5"></div>
                                     <div>
-                                        <p class="linproxEvent">Cuando guardes un evento aparecerá acá</p>
+                                        <div class="d-flex">
+                                            <p class="linproxEvent">Cuando guardes un evento aparecerá acá</p>
+                                        </div>
+                                   
                                     </div>
                                 </div>
 
@@ -244,7 +259,7 @@
 
                             <div class="container">
                                 <div class="lista-carpetas d-flex flex-wrap ">
-                                    <div class="tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
+                                    <div class="tarjetas-mis-carpetas mb-5 pr-4"><a href="nota2.html"><img
                                                 class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 38.png"></a>
                                         <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA<div
@@ -260,20 +275,20 @@
                                         <hr class="divSeccionesNotas">
                                     </div>
 
-                                 
+
 
                                     <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
                                                 class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 89.png"></a>
-                                        <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD<div
-                                                class="imgFlecha"><img class="mt-2" src="./images/Home/flecha_notas.png"
-                                                    alt="flecha"></div>
+                                        <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
+                                            <div class="imgFlecha"><img class="mt-2"
+                                                    src="./images/Home/flecha_notas.png" alt="flecha"></div>
                                         </div><a class="titNotaMV " href="nota2.html">René Favealoro,
                                             todo lo que nos dejó</a>
-                                            <hr class="divSeccionesNotas">
+                                        <hr class="divSeccionesNotas">
                                     </div>
 
-                                
+
                                     <div class=" tarjetas-mis-carpetas mb-5 pr-5"><a href="nota2.html"><img
                                                 class="card-img-top"
                                                 src="./images/secciones/img_secciones1/image 23.png"></a>
@@ -302,137 +317,173 @@
 
                         <div class="container">
 
-                        <div id="favoritas1">
-                            <div class="lista-favoritas d-flex flex-wrap ">
-                                <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav1"><a href="nota2.html">
-                                    <img class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 38.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA
-
-                                <button class="btn btn-link text-white estrella" id="btnFav1">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
-
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Eclipses de sol,
-                                teléfonos celulares y ciencia ciudadana</a>
-                                <hr class="divSeccionesNotas">
-                        </div>
-
-                        <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav2"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 89.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
-
-                                <button class="btn btn-link text-white estrella" id="btnFav2">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
+                            <div id="favoritas1">
+                                <div class="lista-favoritas d-flex flex-wrap ">
 
 
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">René Favealoro,
-                                todo lo que nos dejó</a>
-                                <hr class="divSeccionesNotas">
-                        </div>
 
-                        <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav3"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 23.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS
 
-                                <button class="btn btn-link text-white estrella" id="btnFav3">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
 
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Argentina ¿va al
-                                espacio?</a>
-                        </div>
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav1"><a href="nota2.html">
+                                            <img class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 38.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA
 
-                        <div class="tarjetas-mis-carpetas pr-5" id="fav4"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 25.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON
+                                            <button class="btn btn-link text-white estrella" id="btnFav1">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
 
-                                <button class="btn btn-link text-white estrella" id="btnFav4">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Plantas
-                                Carniboras</a>
-                        </div>
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class="titNotaMV" href="nota2.html">Eclipses de sol,
+                                                teléfonos celulares y ciencia ciudadana</a>
+                                        </div>
+                                        <hr class="divSeccionesNotas">
+                                    </div>
+
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav2"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 89.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
+
+                                            <button class="btn btn-link text-white estrella" id="btnFav2">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
+
+
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class=" titNotaMV " href="nota2.html">René
+                                                Favealoro,
+                                                todo lo que nos dejó</a>
+                                        </div>
+                                        <hr class="divSeccionesNotas">
+                                    </div>
+
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav3"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 23.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS
+
+                                            <button class="btn btn-link text-white estrella" id="btnFav3">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
+
+                                        </div>
+                                        <div class="titulo-large">
+
+                                            <a class="titNotaMV" href="nota2.html">Argentina
+                                                ¿va al
+                                                espacio?</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tarjetas-mis-carpetas pr-5" id="fav4"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 25.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON
+
+                                            <button class="btn btn-link text-white estrella" id="btnFav4">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class="titNotaMV" href="nota2.html">Plantas
+                                                Carniboras</a>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                             
-
-                        <div id="favoritas2">
-
-                            <div class="lista-favoritas d-flex flex-wrap">
-                                <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav5"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 38.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA
-
-                                <button class="btn btn-link text-white estrella" id="btnFav5">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
-
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Eclipses de sol,
-                                teléfonos celulares y ciencia ciudadana</a>
-                                <hr class="divSeccionesNotas">
-                        </div>
-
-                        <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav6"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 89.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
-
-                                <button class="btn btn-link text-white estrella" id="btnFav6">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
 
 
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">René Favealoro,
-                                todo lo que nos dejó</a>
-                                <hr class="divSeccionesNotas">
-                        </div>
+                            <div id="favoritas2">
 
-                        <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav7"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 23.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS
+                                <div class="lista-favoritas d-flex flex-wrap">
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav5"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 38.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por ALBERTO SPINOZA
 
-                                <button class="btn btn-link text-white estrella" id="btnFav7">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
+                                            <button class="btn btn-link text-white estrella" id="btnFav5">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
 
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Argentina ¿va al
-                                espacio?</a>
-                        </div>
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class="titNotaMV" href="nota2.html">Eclipses de
+                                                sol,
+                                                teléfonos celulares y ciencia ciudadana</a>
+                                        </div>
 
-                        <div class="tarjetas-mis-carpetas pr-5" id="fav8"><a href="nota2.html"><img
-                                    class="card-img-top"
-                                    src="./images/secciones/img_secciones1/image 25.png"></a>
-                            <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON
+                                        <hr class="divSeccionesNotas">
+                                    </div>
 
-                                <button class="btn btn-link text-white estrella" id="btnFav8">
-                                    <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
-                                </button>
-                            </div><a class="text-dark titNotaMV text-justify" href="nota2.html">Plantas
-                                Carniboras</a>
-                        </div>
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav6"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 89.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por SANTIAGO SPRINFIELD
+
+                                            <button class="btn btn-link text-white estrella" id="btnFav6">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
+
+
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class="titNotaMV" href="nota2.html">René
+                                                Favealoro,
+                                                todo lo que nos dejó</a>
+                                        </div>
+
+                                        <hr class="divSeccionesNotas">
+                                    </div>
+
+                                    <div class="tarjetas-mis-carpetas  mb-5 pr-5" id="fav7"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 23.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por CAROLINA ROJAS
+
+                                            <button class="btn btn-link text-white estrella" id="btnFav7">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
+
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class="titNotaMV" href="nota2.html">Argentina
+                                                ¿va al
+                                                espacio?</a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="tarjetas-mis-carpetas pr-5" id="fav8"><a href="nota2.html"><img
+                                                class="card-img-top"
+                                                src="./images/secciones/img_secciones1/image 25.png"></a>
+                                        <div class="mt-2 d-flex justify-content-between autor">por CECILIA BOLTON
+
+                                            <button class="btn btn-link text-white estrella" id="btnFav8">
+                                                <img src="./images/perfil/img_FAVORITOS/Vector 180.png" alt="fav">
+                                            </button>
+                                        </div>
+                                        <div class="titulo-large">
+                                            <a class=" titNotaMV" href="nota2.html">Plantas
+                                                Carniboras</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+                            <nav aria-label="..." class="mt-5">
+                                <ul class="pagination pagination-lg justify-content-center">
+                                    <li class="page-item" aria-current="page">
+                                        <a class="page-link active" id="mostrar-favs1">1</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" id="mostrar-favs2">2</a></li>
+                                </ul>
+                            </nav>
                         </div>
 
-                            
-
-
-                                <nav aria-label="..." class="mt-5">
-                                    <ul class="pagination pagination-lg justify-content-center">
-                                        <li class="page-item" aria-current="page">
-                                            <a class="page-link active" id="mostrar-favs1">1</a>
-                                        </li>
-                                   <li class="page-item"><a class="page-link" id="mostrar-favs2">2</a></li>
-                                    </ul>
-                                </nav> 
-                        </div>
- 
                     </section>
 
                     <section class="misRevistas" id="mis-revistas">
@@ -514,9 +565,9 @@
                                 <li class="page-item" aria-current="page">
                                     <a class="page-link active" id="mostrar-revistas1">1</a>
                                 </li>
-                           <li class="page-item"><a class="page-link" id="mostrar-revistas2">2</a></li>
+                                <li class="page-item"><a class="page-link" id="mostrar-revistas2">2</a></li>
                             </ul>
-                        </nav> 
+                        </nav>
                     </section>
 
                     <section class="config" id="mis-settings">
@@ -582,7 +633,7 @@
 
 
 
-                                <div class="mx-auto" style="width: 200px;">
+                                <div class="mx-auto" style="width: 250px;">
                                     <button class=" btn btn-premium justify-content-center">Instalar Version
                                         Premium</button>
                                     <p class="costo-premium justify-content-center" style="width: 200px;"> 150$
@@ -603,28 +654,34 @@
 
                         <div class="container ml-3">
                             <div class="d-flex justify-content-around ">
-                                <img src="./images/perfil/activity-512.png" alt="logoActividad" id="logoActividad">
-                                <h6 class="text-center "> <strong class="text-secondary text-actividad">Actividades</strong>
+                                <img src="./images/perfil/activity-512.png" alt="logoActividad" id="logoActividad"
+                                    class="ml-5">
+                                <h6 class="text-center "> <strong
+                                        class="text-secondary text-actividad mr-5">Actividades</strong>
                                 </h6>
                             </div>
+
+                        </div>
+
+                        <div class="ml-4">
                             <hr class="hrOriginal">
-                            <h6 class="text-secondary ml-3 txtFecha">Hoy</h6>
-                            <div class="d-flex  ml-2">
+                            <h6 class="text-secondary txtFecha">Hoy</h6>
+                            <div class="d-flex">
                                 <div>
-                                    <img src="./images/perfil/img_PERFIL/Group 162.png">
+                                    <img class="img-perfil" src="./images/perfil/img_PERFIL/Group 162.png">
                                 </div>
-                                <div class="ml-5">
+                                <div class="ml-1">
                                     <h6 class="nombrePerfil"><strong class="nombrePerfil">Angel Castro</strong></h6>
                                     <p class="textActiv">Leiste "Eclipse de ..."</p>
                                     <p class="text-black-50 horaPublicar">Hace 1 hora</p>
                                 </div>
                             </div>
                             <hr class="hrCort">
-                            <div class="d-flex  ml-2 mt-4">
+                            <div class="d-flex mt-4">
                                 <div>
-                                    <img src="./images/perfil/img_PERFIL/Group 162.png">
+                                    <img class="img-perfil" src="./images/perfil/img_PERFIL/Group 162.png">
                                 </div>
-                                <div class="ml-5">
+                                <div class="ml-1">
                                     <h6 class="nombrePerfil"><strong class="nombrePerfil">Angel Castro</strong></h6>
                                     <div class="d-flex">
                                         <img class="activ-fav" src="./images/perfil/Vector 73.png">
@@ -635,17 +692,16 @@
                             </div>
                             <hr class="hrOriginal">
                             <h6 class="text-secondary txtFecha">Ayer</h6>
-                            <div class="d-flex  ml-2">
+                            <div class="d-flex">
                                 <div>
-                                    <img src="./images/perfil/img_PERFIL/Group 166.png">
+                                    <img class="img-perfil" src="./images/perfil/img_PERFIL/Group 166.png">
                                 </div>
-                                <div class="ml-5">
+                                <div class="ml-1">
                                     <h6 class="nombrePerfil"><strong class="nombrePerfil">Moria Casán</strong></h6>
-                               
+
 
                                     <div class="d-flex">
                                         <i class="fas fa-bookmark"></i>
-                                        <!--  <img class="activ-fav" src="./images/perfil/Vector 73.png"> -->
                                         <p class=" ml-1 textActiv">Respondio en "Eclip..."</p>
                                     </div>
 
@@ -653,11 +709,11 @@
                                 </div>
                             </div>
                             <hr class="hrCort">
-                            <div class="d-flex ml-2 mt-4">
+                            <div class="d-flex mt-4">
                                 <div>
-                                    <img src="./images/perfil/img_PERFIL/Group 162.png">
+                                    <img class="img-perfil" src="./images/perfil/img_PERFIL/Group 162.png">
                                 </div>
-                                <div class="ml-5">
+                                <div class="ml-1">
                                     <h6 class="nombrePerfil"><strong class="nombrePerfil">Angel Castro</strong></h6>
                                     <p class="textActiv">Inscribiste "Confer..."</p>
                                     <p class="text-black-50 horaPublicar">Hace 1 hora</p>
