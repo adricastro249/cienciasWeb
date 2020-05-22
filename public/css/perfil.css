@@ -179,13 +179,13 @@
 .fechaEvent {
   font-size: 14px;
   margin-top: -10%;
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
 
 }
 
 
 .tiempo-evento {
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
   color: #ff0076
 }
 
@@ -197,7 +197,7 @@
 .linproxEvent {
   margin-top: 15%;
   font-size: 14px;
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
   margin-left: -15%;
 
 }
@@ -206,6 +206,7 @@
 .form-control {
   border: 0.5px solid #fff !important;
   font-family: "Roboto Light";
+
 }
 
 .titSelect {
@@ -215,7 +216,7 @@
 
 
 .inputForm {
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
 }
 
 
@@ -460,7 +461,7 @@ body .scene .left-zone .list li.item input~label {
   opacity: 0.5;
   height: 25px;
   text-align: center;
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -707,7 +708,7 @@ body .scene #right-zone {
 /* ACTIVIDAD */
 
 .text-actividad {
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
 }
 
 .nombrePerfil {
@@ -733,11 +734,11 @@ body .scene #right-zone {
   font-size: 13px;
   color: #23ACA2;
   margin-top: -1%;
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
 }
 
 .horaPublicar {
-  font-family: "Roboto Regular";
+  font-family: "Roboto Regular" !important;
   font-size: 13px;
   color: gray;
   margin-top: -10%;
