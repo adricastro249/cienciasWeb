@@ -113,6 +113,8 @@
     src: url(./tipografias/Roboto/Roboto-Regular.ttf) format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 @font-face{
     font-family: "Roboto Thin";
     src: url(./tipografias/Roboto/Roboto-Thin.ttf) format("truetype");
