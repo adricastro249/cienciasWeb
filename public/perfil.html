@@ -43,21 +43,25 @@
             <div class="row">
 
                 <div class="col-2 bloquePerfil">
-                    <div class=" mt-3 usuario">
-                        <div class="p-2 text-center">
-                            <div id="fotoPerfil"></div>
+                    <div class=" mt-4 usuario">
+                        <div class="text-center">
                             <img src="./images/perfil/img_PERFIL/foto de perfil.png">
+                            <div class="circle-bg">
+                          <div class="pencil">
+                            <i class="fas fa-pencil-alt"></i>
+                          </div>
+                            </div>
                         </div>
 
-                        <div class="align-self-start mt-5">
+                        <div class="align-self-start mt-4">
                             <div class="flex-shrink-1 bd-highlight">
                                 <h5 class="text-center"><strong class="userName" id="nombrePerfil">Nombre y
                                         Apellido</strong>
                                 </h5>
                             </div>
-                            <div class="bd-highlight mt-1">
+                            <div class="bd-highlight mt-3">
                                 <p class="fechaNac text-center">Fecha de Nacimiento</p>
-                                <p class="emailUser  text-center" id="emailPerfil">email</p>
+                                <p class="emailUser text-center" id="emailPerfil">usuario@gmail.com</p>
                             </div>
                         </div>
                     </div><!-- fin Usuario-->
@@ -145,9 +149,10 @@
                                         <img class="imgEventPerfil" src="./images/agenda/image2.png" alt="">
                                         <div class="detalles-evento">
                                             <p class="lin1Evento">Conferencia Jane Goodal</p>
-                                           <div class="d-flex justify-content-start">
-                                            <p class="fechaEvent">En <span class="tiempo-evento"> 1 </span> semana</p>
-                                           </div>
+                                            <div class="d-flex justify-content-start">
+                                                <p class="fechaEvent">En <span class="tiempo-evento"> 1 </span> semana
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="vl mr-5"></div>
@@ -156,16 +161,17 @@
                                         <div class="detalles-evento">
                                             <p class="lin1Evento">Simposio Científico</p>
                                             <div class="d-flex justify-content-start">
-                                                <p class="fechaEvent">En <span class="tiempo-evento"> 5 </span> semana</p>
-                                               </div>
+                                                <p class="fechaEvent">En <span class="tiempo-evento"> 5 </span> semana
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="vl mr-5"></div>
                                     <div>
-                                        <div class="d-flex">
+                                        <div class="d-flex espacio-prox-event">
                                             <p class="linproxEvent">Cuando guardes un evento aparecerá acá</p>
                                         </div>
-                                   
+
                                     </div>
                                 </div>
 
@@ -174,7 +180,7 @@
                         </div>
 
                     </section>
-                    <hr class="divPerfil">
+                    <hr class="divPerfilEvent">
 
                     <section class="miPerfil mt-5" id="mi-perfil">
                         <div class="container pl-5 pr-5 ">
@@ -182,32 +188,32 @@
 
                                 <h4 class="titulo-seccion">Información Personal</h4>
                                 <div class="form-row mt-3">
-                                    <div class="col">
+                                    <div class="col pr-5">
                                         <input type="text" class="form-control" placeholder="Nombre *" required>
                                     </div>
-                                    <div class="col">
+                                    <div class="col ">
                                         <input type="text" class="form-control" placeholder="Apellido *" required>
                                     </div>
                                 </div>
                                 <div class="form-row mt-3">
-                                    <div class="col">
-                                        <label for="imputEmail">E-MAIL</label>
+                                    <div class="col pr-5">
+                                        <label for="imputEmail" class="inputForm">E-MAIL</label>
                                         <input type="email" class="form-control" placeholder="email *" required>
                                     </div>
                                     <div class="col">
-                                        <label for="imputTelfs">TELÉFONO</label>
+                                        <label for="imputTelfs" class="inputForm">TELÉFONO</label>
                                         <input type="tel" class="form-control" placeholder="teléfono *" required>
                                     </div>
                                 </div>
 
                                 <div class="form-row mt-3">
-                                    <div class="col">
-                                        <label for="imputPais">PAÍS</label>
+                                    <div class="col pr-5">
+                                        <label for="imputPais" class="inputForm">PAÍS</label>
                                         <input type="text" class="form-control" placeholder="país *" required>
                                     </div>
 
                                     <div class="col">
-                                        <label for="imputCity">CIUDAD</label>
+                                        <label for="imputCity" class="inputForm">CIUDAD</label>
                                         <input type="text" class="form-control" placeholder="ciudad *" required>
                                     </div>
                                 </div>
@@ -511,15 +517,7 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-                                <div class="vlRevs mr-5 ml-5"></div>
+                                <div class="vlRevs"></div>
                                 <div class="mt-5">
                                     <img src="./images/perfil/img_REVISTAS/image 69.png" alt="">
                                     <div class="d-flex justify-content-between">
@@ -538,7 +536,7 @@
                                     </div>
                                 </div>
 
-                                <div class="vlRevs mr-5 ml-5"></div>
+                                <div class="vlRevs"></div>
                                 <div class="mt-5">
                                     <img src="./images/perfil/img_REVISTAS/image 66.png" alt="">
                                     <div class="d-flex justify-content-between">
@@ -575,7 +573,7 @@
                         <div class="bloque-config">
                             <h5 class="tit-config">Configuración</h5>
 
-                            <div class="d-flex mt-4">
+                            <div class="d-flex mt-5">
                                 <h5 class="sec-config">Privacidad</h5>
                                 <i class="fas fa-chevron-down"></i>
                             </div>
@@ -634,9 +632,9 @@
 
 
                                 <div class="mx-auto" style="width: 250px;">
-                                    <button class=" btn btn-premium justify-content-center">Instalar Version
+                                    <button class=" btn btn-premium justify-content-center mt-4">Instalar Version
                                         Premium</button>
-                                    <p class="costo-premium justify-content-center" style="width: 200px;"> 150$
+                                    <p class="costo-premium justify-content-center mt-3" style="width: 200px;"> 150$
                                         (MENSUALES)</p>
                                 </div>
 

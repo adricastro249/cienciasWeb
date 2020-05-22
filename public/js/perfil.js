@@ -95,8 +95,6 @@ data.revistas.forEach(revs => {
 
     let nodeRev10 = document.createElement('DIV')
     nodeRev10.classList.add("vlRevs")
-    nodeRev10.classList.add("mr-5")
-    nodeRev10.classList.add("ml-5")
     if (iter > 1) {
         nodeRev10.style.display = "none"
     }
