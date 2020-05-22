@@ -15,7 +15,7 @@
 }
 
 .etiquetasNota{
-    font-family: "Roboto Regular";
+    font-family: 'Roboto', sans-serif;
     color:   #ff0076;
     text-align: left;
     font-size: 19px;
@@ -188,11 +188,11 @@ width: 28% !important;
   .seccNota2{
     color:  #7E7E7E;
     font-size: 18px;
-    font-family: "Roboto Regular";
+    font-family: 'Roboto', sans-serif;
   }
 
   .msec{
-    font-family: "Roboto Regular";
+    font-family: 'Roboto', sans-serif;
     color: #818181
   }
 
@@ -283,7 +283,7 @@ height:90%;
 }
 
 .secMS{
-    font-family: "Roboto Regular";
+    font-family: 'Roboto', sans-serif;
     color:  #818181;
 }
 

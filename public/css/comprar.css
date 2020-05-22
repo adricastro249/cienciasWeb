@@ -38,12 +38,12 @@ font-weight: bold;
 
 .fechaRevista{
     color: #23ACA2;
-    font-family: "Roboto Regular";
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .desRevistas{
-    font-family: "Roboto Regular";
+    font-family: 'Roboto', sans-serif;
 }
 
 .hrOriginal{
@@ -78,7 +78,7 @@ font-weight: bold;
 
 .txtGris{
 font-size: 12px;
-font-family: "Roboto Regular";
+font-family: 'Roboto', sans-serif;
 
 }
 

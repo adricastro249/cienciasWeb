@@ -31,7 +31,8 @@ margin-top: 5%;
 }
 
 .eventHeader{
-  font-family: "Roboto Regular"; 
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .hoyHeader{
@@ -42,7 +43,8 @@ margin-top: 5%;
 }
 
 .nombre-confer{
-  font-family: "Roboto Regular";
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .vlImgTxt{
@@ -102,7 +104,8 @@ margin-top: 5%;
 .mas-info{
     text-decoration: underline;
 color:  #ff0076 !important;
-  font-family: "Roboto Regular";
+font-family: 'Roboto', sans-serif;
+
 font-size: 18px;
 margin-left: -3.3%;
 }
@@ -114,7 +117,7 @@ margin-left: -3.3%;
 }
 
 .ubicacion{
-  font-family: "Roboto Regular";
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #4a4a4a;
 }
@@ -159,7 +162,8 @@ margin-left: -3.3%;
 }
 
 .costo-entrada{
-  font-family: "Roboto Regular";
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .mesEv{
@@ -179,7 +183,8 @@ th{
 }
 
 .prox-event-detalles{
-  font-family: "Roboto Regular"; 
+  font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -272,7 +277,8 @@ ul {list-style-type: none;}
 
  .weekdays {
   /* margin: -0.1rem; */
-  font-family: "Roboto Regular"; 
+  font-family: 'Roboto', sans-serif;
+
 
 } 
 
