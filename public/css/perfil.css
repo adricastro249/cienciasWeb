@@ -127,7 +127,7 @@
 
 
 .bloqueInfo {
-  background-color: #f4fbee;
+  background-color: #F9F9F9;
 }
 
 .divPerfil {
@@ -339,7 +339,7 @@
 }
 
 .page-item .active {
-  color: red !important
+  color: #ff0076 !important
 }
 
 /* FAVORITOS */
@@ -759,7 +759,7 @@ body .scene #right-zone {
 }
 
 .mas-actividad {
-  font-family: "Roboto Bold";
+ font-family: 'Roboto', sans-serif;
   margin-top: 5%;
   color: #ff0076;
 }
@@ -774,7 +774,12 @@ body .scene #right-zone {
 }
 
 .fa-plus-circle {
+  margin-top: 3%;
   color: #23ACA2;
+}
+
+.fa-ellipsis-v{
+  margin-top: 3%;
 }
 
 .fa-cloud-download-alt {
