@@ -217,12 +217,11 @@
 /* PERFIL */
 .form-control {
   border: 0.5px solid #fff !important;
-  font-family: "Roboto Light" !important;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 .titSelect {
-  font-family: "Roboto Light";
+  font-family: 'Roboto', sans-serif;
 }
 
 
