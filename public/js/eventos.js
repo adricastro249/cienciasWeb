@@ -86,6 +86,7 @@ nodeEvent14a = document.createTextNode(event.month);
 
 let nodeEvent15 = document.createElement('P')
 nodeEvent15.classList.add("resaltaD")
+
 nodeEvent15a = document.createTextNode(event.day);
 
 let nodeEvent16 = document.createElement('DIV')
