@@ -745,7 +745,7 @@ body .scene #right-zone {
 
 
 .textActiv {
-  font-size: 13px;
+  font-size: 12.3px;
   color: #23ACA2;
   margin-top: -1%;
   font-family: 'Roboto', sans-serif;
@@ -770,6 +770,7 @@ body .scene #right-zone {
 }
 
 .fa-ellipsis-v {
+  margin-top: 4%;
   color: #23ACA2 !important;
 }
 
@@ -778,9 +779,7 @@ body .scene #right-zone {
   color: #23ACA2;
 }
 
-.fa-ellipsis-v{
-  margin-top: 3%;
-}
+
 
 .fa-cloud-download-alt {
   color: #23ACA2;
